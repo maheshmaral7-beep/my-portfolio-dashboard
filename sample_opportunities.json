@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-07-26T12:00:00+00:00",
+  "universe": "Nifty 200",
+  "universe_size_scanned": 200,
+  "disclaimer": "Rules-based screener, not investment advice or a prediction. Scores are percentile ranks within today's matching stocks, not probabilities.",
+  "categories": {
+    "momentum_leaders": [
+      {"symbol": "SAMPLE1", "name": "Sample Company 1 Ltd.", "sector": "Information Technology", "score": 92, "confidence": 70, "risk": 55, "why": "Up 18.4% over 3 months, trading above both its 50-day and 200-day averages."}
+    ],
+    "breakout_candidates": [
+      {"symbol": "SAMPLE2", "name": "Sample Company 2 Ltd.", "sector": "Financial Services", "score": 85, "confidence": 60, "risk": 40, "why": "Within 1.2% of its 52-week high, on 2.1x average volume."}
+    ]
+  },
+  "consolidated_top": [
+    {"symbol": "SAMPLE1", "name": "Sample Company 1 Ltd.", "sector": "Information Technology", "score": 92, "confidence": 70, "risk": 55, "why": "Up 18.4% over 3 months, trading above both its 50-day and 200-day averages.", "category": "momentum_leaders"},
+    {"symbol": "SAMPLE2", "name": "Sample Company 2 Ltd.", "sector": "Financial Services", "score": 85, "confidence": 60, "risk": 40, "why": "Within 1.2% of its 52-week high, on 2.1x average volume.", "category": "breakout_candidates"}
+  ]
+}
