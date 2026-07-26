@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio Command Center</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0A0E14; --surface:#10151F; --surface-2:#171E2C; --border:#232B3A;
+    --text:#E8ECF1; --text-dim:#8A93A6; --text-faint:#5B6272;
+    --teal:#2DD4A7; --teal-dim:#123B31;
+    --amber:#E8A33D; --amber-dim:#3D2E12;
+    --red:#E15266; --red-dim:#3B141B;
+    --blue:#4C8DFF;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;font-size:14px;}
+  h1,h2,h3{font-family:'Space Grotesk',sans-serif;font-weight:600;margin:0;}
+  .mono{font-family:'JetBrains Mono',monospace;}
+  .dim{color:var(--text-dim);}
+  .faint{color:var(--text-faint);}
+
+  header.top{position:sticky;top:0;z-index:10;background:var(--surface);border-bottom:1px solid var(--border);}
+  .ticker{display:flex;gap:28px;padding:10px 20px;overflow-x:auto;align-items:center;}
+  .ticker-item{display:flex;align-items:center;gap:8px;white-space:nowrap;}
+  .ticker-item .name{color:var(--text-dim);font-size:12px;}
+  .ticker-item .price{font-size:15px;font-weight:500;}
+  .dot{width:7px;height:7px;border-radius:50%;flex-shrink:0;}
+  .dot.fresh{background:var(--teal);}
+  .dot.aging{background:var(--amber);}
+  .dot.stale{background:var(--red);}
+
+  nav.tabs{display:flex;gap:4px;padding:0 20px;background:var(--surface);}
+  nav.tabs button{background:none;border:none;color:var(--text-dim);font-family:'Space Grotesk',sans-serif;font-size:14px;font-weight:500;padding:14px 16px;cursor:pointer;border-bottom:2px solid transparent;}
+  nav.tabs button.active{color:var(--text);border-bottom:2px solid var(--teal);}
+
+  main{max-width:1100px;margin:0 auto;padding:24px 20px 80px;}
+  .tabpanel{display:none;}
+  .tabpanel.active{display:block;}
+
+  .grid{display:grid;gap:16px;}
+  .grid-2{grid-template-columns:repeat(auto-fit,minmax(220px,1fr));}
+  .grid-4{grid-template-columns:repeat(auto-fit,minmax(140px,1fr));}
+
+  .card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:16px 18px;}
+  .card h3{font-size:14px;margin-bottom:12px;color:var(--text);}
+  .card .updated{font-size:11px;color:var(--text-faint);margin-top:10px;}
+
+  .metric-label{font-size:12px;color:var(--text-dim);margin-bottom:4px;}
+  .metric-value{font-size:22px;font-weight:500;font-family:'JetBrains Mono',monospace;}
+  .metric-value.pos{color:var(--teal);}
+  .metric-value.neg{color:var(--red);}
+
+  .empty{border:1px dashed var(--border);border-radius:10px;padding:24px;text-align:center;color:var(--text-dim);}
+  .empty .action{display:inline-block;margin-top:10px;font-size:12px;color:var(--amber);background:var(--amber-dim);padding:5px 12px;border-radius:6px;}
+
+  .news-item{padding:10px 0;border-bottom:1px solid var(--border);}
+  .news-item:last-child{border-bottom:none;}
+  .news-item a{color:var(--text);text-decoration:none;font-size:13.5px;}
+  .news-item a:hover{color:var(--blue);}
+  .news-source{font-size:11px;color:var(--text-faint);margin-top:3px;}
+
+  .section-title{font-size:13px;text-transform:uppercase;letter-spacing:.04em;color:var(--text-faint);margin:28px 0 12px;}
+  .section-title:first-child{margin-top:0;}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="ticker" id="ticker"></div>
+  <nav class="tabs" id="tabs">
+    <button data-tab="overview" class="active">Overview</button>
+    <button data-tab="equity">Equity</button>
+    <button data-tab="news">News</button>
+    <button data-tab="funds">Mutual Funds</button>
+  </nav>
+</header>
+
+<main>
+
+  <section id="tab-overview" class="tabpanel active">
+    <div class="section-title">Opportunity radar</div>
+    <div class="empty">
+      Not built yet: consolidated opportunity scoring across breakouts, undervalued, momentum, earnings and turnaround categories.
+      <div class="action">Requires a stock-scoring model &mdash; not part of the current data feed</div>
+    </div>
+
+    <div class="section-title">Market snapshot</div>
+    <div class="grid grid-4" id="overview-prices"></div>
+  </section>
+
+  <section id="tab-equity" class="tabpanel">
+    <div class="section-title">Portfolio snapshot</div>
+    <div class="grid grid-4" id="portfolio-snapshot"></div>
+
+    <div class="section-title">Top picks today</div>
+    <div class="empty">
+      Not built yet: this needs a scoring model across your stock universe (Score, Sector, Confidence, Risk, Bull/Bear thesis).
+      <div class="action">Tell Claude when you're ready to define the scoring logic</div>
+    </div>
+
+    <div class="section-title">Sector opportunity engine</div>
+    <div class="empty">Same as above &mdash; depends on the scoring model, not yet connected.</div>
+  </section>
+
+  <section id="tab-news" class="tabpanel">
+    <div class="section-title">Latest headlines <span class="faint mono" style="font-size:11px;">(raw feed &mdash; impact/beneficiary scoring not yet added)</span></div>
+    <div class="grid grid-2" id="news-list"></div>
+  </section>
+
+  <section id="tab-funds" class="tabpanel">
+    <div class="section-title">Fund performance</div>
+    <div class="empty">
+      Not connected yet.
+      <div class="action">Needs Groww API (paid) or a manual CSV import</div>
+    </div>
+  </section>
+
+</main>
+
+<script>
+  const CONFIG = {
+    DATA_URL: "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/latest_data.json",
+    REFRESH_MS: 5 * 60 * 1000
+  };
+
+  const params = new URLSearchParams(window.location.search);
+  const dataUrl = params.get("data") || CONFIG.DATA_URL;
+
+  document.querySelectorAll("nav.tabs button").forEach(btn => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll("nav.tabs button").forEach(b => b.classList.remove("active"));
+      document.querySelectorAll(".tabpanel").forEach(p => p.classList.remove("active"));
+      btn.classList.add("active");
+      document.getElementById("tab-" + btn.dataset.tab).classList.add("active");
+    });
+  });
+
+  function freshnessClass(isoString){
+    if(!isoString) return "stale";
+    const diffMin = (Date.now() - new Date(isoString).getTime()) / 60000;
+    if(diffMin < 10) return "fresh";
+    if(diffMin < 60) return "aging";
+    return "stale";
+  }
+
+  function timeAgo(isoString){
+    if(!isoString) return "never";
+    const diffMin = Math.round((Date.now() - new Date(isoString).getTime()) / 60000);
+    if(diffMin < 1) return "just now";
+    if(diffMin < 60) return diffMin + "m ago";
+    return Math.round(diffMin/60) + "h ago";
+  }
+
+  function renderTicker(prices, fetchedAt){
+    const el = document.getElementById("ticker");
+    el.innerHTML = "";
+    Object.entries(prices || {}).forEach(([name, data]) => {
+      const item = document.createElement("div");
+      item.className = "ticker-item";
+      const price = (data && data.price != null) ? data.price.toLocaleString() : "--";
+      item.innerHTML = `<span class="dot ${freshnessClass(fetchedAt)}"></span>
+        <span class="name">${name}</span>
+        <span class="price mono">${price}</span>`;
+      el.appendChild(item);
+    });
+    if(!Object.keys(prices || {}).length){
+      el.innerHTML = `<span class="dim">No price data yet &mdash; connect the feed (see poll.py / README)</span>`;
+    }
+  }
+
+  function renderOverviewPrices(prices, fetchedAt){
+    const el = document.getElementById("overview-prices");
+    el.innerHTML = "";
+    Object.entries(prices || {}).forEach(([name, data]) => {
+      const card = document.createElement("div");
+      card.className = "card";
+      if(data && data.price != null){
+        card.innerHTML = `<div class="metric-label">${name}</div>
+          <div class="metric-value">${data.price.toLocaleString()}</div>
+          <div class="updated">Updated ${timeAgo(fetchedAt)}</div>`;
+      } else {
+        card.innerHTML = `<div class="metric-label">${name}</div>
+          <div class="dim" style="font-size:13px;">Unavailable</div>`;
+      }
+      el.appendChild(card);
+    });
+  }
+
+  function renderPortfolio(portfolio){
+    const el = document.getElementById("portfolio-snapshot");
+    el.innerHTML = "";
+    if(!portfolio || portfolio.status === "not_connected"){
+      const div = document.createElement("div");
+      div.style.gridColumn = "1 / -1";
+      div.className = "empty";
+      div.innerHTML = `Zerodha not linked yet.
+        <div class="action">Connect Kite Connect Personal to see real holdings here</div>`;
+      el.appendChild(div);
+      return;
+    }
+    ["Portfolio Value","Day P&L","Total P&L","Top Contributor","Top Detractor"].forEach(label => {
+      const card = document.createElement("div");
+      card.className = "card";
+      const val = portfolio[label] ?? "--";
+      card.innerHTML = `<div class="metric-label">${label}</div><div class="metric-value">${val}</div>`;
+      el.appendChild(card);
+    });
+  }
+
+  function renderNews(news){
+    const el = document.getElementById("news-list");
+    el.innerHTML = "";
+    const sources = Object.entries(news || {});
+    if(!sources.length || sources.every(([,arts]) => !arts || !arts.length)){
+      el.innerHTML = `<div class="empty" style="grid-column:1/-1;">No headlines yet &mdash; check the feed is running.</div>`;
+      return;
+    }
+    sources.forEach(([source, articles]) => {
+      const card = document.createElement("div");
+      card.className = "card";
+      card.innerHTML = `<h3>${source}</h3>`;
+      (articles || []).forEach(a => {
+        if(a.error) return;
+        const item = document.createElement("div");
+        item.className = "news-item";
+        item.innerHTML = `<a href="${a.link}" target="_blank" rel="noopener">${a.title}</a>
+          <div class="news-source">${a.published || ""}</div>`;
+        card.appendChild(item);
+      });
+      el.appendChild(card);
+    });
+  }
+
+  async function refresh(){
+    try{
+      const res = await fetch(dataUrl, {cache:"no-store"});
+      if(!res.ok) throw new Error("fetch failed: " + res.status);
+      const json = await res.json();
+      renderTicker(json.market_prices, json.fetched_at);
+      renderOverviewPrices(json.market_prices, json.fetched_at);
+      renderPortfolio(json.portfolio);
+      renderNews(json.news);
+    }catch(err){
+      console.warn("Could not load data feed:", err.message);
+      renderTicker({}, null);
+    }
+  }
+
+  refresh();
+  setInterval(refresh, CONFIG.REFRESH_MS);
+</script>
+
+</body>
+</html>

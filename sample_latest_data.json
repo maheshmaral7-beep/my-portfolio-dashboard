@@ -1,0 +1,21 @@
+{
+  "fetched_at": "2026-07-26T16:53:40.677235+00:00",
+  "market_prices": {
+    "Nifty 50": {"price": 24812.35, "as_of": "2026-07-26T16:53:00"},
+    "Sensex": {"price": 81654.10, "as_of": "2026-07-26T16:53:00"},
+    "Bank Nifty": {"price": 53980.75, "as_of": "2026-07-26T16:53:00"}
+  },
+  "news": {
+    "Economic Times": [
+      {"title": "Sample headline from Economic Times feed", "link": "https://economictimes.indiatimes.com", "published": "2026-07-26T16:30:00"}
+    ],
+    "Moneycontrol": [
+      {"title": "Sample headline from Moneycontrol feed", "link": "https://www.moneycontrol.com", "published": "2026-07-26T16:20:00"}
+    ],
+    "Livemint": [
+      {"title": "Sample headline from Livemint feed", "link": "https://www.livemint.com", "published": "2026-07-26T16:10:00"}
+    ]
+  },
+  "portfolio": {"status": "not_connected", "note": "Zerodha Kite Connect Personal not yet linked."},
+  "groww": {"status": "not_connected", "note": "Groww API requires paid plan or manual CSV import."}
+}
