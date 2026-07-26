@@ -1,0 +1,536 @@
+{
+  "generated_at": "2026-07-26T17:51:55.468361+00:00",
+  "universe": "Nifty 200",
+  "universe_size_scanned": 200,
+  "disclaimer": "Rules-based screener, not investment advice or a prediction. Scores are percentile ranks within today's matching stocks, not probabilities.",
+  "categories": {
+    "momentum_leaders": [
+      {
+        "symbol": "LAURUSLABS",
+        "name": "Laurus Labs Ltd.",
+        "sector": "Healthcare",
+        "score": 100,
+        "confidence": 70,
+        "risk": 61,
+        "why": "Up 44.9% over 3 months, trading above both its 50-day and 200-day averages."
+      },
+      {
+        "symbol": "ADANIENT",
+        "name": "Adani Enterprises Ltd.",
+        "sector": "Metals & Mining",
+        "score": 98,
+        "confidence": 70,
+        "risk": 94,
+        "why": "Up 24.81% over 3 months, trading above both its 50-day and 200-day averages."
+      },
+      {
+        "symbol": "FEDERALBNK",
+        "name": "Federal Bank Ltd.",
+        "sector": "Financial Services",
+        "score": 96,
+        "confidence": 70,
+        "risk": 35,
+        "why": "Up 24.42% over 3 months, trading above both its 50-day and 200-day averages."
+      },
+      {
+        "symbol": "EXIDEIND",
+        "name": "Exide Industries Ltd.",
+        "sector": "Automobile and Auto Components",
+        "score": 94,
+        "confidence": 70,
+        "risk": 57,
+        "why": "Up 22.47% over 3 months, trading above both its 50-day and 200-day averages."
+      },
+      {
+        "symbol": "ZYDUSLIFE",
+        "name": "Zydus Lifesciences Ltd.",
+        "sector": "Healthcare",
+        "score": 92,
+        "confidence": 70,
+        "risk": 16,
+        "why": "Up 21.83% over 3 months, trading above both its 50-day and 200-day averages."
+      },
+      {
+        "symbol": "BHEL",
+        "name": "Bharat Heavy Electricals Ltd.",
+        "sector": "Capital Goods",
+        "score": 90,
+        "confidence": 70,
+        "risk": 98,
+        "why": "Up 21.52% over 3 months, trading above both its 50-day and 200-day averages."
+      },
+      {
+        "symbol": "NYKAA",
+        "name": "FSN E-Commerce Ventures Ltd.",
+        "sector": "Consumer Services",
+        "score": 88,
+        "confidence": 70,
+        "risk": 53,
+        "why": "Up 20.52% over 3 months, trading above both its 50-day and 200-day averages."
+      },
+      {
+        "symbol": "SOLARINDS",
+        "name": "Solar Industries India Ltd.",
+        "sector": "Chemicals",
+        "score": 86,
+        "confidence": 70,
+        "risk": 78,
+        "why": "Up 20.27% over 3 months, trading above both its 50-day and 200-day averages."
+      },
+      {
+        "symbol": "ADANIENSOL",
+        "name": "Adani Energy Solutions Ltd.",
+        "sector": "Power",
+        "score": 84,
+        "confidence": 70,
+        "risk": 100,
+        "why": "Up 20.03% over 3 months, trading above both its 50-day and 200-day averages."
+      },
+      {
+        "symbol": "BIOCON",
+        "name": "Biocon Ltd.",
+        "sector": "Healthcare",
+        "score": 82,
+        "confidence": 70,
+        "risk": 41,
+        "why": "Up 19.85% over 3 months, trading above both its 50-day and 200-day averages."
+      }
+    ],
+    "breakout_candidates": [
+      {
+        "symbol": "TORNTPHARM",
+        "name": "Torrent Pharmaceuticals Ltd.",
+        "sector": "Healthcare",
+        "score": 100,
+        "confidence": 60,
+        "risk": 50,
+        "why": "Within 2.05% of its 52-week high, on 1.7x average volume."
+      },
+      {
+        "symbol": "BIOCON",
+        "name": "Biocon Ltd.",
+        "sector": "Healthcare",
+        "score": 50,
+        "confidence": 60,
+        "risk": 100,
+        "why": "Within 1.6% of its 52-week high, on 1.52x average volume."
+      }
+    ],
+    "turnaround_stories": [
+      {
+        "symbol": "POWERINDIA",
+        "name": "Hitachi Energy India Ltd.",
+        "sector": "Capital Goods",
+        "score": 100,
+        "confidence": 55,
+        "risk": 85,
+        "why": "Up 88.29% from its 6-month low, still 19.18% below its 52-week high."
+      },
+      {
+        "symbol": "GVT&D",
+        "name": "GE Vernova T&D India Ltd.",
+        "sector": "Capital Goods",
+        "score": 95,
+        "confidence": 55,
+        "risk": 90,
+        "why": "Up 56.86% from its 6-month low, still 24.87% below its 52-week high."
+      },
+      {
+        "symbol": "ENRIN",
+        "name": "Siemens Energy India Ltd.",
+        "sector": "Capital Goods",
+        "score": 90,
+        "confidence": 55,
+        "risk": 60,
+        "why": "Up 52.7% from its 6-month low, still 16.32% below its 52-week high."
+      },
+      {
+        "symbol": "DIXON",
+        "name": "Dixon Technologies (India) Ltd.",
+        "sector": "Consumer Durables",
+        "score": 85,
+        "confidence": 55,
+        "risk": 75,
+        "why": "Up 43.14% from its 6-month low, still 24.47% below its 52-week high."
+      },
+      {
+        "symbol": "ATGL",
+        "name": "Adani Total Gas Ltd.",
+        "sector": "Oil Gas & Consumable Fuels",
+        "score": 80,
+        "confidence": 55,
+        "risk": 100,
+        "why": "Up 39.58% from its 6-month low, still 19.23% below its 52-week high."
+      },
+      {
+        "symbol": "MOTILALOFS",
+        "name": "Motilal Oswal Financial Services Ltd.",
+        "sector": "Financial Services",
+        "score": 75,
+        "confidence": 55,
+        "risk": 80,
+        "why": "Up 38.8% from its 6-month low, still 19.45% below its 52-week high."
+      },
+      {
+        "symbol": "COFORGE",
+        "name": "Coforge Ltd.",
+        "sector": "Information Technology",
+        "score": 70,
+        "confidence": 55,
+        "risk": 65,
+        "why": "Up 38.25% from its 6-month low, still 24.76% below its 52-week high."
+      },
+      {
+        "symbol": "BSE",
+        "name": "BSE Ltd.",
+        "sector": "Financial Services",
+        "score": 65,
+        "confidence": 55,
+        "risk": 70,
+        "why": "Up 35.48% from its 6-month low, still 19.17% below its 52-week high."
+      },
+      {
+        "symbol": "PAGEIND",
+        "name": "Page Industries Ltd.",
+        "sector": "Textiles",
+        "score": 60,
+        "confidence": 55,
+        "risk": 5,
+        "why": "Up 33.89% from its 6-month low, still 16.3% below its 52-week high."
+      },
+      {
+        "symbol": "SUZLON",
+        "name": "Suzlon Energy Ltd.",
+        "sector": "Capital Goods",
+        "score": 55,
+        "confidence": 55,
+        "risk": 35,
+        "why": "Up 32.15% from its 6-month low, still 20.73% below its 52-week high."
+      }
+    ],
+    "emerging_leaders": [
+      {
+        "symbol": "KALYANKJIL",
+        "name": "Kalyan Jewellers India Ltd.",
+        "sector": "Consumer Durables",
+        "score": 100,
+        "confidence": 55,
+        "risk": 100,
+        "why": "Mid-cap (outside Nifty 50), up 51.81% in the past month, top quartile of the universe."
+      },
+      {
+        "symbol": "LODHA",
+        "name": "Lodha Developers Ltd.",
+        "sector": "Realty",
+        "score": 97,
+        "confidence": 55,
+        "risk": 79,
+        "why": "Mid-cap (outside Nifty 50), up 20.76% in the past month, top quartile of the universe."
+      },
+      {
+        "symbol": "NAUKRI",
+        "name": "Info Edge (India) Ltd.",
+        "sector": "Consumer Services",
+        "score": 95,
+        "confidence": 55,
+        "risk": 53,
+        "why": "Mid-cap (outside Nifty 50), up 19.44% in the past month, top quartile of the universe."
+      },
+      {
+        "symbol": "DIXON",
+        "name": "Dixon Technologies (India) Ltd.",
+        "sector": "Consumer Durables",
+        "score": 92,
+        "confidence": 55,
+        "risk": 97,
+        "why": "Mid-cap (outside Nifty 50), up 15.26% in the past month, top quartile of the universe."
+      },
+      {
+        "symbol": "EXIDEIND",
+        "name": "Exide Industries Ltd.",
+        "sector": "Automobile and Auto Components",
+        "score": 89,
+        "confidence": 55,
+        "risk": 45,
+        "why": "Mid-cap (outside Nifty 50), up 14.19% in the past month, top quartile of the universe."
+      },
+      {
+        "symbol": "PAYTM",
+        "name": "One 97 Communications Ltd.",
+        "sector": "Financial Services",
+        "score": 87,
+        "confidence": 55,
+        "risk": 87,
+        "why": "Mid-cap (outside Nifty 50), up 14.08% in the past month, top quartile of the universe."
+      },
+      {
+        "symbol": "ADANIENSOL",
+        "name": "Adani Energy Solutions Ltd.",
+        "sector": "Power",
+        "score": 84,
+        "confidence": 55,
+        "risk": 92,
+        "why": "Mid-cap (outside Nifty 50), up 12.89% in the past month, top quartile of the universe."
+      },
+      {
+        "symbol": "M&MFIN",
+        "name": "Mahindra & Mahindra Financial Services Ltd.",
+        "sector": "Financial Services",
+        "score": 82,
+        "confidence": 55,
+        "risk": 95,
+        "why": "Mid-cap (outside Nifty 50), up 10.95% in the past month, top quartile of the universe."
+      },
+      {
+        "symbol": "OIL",
+        "name": "Oil India Ltd.",
+        "sector": "Oil Gas & Consumable Fuels",
+        "score": 79,
+        "confidence": 55,
+        "risk": 66,
+        "why": "Mid-cap (outside Nifty 50), up 10.56% in the past month, top quartile of the universe."
+      },
+      {
+        "symbol": "LAURUSLABS",
+        "name": "Laurus Labs Ltd.",
+        "sector": "Healthcare",
+        "score": 76,
+        "confidence": 55,
+        "risk": 47,
+        "why": "Mid-cap (outside Nifty 50), up 10.43% in the past month, top quartile of the universe."
+      }
+    ],
+    "undervalued_quality": [
+      {
+        "symbol": "HCLTECH",
+        "name": "HCL Technologies Ltd.",
+        "sector": "Information Technology",
+        "score": 100,
+        "confidence": 50,
+        "risk": 50,
+        "why": "P/E of 19.7 (below the shortlist median) with ROE of 24.1%."
+      },
+      {
+        "symbol": "ZYDUSLIFE",
+        "name": "Zydus Lifesciences Ltd.",
+        "sector": "Healthcare",
+        "score": 75,
+        "confidence": 50,
+        "risk": 25,
+        "why": "P/E of 22.2 (below the shortlist median) with ROE of 18.3%."
+      },
+      {
+        "symbol": "LTM",
+        "name": "LTM Ltd.",
+        "sector": "Information Technology",
+        "score": 50,
+        "confidence": 50,
+        "risk": 75,
+        "why": "P/E of 23.1 (below the shortlist median) with ROE of 22.0%."
+      },
+      {
+        "symbol": "COFORGE",
+        "name": "Coforge Ltd.",
+        "sector": "Information Technology",
+        "score": 25,
+        "confidence": 50,
+        "risk": 100,
+        "why": "P/E of 33.9 (below the shortlist median) with ROE of 18.6%."
+      }
+    ],
+    "earnings_winners": [
+      {
+        "symbol": "NYKAA",
+        "name": "FSN E-Commerce Ventures Ltd.",
+        "sector": "Consumer Services",
+        "score": 100,
+        "confidence": 50,
+        "risk": 30,
+        "why": "Latest quarterly earnings growth of 286.3%."
+      },
+      {
+        "symbol": "ETERNAL",
+        "name": "Eternal Ltd.",
+        "sector": "Consumer Services",
+        "score": 96,
+        "confidence": 50,
+        "risk": 61,
+        "why": "Latest quarterly earnings growth of 268.0%."
+      },
+      {
+        "symbol": "COFORGE",
+        "name": "Coforge Ltd.",
+        "sector": "Information Technology",
+        "score": 91,
+        "confidence": 50,
+        "risk": 87,
+        "why": "Latest quarterly earnings growth of 134.4%."
+      },
+      {
+        "symbol": "LAURUSLABS",
+        "name": "Laurus Labs Ltd.",
+        "sector": "Healthcare",
+        "score": 87,
+        "confidence": 50,
+        "risk": 39,
+        "why": "Latest quarterly earnings growth of 125.5%."
+      },
+      {
+        "symbol": "ADANIENSOL",
+        "name": "Adani Energy Solutions Ltd.",
+        "sector": "Power",
+        "score": 83,
+        "confidence": 50,
+        "risk": 91,
+        "why": "Latest quarterly earnings growth of 124.2%."
+      },
+      {
+        "symbol": "KALYANKJIL",
+        "name": "Kalyan Jewellers India Ltd.",
+        "sector": "Consumer Durables",
+        "score": 78,
+        "confidence": 50,
+        "risk": 100,
+        "why": "Latest quarterly earnings growth of 118.3%."
+      },
+      {
+        "symbol": "LODHA",
+        "name": "Lodha Developers Ltd.",
+        "sector": "Realty",
+        "score": 74,
+        "confidence": 50,
+        "risk": 78,
+        "why": "Latest quarterly earnings growth of 103.4%."
+      },
+      {
+        "symbol": "PAYTM",
+        "name": "One 97 Communications Ltd.",
+        "sector": "Financial Services",
+        "score": 70,
+        "confidence": 50,
+        "risk": 83,
+        "why": "Latest quarterly earnings growth of 79.6%."
+      },
+      {
+        "symbol": "M&MFIN",
+        "name": "Mahindra & Mahindra Financial Services Ltd.",
+        "sector": "Financial Services",
+        "score": 65,
+        "confidence": 50,
+        "risk": 96,
+        "why": "Latest quarterly earnings growth of 75.4%."
+      },
+      {
+        "symbol": "GODREJPROP",
+        "name": "Godrej Properties Ltd.",
+        "sector": "Realty",
+        "score": 61,
+        "confidence": 50,
+        "risk": 74,
+        "why": "Latest quarterly earnings growth of 70.1%."
+      }
+    ]
+  },
+  "consolidated_top": [
+    {
+      "symbol": "LAURUSLABS",
+      "name": "Laurus Labs Ltd.",
+      "sector": "Healthcare",
+      "score": 100,
+      "confidence": 70,
+      "risk": 61,
+      "why": "Up 44.9% over 3 months, trading above both its 50-day and 200-day averages.",
+      "category": "momentum_leaders"
+    },
+    {
+      "symbol": "NYKAA",
+      "name": "FSN E-Commerce Ventures Ltd.",
+      "sector": "Consumer Services",
+      "score": 100,
+      "confidence": 50,
+      "risk": 30,
+      "why": "Latest quarterly earnings growth of 286.3%.",
+      "category": "earnings_winners"
+    },
+    {
+      "symbol": "TORNTPHARM",
+      "name": "Torrent Pharmaceuticals Ltd.",
+      "sector": "Healthcare",
+      "score": 100,
+      "confidence": 60,
+      "risk": 50,
+      "why": "Within 2.05% of its 52-week high, on 1.7x average volume.",
+      "category": "breakout_candidates"
+    },
+    {
+      "symbol": "POWERINDIA",
+      "name": "Hitachi Energy India Ltd.",
+      "sector": "Capital Goods",
+      "score": 100,
+      "confidence": 55,
+      "risk": 85,
+      "why": "Up 88.29% from its 6-month low, still 19.18% below its 52-week high.",
+      "category": "turnaround_stories"
+    },
+    {
+      "symbol": "KALYANKJIL",
+      "name": "Kalyan Jewellers India Ltd.",
+      "sector": "Consumer Durables",
+      "score": 100,
+      "confidence": 55,
+      "risk": 100,
+      "why": "Mid-cap (outside Nifty 50), up 51.81% in the past month, top quartile of the universe.",
+      "category": "emerging_leaders"
+    },
+    {
+      "symbol": "HCLTECH",
+      "name": "HCL Technologies Ltd.",
+      "sector": "Information Technology",
+      "score": 100,
+      "confidence": 50,
+      "risk": 50,
+      "why": "P/E of 19.7 (below the shortlist median) with ROE of 24.1%.",
+      "category": "undervalued_quality"
+    },
+    {
+      "symbol": "ADANIENT",
+      "name": "Adani Enterprises Ltd.",
+      "sector": "Metals & Mining",
+      "score": 98,
+      "confidence": 70,
+      "risk": 94,
+      "why": "Up 24.81% over 3 months, trading above both its 50-day and 200-day averages.",
+      "category": "momentum_leaders"
+    },
+    {
+      "symbol": "LODHA",
+      "name": "Lodha Developers Ltd.",
+      "sector": "Realty",
+      "score": 97,
+      "confidence": 55,
+      "risk": 79,
+      "why": "Mid-cap (outside Nifty 50), up 20.76% in the past month, top quartile of the universe.",
+      "category": "emerging_leaders"
+    },
+    {
+      "symbol": "FEDERALBNK",
+      "name": "Federal Bank Ltd.",
+      "sector": "Financial Services",
+      "score": 96,
+      "confidence": 70,
+      "risk": 35,
+      "why": "Up 24.42% over 3 months, trading above both its 50-day and 200-day averages.",
+      "category": "momentum_leaders"
+    },
+    {
+      "symbol": "ETERNAL",
+      "name": "Eternal Ltd.",
+      "sector": "Consumer Services",
+      "score": 96,
+      "confidence": 50,
+      "risk": 61,
+      "why": "Latest quarterly earnings growth of 268.0%.",
+      "category": "earnings_winners"
+    }
+  ]
+}
