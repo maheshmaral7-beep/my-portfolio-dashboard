@@ -1,0 +1,110 @@
+{
+  "status": "connected",
+  "source": "manual_export",
+  "as_of": "17-06-2026",
+  "imported_at": "2026-07-26T18:08:23.233132+00:00",
+  "portfolio_value": 30378.1,
+  "invested_value": 22923.99,
+  "total_pl": 7454.11,
+  "total_pl_pct": 32.52,
+  "day_pl": null,
+  "day_pl_note": "Not available from a static export -- would need holdings cross-referenced with live prices from poll.py.",
+  "top_contributor": {
+    "name": "LT FOODS LIMITED",
+    "pl": 5354.2
+  },
+  "top_detractor": {
+    "name": "TATA CONSULTANCY SERV LT",
+    "pl": -804.45
+  },
+  "holdings": [
+    {
+      "name": "DIXON TECHNO (INDIA) LTD",
+      "isin": "INE935N01020",
+      "quantity": 1.0,
+      "avg_buy_price": 10895.5,
+      "buy_value": 10895.5,
+      "closing_price": 12833.0,
+      "closing_value": 12833.0,
+      "pl": 1937.5,
+      "no_price_data": false
+    },
+    {
+      "name": "HDFC BANK LTD",
+      "isin": "INE040A01034",
+      "quantity": 2.0,
+      "avg_buy_price": 699.97,
+      "buy_value": 1399.94,
+      "closing_price": 787.1,
+      "closing_value": 1574.2,
+      "pl": 174.26,
+      "no_price_data": false
+    },
+    {
+      "name": "ITC LTD",
+      "isin": "INE154A01025",
+      "quantity": 10.0,
+      "avg_buy_price": 223.22,
+      "buy_value": 2232.2,
+      "closing_price": 290.75,
+      "closing_value": 2907.5,
+      "pl": 675.3,
+      "no_price_data": false
+    },
+    {
+      "name": "LT FOODS LIMITED",
+      "isin": "INE818H01020",
+      "quantity": 20.0,
+      "avg_buy_price": 114.29,
+      "buy_value": 2285.8,
+      "closing_price": 382.0,
+      "closing_value": 7640.0,
+      "pl": 5354.2,
+      "no_price_data": false
+    },
+    {
+      "name": "NA",
+      "isin": "INE721I01024",
+      "quantity": 20.0,
+      "avg_buy_price": 0.0,
+      "buy_value": 0.0,
+      "closing_price": 0.0,
+      "closing_value": 0.0,
+      "pl": 0.0,
+      "no_price_data": true
+    },
+    {
+      "name": "PATANJALI FOODS LIMITED",
+      "isin": "INE619A01035",
+      "quantity": 3.0,
+      "avg_buy_price": 313.33,
+      "buy_value": 939.99,
+      "closing_price": 419.0,
+      "closing_value": 1257.0,
+      "pl": 317.01,
+      "no_price_data": false
+    },
+    {
+      "name": "TATA CONSULTANCY SERV LT",
+      "isin": "INE467B01029",
+      "quantity": 1.0,
+      "avg_buy_price": 3027.45,
+      "buy_value": 3027.45,
+      "closing_price": 2223.0,
+      "closing_value": 2223.0,
+      "pl": -804.45,
+      "no_price_data": false
+    },
+    {
+      "name": "WAAREE RENEWABLE TECH LTD",
+      "isin": "INE299N01021",
+      "quantity": 2.0,
+      "avg_buy_price": 1071.5,
+      "buy_value": 2143.0,
+      "closing_price": 971.7,
+      "closing_value": 1943.4,
+      "pl": -199.6,
+      "no_price_data": false
+    }
+  ]
+}

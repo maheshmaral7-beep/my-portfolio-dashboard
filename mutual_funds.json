@@ -1,0 +1,140 @@
+{
+  "status": "connected",
+  "source": "manual_export",
+  "as_of": "2026-06-18",
+  "imported_at": "2026-07-26T18:08:23.241379+00:00",
+  "total_invested": 661752.78,
+  "current_value": 833674.32,
+  "gain_loss": 171921.54,
+  "gain_loss_pct": 25.98,
+  "xirr_pct": 11.73,
+  "allocation_pct": {
+    "Large Cap": 26.0,
+    "Small Cap": 4.0,
+    "Flexi Cap": 27.7,
+    "Mid Cap": 35.0,
+    "Multi Cap": 7.3
+  },
+  "funds": [
+    {
+      "scheme_name": "HDFC NIFTY Next 50 Index Fund Direct Growth",
+      "amc": "HDFC Mutual Fund",
+      "category": "Equity",
+      "sub_category": "Large Cap",
+      "source": "Groww",
+      "units": 2276.3320000000003,
+      "invested_value": 35998.18,
+      "current_value": 38835.82,
+      "returns": 2837.6374559000033,
+      "xirr_pct": 10.35
+    },
+    {
+      "scheme_name": "Bandhan Small Cap Fund Growth",
+      "amc": "Bandhan Mutual Fund",
+      "category": "Equity",
+      "sub_category": "Small Cap",
+      "source": "External",
+      "units": 678.2059999999999,
+      "invested_value": 31080.15,
+      "current_value": 33295.17,
+      "returns": 2215.0207960000043,
+      "xirr_pct": 9.16
+    },
+    {
+      "scheme_name": "JioBlackRock Flexi Cap Fund Direct Growth",
+      "amc": "JioBlackRock Mutual Fund",
+      "category": "Equity",
+      "sub_category": "Flexi Cap",
+      "source": "Groww",
+      "units": 4999.75,
+      "invested_value": 49997.5,
+      "current_value": 49339.03,
+      "returns": -658.4670750000005,
+      "xirr_pct": -1.93
+    },
+    {
+      "scheme_name": "HDFC NIFTY Next 50 Index Fund Direct Growth",
+      "amc": "HDFC Mutual Fund",
+      "category": "Equity",
+      "sub_category": "Large Cap",
+      "source": "Groww",
+      "units": 10437.489000000001,
+      "invested_value": 118198.18,
+      "current_value": 178070.87,
+      "returns": 59872.68897490004,
+      "xirr_pct": 12.23
+    },
+    {
+      "scheme_name": "Motilal Oswal Midcap Fund Direct Growth",
+      "amc": "Motilal Oswal Mutual Fund",
+      "category": "Equity",
+      "sub_category": "Mid Cap",
+      "source": "Groww",
+      "units": 215.549,
+      "invested_value": 24998.75,
+      "current_value": 23483.01,
+      "returns": -1515.740568000001,
+      "xirr_pct": -7.12
+    },
+    {
+      "scheme_name": "Motilal Oswal Nifty Midcap 150 Index Fund Direct Growth",
+      "amc": "Motilal Oswal Mutual Fund",
+      "category": "Equity",
+      "sub_category": "Mid Cap",
+      "source": "Groww",
+      "units": 5434.834,
+      "invested_value": 134993.24,
+      "current_value": 224417.88,
+      "returns": 89424.64474359999,
+      "xirr_pct": 17.61
+    },
+    {
+      "scheme_name": "Parag Parikh Flexi Cap Fund Direct Growth",
+      "amc": "PPFAS Mutual Fund",
+      "category": "Equity",
+      "sub_category": "Flexi Cap",
+      "source": "Groww",
+      "units": 674.822,
+      "invested_value": 49997.49,
+      "current_value": 60931.57,
+      "returns": 10934.073383800001,
+      "xirr_pct": 9.13
+    },
+    {
+      "scheme_name": "Nippon India Multi Cap Fund Direct Growth",
+      "amc": "Nippon India Mutual Fund",
+      "category": "Equity",
+      "sub_category": "Multi Cap",
+      "source": "Groww",
+      "units": 182.355,
+      "invested_value": 49997.6,
+      "current_value": 60607.93,
+      "returns": 10610.325675,
+      "xirr_pct": 9.12
+    },
+    {
+      "scheme_name": "Parag Parikh Flexi Cap Fund Direct Growth",
+      "amc": "PPFAS Mutual Fund",
+      "category": "Equity",
+      "sub_category": "Flexi Cap",
+      "source": "Groww",
+      "units": 1335.7330000000002,
+      "invested_value": 124993.77,
+      "current_value": 120607.07,
+      "returns": -4386.696635199987,
+      "xirr_pct": -4.8
+    },
+    {
+      "scheme_name": "Motilal Oswal Nifty Midcap 150 Index Fund Direct Growth",
+      "amc": "Motilal Oswal Mutual Fund",
+      "category": "Equity",
+      "sub_category": "Mid Cap",
+      "source": "Groww",
+      "units": 1067.651,
+      "invested_value": 41497.92,
+      "current_value": 44085.98,
+      "returns": 2588.0563754999894,
+      "xirr_pct": 8.74
+    }
+  ]
+}
