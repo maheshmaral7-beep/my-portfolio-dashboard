@@ -108,10 +108,10 @@
 
   <section id="tab-funds" class="tabpanel">
     <div class="section-title">Fund performance</div>
-    <div class="empty">
-      Not connected yet.
-      <div class="action">Needs Groww API (paid) or a manual CSV import</div>
-    </div>
+    <div class="grid grid-4" id="fund-performance"></div>
+
+    <div class="section-title">Allocation</div>
+    <div class="grid grid-4" id="fund-allocation"></div>
   </section>
 
 </main>
@@ -120,12 +120,16 @@
   const CONFIG = {
     DATA_URL: "https://raw.githubusercontent.com/maheshmaral7-beep/my-portfolio-dashboard/main/latest_data.json",
     OPPORTUNITIES_URL: "https://raw.githubusercontent.com/maheshmaral7-beep/my-portfolio-dashboard/main/opportunities.json",
+    PORTFOLIO_URL: "https://raw.githubusercontent.com/maheshmaral7-beep/my-portfolio-dashboard/main/portfolio.json",
+    MUTUAL_FUNDS_URL: "https://raw.githubusercontent.com/maheshmaral7-beep/my-portfolio-dashboard/main/mutual_funds.json",
     REFRESH_MS: 5 * 60 * 1000
   };
 
   const params = new URLSearchParams(window.location.search);
   const dataUrl = params.get("data") || CONFIG.DATA_URL;
   const oppUrl = params.get("opportunities") || CONFIG.OPPORTUNITIES_URL;
+  const portfolioUrl = params.get("portfolio") || CONFIG.PORTFOLIO_URL;
+  const mfUrl = params.get("mf") || CONFIG.MUTUAL_FUNDS_URL;
   let lastOpportunities = null;
 
   document.querySelectorAll("nav.tabs button").forEach(btn => {
@@ -196,17 +200,35 @@
       div.style.gridColumn = "1 / -1";
       div.className = "empty";
       div.innerHTML = `Zerodha not linked yet.
-        <div class="action">Connect Kite Connect Personal to see real holdings here</div>`;
+        <div class="action">Connect Kite Connect Personal, or import a statement, to see real holdings here</div>`;
       el.appendChild(div);
       return;
     }
-    ["Portfolio Value","Day P&L","Total P&L","Top Contributor","Top Detractor"].forEach(label => {
+    const cards = [
+      {label: "Portfolio Value", val: portfolio.portfolio_value},
+      {label: "Invested Value", val: portfolio.invested_value},
+      {label: "Total P&L", val: portfolio.total_pl, pct: portfolio.total_pl_pct},
+      {label: "Top Contributor", val: portfolio.top_contributor ? `${portfolio.top_contributor.name} (+${portfolio.top_contributor.pl})` : "--"},
+      {label: "Top Detractor", val: portfolio.top_detractor ? `${portfolio.top_detractor.name} (${portfolio.top_detractor.pl})` : "--"},
+    ];
+    cards.forEach(c => {
       const card = document.createElement("div");
       card.className = "card";
-      const val = portfolio[label] ?? "--";
-      card.innerHTML = `<div class="metric-label">${label}</div><div class="metric-value">${val}</div>`;
+      let valStr = c.val;
+      if(typeof c.val === "number") valStr = c.val.toLocaleString(undefined, {maximumFractionDigits:2});
+      const cls = (typeof c.val === "number" && c.val < 0) ? "neg" : (typeof c.val === "number" ? "pos" : "");
+      card.innerHTML = `<div class="metric-label">${c.label}</div>
+        <div class="metric-value ${cls}" style="font-size:16px;">${valStr}${c.pct != null ? ` (${c.pct}%)` : ""}</div>`;
       el.appendChild(card);
     });
+    if(portfolio.as_of){
+      const note = document.createElement("div");
+      note.style.gridColumn = "1 / -1";
+      note.className = "faint";
+      note.style.fontSize = "11px";
+      note.textContent = `From manually imported statement, as of ${portfolio.as_of}. Day P&L isn't available from a static export.`;
+      el.appendChild(note);
+    }
   }
 
   function renderNews(news){
@@ -230,6 +252,49 @@
         card.appendChild(item);
       });
       el.appendChild(card);
+    });
+  }
+
+  function renderMutualFunds(mf){
+    const perfEl = document.getElementById("fund-performance");
+    const allocEl = document.getElementById("fund-allocation");
+    perfEl.innerHTML = "";
+    allocEl.innerHTML = "";
+    if(!mf || mf.status === "not_connected"){
+      perfEl.innerHTML = `<div class="empty" style="grid-column:1/-1;">Not connected yet.
+        <div class="action">Import a mutual fund statement to see this</div></div>`;
+      return;
+    }
+    const cards = [
+      {label: "Current Value", val: mf.current_value},
+      {label: "Invested Value", val: mf.total_invested},
+      {label: "Gain/Loss", val: mf.gain_loss, pct: mf.gain_loss_pct},
+      {label: "XIRR", val: mf.xirr_pct + "%"},
+    ];
+    cards.forEach(c => {
+      const card = document.createElement("div");
+      card.className = "card";
+      let valStr = c.val;
+      if(typeof c.val === "number") valStr = c.val.toLocaleString(undefined, {maximumFractionDigits:2});
+      const cls = (typeof c.val === "number" && c.val < 0) ? "neg" : (typeof c.val === "number" ? "pos" : "");
+      card.innerHTML = `<div class="metric-label">${c.label}</div>
+        <div class="metric-value ${cls}" style="font-size:16px;">${valStr}${c.pct != null ? ` (${c.pct}%)` : ""}</div>`;
+      perfEl.appendChild(card);
+    });
+    if(mf.as_of){
+      const note = document.createElement("div");
+      note.style.gridColumn = "1 / -1";
+      note.className = "faint";
+      note.style.fontSize = "11px";
+      note.textContent = `From manually imported statement, as of ${mf.as_of}.`;
+      perfEl.appendChild(note);
+    }
+
+    Object.entries(mf.allocation_pct || {}).forEach(([cat, pct]) => {
+      const card = document.createElement("div");
+      card.className = "card";
+      card.innerHTML = `<div class="metric-label">${cat}</div><div class="metric-value" style="font-size:16px;">${pct}%</div>`;
+      allocEl.appendChild(card);
     });
   }
 
@@ -302,11 +367,30 @@
       const json = await res.json();
       renderTicker(json.market_prices, json.fetched_at);
       renderOverviewPrices(json.market_prices, json.fetched_at);
-      renderPortfolio(json.portfolio);
       renderNews(json.news);
     }catch(err){
       console.warn("Could not load data feed:", err.message);
       renderTicker({}, null);
+    }
+
+    try{
+      const pfRes = await fetch(portfolioUrl, {cache:"no-store"});
+      if(!pfRes.ok) throw new Error("fetch failed: " + pfRes.status);
+      const pf = await pfRes.json();
+      renderPortfolio(pf);
+    }catch(err){
+      console.warn("Could not load portfolio feed:", err.message);
+      renderPortfolio(null);
+    }
+
+    try{
+      const mfRes = await fetch(mfUrl, {cache:"no-store"});
+      if(!mfRes.ok) throw new Error("fetch failed: " + mfRes.status);
+      const mf = await mfRes.json();
+      renderMutualFunds(mf);
+    }catch(err){
+      console.warn("Could not load mutual funds feed:", err.message);
+      renderMutualFunds(null);
     }
 
     try{
