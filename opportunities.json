@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T17:12:29.138794+00:00",
+  "generated_at": "2026-07-29T16:52:32.398189+00:00",
   "universe": "Nifty 200",
   "universe_size_scanned": 200,
   "disclaimer": "Rules-based screener, not investment advice or a prediction. Scores are percentile ranks within today's matching stocks, not probabilities.",
@@ -12,88 +12,88 @@
         "score": 100,
         "confidence": 70,
         "risk": 68,
-        "why": "Up 59.92% over 3 months, trading above both its 50-day and 200-day averages."
+        "why": "Up 52.87% over 3 months, trading above both its 50-day and 200-day averages."
+      },
+      {
+        "symbol": "LODHA",
+        "name": "Lodha Developers Ltd.",
+        "sector": "Realty",
+        "score": 98,
+        "confidence": 70,
+        "risk": 95,
+        "why": "Up 42.52% over 3 months, trading above both its 50-day and 200-day averages."
       },
       {
         "symbol": "RADICO",
         "name": "Radico Khaitan Ltd",
         "sector": "Fast Moving Consumer Goods",
-        "score": 98,
+        "score": 97,
         "confidence": 70,
-        "risk": 87,
-        "why": "Up 25.59% over 3 months, trading above both its 50-day and 200-day averages."
+        "risk": 81,
+        "why": "Up 29.34% over 3 months, trading above both its 50-day and 200-day averages."
       },
       {
         "symbol": "DIXON",
         "name": "Dixon Technologies (India) Ltd.",
         "sector": "Consumer Durables",
-        "score": 96,
+        "score": 95,
         "confidence": 70,
         "risk": 100,
-        "why": "Up 24.51% over 3 months, trading above both its 50-day and 200-day averages."
+        "why": "Up 25.13% over 3 months, trading above both its 50-day and 200-day averages."
+      },
+      {
+        "symbol": "ZYDUSLIFE",
+        "name": "Zydus Lifesciences Ltd.",
+        "sector": "Healthcare",
+        "score": 93,
+        "confidence": 70,
+        "risk": 17,
+        "why": "Up 24.53% over 3 months, trading above both its 50-day and 200-day averages."
       },
       {
         "symbol": "FEDERALBNK",
         "name": "Federal Bank Ltd.",
         "sector": "Financial Services",
-        "score": 94,
+        "score": 92,
         "confidence": 70,
-        "risk": 34,
-        "why": "Up 24.5% over 3 months, trading above both its 50-day and 200-day averages."
+        "risk": 36,
+        "why": "Up 24.21% over 3 months, trading above both its 50-day and 200-day averages."
+      },
+      {
+        "symbol": "INDIGO",
+        "name": "InterGlobe Aviation Ltd.",
+        "sector": "Services",
+        "score": 90,
+        "confidence": 70,
+        "risk": 86,
+        "why": "Up 23.79% over 3 months, trading above both its 50-day and 200-day averages."
       },
       {
         "symbol": "NYKAA",
         "name": "FSN E-Commerce Ventures Ltd.",
         "sector": "Consumer Services",
-        "score": 92,
+        "score": 88,
         "confidence": 70,
-        "risk": 53,
-        "why": "Up 24.49% over 3 months, trading above both its 50-day and 200-day averages."
+        "risk": 56,
+        "why": "Up 23.65% over 3 months, trading above both its 50-day and 200-day averages."
       },
       {
         "symbol": "IDFCFIRSTB",
         "name": "IDFC First Bank Ltd.",
         "sector": "Financial Services",
-        "score": 91,
+        "score": 86,
         "confidence": 70,
         "risk": 75,
-        "why": "Up 23.13% over 3 months, trading above both its 50-day and 200-day averages."
+        "why": "Up 22.17% over 3 months, trading above both its 50-day and 200-day averages."
       },
       {
-        "symbol": "ADANIENSOL",
-        "name": "Adani Energy Solutions Ltd.",
-        "sector": "Power",
-        "score": 89,
-        "confidence": 70,
-        "risk": 98,
-        "why": "Up 22.89% over 3 months, trading above both its 50-day and 200-day averages."
-      },
-      {
-        "symbol": "MOTHERSON",
-        "name": "Samvardhana Motherson International Ltd.",
+        "symbol": "EXIDEIND",
+        "name": "Exide Industries Ltd.",
         "sector": "Automobile and Auto Components",
-        "score": 87,
-        "confidence": 70,
-        "risk": 91,
-        "why": "Up 22.2% over 3 months, trading above both its 50-day and 200-day averages."
-      },
-      {
-        "symbol": "BIOCON",
-        "name": "Biocon Ltd.",
-        "sector": "Healthcare",
         "score": 85,
         "confidence": 70,
-        "risk": 45,
-        "why": "Up 20.39% over 3 months, trading above both its 50-day and 200-day averages."
-      },
-      {
-        "symbol": "OFSS",
-        "name": "Oracle Financial Services Software Ltd.",
-        "sector": "Information Technology",
-        "score": 83,
-        "confidence": 70,
-        "risk": 83,
-        "why": "Up 19.87% over 3 months, trading above both its 50-day and 200-day averages."
+        "risk": 64,
+        "why": "Up 21.92% over 3 months, trading above both its 50-day and 200-day averages."
       }
     ],
     "breakout_candidates": [
@@ -104,7 +104,16 @@
         "score": 100,
         "confidence": 60,
         "risk": 100,
-        "why": "Within 0.0% of its 52-week high, on 2.83x average volume."
+        "why": "Within 0.0% of its 52-week high, on 2.87x average volume."
+      },
+      {
+        "symbol": "M&MFIN",
+        "name": "Mahindra & Mahindra Financial Services Ltd.",
+        "sector": "Financial Services",
+        "score": 50,
+        "confidence": 60,
+        "risk": 50,
+        "why": "Within 0.44% of its 52-week high, on 1.77x average volume."
       }
     ],
     "turnaround_stories": [
@@ -114,8 +123,8 @@
         "sector": "Capital Goods",
         "score": 100,
         "confidence": 55,
-        "risk": 86,
-        "why": "Up 86.31% from its 6-month low, still 19.03% below its 52-week high."
+        "risk": 82,
+        "why": "Up 79.13% from its 6-month low, still 17.61% below its 52-week high."
       },
       {
         "symbol": "ADANIPOWER",
@@ -124,34 +133,34 @@
         "score": 95,
         "confidence": 55,
         "risk": 77,
-        "why": "Up 55.55% from its 6-month low, still 16.34% below its 52-week high."
-      },
-      {
-        "symbol": "GVT&D",
-        "name": "GE Vernova T&D India Ltd.",
-        "sector": "Capital Goods",
-        "score": 91,
-        "confidence": 55,
-        "risk": 91,
-        "why": "Up 51.01% from its 6-month low, still 25.47% below its 52-week high."
-      },
-      {
-        "symbol": "ENRIN",
-        "name": "Siemens Energy India Ltd.",
-        "sector": "Capital Goods",
-        "score": 86,
-        "confidence": 55,
-        "risk": 59,
-        "why": "Up 45.88% from its 6-month low, still 17.85% below its 52-week high."
+        "why": "Up 56.5% from its 6-month low, still 15.82% below its 52-week high."
       },
       {
         "symbol": "DIXON",
         "name": "Dixon Technologies (India) Ltd.",
         "sector": "Consumer Durables",
+        "score": 91,
+        "confidence": 55,
+        "risk": 73,
+        "why": "Up 47.58% from its 6-month low, still 22.13% below its 52-week high."
+      },
+      {
+        "symbol": "CGPOWER",
+        "name": "CG Power and Industrial Solutions Ltd.",
+        "sector": "Capital Goods",
+        "score": 86,
+        "confidence": 55,
+        "risk": 36,
+        "why": "Up 42.85% from its 6-month low, still 15.05% below its 52-week high."
+      },
+      {
+        "symbol": "GVT&D",
+        "name": "GE Vernova T&D India Ltd.",
+        "sector": "Capital Goods",
         "score": 82,
         "confidence": 55,
-        "risk": 68,
-        "why": "Up 43.73% from its 6-month low, still 24.16% below its 52-week high."
+        "risk": 91,
+        "why": "Up 41.19% from its 6-month low, still 25.88% below its 52-week high."
       },
       {
         "symbol": "ATGL",
@@ -160,43 +169,43 @@
         "score": 77,
         "confidence": 55,
         "risk": 100,
-        "why": "Up 38.02% from its 6-month low, still 20.13% below its 52-week high."
-      },
-      {
-        "symbol": "MOTILALOFS",
-        "name": "Motilal Oswal Financial Services Ltd.",
-        "sector": "Financial Services",
-        "score": 73,
-        "confidence": 55,
-        "risk": 73,
-        "why": "Up 36.29% from its 6-month low, still 20.91% below its 52-week high."
-      },
-      {
-        "symbol": "PAGEIND",
-        "name": "Page Industries Ltd.",
-        "sector": "Textiles",
-        "score": 68,
-        "confidence": 55,
-        "risk": 5,
-        "why": "Up 34.2% from its 6-month low, still 16.11% below its 52-week high."
+        "why": "Up 40.23% from its 6-month low, still 18.85% below its 52-week high."
       },
       {
         "symbol": "TRENT",
         "name": "Trent Ltd.",
         "sector": "Consumer Services",
-        "score": 64,
+        "score": 73,
         "confidence": 55,
         "risk": 95,
-        "why": "Up 33.58% from its 6-month low, still 46.92% below its 52-week high."
+        "why": "Up 36.98% from its 6-month low, still 45.57% below its 52-week high."
       },
       {
-        "symbol": "DLF",
-        "name": "DLF Ltd.",
-        "sector": "Realty",
+        "symbol": "MOTILALOFS",
+        "name": "Motilal Oswal Financial Services Ltd.",
+        "sector": "Financial Services",
+        "score": 68,
+        "confidence": 55,
+        "risk": 68,
+        "why": "Up 36.14% from its 6-month low, still 21.0% below its 52-week high."
+      },
+      {
+        "symbol": "BSE",
+        "name": "BSE Ltd.",
+        "sector": "Financial Services",
+        "score": 64,
+        "confidence": 55,
+        "risk": 64,
+        "why": "Up 35.17% from its 6-month low, still 19.36% below its 52-week high."
+      },
+      {
+        "symbol": "ENRIN",
+        "name": "Siemens Energy India Ltd.",
+        "sector": "Capital Goods",
         "score": 59,
         "confidence": 55,
-        "risk": 23,
-        "why": "Up 33.18% from its 6-month low, still 16.11% below its 52-week high."
+        "risk": 55,
+        "why": "Up 34.75% from its 6-month low, still 18.11% below its 52-week high."
       }
     ],
     "emerging_leaders": [
@@ -207,7 +216,7 @@
         "score": 100,
         "confidence": 55,
         "risk": 100,
-        "why": "Mid-cap (outside Nifty 50), up 57.32% in the past month, top quartile of the universe."
+        "why": "Mid-cap (outside Nifty 50), up 64.97% in the past month, top quartile of the universe."
       },
       {
         "symbol": "LODHA",
@@ -215,17 +224,17 @@
         "sector": "Realty",
         "score": 97,
         "confidence": 55,
-        "risk": 79,
-        "why": "Mid-cap (outside Nifty 50), up 36.24% in the past month, top quartile of the universe."
+        "risk": 76,
+        "why": "Mid-cap (outside Nifty 50), up 32.66% in the past month, top quartile of the universe."
       },
       {
-        "symbol": "NAUKRI",
-        "name": "Info Edge (India) Ltd.",
-        "sector": "Consumer Services",
+        "symbol": "M&MFIN",
+        "name": "Mahindra & Mahindra Financial Services Ltd.",
+        "sector": "Financial Services",
         "score": 95,
         "confidence": 55,
-        "risk": 53,
-        "why": "Mid-cap (outside Nifty 50), up 26.79% in the past month, top quartile of the universe."
+        "risk": 95,
+        "why": "Mid-cap (outside Nifty 50), up 27.75% in the past month, top quartile of the universe."
       },
       {
         "symbol": "PERSISTENT",
@@ -233,109 +242,109 @@
         "sector": "Information Technology",
         "score": 92,
         "confidence": 55,
-        "risk": 74,
-        "why": "Mid-cap (outside Nifty 50), up 25.9% in the past month, top quartile of the universe."
+        "risk": 71,
+        "why": "Mid-cap (outside Nifty 50), up 27.07% in the past month, top quartile of the universe."
       },
       {
-        "symbol": "LTM",
-        "name": "LTM Ltd.",
-        "sector": "Information Technology",
+        "symbol": "NAUKRI",
+        "name": "Info Edge (India) Ltd.",
+        "sector": "Consumer Services",
         "score": 89,
         "confidence": 55,
-        "risk": 61,
-        "why": "Mid-cap (outside Nifty 50), up 21.8% in the past month, top quartile of the universe."
-      },
-      {
-        "symbol": "M&MFIN",
-        "name": "Mahindra & Mahindra Financial Services Ltd.",
-        "sector": "Financial Services",
-        "score": 87,
-        "confidence": 55,
-        "risk": 92,
-        "why": "Mid-cap (outside Nifty 50), up 20.93% in the past month, top quartile of the universe."
-      },
-      {
-        "symbol": "DIXON",
-        "name": "Dixon Technologies (India) Ltd.",
-        "sector": "Consumer Durables",
-        "score": 84,
-        "confidence": 55,
-        "risk": 97,
-        "why": "Mid-cap (outside Nifty 50), up 16.64% in the past month, top quartile of the universe."
-      },
-      {
-        "symbol": "LAURUSLABS",
-        "name": "Laurus Labs Ltd.",
-        "sector": "Healthcare",
-        "score": 82,
-        "confidence": 55,
-        "risk": 47,
-        "why": "Mid-cap (outside Nifty 50), up 15.92% in the past month, top quartile of the universe."
-      },
-      {
-        "symbol": "TVSMOTOR",
-        "name": "TVS Motor Company Ltd.",
-        "sector": "Automobile and Auto Components",
-        "score": 79,
-        "confidence": 55,
-        "risk": 34,
-        "why": "Mid-cap (outside Nifty 50), up 15.4% in the past month, top quartile of the universe."
+        "risk": 45,
+        "why": "Mid-cap (outside Nifty 50), up 25.98% in the past month, top quartile of the universe."
       },
       {
         "symbol": "COFORGE",
         "name": "Coforge Ltd.",
         "sector": "Information Technology",
-        "score": 76,
+        "score": 87,
         "confidence": 55,
-        "risk": 95,
-        "why": "Mid-cap (outside Nifty 50), up 15.03% in the past month, top quartile of the universe."
-      }
-    ],
-    "undervalued_quality": [
-      {
-        "symbol": "TCS",
-        "name": "Tata Consultancy Services Ltd.",
-        "sector": "Information Technology",
-        "score": 100,
-        "confidence": 50,
-        "risk": 40,
-        "why": "P/E of 17.4 (below the shortlist median) with ROE of 47.7%."
-      },
-      {
-        "symbol": "HCLTECH",
-        "name": "HCL Technologies Ltd.",
-        "sector": "Information Technology",
-        "score": 80,
-        "confidence": 50,
-        "risk": 60,
-        "why": "P/E of 20.5 (below the shortlist median) with ROE of 24.1%."
-      },
-      {
-        "symbol": "ZYDUSLIFE",
-        "name": "Zydus Lifesciences Ltd.",
-        "sector": "Healthcare",
-        "score": 60,
-        "confidence": 50,
-        "risk": 20,
-        "why": "P/E of 21.9 (below the shortlist median) with ROE of 18.3%."
-      },
-      {
-        "symbol": "MPHASIS",
-        "name": "MphasiS Ltd.",
-        "sector": "Information Technology",
-        "score": 40,
-        "confidence": 50,
-        "risk": 80,
-        "why": "P/E of 24.1 (below the shortlist median) with ROE of 17.7%."
+        "risk": 92,
+        "why": "Mid-cap (outside Nifty 50), up 25.11% in the past month, top quartile of the universe."
       },
       {
         "symbol": "LTM",
         "name": "LTM Ltd.",
         "sector": "Information Technology",
+        "score": 84,
+        "confidence": 55,
+        "risk": 58,
+        "why": "Mid-cap (outside Nifty 50), up 24.7% in the past month, top quartile of the universe."
+      },
+      {
+        "symbol": "DIVISLAB",
+        "name": "Divi's Laboratories Ltd.",
+        "sector": "Healthcare",
+        "score": 82,
+        "confidence": 55,
+        "risk": 3,
+        "why": "Mid-cap (outside Nifty 50), up 19.42% in the past month, top quartile of the universe."
+      },
+      {
+        "symbol": "DIXON",
+        "name": "Dixon Technologies (India) Ltd.",
+        "sector": "Consumer Durables",
+        "score": 79,
+        "confidence": 55,
+        "risk": 97,
+        "why": "Mid-cap (outside Nifty 50), up 19.4% in the past month, top quartile of the universe."
+      },
+      {
+        "symbol": "LAURUSLABS",
+        "name": "Laurus Labs Ltd.",
+        "sector": "Healthcare",
+        "score": 76,
+        "confidence": 55,
+        "risk": 39,
+        "why": "Mid-cap (outside Nifty 50), up 19.29% in the past month, top quartile of the universe."
+      }
+    ],
+    "undervalued_quality": [
+      {
+        "symbol": "INFY",
+        "name": "Infosys Ltd.",
+        "sector": "Information Technology",
+        "score": 100,
+        "confidence": 50,
+        "risk": 60,
+        "why": "P/E of 14.8 (below the shortlist median) with ROE of 32.0%."
+      },
+      {
+        "symbol": "TCS",
+        "name": "Tata Consultancy Services Ltd.",
+        "sector": "Information Technology",
+        "score": 80,
+        "confidence": 50,
+        "risk": 20,
+        "why": "P/E of 17.8 (below the shortlist median) with ROE of 47.7%."
+      },
+      {
+        "symbol": "HCLTECH",
+        "name": "HCL Technologies Ltd.",
+        "sector": "Information Technology",
+        "score": 60,
+        "confidence": 50,
+        "risk": 40,
+        "why": "P/E of 20.9 (below the shortlist median) with ROE of 24.1%."
+      },
+      {
+        "symbol": "LTM",
+        "name": "LTM Ltd.",
+        "sector": "Information Technology",
+        "score": 40,
+        "confidence": 50,
+        "risk": 80,
+        "why": "P/E of 25.1 (below the shortlist median) with ROE of 22.0%."
+      },
+      {
+        "symbol": "KPITTECH",
+        "name": "KPIT Technologies Ltd.",
+        "sector": "Information Technology",
         "score": 20,
         "confidence": 50,
         "risk": 100,
-        "why": "P/E of 24.4 (below the shortlist median) with ROE of 22.0%."
+        "why": "P/E of 27.5 (below the shortlist median) with ROE of 19.7%."
       }
     ],
     "earnings_winners": [
@@ -345,7 +354,7 @@
         "sector": "Consumer Services",
         "score": 100,
         "confidence": 50,
-        "risk": 35,
+        "risk": 36,
         "why": "Latest quarterly earnings growth of 286.3%."
       },
       {
@@ -354,7 +363,7 @@
         "sector": "Consumer Services",
         "score": 96,
         "confidence": 50,
-        "risk": 65,
+        "risk": 76,
         "why": "Latest quarterly earnings growth of 268.0%."
       },
       {
@@ -363,32 +372,23 @@
         "sector": "Healthcare",
         "score": 92,
         "confidence": 50,
-        "risk": 42,
+        "risk": 48,
         "why": "Latest quarterly earnings growth of 125.5%."
-      },
-      {
-        "symbol": "ADANIENSOL",
-        "name": "Adani Energy Solutions Ltd.",
-        "sector": "Power",
-        "score": 88,
-        "confidence": 50,
-        "risk": 88,
-        "why": "Latest quarterly earnings growth of 124.2%."
       },
       {
         "symbol": "OFSS",
         "name": "Oracle Financial Services Software Ltd.",
         "sector": "Information Technology",
-        "score": 85,
+        "score": 88,
         "confidence": 50,
-        "risk": 58,
+        "risk": 68,
         "why": "Latest quarterly earnings growth of 120.5%."
       },
       {
         "symbol": "KALYANKJIL",
         "name": "Kalyan Jewellers India Ltd.",
         "sector": "Consumer Durables",
-        "score": 81,
+        "score": 84,
         "confidence": 50,
         "risk": 100,
         "why": "Latest quarterly earnings growth of 118.3%."
@@ -397,37 +397,46 @@
         "symbol": "LODHA",
         "name": "Lodha Developers Ltd.",
         "sector": "Realty",
-        "score": 77,
+        "score": 80,
         "confidence": 50,
-        "risk": 81,
+        "risk": 88,
         "why": "Latest quarterly earnings growth of 103.4%."
-      },
-      {
-        "symbol": "PAYTM",
-        "name": "One 97 Communications Ltd.",
-        "sector": "Financial Services",
-        "score": 73,
-        "confidence": 50,
-        "risk": 85,
-        "why": "Latest quarterly earnings growth of 79.6%."
       },
       {
         "symbol": "M&MFIN",
         "name": "Mahindra & Mahindra Financial Services Ltd.",
         "sector": "Financial Services",
-        "score": 69,
+        "score": 76,
         "confidence": 50,
-        "risk": 92,
+        "risk": 96,
         "why": "Latest quarterly earnings growth of 75.4%."
       },
       {
-        "symbol": "GODREJPROP",
-        "name": "Godrej Properties Ltd.",
-        "sector": "Realty",
-        "score": 65,
+        "symbol": "TVSMOTOR",
+        "name": "TVS Motor Company Ltd.",
+        "sector": "Automobile and Auto Components",
+        "score": 72,
         "confidence": 50,
-        "risk": 77,
-        "why": "Latest quarterly earnings growth of 70.1%."
+        "risk": 28,
+        "why": "Latest quarterly earnings growth of 67.1%."
+      },
+      {
+        "symbol": "COFORGE",
+        "name": "Coforge Ltd.",
+        "sector": "Information Technology",
+        "score": 68,
+        "confidence": 50,
+        "risk": 92,
+        "why": "Latest quarterly earnings growth of 63.4%."
+      },
+      {
+        "symbol": "RADICO",
+        "name": "Radico Khaitan Ltd",
+        "sector": "Fast Moving Consumer Goods",
+        "score": 64,
+        "confidence": 50,
+        "risk": 72,
+        "why": "Latest quarterly earnings growth of 62.3%."
       }
     ]
   },
@@ -439,7 +448,7 @@
       "score": 100,
       "confidence": 70,
       "risk": 68,
-      "why": "Up 59.92% over 3 months, trading above both its 50-day and 200-day averages.",
+      "why": "Up 52.87% over 3 months, trading above both its 50-day and 200-day averages.",
       "category": "momentum_leaders"
     },
     {
@@ -448,7 +457,7 @@
       "sector": "Consumer Services",
       "score": 100,
       "confidence": 50,
-      "risk": 35,
+      "risk": 36,
       "why": "Latest quarterly earnings growth of 286.3%.",
       "category": "earnings_winners"
     },
@@ -459,7 +468,7 @@
       "score": 100,
       "confidence": 60,
       "risk": 100,
-      "why": "Within 0.0% of its 52-week high, on 2.83x average volume.",
+      "why": "Within 0.0% of its 52-week high, on 2.87x average volume.",
       "category": "breakout_candidates"
     },
     {
@@ -468,48 +477,38 @@
       "sector": "Capital Goods",
       "score": 100,
       "confidence": 55,
-      "risk": 86,
-      "why": "Up 86.31% from its 6-month low, still 19.03% below its 52-week high.",
+      "risk": 82,
+      "why": "Up 79.13% from its 6-month low, still 17.61% below its 52-week high.",
       "category": "turnaround_stories"
     },
     {
-      "symbol": "TCS",
-      "name": "Tata Consultancy Services Ltd.",
+      "symbol": "INFY",
+      "name": "Infosys Ltd.",
       "sector": "Information Technology",
       "score": 100,
       "confidence": 50,
-      "risk": 40,
-      "why": "P/E of 17.4 (below the shortlist median) with ROE of 47.7%.",
+      "risk": 60,
+      "why": "P/E of 14.8 (below the shortlist median) with ROE of 32.0%.",
       "category": "undervalued_quality"
-    },
-    {
-      "symbol": "RADICO",
-      "name": "Radico Khaitan Ltd",
-      "sector": "Fast Moving Consumer Goods",
-      "score": 98,
-      "confidence": 70,
-      "risk": 87,
-      "why": "Up 25.59% over 3 months, trading above both its 50-day and 200-day averages.",
-      "category": "momentum_leaders"
     },
     {
       "symbol": "LODHA",
       "name": "Lodha Developers Ltd.",
       "sector": "Realty",
-      "score": 97,
-      "confidence": 55,
-      "risk": 79,
-      "why": "Mid-cap (outside Nifty 50), up 36.24% in the past month, top quartile of the universe.",
-      "category": "emerging_leaders"
+      "score": 98,
+      "confidence": 70,
+      "risk": 95,
+      "why": "Up 42.52% over 3 months, trading above both its 50-day and 200-day averages.",
+      "category": "momentum_leaders"
     },
     {
-      "symbol": "DIXON",
-      "name": "Dixon Technologies (India) Ltd.",
-      "sector": "Consumer Durables",
-      "score": 96,
+      "symbol": "RADICO",
+      "name": "Radico Khaitan Ltd",
+      "sector": "Fast Moving Consumer Goods",
+      "score": 97,
       "confidence": 70,
-      "risk": 100,
-      "why": "Up 24.51% over 3 months, trading above both its 50-day and 200-day averages.",
+      "risk": 81,
+      "why": "Up 29.34% over 3 months, trading above both its 50-day and 200-day averages.",
       "category": "momentum_leaders"
     },
     {
@@ -518,19 +517,29 @@
       "sector": "Consumer Services",
       "score": 96,
       "confidence": 50,
-      "risk": 65,
+      "risk": 76,
       "why": "Latest quarterly earnings growth of 268.0%.",
       "category": "earnings_winners"
     },
     {
-      "symbol": "ADANIPOWER",
-      "name": "Adani Power Ltd.",
-      "sector": "Power",
+      "symbol": "DIXON",
+      "name": "Dixon Technologies (India) Ltd.",
+      "sector": "Consumer Durables",
+      "score": 95,
+      "confidence": 70,
+      "risk": 100,
+      "why": "Up 25.13% over 3 months, trading above both its 50-day and 200-day averages.",
+      "category": "momentum_leaders"
+    },
+    {
+      "symbol": "M&MFIN",
+      "name": "Mahindra & Mahindra Financial Services Ltd.",
+      "sector": "Financial Services",
       "score": 95,
       "confidence": 55,
-      "risk": 77,
-      "why": "Up 55.55% from its 6-month low, still 16.34% below its 52-week high.",
-      "category": "turnaround_stories"
+      "risk": 95,
+      "why": "Mid-cap (outside Nifty 50), up 27.75% in the past month, top quartile of the universe.",
+      "category": "emerging_leaders"
     }
   ]
 }
