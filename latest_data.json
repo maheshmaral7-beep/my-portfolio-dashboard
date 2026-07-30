@@ -1,73 +1,94 @@
 {
-  "fetched_at": "2026-07-30T07:59:08.236953+00:00",
+  "fetched_at": "2026-07-30T13:18:28.947146+00:00",
   "market_prices": {
     "Nifty 50": {
-      "price": 24270.85,
-      "as_of": "2026-07-30 13:29:00+05:30"
+      "price": 24296.6,
+      "as_of": "2026-07-30 15:29:00+05:30"
     },
     "Sensex": {
-      "price": 77697.48,
-      "as_of": "2026-07-30 13:14:00+05:30"
+      "price": 77928.13,
+      "as_of": "2026-07-30 15:29:00+05:30"
     },
     "Bank Nifty": {
-      "price": 57012.45,
-      "as_of": "2026-07-30 13:29:00+05:30"
+      "price": 57102.9,
+      "as_of": "2026-07-30 15:29:00+05:30"
     }
   },
   "news": {
     "Economic Times": [
       {
-        "title": "M&amp;M Q1 Results: Profit rises 7% YoY to Rs 3,685 crore; revenue jumps 23%",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/earnings/mm-q1-results-profit-rises-7-yoy-to-rs-3685-crore-revenue-jumps-23/articleshow/132732129.cms",
-        "published": "Thu, 30 Jul 2026 13:15:52 +0530"
+        "title": "Hyundai India Q1 profit misses estimates, drops 35% on disruptions",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/earnings/hyundai-india-q1-profit-misses-estimates-drops-35-on-disruptions/articleshow/132740647.cms",
+        "published": "Thu, 30 Jul 2026 18:21:05 +0530"
       },
       {
-        "title": "ITC Q1 Preview: Will cigarette tax shock drag profit lower despite FMCG strength?",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/earnings/itc-q1-preview-will-cigarette-tax-shock-drag-profit-lower-despite-fmcg-strength/articleshow/132731989.cms",
-        "published": "Thu, 30 Jul 2026 13:01:32 +0530"
+        "title": "Torrent Pharmaceuticals Q1 Results: Profit rises 3% to Rs 566 crore",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/earnings/torrent-pharmaceuticals-q1-results-profit-rises-3-to-rs-566-crore/articleshow/132740627.cms",
+        "published": "Thu, 30 Jul 2026 18:19:44 +0530"
       },
       {
-        "title": "Global Market: Bank of England expected to hold rates steady as inflation risks stay in focus",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-bank-of-england-expected-to-hold-rates-steady-as-inflation-risks-stay-in-focus/articleshow/132731866.cms",
-        "published": "Thu, 30 Jul 2026 12:57:52 +0530"
+        "title": "Bank of England policymakers keep rates on hold but more back hike",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/bank-of-england-policymakers-keep-rates-on-hold-but-more-back-hike/articleshow/132740548.cms",
+        "published": "Thu, 30 Jul 2026 18:18:23 +0530"
       },
       {
-        "title": "Aswath Damodaran warns against disclosure diarrhoea. Why the valuation guru wants Wall Street to end quarterly earnings",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/aswath-damodaran-warns-against-disclosure-diarrhoea-why-the-valuation-guru-wants-wall-street-to-end-quarterly-earnings/articleshow/132730790.cms",
-        "published": "Thu, 30 Jul 2026 12:22:17 +0530"
+        "title": "UK bond yields and sterling dip after BoE holds rates steady",
+        "link": "https://economictimes.indiatimes.com/markets/bonds/uk-bond-yields-and-sterling-dip-after-boe-holds-rates-steady/articleshow/132740517.cms",
+        "published": "Thu, 30 Jul 2026 18:15:26 +0530"
       },
       {
-        "title": "Microsoft's AI bet pays off as Azure, Cloud growth beat expectations",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/microsofts-ai-bet-pays-off-as-azure-cloud-growth-beat-expectations/slideshow/132731072.cms",
-        "published": "Thu, 30 Jul 2026 12:17:18 +0530"
+        "title": "Quote of the day by Marty Whitman: \"We\u2019re bottom-up investors. We always have to operate on negative macro assumptions\"",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/quote-of-the-day-by-marty-whitman-were-bottom-up-investors-we-always-have-to-operate-on-negative-macro-assumptions/articleshow/132739809.cms",
+        "published": "Thu, 30 Jul 2026 17:52:38 +0530"
       }
     ],
-    "Moneycontrol": [],
+    "Moneycontrol": [
+      {
+        "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+        "link": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
+        "published": "Tue, 23 Apr 2024 15:46:31 +0530"
+      },
+      {
+        "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
+        "published": "Tue, 23 Apr 2024 14:51:26 +0530"
+      },
+      {
+        "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
+        "link": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
+        "published": "Tue, 23 Apr 2024 12:23:21 +0530"
+      },
+      {
+        "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
+        "published": "Tue, 23 Apr 2024 09:45:50 +0530"
+      }
+    ],
     "Livemint": [
       {
-        "title": "Asian Paints Q1 gives a fresh coat of hope, but there\u2019s no room for complacency yet",
-        "link": "https://www.livemint.com/market/mark-to-market/asian-paints-q1-gives-a-fresh-coat-of-hope-but-no-room-for-complacency-yet-11785394073164.html",
-        "published": "Thu, 30 Jul 2026 13:27:39 +0530"
+        "title": "Juniper Green Energy IPO booked 38% on Day 1; QIB portion fully subscribed",
+        "link": "https://www.livemint.com/market/stock-market-news/juniper-green-energy-ipo-booked-38-on-day-1-qib-portion-fully-subscribed-11785415981243.html",
+        "published": "Thu, 30 Jul 2026 18:35:19 +0530"
       },
       {
-        "title": "HPCL, BPCL to IOCL \u2014 oil PSU stocks dip as crude price jumps above $90/bbl",
-        "link": "https://www.livemint.com/market/stock-market-news/hpcl-bpcl-to-iocl-oil-psu-stocks-dip-as-crude-price-jumps-above-90bbl-11785396163811.html",
-        "published": "Thu, 30 Jul 2026 13:25:11 +0530"
+        "title": "US stock market today: Wall Street futures recover from Fed-led losses; Microsoft jumps 10%",
+        "link": "https://www.livemint.com/market/stock-market-news/us-stock-market-today-wall-street-futures-recover-from-fed-led-losses-microsoft-jumps-10-11785411641801.html",
+        "published": "Thu, 30 Jul 2026 18:05:12 +0530"
       },
       {
-        "title": "M&amp;M Q1 Results: PAT surges 34% YoY to  \u20b95,454.54 crore",
-        "link": "https://www.livemint.com/market/stock-market-news/mm-q1-results-pat-surges-34-yoy-to-rs-5-454-54-crore-11785392705759.html",
-        "published": "Thu, 30 Jul 2026 13:23:24 +0530"
+        "title": "Vedanta Q1 results: Profit rises 72% YoY to  \u20b95,473 crore; names new CEO, announces real estate business demerger",
+        "link": "https://www.livemint.com/market/stock-market-news/vedanta-q1-results-net-profit-rises-72-yoy-to-5-473-crore-11785397650377.html",
+        "published": "Thu, 30 Jul 2026 16:01:59 +0530"
       },
       {
-        "title": "Brent climbs above $90 a barrel as fresh US-Iran conflict raises risks for India",
-        "link": "https://www.livemint.com/market/commodities/brent-crosses-90-a-bbl-as-us-resumes-attacks-on-iran-11785395024154.html",
-        "published": "Thu, 30 Jul 2026 13:20:10 +0530"
+        "title": "Swiggy Q1 results: Net loss narrows to  \u20b9791 crore; revenue jumps 37% YoY",
+        "link": "https://www.livemint.com/market/stock-market-news/swiggy-q1-results-net-loss-narrows-to-rs-791-crore-revenue-jumps-37-yoy-11785406074314.html",
+        "published": "Thu, 30 Jul 2026 15:50:12 +0530"
       },
       {
-        "title": "Dhaval Packaging IPO Day 1: Issue booked 26% so far. Check GMP, issue details",
-        "link": "https://www.livemint.com/market/ipo/dhaval-packaging-ipo-day-1-issue-booked-26-so-far-check-gmp-issue-details-11785395065895.html",
-        "published": "Thu, 30 Jul 2026 12:57:31 +0530"
+        "title": "Bajaj Finance Q1 Results: Net profit jumps 27% to  \u20b95,986 crore; NII up 23%",
+        "link": "https://www.livemint.com/market/stock-market-news/bajaj-finance-q1-results-net-profit-jumps-27-to-rs-5-986-crore-nii-up-23-11785405841515.html",
+        "published": "Thu, 30 Jul 2026 15:41:29 +0530"
       }
     ]
   },
