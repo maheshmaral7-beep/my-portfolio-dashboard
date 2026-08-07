@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-07T18:03:06.927018+00:00",
+  "fetched_at": "2026-08-07T20:08:27.979761+00:00",
   "market_prices": {
     "Nifty 50": {
       "price": 24570.65,
@@ -17,6 +17,16 @@
   "news": {
     "Economic Times": [
       {
+        "title": "Market cuts odds of Fed hike after jobs data, but economists still see case for tightening",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/market-cuts-odds-of-fed-hike-after-jobs-data-but-economists-still-see-case-for-tightening/articleshow/133040583.cms",
+        "published": "Fri, 07 Aug 2026 23:50:08 +0530"
+      },
+      {
+        "title": "Dollar falls against yen, euro as weak US jobs data clouds Fed outlook",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/dollar-falls-against-yen-euro-as-weak-us-jobs-data-clouds-fed-outlook/articleshow/133040262.cms",
+        "published": "Fri, 07 Aug 2026 23:34:12 +0530"
+      },
+      {
         "title": "Raymond Realty Q1 net profit falls 19 pc to Rs 13.43 cr on higher expenses",
         "link": "https://economictimes.indiatimes.com/markets/stocks/earnings/raymond-realty-q1-net-profit-falls-19-pc-to-rs-13-43-cr-on-higher-expenses/articleshow/133037906.cms",
         "published": "Fri, 07 Aug 2026 21:27:29 +0530"
@@ -30,16 +40,6 @@
         "title": "Airbnb shares surge 15% to four-year high on raised forecast, AI gains",
         "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/airbnb-shares-surge-15-to-four-year-high-on-raised-forecast-ai-gains/articleshow/133036764.cms",
         "published": "Fri, 07 Aug 2026 20:07:50 +0530"
-      },
-      {
-        "title": "Doximity shares soar 60% after CEO says its AI can outperform Anthropic",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/doximity-shares-soar-60-after-ceo-says-its-ai-can-outperform-anthropic/articleshow/133036609.cms",
-        "published": "Fri, 07 Aug 2026 19:57:19 +0530"
-      },
-      {
-        "title": "9 IPOs get Sebi approval as primary market pipeline gathers pace",
-        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/9-ipos-get-sebi-approval-as-primary-market-pipeline-gathers-pace/articleshow/133036494.cms",
-        "published": "Fri, 07 Aug 2026 19:49:02 +0530"
       }
     ],
     "Moneycontrol": [
@@ -66,6 +66,21 @@
     ],
     "Livemint": [
       {
+        "title": "Treasury yields fall as jobs report dashes hike bets",
+        "link": "https://www.livemint.com/market/treasury-yields-fall-as-jobs-report-dashes-hike-bets-11786130890731.html",
+        "published": "Sat, 08 Aug 2026 00:58:10 +0530"
+      },
+      {
+        "title": "Gold hits seven-week high as weak US jobs data dents rate hike bets",
+        "link": "https://www.livemint.com/market/gold-hits-seven-week-high-as-weak-us-jobs-data-dents-rate-hike-bets-11786129243519.html",
+        "published": "Sat, 08 Aug 2026 00:30:43 +0530"
+      },
+      {
+        "title": "Equities poised for best week since April as payrolls surprise eases rate-hike concerns",
+        "link": "https://www.livemint.com/market/equities-poised-for-best-week-since-april-as-payrolls-surprise-eases-rate-hike-concerns-11786127839882.html",
+        "published": "Sat, 08 Aug 2026 00:07:19 +0530"
+      },
+      {
         "title": "Sebi to cut routine checks by two-thirds, focus on high-risk players",
         "link": "https://www.livemint.com/market/sebi-inspections-high-risk-intermediaries-brokers-equity-market-11786108148578.html",
         "published": "Fri, 07 Aug 2026 22:51:17 +0530"
@@ -74,21 +89,6 @@
         "title": "Weekly Winner: Ujaas Energy jumps 68% this week as upbeat Q1 earnings fuel buying",
         "link": "https://www.livemint.com/market/stock-market-news/weekly-winner-ujaas-energy-jumps-68-this-week-as-upbeat-q1-earnings-fuel-buying-11786120993442.html",
         "published": "Fri, 07 Aug 2026 22:47:40 +0530"
-      },
-      {
-        "title": "Cupid net profit jumps 194% YoY to  \u20b944 crore in Q1 as margins expand sharply; raises FY27 guidance",
-        "link": "https://www.livemint.com/market/stock-market-news/cupid-net-profit-jumps-194-yoy-to-rs-44-crore-in-q1-as-margins-expand-sharply-raises-fy27-guidance-11786119336545.html",
-        "published": "Fri, 07 Aug 2026 21:59:00 +0530"
-      },
-      {
-        "title": "Airbnb shares surge 16% to 4-year high on Q2 beat; full-year outlook raised for second time",
-        "link": "https://www.livemint.com/market/stock-market-news/airbnb-shares-surge-16-to-4-year-high-on-q2-beat-full-year-outlook-raised-for-second-time-11786113146220.html",
-        "published": "Fri, 07 Aug 2026 20:21:19 +0530"
-      },
-      {
-        "title": "Pulse of the Street: Small-caps steal the show as equities extend gains",
-        "link": "https://www.livemint.com/market/stock-market-news/pulse-of-the-street-small-caps-steal-the-show-as-equities-extend-gains-11786106174324.html",
-        "published": "Fri, 07 Aug 2026 19:44:37 +0530"
       }
     ]
   },
