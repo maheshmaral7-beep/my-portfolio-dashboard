@@ -22,6 +22,9 @@
     --teal:#2FCB9B; --teal-dim:#0F3228;
     --rose:#E15A72; --rose-dim:#391620;
     --blue:#5B9CF6;
+    /* Category identity tags -- distinct hue per opportunity type, borrowed
+       from a terminal-style palette so categories are scannable at a glance */
+    --purple:#A78BFA; --sky:#38BDF8;
   }
   *{box-sizing:border-box;}
   body{margin:0;background:
@@ -36,19 +39,34 @@
   @media (prefers-reduced-motion: reduce){ *{animation-duration:.001ms !important; animation-iteration-count:1 !important;} }
 
   header.top{position:sticky;top:0;z-index:10;background:rgba(18,22,29,0.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--border);}
-  .wordmark{display:flex;align-items:baseline;gap:10px;padding:14px 20px 4px;}
+  .wordmark{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:14px 20px 4px;}
   .wordmark .mark{width:8px;height:8px;border-radius:50%;background:var(--marigold);box-shadow:0 0 10px rgba(232,163,61,0.7);}
-  .wordmark h1{font-size:17px;font-style:italic;}
-  .wordmark .tagline{font-size:10.5px;color:var(--text-faint);text-transform:uppercase;letter-spacing:.08em;font-family:'JetBrains Mono',monospace;}
+  .wordmark h1{font-size:17px;font-style:italic;display:inline;}
+  .wordmark .tagline{font-size:10.5px;color:var(--text-faint);text-transform:uppercase;letter-spacing:.08em;font-family:'JetBrains Mono',monospace;margin-left:10px;}
+  .hdr-right{display:flex;align-items:center;gap:10px;margin-left:auto;}
+  .mkt-badge{display:flex;align-items:center;gap:6px;padding:4px 11px;border-radius:20px;border:1px solid var(--border-soft);background:var(--surface-2);font-size:11px;font-family:'JetBrains Mono',monospace;color:var(--text-dim);}
+  .livetime{font-size:11px;color:var(--text-faint);}
+  .refresh-btn{background:var(--surface-2);border:1px solid var(--border-soft);border-radius:20px;padding:5px 13px;font-size:11.5px;color:var(--text-dim);cursor:pointer;font-family:'Inter',sans-serif;transition:color .15s, border-color .15s;}
+  .refresh-btn:hover{color:var(--marigold);border-color:rgba(232,163,61,0.4);}
+  .refresh-btn.spinning{animation:spin 0.7s linear infinite;display:inline-block;}
 
-  .ticker{display:flex;gap:10px;padding:10px 20px 12px;overflow-x:auto;align-items:center;}
-  .ticker-item{display:flex;align-items:center;gap:8px;white-space:nowrap;background:var(--surface-2);border:1px solid var(--border-soft);border-radius:8px;padding:6px 12px;}
+  .ticker-wrap{overflow:hidden;position:relative;border-top:1px solid var(--border-soft);}
+  .ticker-wrap::before, .ticker-wrap::after{content:'';position:absolute;top:0;bottom:0;width:36px;z-index:2;pointer-events:none;}
+  .ticker-wrap::before{left:0;background:linear-gradient(to right, var(--surface), transparent);}
+  .ticker-wrap::after{right:0;background:linear-gradient(to left, var(--surface), transparent);}
+  .ticker{display:flex;gap:10px;padding:10px 20px 12px;width:max-content;animation:ticker-scroll 34s linear infinite;}
+  .ticker:hover{animation-play-state:paused;}
+  @keyframes ticker-scroll{from{transform:translateX(0);}to{transform:translateX(-50%);}}
+  .ticker-item{display:flex;align-items:center;gap:8px;white-space:nowrap;background:var(--surface-2);border:1px solid var(--border-soft);border-radius:8px;padding:6px 12px;transition:background .3s;}
+  .ticker-item.flash{background:rgba(232,163,61,0.18);}
   .ticker-item .name{color:var(--text-dim);font-size:11.5px;}
   .ticker-item .price{font-size:14.5px;font-weight:500;font-family:'JetBrains Mono',monospace;}
   .dot{width:6px;height:6px;border-radius:50%;flex-shrink:0;}
   .dot.fresh{background:var(--teal);box-shadow:0 0 0 0 rgba(47,203,155,0.6);animation:pulse-dot 2s infinite;}
   .dot.aging{background:var(--marigold);}
   .dot.stale{background:var(--rose);}
+  .dot.open{background:var(--teal);box-shadow:0 0 6px var(--teal);animation:pulse-dot 2s infinite;}
+  .dot.closed{background:var(--text-faint);}
   @keyframes pulse-dot{0%{box-shadow:0 0 0 0 rgba(47,203,155,0.5);}70%{box-shadow:0 0 0 5px rgba(47,203,155,0);}100%{box-shadow:0 0 0 0 rgba(47,203,155,0);}}
 
   nav.tabs{display:flex;gap:2px;padding:4px 16px 0;background:var(--surface);border-top:1px solid var(--border-soft);}
@@ -94,12 +112,20 @@
   .picks-header h3{font-size:15px;}
   .picks-header .sub{font-size:11px;color:var(--text-faint);font-family:'JetBrains Mono',monospace;}
   .signal-badge{font-size:10.5px;padding:4px 10px;border-radius:20px;font-weight:600;letter-spacing:.02em;}
-  .signal-badge.Momentum{background:var(--teal-dim);color:var(--teal);}
+  .signal-badge.Momentum{background:rgba(167,139,250,.15);color:var(--purple);}
   .signal-badge.Breakout{background:var(--marigold-dim);color:var(--marigold-bright);}
-  .signal-badge.Turnaround{background:var(--rose-dim);color:var(--rose);}
+  .signal-badge.Turnaround{background:rgba(91,156,246,.15);color:var(--blue);}
   .signal-badge.Emerging{background:var(--teal-dim);color:var(--teal);}
-  .signal-badge.Value{background:var(--marigold-dim);color:var(--marigold-bright);}
-  .signal-badge.Earnings{background:var(--teal-dim);color:var(--teal);}
+  .signal-badge.Value{background:rgba(56,189,248,.15);color:var(--sky);}
+  .signal-badge.Earnings{background:var(--marigold-dim);color:var(--marigold-bright);}
+
+  .opp-tag{font-size:9.5px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:3px 8px;border-radius:4px;display:inline-block;margin-bottom:9px;}
+  .opp-tag.Momentum{background:rgba(167,139,250,.15);color:var(--purple);}
+  .opp-tag.Breakout{background:var(--marigold-dim);color:var(--marigold-bright);}
+  .opp-tag.Turnaround{background:rgba(91,156,246,.15);color:var(--blue);}
+  .opp-tag.Emerging{background:var(--teal-dim);color:var(--teal);}
+  .opp-tag.Value{background:rgba(56,189,248,.15);color:var(--sky);}
+  .opp-tag.Earnings{background:var(--marigold-dim);color:var(--marigold-bright);}
   .upside-pos{color:var(--teal);}
   .upside-neg{color:var(--rose);}
   .picks-table a{color:var(--blue);text-decoration:none;font-size:12px;}
@@ -147,8 +173,13 @@
     <span class="mark"></span>
     <h1>Command Center</h1>
     <span class="tagline">Live market intelligence</span>
+    <div class="hdr-right">
+      <span class="mkt-badge" id="mkt-badge"><span class="dot" id="mkt-dot"></span><span id="mkt-label">Checking&hellip;</span></span>
+      <span class="livetime mono" id="livetime"></span>
+      <button class="refresh-btn" id="refresh-btn" title="Refresh now">&#8635; Refresh</button>
+    </div>
   </div>
-  <div class="ticker" id="ticker"></div>
+  <div class="ticker-wrap"><div class="ticker" id="ticker"></div></div>
   <nav class="tabs" id="tabs">
     <button data-tab="overview" class="active">Overview</button>
     <button data-tab="equity">Equity</button>
@@ -281,22 +312,64 @@
     return Math.round(diffMin/60) + "h ago";
   }
 
+  let lastTickerPrices = {};
+
   function renderTicker(prices, fetchedAt){
     const el = document.getElementById("ticker");
-    el.innerHTML = "";
-    Object.entries(prices || {}).forEach(([name, data]) => {
-      const item = document.createElement("div");
-      item.className = "ticker-item";
-      const price = (data && data.price != null) ? data.price.toLocaleString() : "--";
-      item.innerHTML = `<span class="dot ${freshnessClass(fetchedAt)}"></span>
-        <span class="name">${name}</span>
-        <span class="price mono">${price}</span>`;
-      el.appendChild(item);
-    });
-    if(!Object.keys(prices || {}).length){
-      el.innerHTML = `<span class="dim">No price data yet &mdash; connect the feed (see poll.py / README)</span>`;
+    const entries = Object.entries(prices || {});
+    if(!entries.length){
+      el.style.animation = "none";
+      el.innerHTML = `<span class="dim" style="padding:0 20px;">No price data yet &mdash; connect the feed (see poll.py / README)</span>`;
+      return;
     }
+    const itemHtml = (name, data) => {
+      const price = (data && data.price != null) ? data.price.toLocaleString() : "--";
+      const changed = lastTickerPrices[name] != null && data && data.price != null && lastTickerPrices[name] !== data.price;
+      return `<div class="ticker-item${changed ? ' flash' : ''}">
+        <span class="dot ${freshnessClass(fetchedAt)}"></span>
+        <span class="name">${name}</span>
+        <span class="price mono">${price}</span>
+      </div>`;
+    };
+    // duplicate the list so the marquee can loop seamlessly at -50% translateX
+    const html = entries.map(([n,d]) => itemHtml(n,d)).join("") + entries.map(([n,d]) => itemHtml(n,d)).join("");
+    el.innerHTML = html;
+    entries.forEach(([name, data]) => { if(data && data.price != null) lastTickerPrices[name] = data.price; });
+    setTimeout(() => {
+      document.querySelectorAll(".ticker-item.flash").forEach(elx => elx.classList.remove("flash"));
+    }, 900);
   }
+
+  function updateLiveClock(){
+    const el = document.getElementById("livetime");
+    if(!el) return;
+    const now = new Date();
+    el.textContent = now.toLocaleTimeString("en-IN", {hour:"2-digit", minute:"2-digit", second:"2-digit", timeZone:"Asia/Kolkata"}) + " IST";
+  }
+  updateLiveClock();
+  setInterval(updateLiveClock, 1000);
+
+  function updateMarketStatus(){
+    const dot = document.getElementById("mkt-dot");
+    const label = document.getElementById("mkt-label");
+    if(!dot || !label) return;
+    const nowIST = new Date(new Date().toLocaleString("en-US", {timeZone:"Asia/Kolkata"}));
+    const day = nowIST.getDay(); // 0 Sun .. 6 Sat
+    const minutes = nowIST.getHours()*60 + nowIST.getMinutes();
+    const isWeekday = day >= 1 && day <= 5;
+    const isMarketHours = minutes >= (9*60+15) && minutes <= (15*60+30);
+    const open = isWeekday && isMarketHours;
+    dot.className = "dot " + (open ? "open" : "closed");
+    label.textContent = open ? "Market Open" : "Market Closed";
+  }
+  updateMarketStatus();
+  setInterval(updateMarketStatus, 30000);
+
+  document.getElementById("refresh-btn").addEventListener("click", (e) => {
+    const btn = e.currentTarget;
+    btn.classList.add("spinning");
+    refresh().finally(() => setTimeout(() => btn.classList.remove("spinning"), 400));
+  });
 
   function renderOverviewPrices(prices, fetchedAt){
     const el = document.getElementById("overview-prices");
@@ -471,6 +544,7 @@
 
   function opportunityCard(item){
     return `<div class="card clickable-row" onclick='openModalFor("${item.symbol}")'>
+      <span class="opp-tag ${item.signal || ''}">${item.signal || 'Signal'}</span>
       <div style="display:flex;justify-content:space-between;align-items:baseline;">
         <h3 style="margin:0;">${item.symbol}</h3>
         <span class="mono" style="font-size:12px;color:var(--teal);">score ${item.score}</span>
