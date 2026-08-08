@@ -18,45 +18,28 @@ the market, not a prediction and not a trade recommendation. It doesn't
 suggest which option/strike/strategy to trade -- that decision, especially
 with leverage involved, stays with you.
 
-Data sources (both free, both unofficial NSE endpoints, same session-cookie
-pattern used elsewhere in this project):
-  https://www.nseindia.com/api/quote-derivative?symbol=<SYMBOL>
-  https://www.nseindia.com/api/option-chain-indices?symbol=NIFTY / BANKNIFTY
+DATA SOURCE: uses the `nse` PyPI package (pip install nse), a maintained
+wrapper around NSE's own unofficial JSON endpoints. Critically, it's run
+with server=True, which switches its HTTP client to one built specifically
+to work from cloud/datacenter environments like GitHub Actions -- NSE
+otherwise blocks requests from these IP ranges even with correct headers,
+which is what caused earlier runs of this script to fail with 404s.
 
 Output: fno_data.json
 """
 
 import json
 import time
-from datetime import datetime, timezone
-from io import StringIO
+from datetime import date, datetime, timezone
 
-import requests
-import pandas as pd
+from nse import NSE
 
-NSE_LIST_URL = "https://nsearchives.nseindia.com/content/indices/ind_nifty200list.csv"
-QUOTE_DERIVATIVE_URL = "https://www.nseindia.com/api/quote-derivative?symbol={symbol}"
-OPTION_CHAIN_URL = "https://www.nseindia.com/api/option-chain-indices?symbol={symbol}"
 OUTPUT_FILE = "fno_data.json"
-
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-    "Accept": "application/json",
-}
-
-
-def make_session():
-    session = requests.Session()
-    session.headers.update(HEADERS)
-    session.get("https://www.nseindia.com", timeout=10)  # sets cookies NSE expects
-    return session
-
-
-def fetch_universe(session):
-    resp = session.get(NSE_LIST_URL, timeout=15)
-    resp.raise_for_status()
-    df = pd.read_csv(StringIO(resp.text))
-    return df["Symbol"].tolist()
+DOWNLOAD_FOLDER = "."
+INDEX_SYMBOLS = ["nifty", "banknifty"]
+# fnoLots() sometimes includes index tokens alongside stocks -- exclude them
+# from the stock-futures scan since they're handled separately as indices.
+KNOWN_INDEX_TOKENS = {"NIFTY", "BANKNIFTY", "FINNIFTY", "NIFTYIT", "MIDCPNIFTY", "NIFTYNXT50"}
 
 
 def classify_buildup(price_change_pct, oi_change_pct):
@@ -71,35 +54,38 @@ def classify_buildup(price_change_pct, oi_change_pct):
     return "Long Unwinding"
 
 
-def fetch_stock_buildup(session, symbols):
+def fetch_stock_buildup(nse_client, symbols):
+    today = date.today()
     results = []
     for sym in symbols:
         try:
-            resp = session.get(QUOTE_DERIVATIVE_URL.format(symbol=sym), timeout=10)
-            if resp.status_code != 200:
+            rows = nse_client.fetch_historical_fno_data(
+                symbol=sym, instrument="FUTSTK", from_date=today, to_date=today
+            )
+            if not rows:
                 continue
-            data = resp.json()
-            stocks = data.get("stocks", [])
-            if not stocks:
-                continue  # this symbol has no F&O contracts
-            # use the nearest-expiry futures contract (first entry is typically nearest)
-            fut = next((s for s in stocks if s.get("metadata", {}).get("instrumentType", "").endswith("Futures")), None)
-            if not fut:
-                continue
-            meta = fut.get("metadata", {})
-            price_change_pct = meta.get("pChange")
-            oi = meta.get("openInterest")
-            oi_change = meta.get("changeInOpenInterest")
+            # multiple expiries can come back -- take the nearest one
+            row = min(rows, key=lambda r: datetime.strptime(r["FH_EXPIRY_DT"], "%d-%b-%Y"))
+
+            close = row.get("FH_CLOSING_PRICE") or row.get("FH_LAST_TRADED_PRICE")
+            prev_close = row.get("FH_PREV_CLS")
+            price_change_pct = (
+                round((close - prev_close) / prev_close * 100, 2)
+                if close is not None and prev_close else None
+            )
+
+            oi = row.get("FH_OPEN_INT")
+            oi_change = row.get("FH_CHANGE_IN_OI")
             prev_oi = (oi - oi_change) if (oi is not None and oi_change is not None) else None
-            oi_change_pct = (oi_change / prev_oi * 100) if prev_oi else None
+            oi_change_pct = round(oi_change / prev_oi * 100, 2) if prev_oi else None
 
             results.append({
                 "symbol": sym,
-                "price": meta.get("lastPrice"),
-                "price_change_pct": round(price_change_pct, 2) if price_change_pct is not None else None,
+                "price": close,
+                "price_change_pct": price_change_pct,
                 "open_interest": oi,
                 "oi_change": oi_change,
-                "oi_change_pct": round(oi_change_pct, 2) if oi_change_pct is not None else None,
+                "oi_change_pct": oi_change_pct,
                 "buildup": classify_buildup(price_change_pct, oi_change_pct),
             })
         except Exception:
@@ -108,71 +94,49 @@ def fetch_stock_buildup(session, symbols):
     return results
 
 
-def compute_max_pain(option_chain_records, expiry):
-    strikes = {}
-    for row in option_chain_records:
-        if row.get("expiryDate") != expiry:
-            continue
-        strike = row.get("strikePrice")
-        ce = row.get("CE", {})
-        pe = row.get("PE", {})
-        strikes.setdefault(strike, {"call_oi": 0, "put_oi": 0})
-        strikes[strike]["call_oi"] += ce.get("openInterest", 0) or 0
-        strikes[strike]["put_oi"] += pe.get("openInterest", 0) or 0
+def fetch_index_option_summary(nse_client, index_symbol):
+    expiries = nse_client.getFuturesExpiry(index=index_symbol)
+    nearest_expiry_str = expiries[0]
+    nearest_expiry_dt = datetime.strptime(nearest_expiry_str, "%d-%b-%Y")
 
-    if not strikes:
-        return None, {}
+    compiled = nse_client.compileOptionChain(index_symbol, nearest_expiry_dt)
 
-    candidate_strikes = sorted(strikes.keys())
-    pain_by_strike = {}
-    for settle in candidate_strikes:
-        total_pain = 0
-        for strike, oi in strikes.items():
-            total_pain += oi["call_oi"] * max(0, settle - strike)
-            total_pain += oi["put_oi"] * max(0, strike - settle)
-        pain_by_strike[settle] = total_pain
-
-    max_pain_strike = min(pain_by_strike, key=pain_by_strike.get)
-    return max_pain_strike, strikes
-
-
-def fetch_index_option_summary(session, index_symbol):
-    resp = session.get(OPTION_CHAIN_URL.format(symbol=index_symbol), timeout=15)
-    resp.raise_for_status()
-    data = resp.json()
-
-    records = data.get("records", {})
-    all_rows = records.get("data", [])
-    underlying_value = records.get("underlyingValue")
-    expiries = records.get("expiryDates", [])
-    nearest_expiry = expiries[0] if expiries else None
-
-    total_call_oi = sum((r.get("CE", {}).get("openInterest", 0) or 0) for r in all_rows if r.get("expiryDate") == nearest_expiry)
-    total_put_oi = sum((r.get("PE", {}).get("openInterest", 0) or 0) for r in all_rows if r.get("expiryDate") == nearest_expiry)
-    pcr = round(total_put_oi / total_call_oi, 2) if total_call_oi else None
-
-    max_pain_strike, strikes = compute_max_pain(all_rows, nearest_expiry)
-
-    top_call_oi = sorted(strikes.items(), key=lambda kv: kv[1]["call_oi"], reverse=True)[:5]
-    top_put_oi = sorted(strikes.items(), key=lambda kv: kv[1]["put_oi"], reverse=True)[:5]
+    chain = compiled.get("chain", {})
+    call_oi_by_strike = sorted(
+        ((strike, data.get("ce", {}).get("oi", 0) or 0) for strike, data in chain.items()),
+        key=lambda kv: kv[1], reverse=True,
+    )[:5]
+    put_oi_by_strike = sorted(
+        ((strike, data.get("pe", {}).get("oi", 0) or 0) for strike, data in chain.items()),
+        key=lambda kv: kv[1], reverse=True,
+    )[:5]
 
     return {
-        "underlying_value": underlying_value,
-        "expiry": nearest_expiry,
-        "total_call_oi": total_call_oi,
-        "total_put_oi": total_put_oi,
-        "pcr": pcr,
-        "max_pain": max_pain_strike,
-        "top_call_oi_strikes": [{"strike": k, "oi": v["call_oi"]} for k, v in top_call_oi],
-        "top_put_oi_strikes": [{"strike": k, "oi": v["put_oi"]} for k, v in top_put_oi],
+        "underlying_value": compiled.get("underlying"),
+        "expiry": compiled.get("expiry"),
+        "atm_strike": compiled.get("atm"),
+        "max_pain": compiled.get("maxpain"),
+        "total_call_oi": compiled.get("coiTotal"),
+        "total_put_oi": compiled.get("poiTotal"),
+        "pcr": compiled.get("pcr"),
+        "top_call_oi_strikes": [{"strike": s, "oi": oi} for s, oi in call_oi_by_strike],
+        "top_put_oi_strikes": [{"strike": s, "oi": oi} for s, oi in put_oi_by_strike],
     }
 
 
 def main():
-    session = make_session()
+    with NSE(download_folder=DOWNLOAD_FOLDER, server=True) as nse_client:
+        lots = nse_client.fnoLots()
+        symbols = [s for s in lots.keys() if s not in KNOWN_INDEX_TOKENS]
 
-    symbols = fetch_universe(session)
-    buildup = fetch_stock_buildup(session, symbols)
+        buildup = fetch_stock_buildup(nse_client, symbols)
+
+        index_summary = {}
+        for idx in INDEX_SYMBOLS:
+            try:
+                index_summary[idx.upper()] = fetch_index_option_summary(nse_client, idx)
+            except Exception as e:
+                index_summary[idx.upper()] = {"error": str(e)}
 
     buildup_grouped = {
         "long_buildup": [b for b in buildup if b["buildup"] == "Long Buildup"],
@@ -182,13 +146,6 @@ def main():
     }
     for group in buildup_grouped.values():
         group.sort(key=lambda b: abs(b["oi_change_pct"] or 0), reverse=True)
-
-    index_summary = {}
-    for idx in ["NIFTY", "BANKNIFTY"]:
-        try:
-            index_summary[idx] = fetch_index_option_summary(session, idx)
-        except Exception as e:
-            index_summary[idx] = {"error": str(e)}
 
     result = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
