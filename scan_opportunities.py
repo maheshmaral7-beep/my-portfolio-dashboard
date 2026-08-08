@@ -124,6 +124,26 @@ def risk_from_volatility(series):
     return percentile_score(series)  # higher volatility -> higher risk percentile
 
 
+NSE_QUOTE_URL = "https://www.nseindia.com/get-quotes/equity?symbol={symbol}"
+
+
+def add_trade_reference_fields(item, r, signal_label):
+    """Adds CMP/Entry/Target/Upside/Signal/News Link -- all derived from observed
+    data (today's price, the stock's own 52-week high), never predicted or invented."""
+    cmp_price = r.price
+    target = r.high_52w
+    upside_pct = round((target - cmp_price) / cmp_price * 100, 2) if cmp_price else None
+    item.update({
+        "cmp": cmp_price,
+        "entry": cmp_price,
+        "target": round(float(target), 2),
+        "upside_pct": upside_pct,
+        "signal": signal_label,
+        "news_link": NSE_QUOTE_URL.format(symbol=r.symbol),
+    })
+    return item
+
+
 def build_categories(tech_df, universe_df):
     tech_df = tech_df.merge(universe_df[["Symbol", "Company Name", "Industry", "is_nifty50"]],
                              left_on="symbol", right_on="Symbol", how="left")
@@ -140,13 +160,14 @@ def build_categories(tech_df, universe_df):
     mom["score"] = percentile_score(mom["ret_3m_pct"])
     mom["risk"] = risk_from_volatility(mom["volatility_ann_pct"])
     mom = mom.sort_values("ret_3m_pct", ascending=False).head(TOP_N)
-    categories["momentum_leaders"] = [
-        {
+    categories["momentum_leaders"] = []
+    for r in mom.itertuples():
+        item = {
             "symbol": r.symbol, "name": r.company_name, "sector": r.sector,
             "score": int(r.score), "confidence": 70, "risk": int(r.risk),
             "why": f"Up {r.ret_3m_pct}% over 3 months, trading above both its 50-day and 200-day averages."
-        } for r in mom.itertuples()
-    ]
+        }
+        categories["momentum_leaders"].append(add_trade_reference_fields(item, r, "Momentum"))
 
     # Breakout candidates: within 3% of 52w high, volume surge > 1.5x
     brk = tech_df[
@@ -157,13 +178,14 @@ def build_categories(tech_df, universe_df):
     brk["score"] = percentile_score(brk["vol_surge_ratio"])
     brk["risk"] = risk_from_volatility(brk["volatility_ann_pct"])
     brk = brk.sort_values("vol_surge_ratio", ascending=False).head(TOP_N)
-    categories["breakout_candidates"] = [
-        {
+    categories["breakout_candidates"] = []
+    for r in brk.itertuples():
+        item = {
             "symbol": r.symbol, "name": r.company_name, "sector": r.sector,
             "score": int(r.score), "confidence": 60, "risk": int(r.risk),
             "why": f"Within {abs(r.dist_from_52w_high_pct)}% of its 52-week high, on {r.vol_surge_ratio}x average volume."
-        } for r in brk.itertuples()
-    ]
+        }
+        categories["breakout_candidates"].append(add_trade_reference_fields(item, r, "Breakout"))
 
     # Turnaround stories: up 20%+ from 6-month low, but still 15%+ below 52w high
     turn = tech_df[
@@ -173,31 +195,31 @@ def build_categories(tech_df, universe_df):
     turn["score"] = percentile_score(turn["up_from_6m_low_pct"])
     turn["risk"] = risk_from_volatility(turn["volatility_ann_pct"])
     turn = turn.sort_values("up_from_6m_low_pct", ascending=False).head(TOP_N)
-    categories["turnaround_stories"] = [
-        {
+    categories["turnaround_stories"] = []
+    for r in turn.itertuples():
+        item = {
             "symbol": r.symbol, "name": r.company_name, "sector": r.sector,
             "score": int(r.score), "confidence": 55, "risk": int(r.risk),
             "why": f"Up {r.up_from_6m_low_pct}% from its 6-month low, still {abs(r.dist_from_52w_high_pct)}% below its 52-week high."
-        } for r in turn.itertuples()
-    ]
+        }
+        categories["turnaround_stories"].append(add_trade_reference_fields(item, r, "Turnaround"))
 
     # Emerging leaders: not in Nifty 50, top-quartile 1-month return
     emg = tech_df[tech_df["is_nifty50"] == False].copy()
+    categories["emerging_leaders"] = []
     if not emg.empty:
         cutoff = emg["ret_1m_pct"].quantile(0.75)
         emg = emg[emg["ret_1m_pct"] >= cutoff]
         emg["score"] = percentile_score(emg["ret_1m_pct"])
         emg["risk"] = risk_from_volatility(emg["volatility_ann_pct"])
         emg = emg.sort_values("ret_1m_pct", ascending=False).head(TOP_N)
-        categories["emerging_leaders"] = [
-            {
+        for r in emg.itertuples():
+            item = {
                 "symbol": r.symbol, "name": r.company_name, "sector": r.sector,
                 "score": int(r.score), "confidence": 55, "risk": int(r.risk),
                 "why": f"Mid-cap (outside Nifty 50), up {r.ret_1m_pct}% in the past month, top quartile of the universe."
-            } for r in emg.itertuples()
-        ]
-    else:
-        categories["emerging_leaders"] = []
+            }
+            categories["emerging_leaders"].append(add_trade_reference_fields(item, r, "Emerging"))
 
     return categories, tech_df
 
@@ -241,13 +263,14 @@ def add_fundamentals_categories(categories, tech_df):
         uq["score"] = percentile_score(-uq["trailingPE"])
         uq["risk"] = risk_from_volatility(uq["volatility_ann_pct"])
         uq = uq.sort_values("trailingPE").head(TOP_N)
-        uq_out = [
-            {
+        uq_out = []
+        for r in uq.itertuples():
+            item = {
                 "symbol": r.symbol, "name": r.company_name, "sector": r.sector,
                 "score": int(r.score), "confidence": 50, "risk": int(r.risk),
                 "why": f"P/E of {round(r.trailingPE,1)} (below the shortlist median) with ROE of {round(r.returnOnEquity*100,1)}%."
-            } for r in uq.itertuples()
-        ]
+            }
+            uq_out.append(add_trade_reference_fields(item, r, "Value"))
     else:
         uq_out = []
 
@@ -258,13 +281,14 @@ def add_fundamentals_categories(categories, tech_df):
         ew["score"] = percentile_score(ew["earningsQuarterlyGrowth"])
         ew["risk"] = risk_from_volatility(ew["volatility_ann_pct"])
         ew = ew.sort_values("earningsQuarterlyGrowth", ascending=False).head(TOP_N)
-        ew_out = [
-            {
+        ew_out = []
+        for r in ew.itertuples():
+            item = {
                 "symbol": r.symbol, "name": r.company_name, "sector": r.sector,
                 "score": int(r.score), "confidence": 50, "risk": int(r.risk),
                 "why": f"Latest quarterly earnings growth of {round(r.earningsQuarterlyGrowth*100,1)}%."
-            } for r in ew.itertuples()
-        ]
+            }
+            ew_out.append(add_trade_reference_fields(item, r, "Earnings"))
     else:
         ew_out = []
 
