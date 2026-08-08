@@ -1,0 +1,35 @@
+name: Scan F&O (OI buildup + index options)
+
+on:
+  schedule:
+    # every 30 min during market hours, IST 9:15am-3:30pm = UTC 3:45-10:00, weekdays
+    - cron: "15,45 3-9 * * 1-5"
+    - cron: "0,30 4-9 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  scan-fno:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests pandas
+
+      - name: Run F&O scanner
+        run: python scan_fno.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "dashboard-bot"
+          git config user.email "dashboard-bot@users.noreply.github.com"
+          git add fno_data.json
+          git diff --quiet --cached || git commit -m "Update fno_data.json"
+          git push
