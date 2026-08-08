@@ -160,6 +160,10 @@
   .status-badge.TargetHit{background:var(--teal-dim);color:var(--teal);}
   .status-badge.Tracking{background:var(--marigold-dim);color:var(--marigold-bright);}
   .status-badge.BelowEntry{background:var(--rose-dim);color:var(--rose);}
+  .status-badge.LongBuildup{background:var(--teal-dim);color:var(--teal);}
+  .status-badge.ShortBuildup{background:var(--rose-dim);color:var(--rose);}
+  .status-badge.ShortCovering{background:rgba(56,189,248,.15);color:var(--sky);}
+  .status-badge.LongUnwinding{background:rgba(167,139,250,.15);color:var(--purple);}
 
   .section-title{font-size:12.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--text-faint);margin:32px 0 13px;display:flex;align-items:center;gap:10px;font-weight:600;}
   .section-title:first-child{margin-top:0;}
@@ -185,6 +189,7 @@
     <button data-tab="equity">Equity</button>
     <button data-tab="news">News</button>
     <button data-tab="funds">Mutual Funds</button>
+    <button data-tab="fno">F&amp;O</button>
   </nav>
 </header>
 
@@ -264,6 +269,31 @@
     <div class="grid grid-4" id="fund-allocation"></div>
   </section>
 
+  <section id="tab-fno" class="tabpanel">
+    <div class="section-title">Index options snapshot <span class="faint mono" style="font-size:11px;">(PCR &amp; Max Pain, not a trade signal)</span></div>
+    <div class="grid grid-2" id="fno-index-summary"></div>
+
+    <div class="section-title">Stock futures OI buildup <span class="faint mono" style="font-size:11px;">(price + OI direction, classified &mdash; not advice)</span></div>
+    <div class="card" style="padding:0;">
+      <div style="padding:14px 16px 0;">
+        <select id="fno-buildup-filter" style="background:var(--surface-2);color:var(--text);border:1px solid var(--border);border-radius:6px;padding:6px 10px;font-size:12px;">
+          <option value="long_buildup">Long Buildup</option>
+          <option value="short_buildup">Short Buildup</option>
+          <option value="short_covering">Short Covering</option>
+          <option value="long_unwinding">Long Unwinding</option>
+        </select>
+      </div>
+      <table class="tracking-table">
+        <thead>
+          <tr><th>Stock</th><th>Price</th><th>Price &Delta;</th><th>OI &Delta;</th><th>Signal</th></tr>
+        </thead>
+        <tbody id="fno-buildup-body">
+          <tr><td colspan="5" class="loading-row">No F&amp;O data yet.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
 </main>
 
 <div class="modal-backdrop" id="modal-backdrop">
@@ -276,6 +306,7 @@
     OPPORTUNITIES_URL: "https://raw.githubusercontent.com/maheshmaral7-beep/my-portfolio-dashboard/main/opportunities.json",
     PORTFOLIO_URL: "https://raw.githubusercontent.com/maheshmaral7-beep/my-portfolio-dashboard/main/portfolio.json",
     MUTUAL_FUNDS_URL: "https://raw.githubusercontent.com/maheshmaral7-beep/my-portfolio-dashboard/main/mutual_funds.json",
+    FNO_URL: "https://raw.githubusercontent.com/maheshmaral7-beep/my-portfolio-dashboard/main/fno_data.json",
     REFRESH_MS: 5 * 60 * 1000
   };
 
@@ -284,8 +315,10 @@
   const oppUrl = params.get("opportunities") || CONFIG.OPPORTUNITIES_URL;
   const portfolioUrl = params.get("portfolio") || CONFIG.PORTFOLIO_URL;
   const mfUrl = params.get("mf") || CONFIG.MUTUAL_FUNDS_URL;
+  const fnoUrl = params.get("fno") || CONFIG.FNO_URL;
   let lastOpportunities = null;
   let lastPicksBySymbol = {};
+  let lastFno = null;
 
   document.querySelectorAll("nav.tabs button").forEach(btn => {
     btn.addEventListener("click", () => {
@@ -535,6 +568,68 @@
     if(e.target.id === "modal-backdrop") closeModal();
   });
 
+  function pcrReadLabel(pcr){
+    if(pcr == null) return {label:"--", cls:""};
+    if(pcr >= 1.3) return {label:"Put-heavy (cautious bias)", cls:"upside-neg"};
+    if(pcr <= 0.7) return {label:"Call-heavy (bullish bias)", cls:"upside-pos"};
+    return {label:"Balanced", cls:"dim"};
+  }
+
+  function renderFnoIndexSummary(fno){
+    const el = document.getElementById("fno-index-summary");
+    el.innerHTML = "";
+    const idx = fno && fno.index_options;
+    if(!idx){
+      el.innerHTML = `<div class="empty" style="grid-column:1/-1;">No index options data yet.</div>`;
+      return;
+    }
+    ["NIFTY", "BANKNIFTY"].forEach(name => {
+      const d = idx[name];
+      const card = document.createElement("div");
+      card.className = "card";
+      if(!d || d.error){
+        card.innerHTML = `<h3>${name}</h3><div class="dim" style="font-size:13px;">Unavailable this run.</div>`;
+        el.appendChild(card);
+        return;
+      }
+      const read = pcrReadLabel(d.pcr);
+      const topCall = (d.top_call_oi_strikes||[])[0];
+      const topPut = (d.top_put_oi_strikes||[])[0];
+      card.innerHTML = `<h3>${name}</h3>
+        <div class="grid grid-2" style="gap:8px;margin-bottom:10px;">
+          <div><div class="metric-label">Spot</div><div class="metric-value" style="font-size:16px;">${d.underlying_value ?? '--'}</div></div>
+          <div><div class="metric-label">PCR</div><div class="metric-value ${read.cls}" style="font-size:16px;">${d.pcr ?? '--'}</div></div>
+          <div><div class="metric-label">Max Pain</div><div class="metric-value" style="font-size:16px;">${d.max_pain ?? '--'}</div></div>
+          <div><div class="metric-label">Read</div><div style="font-size:12.5px;margin-top:4px;" class="${read.cls}">${read.label}</div></div>
+        </div>
+        <div class="faint" style="font-size:11px;">Heaviest Call OI: ${topCall ? topCall.strike : '--'} &middot; Heaviest Put OI: ${topPut ? topPut.strike : '--'}</div>
+        <div class="faint" style="font-size:10.5px;margin-top:6px;">Expiry ${d.expiry || '--'}. PCR/Max Pain are sentiment gauges, not signals to trade on alone.</div>`;
+      el.appendChild(card);
+    });
+  }
+
+  function buildupClass(label){ return (label || "").replace(/\s/g, ""); }
+
+  function renderFnoBuildup(fno, filterKey){
+    const tbody = document.getElementById("fno-buildup-body");
+    const rows = fno && fno.buildup && fno.buildup[filterKey];
+    if(!rows || !rows.length){
+      tbody.innerHTML = `<tr><td colspan="5" class="loading-row">No stocks matched this category in the latest scan.</td></tr>`;
+      return;
+    }
+    tbody.innerHTML = rows.slice(0, 20).map(r => `<tr>
+      <td><strong>${r.symbol}</strong></td>
+      <td class="mono">${r.price ?? '--'}</td>
+      <td class="mono ${r.price_change_pct >= 0 ? 'upside-pos' : 'upside-neg'}">${r.price_change_pct != null ? r.price_change_pct + '%' : '--'}</td>
+      <td class="mono ${r.oi_change_pct >= 0 ? 'upside-pos' : 'upside-neg'}">${r.oi_change_pct != null ? r.oi_change_pct + '%' : '--'}</td>
+      <td><span class="status-badge ${buildupClass(r.buildup)}">${r.buildup || '--'}</span></td>
+    </tr>`).join("");
+  }
+
+  document.getElementById("fno-buildup-filter").addEventListener("change", (e) => {
+    renderFnoBuildup(lastFno, e.target.value);
+  });
+
   function riskLabel(risk){
     if(risk == null) return "--";
     if(risk >= 70) return "High";
@@ -708,6 +803,18 @@
       renderOpportunityRadar(null);
       renderTopPicks(null, "all", "all");
       renderTracking(null, "yesterday");
+    }
+
+    try{
+      const fnoRes = await fetch(fnoUrl, {cache:"no-store"});
+      if(!fnoRes.ok) throw new Error("fetch failed: " + fnoRes.status);
+      lastFno = await fnoRes.json();
+      renderFnoIndexSummary(lastFno);
+      renderFnoBuildup(lastFno, document.getElementById("fno-buildup-filter").value);
+    }catch(err){
+      console.warn("Could not load F&O feed:", err.message);
+      renderFnoIndexSummary(null);
+      renderFnoBuildup(null, "long_buildup");
     }
   }
 
