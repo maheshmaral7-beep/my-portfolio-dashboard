@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T18:26:01.804981+00:00",
+  "generated_at": "2026-08-08T18:35:39.994749+00:00",
   "disclaimer": "Descriptive classification of today's futures/options activity, not a prediction or a trade recommendation. Does not suggest any option, strike, or strategy to trade.",
   "stock_futures_scanned": 0,
   "buildup": {
@@ -10,10 +10,60 @@
   },
   "index_options": {
     "NIFTY": {
-      "error": "404 Client Error: Not Found for url: https://www.nseindia.com/api/option-chain-indices?symbol=NIFTY"
+      "error": "list index out of range"
     },
     "BANKNIFTY": {
-      "error": "404 Client Error: Not Found for url: https://www.nseindia.com/api/option-chain-indices?symbol=BANKNIFTY"
+      "underlying_value": 57746.45,
+      "expiry": "25-Aug-2026",
+      "atm_strike": 57500,
+      "max_pain": 58000,
+      "total_call_oi": 435172,
+      "total_put_oi": 385799,
+      "pcr": 0.89,
+      "top_call_oi_strikes": [
+        {
+          "strike": "58000",
+          "oi": 76515
+        },
+        {
+          "strike": "60000",
+          "oi": 39739
+        },
+        {
+          "strike": "59000",
+          "oi": 38867
+        },
+        {
+          "strike": "58500",
+          "oi": 26123
+        },
+        {
+          "strike": "61000",
+          "oi": 22377
+        }
+      ],
+      "top_put_oi_strikes": [
+        {
+          "strike": "58000",
+          "oi": 55334
+        },
+        {
+          "strike": "57000",
+          "oi": 31934
+        },
+        {
+          "strike": "56000",
+          "oi": 21774
+        },
+        {
+          "strike": "57500",
+          "oi": 16557
+        },
+        {
+          "strike": "55000",
+          "oi": 16338
+        }
+      ]
     }
   }
 }
