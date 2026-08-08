@@ -5,14 +5,121 @@
   "disclaimer": "Rules-based screener, not investment advice or a prediction. Scores are percentile ranks within today's matching stocks, not probabilities.",
   "categories": {
     "momentum_leaders": [
-      {"symbol": "SAMPLE1", "name": "Sample Company 1 Ltd.", "sector": "Information Technology", "score": 92, "confidence": 70, "risk": 55, "why": "Up 18.4% over 3 months, trading above both its 50-day and 200-day averages."}
+      {
+        "symbol": "SAMPLE1",
+        "name": "Sample Company 1 Ltd.",
+        "sector": "Information Technology",
+        "score": 92,
+        "confidence": 70,
+        "risk": 55,
+        "why": "Up 18.4% over 3 months, trading above both its 50-day and 200-day averages."
+      }
     ],
     "breakout_candidates": [
-      {"symbol": "SAMPLE2", "name": "Sample Company 2 Ltd.", "sector": "Financial Services", "score": 85, "confidence": 60, "risk": 40, "why": "Within 1.2% of its 52-week high, on 2.1x average volume."}
+      {
+        "symbol": "SAMPLE2",
+        "name": "Sample Company 2 Ltd.",
+        "sector": "Financial Services",
+        "score": 85,
+        "confidence": 60,
+        "risk": 40,
+        "why": "Within 1.2% of its 52-week high, on 2.1x average volume."
+      }
     ]
   },
   "consolidated_top": [
-    {"symbol": "SAMPLE1", "name": "Sample Company 1 Ltd.", "sector": "Information Technology", "score": 92, "confidence": 70, "risk": 55, "why": "Up 18.4% over 3 months, trading above both its 50-day and 200-day averages.", "category": "momentum_leaders", "cmp": 1425.5, "entry": 1425.5, "target": 1540.0, "upside_pct": 8.03, "signal": "Momentum", "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=SAMPLE1"},
-    {"symbol": "SAMPLE2", "name": "Sample Company 2 Ltd.", "sector": "Financial Services", "score": 85, "confidence": 60, "risk": 40, "why": "Within 1.2% of its 52-week high, on 2.1x average volume.", "category": "breakout_candidates", "cmp": 842.1, "entry": 842.1, "target": 861.75, "upside_pct": 2.33, "signal": "Breakout", "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=SAMPLE2"}
-  ]
+    {
+      "symbol": "SAMPLE1",
+      "name": "Sample Company 1 Ltd.",
+      "sector": "Information Technology",
+      "score": 92,
+      "confidence": 70,
+      "risk": 55,
+      "why": "Up 18.4% over 3 months, trading above both its 50-day and 200-day averages.",
+      "category": "momentum_leaders",
+      "cmp": 1425.5,
+      "entry": 1425.5,
+      "target": 1540.0,
+      "upside_pct": 8.03,
+      "signal": "Momentum",
+      "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=SAMPLE1",
+      "matched_categories": [
+        {
+          "category": "momentum_leaders",
+          "why": "Up 18.4% over 3 months, trading above both its 50-day and 200-day averages."
+        }
+      ],
+      "bear_case": [
+        "No specific caution flags from current rules -- still do your own diligence; this is a screener, not certainty."
+      ],
+      "stats": {
+        "ret_1m_pct": 4.2,
+        "ret_3m_pct": 12.1,
+        "dist_from_52w_high_pct": -1.5,
+        "volatility_ann_pct": 28.4
+      }
+    },
+    {
+      "symbol": "SAMPLE2",
+      "name": "Sample Company 2 Ltd.",
+      "sector": "Financial Services",
+      "score": 85,
+      "confidence": 60,
+      "risk": 40,
+      "why": "Within 1.2% of its 52-week high, on 2.1x average volume.",
+      "category": "breakout_candidates",
+      "cmp": 842.1,
+      "entry": 842.1,
+      "target": 861.75,
+      "upside_pct": 2.33,
+      "signal": "Breakout",
+      "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=SAMPLE2",
+      "matched_categories": [
+        {
+          "category": "breakout_candidates",
+          "why": "Within 1.2% of its 52-week high, on 2.1x average volume."
+        }
+      ],
+      "bear_case": [
+        "No specific caution flags from current rules -- still do your own diligence; this is a screener, not certainty."
+      ],
+      "stats": {
+        "ret_1m_pct": 4.2,
+        "ret_3m_pct": 12.1,
+        "dist_from_52w_high_pct": -1.5,
+        "volatility_ann_pct": 28.4
+      }
+    }
+  ],
+  "performance": {
+    "yesterday": [
+      {
+        "symbol": "SAMPLE1",
+        "name": "Sample Company 1 Ltd.",
+        "sector": "Information Technology",
+        "picked_on": "2026-08-07",
+        "entry": 1400.0,
+        "target": 1540.0,
+        "current_price": 1425.5,
+        "pl_pct": 1.82,
+        "status": "Tracking",
+        "category": "momentum_leaders"
+      }
+    ],
+    "7_day": [
+      {
+        "symbol": "SAMPLE2",
+        "name": "Sample Company 2 Ltd.",
+        "sector": "Financial Services",
+        "picked_on": "2026-08-01",
+        "entry": 800.0,
+        "target": 861.75,
+        "current_price": 862.0,
+        "pl_pct": 7.75,
+        "status": "Target Hit",
+        "category": "breakout_candidates"
+      }
+    ],
+    "30_day": []
+  }
 }
