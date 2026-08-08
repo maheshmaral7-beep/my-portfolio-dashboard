@@ -21,7 +21,7 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install requests pandas
+        run: pip install nse "httpx[http2]"
 
       - name: Run F&O scanner
         run: python scan_fno.py
