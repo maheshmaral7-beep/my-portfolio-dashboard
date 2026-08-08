@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-08-08T18:20:23.505825+00:00",
+  "disclaimer": "Descriptive classification of today's futures/options activity, not a prediction or a trade recommendation. Does not suggest any option, strike, or strategy to trade.",
+  "stock_futures_scanned": 0,
+  "buildup": {
+    "long_buildup": [],
+    "short_buildup": [],
+    "short_covering": [],
+    "long_unwinding": []
+  },
+  "index_options": {
+    "NIFTY": {
+      "error": "404 Client Error: Not Found for url: https://www.nseindia.com/api/option-chain-indices?symbol=NIFTY"
+    },
+    "BANKNIFTY": {
+      "error": "404 Client Error: Not Found for url: https://www.nseindia.com/api/option-chain-indices?symbol=BANKNIFTY"
+    }
+  }
+}
