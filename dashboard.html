@@ -62,6 +62,28 @@
   .news-item a:hover{color:var(--blue);}
   .news-source{font-size:11px;color:var(--text-faint);margin-top:3px;}
 
+  .picks-table{width:100%;border-collapse:collapse;font-size:13px;}
+  .picks-table thead th{text-align:left;text-transform:uppercase;letter-spacing:.03em;font-size:11px;color:var(--text-faint);padding:10px 12px;border-bottom:1px solid var(--border);font-weight:500;}
+  .picks-table tbody td{padding:12px;border-bottom:1px solid var(--border);}
+  .picks-table tbody tr:last-child td{border-bottom:none;}
+  .picks-table tbody tr:hover{background:var(--surface-2);}
+  .picks-header{display:flex;justify-content:space-between;align-items:baseline;padding:14px 16px;}
+  .picks-header h3{font-size:14px;}
+  .picks-header .sub{font-size:11px;color:var(--text-faint);}
+  .signal-badge{font-size:11px;padding:3px 9px;border-radius:5px;font-weight:500;}
+  .signal-badge.Momentum{background:var(--teal-dim);color:var(--teal);}
+  .signal-badge.Breakout{background:var(--amber-dim);color:var(--amber);}
+  .signal-badge.Turnaround{background:var(--red-dim);color:var(--red);}
+  .signal-badge.Emerging{background:var(--teal-dim);color:var(--teal);}
+  .signal-badge.Value{background:var(--amber-dim);color:var(--amber);}
+  .signal-badge.Earnings{background:var(--teal-dim);color:var(--teal);}
+  .upside-pos{color:var(--teal);}
+  .upside-neg{color:var(--red);}
+  .picks-table a{color:var(--blue);text-decoration:none;font-size:12px;}
+  .loading-row{padding:30px;text-align:center;color:var(--text-dim);}
+  .spinner{display:inline-block;width:14px;height:14px;border:2px solid var(--border);border-top-color:var(--teal);border-radius:50%;animation:spin 0.8s linear infinite;margin-right:8px;vertical-align:middle;}
+  @keyframes spin{to{transform:rotate(360deg);}}
+
   .section-title{font-size:13px;text-transform:uppercase;letter-spacing:.04em;color:var(--text-faint);margin:28px 0 12px;}
   .section-title:first-child{margin-top:0;}
 </style>
@@ -92,13 +114,34 @@
     <div class="section-title">Portfolio snapshot</div>
     <div class="grid grid-4" id="portfolio-snapshot"></div>
 
-    <div class="section-title">Top picks today <span class="faint mono" style="font-size:11px;">(rules-based, not advice)</span></div>
-    <div>
-      <select id="sector-filter" style="background:var(--surface-2);color:var(--text);border:1px solid var(--border);border-radius:6px;padding:6px 10px;font-size:12px;margin-bottom:12px;">
-        <option value="all">All sectors</option>
-      </select>
+    <div class="section-title">Equity picks for today <span class="faint mono" style="font-size:11px;">(rules-based, not advice)</span></div>
+    <div class="card" style="padding:0;">
+      <div class="picks-header">
+        <h3>Equity picks for today</h3>
+        <span class="sub" id="risk-profile-label">Based on risk filter: All</span>
+      </div>
+      <div style="padding:0 16px 14px;display:flex;gap:10px;align-items:center;">
+        <select id="sector-filter" style="background:var(--surface-2);color:var(--text);border:1px solid var(--border);border-radius:6px;padding:6px 10px;font-size:12px;">
+          <option value="all">All sectors</option>
+        </select>
+        <select id="risk-filter" style="background:var(--surface-2);color:var(--text);border:1px solid var(--border);border-radius:6px;padding:6px 10px;font-size:12px;">
+          <option value="all">All risk levels</option>
+          <option value="low">Conservative (low risk)</option>
+          <option value="medium">Moderate</option>
+          <option value="high">Aggressive (high risk)</option>
+        </select>
+      </div>
+      <table class="picks-table">
+        <thead>
+          <tr>
+            <th>Stock</th><th>Sector</th><th>CMP</th><th>Entry</th><th>Target</th><th>Upside</th><th>Signal</th><th>News Link</th>
+          </tr>
+        </thead>
+        <tbody id="top-picks-body">
+          <tr><td colspan="8" class="loading-row"><span class="spinner"></span>Generating picks...</td></tr>
+        </tbody>
+      </table>
     </div>
-    <div class="grid grid-2" id="top-picks"></div>
   </section>
 
   <section id="tab-news" class="tabpanel">
@@ -329,14 +372,38 @@
     });
   }
 
-  function renderTopPicks(opp, sectorFilter){
-    const el = document.getElementById("top-picks");
+  function riskBucket(risk){
+    if(risk == null) return "all";
+    if(risk >= 70) return "high";
+    if(risk >= 40) return "medium";
+    return "low";
+  }
+
+  function pickRow(item){
+    const upsideCls = (item.upside_pct != null && item.upside_pct >= 0) ? "upside-pos" : "upside-neg";
+    return `<tr>
+      <td><strong>${item.symbol}</strong><div class="dim" style="font-size:11px;">${item.name || ""}</div></td>
+      <td class="dim">${item.sector || "--"}</td>
+      <td class="mono">${item.cmp != null ? item.cmp.toLocaleString() : "--"}</td>
+      <td class="mono">${item.entry != null ? item.entry.toLocaleString() : "--"}</td>
+      <td class="mono">${item.target != null ? item.target.toLocaleString() : "--"}</td>
+      <td class="mono ${upsideCls}">${item.upside_pct != null ? item.upside_pct + "%" : "--"}</td>
+      <td><span class="signal-badge ${item.signal || ""}">${item.signal || "--"}</span></td>
+      <td>${item.news_link ? `<a href="${item.news_link}" target="_blank" rel="noopener">View &rarr;</a>` : "--"}</td>
+    </tr>`;
+  }
+
+  function renderTopPicks(opp, sectorFilter, riskFilter){
+    const tbody = document.getElementById("top-picks-body");
     const select = document.getElementById("sector-filter");
-    el.innerHTML = "";
+    const label = document.getElementById("risk-profile-label");
+    const riskSelect = document.getElementById("risk-filter");
+
     if(!opp || !opp.consolidated_top || !opp.consolidated_top.length){
-      el.innerHTML = `<div class="empty" style="grid-column:1/-1;">No picks yet &mdash; the daily scan hasn't run, or hasn't found matches under current rules.</div>`;
+      tbody.innerHTML = `<tr><td colspan="8" class="loading-row">No picks yet &mdash; the daily scan hasn't run, or hasn't found matches under current rules.</td></tr>`;
       return;
     }
+
     const sectors = [...new Set(opp.consolidated_top.map(i => i.sector).filter(Boolean))];
     if(select.options.length <= 1){
       sectors.forEach(s => {
@@ -345,19 +412,29 @@
         select.appendChild(o);
       });
     }
-    let items = opp.consolidated_top.slice(0,10);
+
+    let items = opp.consolidated_top.slice(0, 10);
     if(sectorFilter && sectorFilter !== "all"){
       items = items.filter(i => i.sector === sectorFilter);
     }
+    if(riskFilter && riskFilter !== "all"){
+      items = items.filter(i => riskBucket(i.risk) === riskFilter);
+    }
+
+    label.textContent = "Based on risk filter: " + (riskSelect.selectedOptions[0]?.textContent || "All");
+
     if(!items.length){
-      el.innerHTML = `<div class="empty" style="grid-column:1/-1;">No picks in this sector today.</div>`;
+      tbody.innerHTML = `<tr><td colspan="8" class="loading-row">No picks match this filter today.</td></tr>`;
       return;
     }
-    items.forEach(item => el.insertAdjacentHTML("beforeend", opportunityCard(item)));
+    tbody.innerHTML = items.map(pickRow).join("");
   }
 
-  document.getElementById("sector-filter").addEventListener("change", (e) => {
-    renderTopPicks(lastOpportunities, e.target.value);
+  document.getElementById("sector-filter").addEventListener("change", () => {
+    renderTopPicks(lastOpportunities, document.getElementById("sector-filter").value, document.getElementById("risk-filter").value);
+  });
+  document.getElementById("risk-filter").addEventListener("change", () => {
+    renderTopPicks(lastOpportunities, document.getElementById("sector-filter").value, document.getElementById("risk-filter").value);
   });
 
   async function refresh(){
@@ -398,11 +475,11 @@
       if(!oppRes.ok) throw new Error("fetch failed: " + oppRes.status);
       lastOpportunities = await oppRes.json();
       renderOpportunityRadar(lastOpportunities);
-      renderTopPicks(lastOpportunities, document.getElementById("sector-filter").value);
+      renderTopPicks(lastOpportunities, document.getElementById("sector-filter").value, document.getElementById("risk-filter").value);
     }catch(err){
       console.warn("Could not load opportunities feed:", err.message);
       renderOpportunityRadar(null);
-      renderTopPicks(null, "all");
+      renderTopPicks(null, "all", "all");
     }
   }
 
