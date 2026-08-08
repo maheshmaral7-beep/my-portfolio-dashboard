@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-08-08T10:00:00+00:00",
+  "disclaimer": "Descriptive classification of today's futures/options activity, not a prediction or a trade recommendation. Does not suggest any option, strike, or strategy to trade.",
+  "stock_futures_scanned": 180,
+  "buildup": {
+    "long_buildup": [
+      {"symbol": "SAMPLE1", "price": 1425.5, "price_change_pct": 2.4, "open_interest": 5200000, "oi_change": 180000, "oi_change_pct": 3.6, "buildup": "Long Buildup"}
+    ],
+    "short_buildup": [
+      {"symbol": "SAMPLE2", "price": 842.1, "price_change_pct": -1.8, "open_interest": 3100000, "oi_change": 95000, "oi_change_pct": 3.1, "buildup": "Short Buildup"}
+    ],
+    "short_covering": [
+      {"symbol": "SAMPLE3", "price": 640.0, "price_change_pct": 1.1, "open_interest": 1200000, "oi_change": -40000, "oi_change_pct": -3.2, "buildup": "Short Covering"}
+    ],
+    "long_unwinding": [
+      {"symbol": "SAMPLE4", "price": 305.2, "price_change_pct": -0.9, "open_interest": 900000, "oi_change": -25000, "oi_change_pct": -2.7, "buildup": "Long Unwinding"}
+    ]
+  },
+  "index_options": {
+    "NIFTY": {
+      "underlying_value": 24812.35,
+      "expiry": "2026-08-28",
+      "total_call_oi": 8200000,
+      "total_put_oi": 9800000,
+      "pcr": 1.2,
+      "max_pain": 24800,
+      "top_call_oi_strikes": [{"strike": 25000, "oi": 620000}],
+      "top_put_oi_strikes": [{"strike": 24500, "oi": 710000}]
+    },
+    "BANKNIFTY": {
+      "underlying_value": 53980.75,
+      "expiry": "2026-08-28",
+      "total_call_oi": 3100000,
+      "total_put_oi": 2900000,
+      "pcr": 0.94,
+      "max_pain": 54000,
+      "top_call_oi_strikes": [{"strike": 54500, "oi": 340000}],
+      "top_put_oi_strikes": [{"strike": 53500, "oi": 310000}]
+    }
+  }
+}
