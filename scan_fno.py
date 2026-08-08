@@ -30,7 +30,7 @@ Output: fno_data.json
 
 import json
 import time
-from datetime import date, datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 
 from nse import NSE
 
@@ -56,16 +56,23 @@ def classify_buildup(price_change_pct, oi_change_pct):
 
 def fetch_stock_buildup(nse_client, symbols):
     today = date.today()
+    # NSE's historical F&O endpoint can lag -- "today" may not be populated yet,
+    # especially early in the session. Pull a short window and use each
+    # symbol's most recent available row instead of requiring today exactly.
+    window_start = today - timedelta(days=5)
     results = []
     for sym in symbols:
         try:
             rows = nse_client.fetch_historical_fno_data(
-                symbol=sym, instrument="FUTSTK", from_date=today, to_date=today
+                symbol=sym, instrument="FUTSTK", from_date=window_start, to_date=today
             )
             if not rows:
                 continue
-            # multiple expiries can come back -- take the nearest one
-            row = min(rows, key=lambda r: datetime.strptime(r["FH_EXPIRY_DT"], "%d-%b-%Y"))
+            # multiple expiries/days can come back -- take the latest trading
+            # day, then the nearest expiry within that day
+            latest_date = max(r["FH_TIMESTAMP"] for r in rows)
+            same_day_rows = [r for r in rows if r["FH_TIMESTAMP"] == latest_date]
+            row = min(same_day_rows, key=lambda r: datetime.strptime(r["FH_EXPIRY_DT"], "%d-%b-%Y"))
 
             close = row.get("FH_CLOSING_PRICE") or row.get("FH_LAST_TRADED_PRICE")
             prev_close = row.get("FH_PREV_CLS")
@@ -87,6 +94,7 @@ def fetch_stock_buildup(nse_client, symbols):
                 "oi_change": oi_change,
                 "oi_change_pct": oi_change_pct,
                 "buildup": classify_buildup(price_change_pct, oi_change_pct),
+                "as_of": row.get("FH_TIMESTAMP"),
             })
         except Exception:
             continue
@@ -156,6 +164,18 @@ def main():
         "buildup": buildup_grouped,
         "index_options": index_summary,
     }
+
+    total_buildup_entries = sum(len(v) for v in buildup_grouped.values())
+    index_ok = any("error" not in v for v in index_summary.values())
+
+    if total_buildup_entries == 0 and not index_ok:
+        # This run got essentially nothing from NSE (likely blocked, rate
+        # limited, or hit a day with no data yet). Don't let a bad run
+        # overwrite a previous good file -- leave it untouched instead.
+        print("This run returned no usable data (0 buildup entries, no working "
+              "index data). Leaving the existing fno_data.json untouched rather "
+              "than overwriting it with an empty result.")
+        return
 
     with open(OUTPUT_FILE, "w") as f:
         json.dump(result, f, indent=2, default=str)
