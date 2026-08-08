@@ -12,7 +12,7 @@
     ]
   },
   "consolidated_top": [
-    {"symbol": "SAMPLE1", "name": "Sample Company 1 Ltd.", "sector": "Information Technology", "score": 92, "confidence": 70, "risk": 55, "why": "Up 18.4% over 3 months, trading above both its 50-day and 200-day averages.", "category": "momentum_leaders"},
-    {"symbol": "SAMPLE2", "name": "Sample Company 2 Ltd.", "sector": "Financial Services", "score": 85, "confidence": 60, "risk": 40, "why": "Within 1.2% of its 52-week high, on 2.1x average volume.", "category": "breakout_candidates"}
+    {"symbol": "SAMPLE1", "name": "Sample Company 1 Ltd.", "sector": "Information Technology", "score": 92, "confidence": 70, "risk": 55, "why": "Up 18.4% over 3 months, trading above both its 50-day and 200-day averages.", "category": "momentum_leaders", "cmp": 1425.5, "entry": 1425.5, "target": 1540.0, "upside_pct": 8.03, "signal": "Momentum", "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=SAMPLE1"},
+    {"symbol": "SAMPLE2", "name": "Sample Company 2 Ltd.", "sector": "Financial Services", "score": 85, "confidence": 60, "risk": 40, "why": "Within 1.2% of its 52-week high, on 2.1x average volume.", "category": "breakout_candidates", "cmp": 842.1, "entry": 842.1, "target": 861.75, "upside_pct": 2.33, "signal": "Breakout", "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=SAMPLE2"}
   ]
 }
