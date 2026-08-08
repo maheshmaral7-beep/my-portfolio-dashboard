@@ -129,7 +129,8 @@ NSE_QUOTE_URL = "https://www.nseindia.com/get-quotes/equity?symbol={symbol}"
 
 def add_trade_reference_fields(item, r, signal_label):
     """Adds CMP/Entry/Target/Upside/Signal/News Link -- all derived from observed
-    data (today's price, the stock's own 52-week high), never predicted or invented."""
+    data (today's price, the stock's own 52-week high), never predicted or invented.
+    Also stashes raw stats used later for the deep-dive detail panel."""
     cmp_price = r.price
     target = r.high_52w
     upside_pct = round((target - cmp_price) / cmp_price * 100, 2) if cmp_price else None
@@ -140,6 +141,12 @@ def add_trade_reference_fields(item, r, signal_label):
         "upside_pct": upside_pct,
         "signal": signal_label,
         "news_link": NSE_QUOTE_URL.format(symbol=r.symbol),
+        "stats": {
+            "ret_1m_pct": getattr(r, "ret_1m_pct", None),
+            "ret_3m_pct": getattr(r, "ret_3m_pct", None),
+            "dist_from_52w_high_pct": getattr(r, "dist_from_52w_high_pct", None),
+            "volatility_ann_pct": getattr(r, "volatility_ann_pct", None),
+        },
     })
     return item
 
@@ -297,15 +304,91 @@ def add_fundamentals_categories(categories, tech_df):
 
 def consolidate(categories, top_n=10):
     seen = {}
+    matched_reasons = {}
     for cat_name, items in categories.items():
         for item in items:
             sym = item["symbol"]
+            matched_reasons.setdefault(sym, []).append({"category": cat_name, "why": item["why"]})
             if sym not in seen or item["score"] > seen[sym]["score"]:
                 entry = dict(item)
                 entry["category"] = cat_name
                 seen[sym] = entry
+    for sym, entry in seen.items():
+        entry["matched_categories"] = matched_reasons[sym]
+        entry["bear_case"] = generate_bear_case(entry)
     ranked = sorted(seen.values(), key=lambda x: x["score"], reverse=True)
     return ranked[:top_n]
+
+
+def generate_bear_case(item):
+    """Auto-generated caution points, derived only from the item's own numbers --
+    not opinion, not a prediction, just flags worth checking before acting."""
+    points = []
+    stats = item.get("stats", {})
+    dist_high = stats.get("dist_from_52w_high_pct")
+    vol = stats.get("volatility_ann_pct")
+
+    if dist_high is not None and dist_high >= -1:
+        points.append("Trading at or within 1% of its 52-week high -- limited room before a fresh high, more room to fall back if sentiment turns.")
+    if vol is not None and vol >= 40:
+        points.append(f"Annualised volatility of {vol}% is high -- expect larger swings in both directions, not just up.")
+    if item.get("confidence", 100) < 60:
+        points.append("Lower-confidence category (technical pattern only, or thin fundamentals data) -- worth independent verification.")
+    if len(item.get("matched_categories", [])) == 1:
+        points.append("Matched only one rule -- a single-signal pick is weaker evidence than a stock confirmed by multiple angles.")
+    if not points:
+        points.append("No specific caution flags from current rules -- still do your own diligence; this is a screener, not certainty.")
+    return points
+
+
+def load_history(path="picks_history.json", keep_days=40):
+    try:
+        with open(path) as f:
+            history = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        history = []
+    return history[-keep_days:]
+
+
+def save_history(history, path="picks_history.json"):
+    with open(path, "w") as f:
+        json.dump(history, f, indent=2, default=str)
+
+
+def compute_performance(history, tech_df):
+    """For each past day's picks, compares stored entry/target against today's
+    actual price (from tech_df, already fetched this run -- no extra API calls)."""
+    price_lookup = tech_df.set_index("symbol")["price"].to_dict()
+    today = datetime.now(timezone.utc).date()
+
+    windows = {"yesterday": 1, "7_day": 7, "30_day": 30}
+    performance = {}
+
+    for label, days_back in windows.items():
+        target_date = today - pd.Timedelta(days=days_back)
+        # find the closest snapshot on or before that date
+        candidates = [h for h in history if datetime.fromisoformat(h["date"]).date() <= target_date]
+        if not candidates:
+            performance[label] = []
+            continue
+        snapshot = candidates[-1]
+        rows = []
+        for pick in snapshot["picks"]:
+            current_price = price_lookup.get(pick["symbol"])
+            if current_price is None:
+                continue
+            pl_pct = round((current_price - pick["entry"]) / pick["entry"] * 100, 2) if pick["entry"] else None
+            hit_target = current_price >= pick["target"]
+            status = "Target Hit" if hit_target else ("Tracking" if current_price >= pick["entry"] else "Below Entry")
+            rows.append({
+                "symbol": pick["symbol"], "name": pick.get("name"), "sector": pick.get("sector"),
+                "picked_on": snapshot["date"], "entry": pick["entry"], "target": pick["target"],
+                "current_price": current_price, "pl_pct": pl_pct, "status": status,
+                "category": pick.get("category"),
+            })
+        performance[label] = sorted(rows, key=lambda r: r["pl_pct"] if r["pl_pct"] is not None else -999, reverse=True)
+
+    return performance
 
 
 def main():
@@ -321,6 +404,20 @@ def main():
 
     consolidated = consolidate(categories)
 
+    # Recommendation tracking: append today's picks to history, then score past picks
+    history = load_history()
+    today_str = datetime.now(timezone.utc).date().isoformat()
+    slim_picks = [
+        {"symbol": c["symbol"], "name": c["name"], "sector": c["sector"],
+         "entry": c["entry"], "target": c["target"], "category": c["category"]}
+        for c in consolidated
+    ]
+    if not history or history[-1]["date"] != today_str:
+        history.append({"date": today_str, "picks": slim_picks})
+    save_history(history)
+
+    performance = compute_performance(history, tech_df)
+
     result = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "universe": "Nifty 200",
@@ -329,12 +426,13 @@ def main():
                        "Scores are percentile ranks within today's matching stocks, not probabilities.",
         "categories": categories,
         "consolidated_top": consolidated,
+        "performance": performance,
     }
 
     with open(OUTPUT_FILE, "w") as f:
         json.dump(result, f, indent=2, default=str)
 
-    print(f"Scanned {len(symbols)} stocks, saved {OUTPUT_FILE}")
+    print(f"Scanned {len(symbols)} stocks, saved {OUTPUT_FILE} and picks_history.json")
 
 
 if __name__ == "__main__":
