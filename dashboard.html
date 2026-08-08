@@ -271,6 +271,7 @@
 
   <section id="tab-fno" class="tabpanel">
     <div class="section-title">Index options snapshot <span class="faint mono" style="font-size:11px;">(PCR &amp; Max Pain, not a trade signal)</span></div>
+    <div class="faint mono" id="fno-generated-at" style="font-size:11px;margin-bottom:10px;"></div>
     <div class="grid grid-2" id="fno-index-summary"></div>
 
     <div class="section-title">Stock futures OI buildup <span class="faint mono" style="font-size:11px;">(price + OI direction, classified &mdash; not advice)</span></div>
@@ -577,8 +578,22 @@
 
   function renderFnoIndexSummary(fno){
     const el = document.getElementById("fno-index-summary");
+    const genEl = document.getElementById("fno-generated-at");
     el.innerHTML = "";
     const idx = fno && fno.index_options;
+    if(genEl){
+      if(fno && fno.generated_at){
+        const hoursOld = (Date.now() - new Date(fno.generated_at).getTime()) / 3600000;
+        // F&O data only updates in market hours, so it's normal for this to be
+        // many hours (overnight) or ~65 hours (weekend) old. Only flag it if
+        // it's stuck well beyond even a long weekend.
+        const stuck = hoursOld > 96;
+        genEl.textContent = `Last updated ${timeAgo(fno.generated_at)}${stuck ? " -- scan may not be running, check the Actions tab" : ""}`;
+        genEl.style.color = stuck ? "var(--marigold)" : "";
+      } else {
+        genEl.textContent = "";
+      }
+    }
     if(!idx){
       el.innerHTML = `<div class="empty" style="grid-column:1/-1;">No index options data yet.</div>`;
       return;
