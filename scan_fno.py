@@ -61,6 +61,7 @@ def fetch_stock_buildup(nse_client, symbols):
     # symbol's most recent available row instead of requiring today exactly.
     window_start = today - timedelta(days=5)
     results = []
+    errors = []
     for sym in symbols:
         try:
             rows = nse_client.fetch_historical_fno_data(
@@ -69,9 +70,13 @@ def fetch_stock_buildup(nse_client, symbols):
             if not rows:
                 continue
             # multiple expiries/days can come back -- take the latest trading
-            # day, then the nearest expiry within that day
-            latest_date = max(r["FH_TIMESTAMP"] for r in rows)
-            same_day_rows = [r for r in rows if r["FH_TIMESTAMP"] == latest_date]
+            # day (parsed as a real date, not compared as raw strings -- "07-Aug"
+            # vs "31-Jul" sorts wrong as text), then the nearest expiry that day
+            latest_date = max(datetime.strptime(r["FH_TIMESTAMP"], "%d-%b-%Y") for r in rows)
+            same_day_rows = [
+                r for r in rows
+                if datetime.strptime(r["FH_TIMESTAMP"], "%d-%b-%Y") == latest_date
+            ]
             row = min(same_day_rows, key=lambda r: datetime.strptime(r["FH_EXPIRY_DT"], "%d-%b-%Y"))
 
             close = row.get("FH_CLOSING_PRICE") or row.get("FH_LAST_TRADED_PRICE")
@@ -96,9 +101,16 @@ def fetch_stock_buildup(nse_client, symbols):
                 "buildup": classify_buildup(price_change_pct, oi_change_pct),
                 "as_of": row.get("FH_TIMESTAMP"),
             })
-        except Exception:
+        except Exception as e:
+            errors.append(f"{sym}: {type(e).__name__}: {e}")
             continue
         time.sleep(0.35)  # stay well under NSE's informal rate limits
+
+    if errors:
+        print(f"fetch_stock_buildup: {len(errors)}/{len(symbols)} symbols failed. First 5 errors:")
+        for line in errors[:5]:
+            print(f"  {line}")
+
     return results
 
 
@@ -134,8 +146,13 @@ def fetch_index_option_summary(nse_client, index_symbol):
 
 def main():
     with NSE(download_folder=DOWNLOAD_FOLDER, server=True) as nse_client:
-        lots = nse_client.fnoLots()
+        try:
+            lots = nse_client.fnoLots()
+        except Exception as e:
+            print(f"fnoLots() failed: {type(e).__name__}: {e}")
+            lots = {}
         symbols = [s for s in lots.keys() if s not in KNOWN_INDEX_TOKENS]
+        print(f"F&O stock universe: {len(symbols)} symbols from fnoLots()")
 
         buildup = fetch_stock_buildup(nse_client, symbols)
 
@@ -144,6 +161,7 @@ def main():
             try:
                 index_summary[idx.upper()] = fetch_index_option_summary(nse_client, idx)
             except Exception as e:
+                print(f"{idx.upper()} option summary failed: {type(e).__name__}: {e}")
                 index_summary[idx.upper()] = {"error": str(e)}
 
     buildup_grouped = {
