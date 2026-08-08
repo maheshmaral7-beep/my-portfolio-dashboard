@@ -28,6 +28,6 @@ jobs:
         run: |
           git config user.name "dashboard-bot"
           git config user.email "dashboard-bot@users.noreply.github.com"
-          git add opportunities.json
-          git diff --quiet --cached || git commit -m "Update opportunities.json"
+          git add opportunities.json picks_history.json
+          git diff --quiet --cached || git commit -m "Update opportunities.json and picks_history.json"
           git push
