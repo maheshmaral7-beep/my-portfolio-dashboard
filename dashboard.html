@@ -84,6 +84,31 @@
   .spinner{display:inline-block;width:14px;height:14px;border:2px solid var(--border);border-top-color:var(--teal);border-radius:50%;animation:spin 0.8s linear infinite;margin-right:8px;vertical-align:middle;}
   @keyframes spin{to{transform:rotate(360deg);}}
 
+  .modal-backdrop{position:fixed;inset:0;background:rgba(0,0,0,0.6);display:none;align-items:center;justify-content:center;z-index:100;padding:20px;}
+  .modal-backdrop.open{display:flex;}
+  .modal{background:var(--surface);border:1px solid var(--border);border-radius:12px;max-width:560px;width:100%;max-height:85vh;overflow-y:auto;padding:24px;}
+  .modal-close{float:right;background:none;border:none;color:var(--text-dim);font-size:20px;cursor:pointer;line-height:1;}
+  .modal h2{font-size:20px;margin-bottom:2px;}
+  .modal-sub{color:var(--text-dim);font-size:13px;margin-bottom:16px;}
+  .modal-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:18px;}
+  .modal-stats .stat{background:var(--surface-2);border-radius:8px;padding:10px;text-align:center;}
+  .modal-stats .stat .v{font-family:'JetBrains Mono',monospace;font-size:15px;}
+  .modal-stats .stat .l{font-size:10px;color:var(--text-faint);text-transform:uppercase;margin-top:2px;}
+  .modal-section-title{font-size:12px;text-transform:uppercase;color:var(--text-faint);margin:16px 0 8px;letter-spacing:.03em;}
+  .modal ul{margin:0;padding-left:18px;}
+  .modal li{font-size:13px;margin-bottom:6px;line-height:1.5;}
+  .bull li{color:var(--text);}
+  .bear li{color:var(--text-dim);}
+  .clickable-row{cursor:pointer;}
+
+  .tracking-table{width:100%;border-collapse:collapse;font-size:13px;}
+  .tracking-table thead th{text-align:left;text-transform:uppercase;letter-spacing:.03em;font-size:11px;color:var(--text-faint);padding:10px 12px;border-bottom:1px solid var(--border);font-weight:500;}
+  .tracking-table tbody td{padding:10px 12px;border-bottom:1px solid var(--border);}
+  .status-badge{font-size:11px;padding:3px 9px;border-radius:5px;font-weight:500;}
+  .status-badge.TargetHit{background:var(--teal-dim);color:var(--teal);}
+  .status-badge.Tracking{background:var(--amber-dim);color:var(--amber);}
+  .status-badge.BelowEntry{background:var(--red-dim);color:var(--red);}
+
   .section-title{font-size:13px;text-transform:uppercase;letter-spacing:.04em;color:var(--text-faint);margin:28px 0 12px;}
   .section-title:first-child{margin-top:0;}
 </style>
@@ -108,6 +133,25 @@
 
     <div class="section-title">Market snapshot</div>
     <div class="grid grid-4" id="overview-prices"></div>
+
+    <div class="section-title">Recommendation tracking <span class="faint mono" style="font-size:11px;">(how past picks actually did)</span></div>
+    <div class="card" style="padding:0;">
+      <div style="padding:14px 16px 0;">
+        <select id="tracking-window" style="background:var(--surface-2);color:var(--text);border:1px solid var(--border);border-radius:6px;padding:6px 10px;font-size:12px;">
+          <option value="yesterday">Yesterday's picks</option>
+          <option value="7_day">7 days ago</option>
+          <option value="30_day">30 days ago</option>
+        </select>
+      </div>
+      <table class="tracking-table">
+        <thead>
+          <tr><th>Stock</th><th>Picked On</th><th>Entry</th><th>Target</th><th>Current</th><th>P&L</th><th>Status</th></tr>
+        </thead>
+        <tbody id="tracking-body">
+          <tr><td colspan="7" class="loading-row">No tracking data yet.</td></tr>
+        </tbody>
+      </table>
+    </div>
   </section>
 
   <section id="tab-equity" class="tabpanel">
@@ -159,6 +203,10 @@
 
 </main>
 
+<div class="modal-backdrop" id="modal-backdrop">
+  <div class="modal" id="modal-content"></div>
+</div>
+
 <script>
   const CONFIG = {
     DATA_URL: "https://raw.githubusercontent.com/maheshmaral7-beep/my-portfolio-dashboard/main/latest_data.json",
@@ -174,6 +222,7 @@
   const portfolioUrl = params.get("portfolio") || CONFIG.PORTFOLIO_URL;
   const mfUrl = params.get("mf") || CONFIG.MUTUAL_FUNDS_URL;
   let lastOpportunities = null;
+  let lastPicksBySymbol = {};
 
   document.querySelectorAll("nav.tabs button").forEach(btn => {
     btn.addEventListener("click", () => {
@@ -250,6 +299,7 @@
     const cards = [
       {label: "Portfolio Value", val: portfolio.portfolio_value},
       {label: "Invested Value", val: portfolio.invested_value},
+      {label: "Day P&L", val: portfolio.day_pl},
       {label: "Total P&L", val: portfolio.total_pl, pct: portfolio.total_pl_pct},
       {label: "Top Contributor", val: portfolio.top_contributor ? `${portfolio.top_contributor.name} (+${portfolio.top_contributor.pl})` : "--"},
       {label: "Top Detractor", val: portfolio.top_detractor ? `${portfolio.top_detractor.name} (${portfolio.top_detractor.pl})` : "--"},
@@ -269,7 +319,9 @@
       note.style.gridColumn = "1 / -1";
       note.className = "faint";
       note.style.fontSize = "11px";
-      note.textContent = `From manually imported statement, as of ${portfolio.as_of}. Day P&L isn't available from a static export.`;
+      const sourceLabel = portfolio.source === "kite_live" ? "Live via Kite Connect" : "From manually imported statement";
+      const dayPlNote = (portfolio.day_pl == null) ? " Day P&L isn't available from a static export." : "";
+      note.textContent = `${sourceLabel}, as of ${portfolio.as_of}.${dayPlNote}`;
       el.appendChild(note);
     }
   }
@@ -341,6 +393,43 @@
     });
   }
 
+  function openModal(item){
+    const backdrop = document.getElementById("modal-backdrop");
+    const content = document.getElementById("modal-content");
+    const bullPoints = (item.matched_categories || []).map(m => `<li>[${m.category.replace(/_/g," ")}] ${m.why}</li>`).join("");
+    const bearPoints = (item.bear_case || []).map(b => `<li>${b}</li>`).join("");
+    content.innerHTML = `
+      <button class="modal-close" onclick="closeModal()">&times;</button>
+      <h2>${item.symbol}</h2>
+      <div class="modal-sub">${item.name || ""} &middot; ${item.sector || ""}</div>
+      <div class="modal-stats">
+        <div class="stat"><div class="v">${item.cmp}</div><div class="l">CMP</div></div>
+        <div class="stat"><div class="v">${item.target}</div><div class="l">Target (52w high)</div></div>
+        <div class="stat"><div class="v mono ${item.upside_pct>=0?'upside-pos':'upside-neg'}">${item.upside_pct}%</div><div class="l">Upside</div></div>
+      </div>
+      <div class="modal-stats">
+        <div class="stat"><div class="v">${item.score}</div><div class="l">Score</div></div>
+        <div class="stat"><div class="v">${item.confidence}</div><div class="l">Confidence</div></div>
+        <div class="stat"><div class="v">${riskLabel(item.risk)}</div><div class="l">Risk</div></div>
+      </div>
+      <div class="modal-section-title">Bull case (why it's flagged)</div>
+      <ul class="bull">${bullPoints || "<li>No matched rules found.</li>"}</ul>
+      <div class="modal-section-title">Bear case (worth checking)</div>
+      <ul class="bear">${bearPoints}</ul>
+      <div class="modal-section-title">Next step</div>
+      <div style="font-size:13px;"><a href="${item.news_link}" target="_blank" rel="noopener">View live quote &amp; news on NSE &rarr;</a></div>
+      <div class="faint" style="font-size:11px;margin-top:16px;">Rules-based screener output, not investment advice. Verify independently before acting.</div>
+    `;
+    backdrop.classList.add("open");
+  }
+
+  function closeModal(){
+    document.getElementById("modal-backdrop").classList.remove("open");
+  }
+  document.getElementById("modal-backdrop").addEventListener("click", (e) => {
+    if(e.target.id === "modal-backdrop") closeModal();
+  });
+
   function riskLabel(risk){
     if(risk == null) return "--";
     if(risk >= 70) return "High";
@@ -349,7 +438,7 @@
   }
 
   function opportunityCard(item){
-    return `<div class="card">
+    return `<div class="card clickable-row" onclick='openModalFor("${item.symbol}")'>
       <div style="display:flex;justify-content:space-between;align-items:baseline;">
         <h3 style="margin:0;">${item.symbol}</h3>
         <span class="mono" style="font-size:12px;color:var(--teal);">score ${item.score}</span>
@@ -360,6 +449,11 @@
     </div>`;
   }
 
+  function openModalFor(symbol){
+    const item = lastPicksBySymbol[symbol];
+    if(item) openModal(item);
+  }
+
   function renderOpportunityRadar(opp){
     const el = document.getElementById("opportunity-radar");
     el.innerHTML = "";
@@ -367,10 +461,35 @@
       el.innerHTML = `<div class="empty" style="grid-column:1/-1;">No opportunity data yet &mdash; the daily scan hasn't run, or hasn't found matches under current rules.</div>`;
       return;
     }
+    opp.consolidated_top.forEach(item => { lastPicksBySymbol[item.symbol] = item; });
     opp.consolidated_top.slice(0,5).forEach(item => {
       el.insertAdjacentHTML("beforeend", opportunityCard(item));
     });
   }
+
+  function statusClass(status){ return status.replace(/\s/g, ""); }
+
+  function renderTracking(performance, window_){
+    const tbody = document.getElementById("tracking-body");
+    const rows = (performance && performance[window_]) || [];
+    if(!rows.length){
+      tbody.innerHTML = `<tr><td colspan="7" class="loading-row">No tracking data yet for this window &mdash; needs a few days of daily scans to build up history.</td></tr>`;
+      return;
+    }
+    tbody.innerHTML = rows.map(r => `<tr>
+      <td><strong>${r.symbol}</strong><div class="dim" style="font-size:11px;">${r.name || ""}</div></td>
+      <td class="dim">${r.picked_on}</td>
+      <td class="mono">${r.entry}</td>
+      <td class="mono">${r.target}</td>
+      <td class="mono">${r.current_price}</td>
+      <td class="mono ${r.pl_pct >= 0 ? 'upside-pos' : 'upside-neg'}">${r.pl_pct != null ? r.pl_pct + '%' : '--'}</td>
+      <td><span class="status-badge ${statusClass(r.status)}">${r.status}</span></td>
+    </tr>`).join("");
+  }
+
+  document.getElementById("tracking-window").addEventListener("change", (e) => {
+    renderTracking(lastOpportunities ? lastOpportunities.performance : null, e.target.value);
+  });
 
   function riskBucket(risk){
     if(risk == null) return "all";
@@ -381,7 +500,7 @@
 
   function pickRow(item){
     const upsideCls = (item.upside_pct != null && item.upside_pct >= 0) ? "upside-pos" : "upside-neg";
-    return `<tr>
+    return `<tr class="clickable-row" onclick='openModalFor("${item.symbol}")'>
       <td><strong>${item.symbol}</strong><div class="dim" style="font-size:11px;">${item.name || ""}</div></td>
       <td class="dim">${item.sector || "--"}</td>
       <td class="mono">${item.cmp != null ? item.cmp.toLocaleString() : "--"}</td>
@@ -389,7 +508,7 @@
       <td class="mono">${item.target != null ? item.target.toLocaleString() : "--"}</td>
       <td class="mono ${upsideCls}">${item.upside_pct != null ? item.upside_pct + "%" : "--"}</td>
       <td><span class="signal-badge ${item.signal || ""}">${item.signal || "--"}</span></td>
-      <td>${item.news_link ? `<a href="${item.news_link}" target="_blank" rel="noopener">View &rarr;</a>` : "--"}</td>
+      <td onclick="event.stopPropagation();">${item.news_link ? `<a href="${item.news_link}" target="_blank" rel="noopener">View &rarr;</a>` : "--"}</td>
     </tr>`;
   }
 
@@ -414,6 +533,7 @@
     }
 
     let items = opp.consolidated_top.slice(0, 10);
+    items.forEach(item => { lastPicksBySymbol[item.symbol] = item; });
     if(sectorFilter && sectorFilter !== "all"){
       items = items.filter(i => i.sector === sectorFilter);
     }
@@ -476,10 +596,12 @@
       lastOpportunities = await oppRes.json();
       renderOpportunityRadar(lastOpportunities);
       renderTopPicks(lastOpportunities, document.getElementById("sector-filter").value, document.getElementById("risk-filter").value);
+      renderTracking(lastOpportunities.performance, document.getElementById("tracking-window").value);
     }catch(err){
       console.warn("Could not load opportunities feed:", err.message);
       renderOpportunityRadar(null);
       renderTopPicks(null, "all", "all");
+      renderTracking(null, "yesterday");
     }
   }
 
