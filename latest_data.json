@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-10T18:36:39.745090+00:00",
+  "fetched_at": "2026-08-10T21:10:54.618677+00:00",
   "market_prices": {
     "Nifty 50": {
       "price": 24583.8,
@@ -17,33 +17,69 @@
   "news": {
     "Economic Times": [
       {
+        "title": "US Stocks: Nasdaq ends down as expectations of Hormuz deal fade",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-nasdaq-ends-down-as-expectations-of-hormuz-deal-fade/articleshow/133135481.cms",
+        "published": "Tue, 11 Aug 2026 01:38:58 +0530"
+      },
+      {
+        "title": "Microsoft could unveil Maia 300 AI chip as early as September: Report",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/microsoft-could-unveil-maia-300-ai-chip-as-early-as-september-report/articleshow/133133978.cms",
+        "published": "Tue, 11 Aug 2026 01:18:39 +0530"
+      },
+      {
+        "title": "Oil climbs 5% as Iran, US both demand compensation and Hormuz hopes fade",
+        "link": "https://economictimes.indiatimes.com/markets/commodities/news/oil-climbs-5-as-iran-us-both-demand-compensation-and-hormuz-hopes-fade/articleshow/133132265.cms",
+        "published": "Tue, 11 Aug 2026 00:41:43 +0530"
+      },
+      {
+        "title": "US bonds fall as markets weight inflation, Middle East risks",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-bonds-fall-as-markets-weight-inflation-middle-east-risks/articleshow/133130271.cms",
+        "published": "Tue, 11 Aug 2026 00:07:29 +0530"
+      },
+      {
         "title": "Archer Aviation shares jump nearly 10% on deal to acquire Boeing\u2019s Wisk, two other units",
         "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/archer-aviation-shares-jump-nearly-10-on-deal-to-acquire-boeings-wisk-two-other-units/articleshow/133126628.cms",
         "published": "Mon, 10 Aug 2026 23:25:44 +0530"
-      },
-      {
-        "title": "Ahead of Market: 10 things that will decide stock market action on Tuesday",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-tuesday/articleshow/133117226.cms",
-        "published": "Mon, 10 Aug 2026 21:41:26 +0530"
-      },
-      {
-        "title": "Milky Mist Dairy Food mops up \u20b9465 crore from anchor investors ahead of IPO",
-        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/milky-mist-dairy-food-mops-up-465-crore-from-anchor-investors-ahead-of-ipo/articleshow/133117007.cms",
-        "published": "Mon, 10 Aug 2026 21:31:48 +0530"
-      },
-      {
-        "title": "NSE indices rejig: Vodafone Idea, Wipro part of major changes in Nifty Next 50 and Nifty 100. Check full list",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/nse-indices-rejig-vodafone-idea-wipro-part-of-major-changes-in-nifty-next-50-and-nifty-100-check-full-list/articleshow/133114561.cms",
-        "published": "Mon, 10 Aug 2026 20:58:40 +0530"
-      },
-      {
-        "title": "Nifty rejig: IT major Wipro to move out of benchmark index after BSE gets inclusion",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/nifty-rejig-it-major-wipro-to-move-out-of-benchmark-index-after-bse-gets-inclusion/articleshow/133111972.cms",
-        "published": "Mon, 10 Aug 2026 20:16:56 +0530"
       }
     ],
-    "Moneycontrol": [],
+    "Moneycontrol": [
+      {
+        "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+        "link": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
+        "published": "Tue, 23 Apr 2024 15:46:31 +0530"
+      },
+      {
+        "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
+        "published": "Tue, 23 Apr 2024 14:51:26 +0530"
+      },
+      {
+        "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
+        "link": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
+        "published": "Tue, 23 Apr 2024 12:23:21 +0530"
+      },
+      {
+        "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
+        "published": "Tue, 23 Apr 2024 09:45:50 +0530"
+      }
+    ],
     "Livemint": [
+      {
+        "title": "Yen Weakens 1%, Erases Half of US-Japan Intervention Gains",
+        "link": "https://www.livemint.com/market/yen-weakens-1-erases-half-of-us-japan-intervention-gains-11786394040377.html",
+        "published": "Tue, 11 Aug 2026 02:03:59 +0530"
+      },
+      {
+        "title": "Gold climbs to nine-week high on buying momentum as inflation data looms",
+        "link": "https://www.livemint.com/market/gold-climbs-to-nine-week-high-on-buying-momentum-as-inflation-data-looms-11786389265821.html",
+        "published": "Tue, 11 Aug 2026 00:44:25 +0530"
+      },
+      {
+        "title": "Wall Street eases as hopes for imminent Hormuz deal fade; Intel drops",
+        "link": "https://www.livemint.com/market/wall-street-eases-as-hopes-for-imminent-hormuz-deal-fade-intel-drops-11786389146085.html",
+        "published": "Tue, 11 Aug 2026 00:42:25 +0530"
+      },
       {
         "title": "Zen Technologies shares to be in focus on Tuesday after company secures  \u20b9295 crore defence order",
         "link": "https://www.livemint.com/market/stock-market-news/zen-technologies-shares-to-be-in-focus-on-tuesday-after-company-secures-rs-295-crore-defence-order-11786381376241.html",
@@ -53,21 +89,6 @@
         "title": "Intel plans $15 billion share sale as turnaround rally lifts stock",
         "link": "https://www.livemint.com/market/stock-market-news/intel-plans-15-billion-share-sale-as-turnaround-rally-lifts-stock-11786381678993.html",
         "published": "Mon, 10 Aug 2026 22:47:31 +0530"
-      },
-      {
-        "title": "This new-age tech stock hits over 4-year high, recovers 70% from March lows. Are you holding it?",
-        "link": "https://www.livemint.com/market/stock-market-news/paytm-share-price-hits-over-4-year-high-recovers-70-from-march-lows-are-you-holding-it-11786366609923.html",
-        "published": "Mon, 10 Aug 2026 22:02:20 +0530"
-      },
-      {
-        "title": "Nippon India Equity buys stake in Iris Clothings that has risen 250% in five years",
-        "link": "https://www.livemint.com/market/stock-market-news/nippon-india-equity-buys-stake-in-iris-clothings-that-has-risen-250-in-five-years-11786372512339.html",
-        "published": "Mon, 10 Aug 2026 20:32:56 +0530"
-      },
-      {
-        "title": "Wall Street slips ahead of inflation data, crude oil surges",
-        "link": "https://www.livemint.com/market/stock-market-news/wall-street-slips-ahead-of-inflation-data-crude-oil-surges-11786370280375.html",
-        "published": "Mon, 10 Aug 2026 19:41:04 +0530"
       }
     ]
   },
