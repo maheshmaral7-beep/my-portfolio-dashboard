@@ -1,73 +1,94 @@
 {
-  "fetched_at": "2026-08-11T04:06:26.945690+00:00",
+  "fetched_at": "2026-08-11T08:13:50.544216+00:00",
   "market_prices": {
     "Nifty 50": {
-      "price": 24490.55,
-      "as_of": "2026-08-11 09:36:00+05:30"
+      "price": 24461.65,
+      "as_of": "2026-08-11 13:43:00+05:30"
     },
     "Sensex": {
-      "price": 78226.79,
-      "as_of": "2026-08-11 09:21:00+05:30"
+      "price": 78167.01,
+      "as_of": "2026-08-11 13:28:00+05:30"
     },
     "Bank Nifty": {
-      "price": 57261.75,
-      "as_of": "2026-08-11 09:36:00+05:30"
+      "price": 57389.55,
+      "as_of": "2026-08-11 13:43:00+05:30"
     }
   },
   "news": {
     "Economic Times": [
       {
-        "title": "State Bank of India taps dollar bond market with five-year issue: Report",
-        "link": "https://economictimes.indiatimes.com/markets/bonds/state-bank-of-india-taps-dollar-bond-market-with-five-year-issue-report/articleshow/133141420.cms",
-        "published": "Tue, 11 Aug 2026 09:16:35 +0530"
+        "title": "INDIA BONDS-Indian bonds skid as crude soars, Treasuries fall",
+        "link": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-indian-bonds-skid-as-crude-soars-treasuries-fall/articleshow/133146987.cms",
+        "published": "Tue, 11 Aug 2026 13:20:54 +0530"
       },
       {
-        "title": "Lalithaa Jewellery Mart IPO price band fixed at Rs 190-201 for Rs 1,700 crore IPO; issue opens on August 17",
-        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/lalithaa-jewellery-mart-ipo-price-band-fixed-at-rs-190-201-for-rs-1700-crore-ipo-issue-opens-on-august-17/articleshow/133141350.cms",
-        "published": "Tue, 11 Aug 2026 09:10:15 +0530"
+        "title": "Euro zone bond yields rise as oil climbs on Hormuz doubts",
+        "link": "https://economictimes.indiatimes.com/markets/bonds/euro-zone-bond-yields-rise-as-oil-climbs-on-hormuz-doubts/articleshow/133146952.cms",
+        "published": "Tue, 11 Aug 2026 13:19:36 +0530"
       },
       {
-        "title": "Jubilant Pharmova among 4 stocks flashing bullish signals, hinting at a possible uptrend",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/jubilant-pharmova-among-4-stocks-flashing-bullish-signals-hinting-at-a-possible-uptrend/slideshow/133141333.cms",
-        "published": "Tue, 11 Aug 2026 09:02:42 +0530"
+        "title": "Shein plans to launch Hong Kong IPO as soon as next Wednesday, sources say",
+        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/shein-plans-to-launch-hong-kong-ipo-as-soon-as-next-wednesday-sources-say/articleshow/133146911.cms",
+        "published": "Tue, 11 Aug 2026 13:18:00 +0530"
       },
       {
-        "title": "Aegeus Technologies shares to debut today: GMP signals 11% premium ahead of BSE SME listing",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/aegeus-technologies-shares-to-debut-today-gmp-signals-11-premium-ahead-of-bse-sme-listing/articleshow/133141246.cms",
-        "published": "Tue, 11 Aug 2026 08:59:46 +0530"
+        "title": "MRF Q1 Results: PAT dips 6% YoY to Rs 479 crore; shares fall 3% amid sharp margin contraction",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/earnings/mrf-q1-results-pat-dips-6-yoy-to-rs-479-crore-shares-fall-3-amid-sharp-margin-contraction/articleshow/133146865.cms",
+        "published": "Tue, 11 Aug 2026 13:17:25 +0530"
       },
       {
-        "title": "Avenue Supermarts among 4 stocks showing bullish RSI upswing",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/avenue-supermarts-among-4-stocks-showing-bullish-rsi-upswing/slideshow/133141287.cms",
-        "published": "Tue, 11 Aug 2026 08:57:32 +0530"
+        "title": "Bitcoin slips to $64K, Ethereum below $1,900 amid crypto market volatility",
+        "link": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/bitcoin-slips-to-64k-ethereum-below-1900-amid-crypto-market-volatility/articleshow/133146858.cms",
+        "published": "Tue, 11 Aug 2026 13:15:03 +0530"
       }
     ],
-    "Moneycontrol": [],
+    "Moneycontrol": [
+      {
+        "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+        "link": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
+        "published": "Tue, 23 Apr 2024 15:46:31 +0530"
+      },
+      {
+        "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
+        "published": "Tue, 23 Apr 2024 14:51:26 +0530"
+      },
+      {
+        "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
+        "link": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
+        "published": "Tue, 23 Apr 2024 12:23:21 +0530"
+      },
+      {
+        "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
+        "published": "Tue, 23 Apr 2024 09:45:50 +0530"
+      }
+    ],
     "Livemint": [
       {
-        "title": "Nikkei, Kospi to US stocks: Global equity heatmap you must know before the opening bell of the Indian stock market",
-        "link": "https://www.livemint.com/market/stock-market-news/nikkei-kospi-to-us-stocks-global-equity-heatmap-you-must-know-before-the-opening-bell-of-the-indian-stock-market-11786417558377.html",
-        "published": "Tue, 11 Aug 2026 09:17:48 +0530"
+        "title": "Shiprocket IPO: GMP, price, date, other key details in 10 points",
+        "link": "https://www.livemint.com/market/ipo/shiprocket-ipo-gmp-price-date-other-key-details-in-10-points-11786430198450.html",
+        "published": "Tue, 11 Aug 2026 13:20:04 +0530"
       },
       {
-        "title": "MCX gold jumps over  \u20b91,55,100 per 10 grams, silver trades above  \u20b92,39,400 per kg; Middle East, US inflation in focus",
-        "link": "https://www.livemint.com/market/commodities/mcx-gold-jumps-over-1-55-060-per-10-grams-silver-trades-above-2-39-000-per-kg-middle-east-us-inflation-in-focus-11786418608520.html",
-        "published": "Tue, 11 Aug 2026 09:07:32 +0530"
+        "title": "Small-cap stock jumps 4% after receipt of order worth  \u20b9740 crore",
+        "link": "https://www.livemint.com/market/stock-market-news/smallcap-stock-krystal-integrated-services-jumps-4-after-receipt-of-order-worth-740-crore-11786428662807.html",
+        "published": "Tue, 11 Aug 2026 12:24:28 +0530"
       },
       {
-        "title": "Rupee opens 9 paise lower at 95.39 against US dollar",
-        "link": "https://www.livemint.com/market/stock-market-news/rupee-opens-9-paise-lower-at-95-39-against-us-dollar-11786419156023.html",
-        "published": "Tue, 11 Aug 2026 09:04:39 +0530"
+        "title": "QIP fundraising hits one-year high as companies tap strong liquidity",
+        "link": "https://www.livemint.com/market/stock-market-news/qip-fundraising-india-deal-pipeline-stock-markets-listed-companies-adani-enterprises-11786427137710.html",
+        "published": "Tue, 11 Aug 2026 12:23:58 +0530"
       },
       {
-        "title": "Lalithaa Jewellery Mart IPO: Price band set at  \u20b9190-201 per share; check key dates, issue details",
-        "link": "https://www.livemint.com/market/ipo/lalithaa-jewellery-mart-ipo-price-band-set-at-rs-190-201-per-share-check-key-dates-issue-details-11786417826251.html",
-        "published": "Tue, 11 Aug 2026 08:55:00 +0530"
+        "title": "Nifty Rejig: BSE to enter Nifty 50, Wipro moves to Nifty Next 50; Hitachi Energy, Polycab join Nifty 100",
+        "link": "https://www.livemint.com/market/stock-market-news/nifty-rejig-bse-to-enter-nifty-50-wipro-moves-to-nifty-next-50-hitachi-energy-polycab-join-nifty-100-11786428654633.html",
+        "published": "Tue, 11 Aug 2026 12:00:51 +0530"
       },
       {
-        "title": "Raja Venkatraman recommends three stocks for 11 August",
-        "link": "https://www.livemint.com/market/stock-market-news/raja-venkatraman-recommends-three-stocks-for-11-august-11786363211870.html",
-        "published": "Tue, 11 Aug 2026 08:48:48 +0530"
+        "title": "PC Jeweller share price jumps 5% after Q1 results 2026. Do you own?",
+        "link": "https://www.livemint.com/market/stock-market-news/pc-jeweller-share-price-jumps-5-after-q1-results-2026-do-you-own-11786426853564.html",
+        "published": "Tue, 11 Aug 2026 11:39:44 +0530"
       }
     ]
   },
