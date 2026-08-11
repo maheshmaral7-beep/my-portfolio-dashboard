@@ -1,94 +1,73 @@
 {
-  "fetched_at": "2026-08-10T23:09:03.302384+00:00",
+  "fetched_at": "2026-08-11T04:06:26.945690+00:00",
   "market_prices": {
     "Nifty 50": {
-      "price": 24583.8,
-      "as_of": "2026-08-10 15:29:00+05:30"
+      "price": 24490.55,
+      "as_of": "2026-08-11 09:36:00+05:30"
     },
     "Sensex": {
-      "price": 78542.44,
-      "as_of": "2026-08-10 15:29:00+05:30"
+      "price": 78226.79,
+      "as_of": "2026-08-11 09:21:00+05:30"
     },
     "Bank Nifty": {
-      "price": 57686.95,
-      "as_of": "2026-08-10 15:29:00+05:30"
+      "price": 57261.75,
+      "as_of": "2026-08-11 09:36:00+05:30"
     }
   },
   "news": {
     "Economic Times": [
       {
-        "title": "US Stocks: Nasdaq ends down as expectations of Hormuz deal fade",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-nasdaq-ends-down-as-expectations-of-hormuz-deal-fade/articleshow/133135481.cms",
-        "published": "Tue, 11 Aug 2026 01:38:58 +0530"
+        "title": "State Bank of India taps dollar bond market with five-year issue: Report",
+        "link": "https://economictimes.indiatimes.com/markets/bonds/state-bank-of-india-taps-dollar-bond-market-with-five-year-issue-report/articleshow/133141420.cms",
+        "published": "Tue, 11 Aug 2026 09:16:35 +0530"
       },
       {
-        "title": "Microsoft could unveil Maia 300 AI chip as early as September: Report",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/microsoft-could-unveil-maia-300-ai-chip-as-early-as-september-report/articleshow/133133978.cms",
-        "published": "Tue, 11 Aug 2026 01:18:39 +0530"
+        "title": "Lalithaa Jewellery Mart IPO price band fixed at Rs 190-201 for Rs 1,700 crore IPO; issue opens on August 17",
+        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/lalithaa-jewellery-mart-ipo-price-band-fixed-at-rs-190-201-for-rs-1700-crore-ipo-issue-opens-on-august-17/articleshow/133141350.cms",
+        "published": "Tue, 11 Aug 2026 09:10:15 +0530"
       },
       {
-        "title": "Oil climbs 5% as Iran, US both demand compensation and Hormuz hopes fade",
-        "link": "https://economictimes.indiatimes.com/markets/commodities/news/oil-climbs-5-as-iran-us-both-demand-compensation-and-hormuz-hopes-fade/articleshow/133132265.cms",
-        "published": "Tue, 11 Aug 2026 00:41:43 +0530"
+        "title": "Jubilant Pharmova among 4 stocks flashing bullish signals, hinting at a possible uptrend",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/jubilant-pharmova-among-4-stocks-flashing-bullish-signals-hinting-at-a-possible-uptrend/slideshow/133141333.cms",
+        "published": "Tue, 11 Aug 2026 09:02:42 +0530"
       },
       {
-        "title": "US bonds fall as markets weight inflation, Middle East risks",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-bonds-fall-as-markets-weight-inflation-middle-east-risks/articleshow/133130271.cms",
-        "published": "Tue, 11 Aug 2026 00:07:29 +0530"
+        "title": "Aegeus Technologies shares to debut today: GMP signals 11% premium ahead of BSE SME listing",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/aegeus-technologies-shares-to-debut-today-gmp-signals-11-premium-ahead-of-bse-sme-listing/articleshow/133141246.cms",
+        "published": "Tue, 11 Aug 2026 08:59:46 +0530"
       },
       {
-        "title": "Archer Aviation shares jump nearly 10% on deal to acquire Boeing\u2019s Wisk, two other units",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/archer-aviation-shares-jump-nearly-10-on-deal-to-acquire-boeings-wisk-two-other-units/articleshow/133126628.cms",
-        "published": "Mon, 10 Aug 2026 23:25:44 +0530"
+        "title": "Avenue Supermarts among 4 stocks showing bullish RSI upswing",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/avenue-supermarts-among-4-stocks-showing-bullish-rsi-upswing/slideshow/133141287.cms",
+        "published": "Tue, 11 Aug 2026 08:57:32 +0530"
       }
     ],
-    "Moneycontrol": [
-      {
-        "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
-        "link": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
-        "published": "Tue, 23 Apr 2024 15:46:31 +0530"
-      },
-      {
-        "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
-        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
-        "published": "Tue, 23 Apr 2024 14:51:26 +0530"
-      },
-      {
-        "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
-        "link": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
-        "published": "Tue, 23 Apr 2024 12:23:21 +0530"
-      },
-      {
-        "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
-        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
-        "published": "Tue, 23 Apr 2024 09:45:50 +0530"
-      }
-    ],
+    "Moneycontrol": [],
     "Livemint": [
       {
-        "title": "Europe Gas Prices Surge as Hormuz Deal Prospects Remain Murky",
-        "link": "https://www.livemint.com/market/europe-gas-prices-surge-as-hormuz-deal-prospects-remain-murky-11786396840725.html",
-        "published": "Tue, 11 Aug 2026 02:50:40 +0530"
+        "title": "Nikkei, Kospi to US stocks: Global equity heatmap you must know before the opening bell of the Indian stock market",
+        "link": "https://www.livemint.com/market/stock-market-news/nikkei-kospi-to-us-stocks-global-equity-heatmap-you-must-know-before-the-opening-bell-of-the-indian-stock-market-11786417558377.html",
+        "published": "Tue, 11 Aug 2026 09:17:48 +0530"
       },
       {
-        "title": "Wheat Climbs With USDA Seen Tightening Global Grain Supply",
-        "link": "https://www.livemint.com/market/wheat-climbs-with-usda-seen-tightening-global-grain-supply-11786396412346.html",
-        "published": "Tue, 11 Aug 2026 02:43:31 +0530"
+        "title": "MCX gold jumps over  \u20b91,55,100 per 10 grams, silver trades above  \u20b92,39,400 per kg; Middle East, US inflation in focus",
+        "link": "https://www.livemint.com/market/commodities/mcx-gold-jumps-over-1-55-060-per-10-grams-silver-trades-above-2-39-000-per-kg-middle-east-us-inflation-in-focus-11786418608520.html",
+        "published": "Tue, 11 Aug 2026 09:07:32 +0530"
       },
       {
-        "title": "Yen Weakens 1%, Erases Half of US-Japan Intervention Gains",
-        "link": "https://www.livemint.com/market/yen-weakens-1-erases-half-of-us-japan-intervention-gains-11786394040377.html",
-        "published": "Tue, 11 Aug 2026 02:03:59 +0530"
+        "title": "Rupee opens 9 paise lower at 95.39 against US dollar",
+        "link": "https://www.livemint.com/market/stock-market-news/rupee-opens-9-paise-lower-at-95-39-against-us-dollar-11786419156023.html",
+        "published": "Tue, 11 Aug 2026 09:04:39 +0530"
       },
       {
-        "title": "Gold climbs to nine-week high on buying momentum as inflation data looms",
-        "link": "https://www.livemint.com/market/gold-climbs-to-nine-week-high-on-buying-momentum-as-inflation-data-looms-11786389265821.html",
-        "published": "Tue, 11 Aug 2026 00:44:25 +0530"
+        "title": "Lalithaa Jewellery Mart IPO: Price band set at  \u20b9190-201 per share; check key dates, issue details",
+        "link": "https://www.livemint.com/market/ipo/lalithaa-jewellery-mart-ipo-price-band-set-at-rs-190-201-per-share-check-key-dates-issue-details-11786417826251.html",
+        "published": "Tue, 11 Aug 2026 08:55:00 +0530"
       },
       {
-        "title": "Wall Street eases as hopes for imminent Hormuz deal fade; Intel drops",
-        "link": "https://www.livemint.com/market/wall-street-eases-as-hopes-for-imminent-hormuz-deal-fade-intel-drops-11786389146085.html",
-        "published": "Tue, 11 Aug 2026 00:42:25 +0530"
+        "title": "Raja Venkatraman recommends three stocks for 11 August",
+        "link": "https://www.livemint.com/market/stock-market-news/raja-venkatraman-recommends-three-stocks-for-11-august-11786363211870.html",
+        "published": "Tue, 11 Aug 2026 08:48:48 +0530"
       }
     ]
   },
