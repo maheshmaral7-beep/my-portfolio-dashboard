@@ -168,5 +168,90 @@
         "category": "turnaround_stories"
       }
     ]
+  },
+  {
+    "date": "2026-08-12",
+    "picks": [
+      {
+        "symbol": "KALYANKJIL",
+        "name": "Kalyan Jewellers India Ltd.",
+        "sector": "Consumer Durables",
+        "entry": 596.7,
+        "target": 634.6,
+        "category": "momentum_leaders"
+      },
+      {
+        "symbol": "EXIDEIND",
+        "name": "Exide Industries Ltd.",
+        "sector": "Automobile and Auto Components",
+        "entry": 490.65,
+        "target": 490.65,
+        "category": "breakout_candidates"
+      },
+      {
+        "symbol": "ADANIGREEN",
+        "name": "Adani Green Energy Ltd.",
+        "sector": "Power",
+        "entry": 1332.3,
+        "target": 1604.5,
+        "category": "turnaround_stories"
+      },
+      {
+        "symbol": "HEROMOTOCO",
+        "name": "Hero MotoCorp Ltd.",
+        "sector": "Automobile and Auto Components",
+        "entry": 5895.0,
+        "target": 6138.79,
+        "category": "emerging_leaders"
+      },
+      {
+        "symbol": "HCLTECH",
+        "name": "HCL Technologies Ltd.",
+        "sector": "Information Technology",
+        "entry": 1365.4,
+        "target": 1679.96,
+        "category": "undervalued_quality"
+      },
+      {
+        "symbol": "SIEMENS",
+        "name": "Siemens Ltd.",
+        "sector": "Capital Goods",
+        "entry": 4019.0,
+        "target": 4019.0,
+        "category": "earnings_winners"
+      },
+      {
+        "symbol": "PAYTM",
+        "name": "One 97 Communications Ltd.",
+        "sector": "Financial Services",
+        "entry": 1610.0,
+        "target": 1610.0,
+        "category": "momentum_leaders"
+      },
+      {
+        "symbol": "M&MFIN",
+        "name": "Mahindra & Mahindra Financial Services Ltd.",
+        "sector": "Financial Services",
+        "entry": 395.85,
+        "target": 412.3,
+        "category": "emerging_leaders"
+      },
+      {
+        "symbol": "LODHA",
+        "name": "Lodha Developers Ltd.",
+        "sector": "Realty",
+        "entry": 1209.0,
+        "target": 1311.74,
+        "category": "momentum_leaders"
+      },
+      {
+        "symbol": "ETERNAL",
+        "name": "Eternal Ltd.",
+        "sector": "Consumer Services",
+        "entry": 314.05,
+        "target": 354.35,
+        "category": "earnings_winners"
+      }
+    ]
   }
 ]
