@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-12T18:39:31.691790+00:00",
+  "fetched_at": "2026-08-12T21:25:34.957955+00:00",
   "market_prices": {
     "Nifty 50": {
       "price": 24435.95,
@@ -17,6 +17,21 @@
   "news": {
     "Economic Times": [
       {
+        "title": "US stocks: S&amp;P 500 ends higher as CoreWeave results fuel AI optimism",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-sp-500-ends-higher-as-coreweave-results-fuel-ai-optimism/articleshow/133192806.cms",
+        "published": "Thu, 13 Aug 2026 01:38:14 +0530"
+      },
+      {
+        "title": "US Treasuries hold gains as softer inflation weakens rate-hike fears",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-treasuries-hold-gains-as-softer-inflation-weakens-rate-hike-fears/articleshow/133192693.cms",
+        "published": "Thu, 13 Aug 2026 01:25:06 +0530"
+      },
+      {
+        "title": "US Fed expected to leave rates unchanged next month after soft inflation data",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-fed-expected-to-leave-rates-unchanged-next-month-after-soft-inflation-data/articleshow/133191697.cms",
+        "published": "Thu, 13 Aug 2026 00:21:32 +0530"
+      },
+      {
         "title": "US stocks: Londian Wason valued at $2 billion, biggest Chinese debut in New York in over a year",
         "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-londian-wason-valued-at-2-billion-biggest-chinese-debut-in-new-york-in-over-a-year/articleshow/133190804.cms",
         "published": "Wed, 12 Aug 2026 23:42:12 +0530"
@@ -25,49 +40,55 @@
         "title": "Goldman Sachs ups ETF push, set to acquire Neos Investments for up to $2.25 billion",
         "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/goldman-sachs-ups-etf-push-set-to-acquire-neos-investments-for-up-to-2-25-billion/articleshow/133189967.cms",
         "published": "Wed, 12 Aug 2026 23:31:21 +0530"
-      },
-      {
-        "title": "Nebius shares soar 22% as AI demand powers revenue beat",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/nebius-shares-soar-22-as-ai-demand-powers-revenue-beat/articleshow/133188174.cms",
-        "published": "Wed, 12 Aug 2026 22:00:38 +0530"
-      },
-      {
-        "title": "Indel Money to raise up to Rs 500 crore via public issue of NCDs",
-        "link": "https://economictimes.indiatimes.com/markets/bonds/indel-money-to-raise-up-to-rs-500-crore-via-public-issue-of-ncds/articleshow/133187783.cms",
-        "published": "Wed, 12 Aug 2026 21:39:48 +0530"
-      },
-      {
-        "title": "Ahead of Market: 10 things that will decide stock market action on Thursday",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-thursday/articleshow/133187725.cms",
-        "published": "Wed, 12 Aug 2026 21:30:29 +0530"
       }
     ],
-    "Moneycontrol": [],
+    "Moneycontrol": [
+      {
+        "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+        "link": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
+        "published": "Tue, 23 Apr 2024 15:46:31 +0530"
+      },
+      {
+        "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
+        "published": "Tue, 23 Apr 2024 14:51:26 +0530"
+      },
+      {
+        "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
+        "link": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
+        "published": "Tue, 23 Apr 2024 12:23:21 +0530"
+      },
+      {
+        "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
+        "published": "Tue, 23 Apr 2024 09:45:50 +0530"
+      }
+    ],
     "Livemint": [
+      {
+        "title": "US Sells 10-Year Debt at Highest Yields Since Financial Crisis",
+        "link": "https://www.livemint.com/market/us-sells-10-year-debt-at-highest-yields-since-financial-crisis-11786566124472.html",
+        "published": "Thu, 13 Aug 2026 01:52:03 +0530"
+      },
+      {
+        "title": "Oil prices edge up as investors weigh US-Iran talks deadlock against lower demand",
+        "link": "https://www.livemint.com/market/oil-prices-edge-up-as-investors-weigh-us-iran-talks-deadlock-against-lower-demand-11786561800055.html",
+        "published": "Thu, 13 Aug 2026 00:39:59 +0530"
+      },
+      {
+        "title": "Gold rises to over two-month peak as US inflation data dampens rate hike bets",
+        "link": "https://www.livemint.com/market/gold-rises-to-over-two-month-peak-as-us-inflation-data-dampens-rate-hike-bets-11786560770348.html",
+        "published": "Thu, 13 Aug 2026 00:22:50 +0530"
+      },
+      {
+        "title": "Canadian 10-year yield pulls back from 2-year high after tame U.S. inflation data",
+        "link": "https://www.livemint.com/market/canadian-10-year-yield-pulls-back-from-2-year-high-after-tame-u-s-inflation-data-11786560586614.html",
+        "published": "Thu, 13 Aug 2026 00:19:46 +0530"
+      },
       {
         "title": "Yen Trades Near 160 Level, Keeping Traders on Intervention Watch",
         "link": "https://www.livemint.com/market/yen-trades-near-160-level-keeping-traders-on-intervention-watch-11786559796941.html",
         "published": "Thu, 13 Aug 2026 00:06:36 +0530"
-      },
-      {
-        "title": "Yen Trades Near 160 Level as Traders Watch for Intervention",
-        "link": "https://www.livemint.com/market/yen-trades-near-160-level-as-traders-watch-for-intervention-11786559795390.html",
-        "published": "Thu, 13 Aug 2026 00:06:34 +0530"
-      },
-      {
-        "title": "Cisco stock rises ahead of Q4 earnings as investors focus on AI networking demand",
-        "link": "https://www.livemint.com/market/stock-market-news/cisco-stock-rises-ahead-of-q4-earnings-as-investors-focus-on-ai-networking-demand-11786556085300.html",
-        "published": "Wed, 12 Aug 2026 23:23:25 +0530"
-      },
-      {
-        "title": "BofA to acquire up to 49.9% stake in Jio Credit for  \u20b918,268 crore",
-        "link": "https://www.livemint.com/market/stock-market-news/bofa-to-acquire-up-to-49-9-stake-in-jio-credit-for-rs-18-268-crore-11786554406036.html",
-        "published": "Wed, 12 Aug 2026 22:47:55 +0530"
-      },
-      {
-        "title": "IRCTC Q1 Results: Revenue rises 18%, profit remains largely flat at  \u20b9330 crore",
-        "link": "https://www.livemint.com/market/stock-market-news/irctc-q1-results-revenue-rises-18-profit-remains-largely-flat-at-rs-330-crore-11786550554016.html",
-        "published": "Wed, 12 Aug 2026 21:43:06 +0530"
       }
     ]
   },
