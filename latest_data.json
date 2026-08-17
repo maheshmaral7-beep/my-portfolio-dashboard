@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-17T13:55:53.482946+00:00",
+  "fetched_at": "2026-08-17T14:57:11.012902+00:00",
   "market_prices": {
     "Nifty 50": {
       "price": 24287.65,
@@ -17,12 +17,17 @@
   "news": {
     "Economic Times": [
       {
+        "title": "US stocks: S&amp;P 500 opens muted as Middle East tensions weigh",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-sp-500-opens-muted-as-middle-east-tensions-weigh/articleshow/133298963.cms",
+        "published": "Mon, 17 Aug 2026 19:24:38 +0530"
+      },
+      {
         "title": "Michael Burry revives AI warnings, Big Short investor says 'You could have heard it first'",
         "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/michael-burry-revives-ai-warnings-big-short-investor-says-you-could-have-heard-it-first/articleshow/133298147.cms",
         "published": "Mon, 17 Aug 2026 18:44:14 +0530"
       },
       {
-        "title": "Dow Jones| Nasdaq | US Stock Market Today | Live: S&amp;P 500 opens flat as Middle East tensions weigh on sentiment",
+        "title": "Dow Jones| Nasdaq | US Stock Market Today | Live: US stocks edge lower as Middle East tensions weigh on sentiment",
         "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/dow-jones-stock-market-live-updates-nasdaq-sp-500-us-iran-israel-hormuz-deal-crude-oil-fed-warsh-rate-anthropic-nvidia-microsoft-micron-chip-stock-price-news-17th-august-2026/liveblog/133297038.cms",
         "published": "Mon, 17 Aug 2026 17:54:57 +0530"
       },
@@ -35,36 +40,25 @@
         "title": "Market opportunity for REITs and InvITs is set to increase 2-3x from the existing AUM by 2030: Report",
         "link": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/market-opportunity-for-reits-and-invits-is-set-to-increase-2-3x-from-the-existing-aum-by-2030-report/articleshow/133296479.cms",
         "published": "Mon, 17 Aug 2026 17:35:52 +0530"
-      },
-      {
-        "title": "India bonds sink on RBI's early close of FX swap facility",
-        "link": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-sink-on-rbis-early-close-of-fx-swap-facility/articleshow/133296451.cms",
-        "published": "Mon, 17 Aug 2026 17:35:06 +0530"
       }
     ],
-    "Moneycontrol": [
-      {
-        "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
-        "link": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
-        "published": "Tue, 23 Apr 2024 15:46:31 +0530"
-      },
-      {
-        "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
-        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
-        "published": "Tue, 23 Apr 2024 14:51:26 +0530"
-      },
-      {
-        "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
-        "link": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
-        "published": "Tue, 23 Apr 2024 12:23:21 +0530"
-      },
-      {
-        "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
-        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
-        "published": "Tue, 23 Apr 2024 09:45:50 +0530"
-      }
-    ],
+    "Moneycontrol": [],
     "Livemint": [
+      {
+        "title": "Sunshine Pictures raises  \u20b985 crore from anchor investors ahead of IPO launch on Tuesday",
+        "link": "https://www.livemint.com/market/stock-market-news/sunshine-pictures-raises-rs-85-crore-from-ancho-investors-ahead-of-ipo-launch-on-tuesday-11786976104952.html",
+        "published": "Mon, 17 Aug 2026 20:12:19 +0530"
+      },
+      {
+        "title": "US stocks mixed as Iran tensions weigh, Anthropic outlook lifts tech stocks",
+        "link": "https://www.livemint.com/market/stock-market-news/us-stocks-mixed-as-iran-tensions-weigh-anthropic-outlook-lifts-tech-stocks-11786974172565.html",
+        "published": "Mon, 17 Aug 2026 19:31:17 +0530"
+      },
+      {
+        "title": "Up over 110% in one year: Axis Direct sees another 10% upside in this multibagger stock",
+        "link": "https://www.livemint.com/market/stock-market-news/up-over-110-in-one-year-axis-direct-sees-another-10-upside-in-this-multibagger-stock-11786974383658.html",
+        "published": "Mon, 17 Aug 2026 19:25:22 +0530"
+      },
       {
         "title": "US stock market today: S&amp;P 500, Dow futures steady after 3-week winning streak; oil rises on Hormuz risks",
         "link": "https://www.livemint.com/market/stock-market-news/us-stock-market-today-s-p-500-dow-futures-steady-after-3-week-winning-streak-oil-rises-on-hormuz-risks-11786969512356.html",
@@ -74,21 +68,6 @@
         "title": "Margin impact of West Asia tensions to soften India's GDP growth to 7% in Q1 FY27, says ICRA",
         "link": "https://www.livemint.com/market/stock-market-news/margin-impact-of-west-asia-tensions-to-soften-indias-gdp-growth-to-7-in-q1-fy27-says-icra-11786966243262.html",
         "published": "Mon, 17 Aug 2026 17:39:56 +0530"
-      },
-      {
-        "title": "Penny stock under  \u20b95 hits 5% upper circuit after this business diversification move",
-        "link": "https://www.livemint.com/market/penny-stock-under-rs-5-hits-5-upper-circuit-after-this-business-diversification-move-11786964708532.html",
-        "published": "Mon, 17 Aug 2026 16:56:50 +0530"
-      },
-      {
-        "title": "Sensex falls 281 points, Nifty 50 ends at 24,288; mid, small-caps outperform",
-        "link": "https://www.livemint.com/market/stock-market-news/sensex-falls-281-points-nifty-50-ends-at-24-288-mid-small-caps-outperform-11786962054954.html",
-        "published": "Mon, 17 Aug 2026 15:59:20 +0530"
-      },
-      {
-        "title": "Top Gainers &amp; Losers on 17 August: NMDC Steel, LG Electronics, BSE, Tata Tech, Infosys, Voltas among top losers",
-        "link": "https://www.livemint.com/market/stock-market-news/top-gainers-losers-on-17-august-nmdc-steel-lg-electronics-bse-tata-tech-infosys-voltas-among-top-losers-11786961037869.html",
-        "published": "Mon, 17 Aug 2026 15:36:39 +0530"
       }
     ]
   },
