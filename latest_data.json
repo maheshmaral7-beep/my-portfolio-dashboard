@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-08-17T10:05:52.430372+00:00",
+  "fetched_at": "2026-08-17T11:02:10.218095+00:00",
   "market_prices": {
     "Nifty 50": {
       "price": 24287.65,
       "as_of": "2026-08-17 15:29:00+05:30"
     },
     "Sensex": {
-      "price": 77839.52,
-      "as_of": "2026-08-17 15:19:00+05:30"
+      "price": 77728.16,
+      "as_of": "2026-08-17 15:29:00+05:30"
     },
     "Bank Nifty": {
       "price": 57497.8,
@@ -17,33 +17,43 @@
   "news": {
     "Economic Times": [
       {
-        "title": "Global Market: European shares climb despite geopolitical risks; miners lead gains",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-european-shares-climb-despite-geopolitical-risks-miners-lead-gains/articleshow/133292397.cms",
-        "published": "Mon, 17 Aug 2026 14:58:49 +0530"
+        "title": "Rupee slips as sentiment drags on RBI curtailing FX inflow window",
+        "link": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-slips-as-sentiment-drags-on-rbi-curtailing-fx-inflow-window/articleshow/133294246.cms",
+        "published": "Mon, 17 Aug 2026 16:14:40 +0530"
       },
       {
-        "title": "FIIs raise stakes in 12 stocks for three straight quarters; shares surge up to 130%, 3 turn multibaggers",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/fiis-raise-stakes-in-12-stocks-for-three-straight-quarters-shares-surge-up-to-130-3-turn-multibaggers/slideshow/133291970.cms",
-        "published": "Mon, 17 Aug 2026 14:24:48 +0530"
+        "title": "Tempsens Instruments' Rs 650 crore IPO opens on August 20, price band fixed at Rs 285-300 per share",
+        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/tempsens-instruments-rs-650-crore-ipo-opens-on-august-20-price-band-fixed-at-rs-285-300-per-share/articleshow/133294143.cms",
+        "published": "Mon, 17 Aug 2026 16:12:20 +0530"
       },
       {
-        "title": "India\u2019s six listed REITs distribute Rs 3,136 crore in Q1 FY27",
-        "link": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/indias-six-listed-reits-distribute-rs-3136-crore-in-q1-fy27/articleshow/133291635.cms",
-        "published": "Mon, 17 Aug 2026 14:20:09 +0530"
+        "title": "Zepto IPO: Raamdeo Agrawal says it was premature for the quick-commerce firm to tap public market. Here\u2019s why",
+        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/zepto-ipo-raamdeo-agrawal-says-it-was-premature-for-the-quick-commerce-firm-to-tap-public-market-heres-why/articleshow/133293788.cms",
+        "published": "Mon, 17 Aug 2026 15:57:44 +0530"
       },
       {
-        "title": "BSE launches 3-day SLB contracts to boost short-term securities borrowing",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/bse-launches-3-day-slb-contracts-to-boost-short-term-securities-borrowing/articleshow/133290993.cms",
-        "published": "Mon, 17 Aug 2026 13:42:33 +0530"
+        "title": "Bitcoin hovers near $63K ahead of Fed rate decision as investors assess liquidity outlook",
+        "link": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/bitcoin-hovers-near-63k-ahead-of-fed-rate-decision-as-investors-assess-liquidity-outlook/articleshow/133293649.cms",
+        "published": "Mon, 17 Aug 2026 15:54:50 +0530"
       },
       {
-        "title": "Global Markets: 5 big triggers to watch this week",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-markets-5-big-triggers-to-watch-this-week/slideshow/133291128.cms",
-        "published": "Mon, 17 Aug 2026 13:35:07 +0530"
+        "title": "Global Market: Euro zone bond yields hover near 15-year highs as Middle East war fuels inflation fears",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-euro-zone-bond-yields-hover-near-15-year-highs-as-middle-east-war-fuels-inflation-fears/articleshow/133293555.cms",
+        "published": "Mon, 17 Aug 2026 15:50:15 +0530"
       }
     ],
     "Moneycontrol": [],
     "Livemint": [
+      {
+        "title": "Sensex falls 281 points, Nifty 50 ends at 24,288; mid, small-caps outperform",
+        "link": "https://www.livemint.com/market/stock-market-news/sensex-falls-281-points-nifty-50-ends-at-24-288-mid-small-caps-outperform-11786962054954.html",
+        "published": "Mon, 17 Aug 2026 15:59:20 +0530"
+      },
+      {
+        "title": "Top Gainers &amp; Losers on 17 August: NMDC Steel, LG Electronics, BSE, Tata Tech, Infosys, Voltas among top losers",
+        "link": "https://www.livemint.com/market/stock-market-news/top-gainers-losers-on-17-august-nmdc-steel-lg-electronics-bse-tata-tech-infosys-voltas-among-top-losers-11786961037869.html",
+        "published": "Mon, 17 Aug 2026 15:36:39 +0530"
+      },
       {
         "title": "Milky Mist Dairy Food IPO GMP signals strong debut on Dalal Street ahead of listing date",
         "link": "https://www.livemint.com/market/ipo/milky-mist-dairy-food-ipo-gmp-signals-strong-debut-on-dalal-street-ahead-of-listing-date-11786957958242.html",
@@ -58,16 +68,6 @@
         "title": "Shankesh Jewellers IPO opens tomorrow. GMP, size, review, other details about  \u20b9367 crore public issue in 10 points",
         "link": "https://www.livemint.com/market/ipo/shankesh-jewellers-ipo-opens-tomorrow-gmp-size-review-other-details-about-rs-367-crore-public-issue-in-10-points-11786955563602.html",
         "published": "Mon, 17 Aug 2026 14:33:50 +0530"
-      },
-      {
-        "title": "Cochin Shipyard shares extend losing streak, drop 4% after Q1 net profit falls 19%",
-        "link": "https://www.livemint.com/market/stock-market-news/cochin-shipyard-shares-extend-losing-streak-drop-4-after-q1-net-profit-falls-19-11786956032258.html",
-        "published": "Mon, 17 Aug 2026 14:32:36 +0530"
-      },
-      {
-        "title": "HAL vs BEL vs BDL vs Mazagon Dock Shipbuilders: Which defence stock to buy after Q1 results 2026?",
-        "link": "https://www.livemint.com/market/stock-market-news/hal-vs-bel-vs-bdl-vs-mazagon-dock-shipbuilders-which-defence-stock-to-buy-after-q1-results-2026-11786954170289.html",
-        "published": "Mon, 17 Aug 2026 14:24:54 +0530"
       }
     ]
   },
