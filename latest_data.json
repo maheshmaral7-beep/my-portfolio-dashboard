@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-18T19:57:09.851794+00:00",
+  "fetched_at": "2026-08-18T20:54:12.930190+00:00",
   "market_prices": {
     "Nifty 50": {
       "price": 24154.9,
@@ -16,6 +16,11 @@
   },
   "news": {
     "Economic Times": [
+      {
+        "title": "US stocks: Tech selloff weighs down Wall Street as bond yields climb",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-tech-selloff-weighs-down-wall-street-as-bond-yields-climb/articleshow/133332021.cms",
+        "published": "Wed, 19 Aug 2026 01:39:53 +0530"
+      },
       {
         "title": "Anthropic pre-IPO credit facility set to climb past $10 billion",
         "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropic-pre-ipo-credit-facility-set-to-climb-past-10-billion/articleshow/133329176.cms",
@@ -35,35 +40,9 @@
         "title": "Sebi to soon float consultation paper on distribution framework for corporate bonds",
         "link": "https://economictimes.indiatimes.com/markets/bonds/sebi-to-soon-float-consultation-paper-on-distribution-framework-for-corporate-bonds/articleshow/133327145.cms",
         "published": "Tue, 18 Aug 2026 21:38:36 +0530"
-      },
-      {
-        "title": "Sakarni Plaster to invest Rs 450 cr on expansion; to set up 2 building material plants",
-        "link": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/sakarni-plaster-to-invest-rs-450-cr-on-expansion-to-set-up-2-building-material-plants/articleshow/133327030.cms",
-        "published": "Tue, 18 Aug 2026 21:37:04 +0530"
       }
     ],
-    "Moneycontrol": [
-      {
-        "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
-        "link": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
-        "published": "Tue, 23 Apr 2024 15:46:31 +0530"
-      },
-      {
-        "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
-        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
-        "published": "Tue, 23 Apr 2024 14:51:26 +0530"
-      },
-      {
-        "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
-        "link": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
-        "published": "Tue, 23 Apr 2024 12:23:21 +0530"
-      },
-      {
-        "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
-        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
-        "published": "Tue, 23 Apr 2024 09:45:50 +0530"
-      }
-    ],
+    "Moneycontrol": [],
     "Livemint": [
       {
         "title": "Jubilant Ingrevia shares to be in focus on Wednesday as company to acquire 40% stake in EDMS firm",
