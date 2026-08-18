@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-18T14:05:18.199180+00:00",
+  "fetched_at": "2026-08-18T15:49:21.705872+00:00",
   "market_prices": {
     "Nifty 50": {
       "price": 24154.9,
@@ -17,33 +17,59 @@
   "news": {
     "Economic Times": [
       {
+        "title": "Market Trading Guide: Aeroflex Industries among 2 stock recommendations for Wednesday",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/market-trading-guide-aeroflex-industries-among-2-stock-recommendations-for-wednesday/articleshow/133326175.cms",
+        "published": "Tue, 18 Aug 2026 20:44:01 +0530"
+      },
+      {
+        "title": "Ashok Leyland just had a record June quarter. So why did the margin fall a full point?",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/ashok-leyland-just-had-a-record-june-quarter-so-why-did-the-margin-fall-a-full-point/articleshow/133325764.cms",
+        "published": "Tue, 18 Aug 2026 20:35:43 +0530"
+      },
+      {
+        "title": "US yields rise amid Iran worries, broader selloff",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-yields-rise-amid-iran-worries-broader-selloff/articleshow/133325609.cms",
+        "published": "Tue, 18 Aug 2026 20:15:46 +0530"
+      },
+      {
+        "title": "Dodgers owner Mark Walter's insurer to cut $6.5 billion in investments amid probe",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/dodgers-owner-mark-walters-insurer-to-cut-6-5-billion-in-investments-amid-probe/articleshow/133325542.cms",
+        "published": "Tue, 18 Aug 2026 20:13:22 +0530"
+      },
+      {
         "title": "US Stocks: US market opens lower as Iran stalemate lifts oil, yields",
         "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-us-market-opens-lower-as-iran-stalemate-lifts-oil-yields/articleshow/133324329.cms",
         "published": "Tue, 18 Aug 2026 19:19:55 +0530"
-      },
-      {
-        "title": "Sebi bars merchant banker Corporate Capital Ventures from new assignments for one month",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-bars-merchant-banker-corporate-capital-ventures-from-new-assignments-for-one-month/articleshow/133323604.cms",
-        "published": "Tue, 18 Aug 2026 18:40:19 +0530"
-      },
-      {
-        "title": "Four Indian private banks eye dollar debt before RBI swap window deadline, bankers say",
-        "link": "https://economictimes.indiatimes.com/markets/bonds/four-indian-private-banks-eye-dollar-debt-before-rbi-swap-window-deadline-bankers-say/articleshow/133323497.cms",
-        "published": "Tue, 18 Aug 2026 18:35:14 +0530"
-      },
-      {
-        "title": "Klarna trims full-year revenue, volume outlook as German retail weakens",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/klarna-trims-full-year-revenue-volume-outlook-as-german-retail-weakens/articleshow/133323113.cms",
-        "published": "Tue, 18 Aug 2026 18:20:15 +0530"
-      },
-      {
-        "title": "Augmont Enterprises IPO: Rs 825 crore issue price band set at Rs 788",
-        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/augmont-enterprises-ipo-rs-825-crore-issue-price-band-set-at-rs-788/articleshow/133322746.cms",
-        "published": "Tue, 18 Aug 2026 18:09:41 +0530"
       }
     ],
-    "Moneycontrol": [],
+    "Moneycontrol": [
+      {
+        "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+        "link": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
+        "published": "Tue, 23 Apr 2024 15:46:31 +0530"
+      },
+      {
+        "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
+        "published": "Tue, 23 Apr 2024 14:51:26 +0530"
+      },
+      {
+        "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
+        "link": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
+        "published": "Tue, 23 Apr 2024 12:23:21 +0530"
+      },
+      {
+        "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
+        "published": "Tue, 23 Apr 2024 09:45:50 +0530"
+      }
+    ],
     "Livemint": [
+      {
+        "title": "Hindustan Copper shares rebound 20% in 15 sessions. What\u2019s driving the rally?",
+        "link": "https://www.livemint.com/market/stock-market-news/hindustan-copper-shares-rebound-20-in-15-sessions-what-s-driving-the-rally-11787063093871.html",
+        "published": "Tue, 18 Aug 2026 20:05:20 +0530"
+      },
       {
         "title": "US stock market today: S&amp;P 500, Nasdaq futures down up to 1% amid surging oil and bond yields",
         "link": "https://www.livemint.com/market/us-stock-market-today-s-p-500-nasdaq-futures-down-up-to-1-amid-surging-oil-and-bond-yields-11787054644462.html",
@@ -63,11 +89,6 @@
         "title": "Top Gainers &amp; Losers on 18 August: PTC Industries, Inox Wind, Mphasis, Tata Elxsi, Suzlon Energy among top losers",
         "link": "https://www.livemint.com/market/stock-market-news/top-gainers-losers-on-18-august-ptc-industries-inox-wind-mphasis-tata-elxsi-suzlon-energy-among-top-losers-11787047296067.html",
         "published": "Tue, 18 Aug 2026 15:44:08 +0530"
-      },
-      {
-        "title": "Sensex crashes almost 500 points, Nifty 50 extends losses for 6th consecutive session",
-        "link": "https://www.livemint.com/market/stock-market-news/sensex-crashes-almost-500-points-nifty-50-extends-losses-for-6th-consecutive-session-11787037197745.html",
-        "published": "Tue, 18 Aug 2026 15:36:11 +0530"
       }
     ]
   },
