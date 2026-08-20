@@ -423,5 +423,90 @@
         "category": "earnings_winners"
       }
     ]
+  },
+  {
+    "date": "2026-08-20",
+    "picks": [
+      {
+        "symbol": "KALYANKJIL",
+        "name": "Kalyan Jewellers India Ltd.",
+        "sector": "Consumer Durables",
+        "entry": 596.0,
+        "target": 634.6,
+        "category": "momentum_leaders"
+      },
+      {
+        "symbol": "COFORGE",
+        "name": "Coforge Ltd.",
+        "sector": "Information Technology",
+        "entry": 1882.0,
+        "target": 1964.09,
+        "category": "emerging_leaders"
+      },
+      {
+        "symbol": "ADANIGREEN",
+        "name": "Adani Green Energy Ltd.",
+        "sector": "Power",
+        "entry": 1301.8,
+        "target": 1604.5,
+        "category": "turnaround_stories"
+      },
+      {
+        "symbol": "LTM",
+        "name": "LTM Ltd.",
+        "sector": "Information Technology",
+        "entry": 4553.0,
+        "target": 6322.27,
+        "category": "undervalued_quality"
+      },
+      {
+        "symbol": "LENSKART",
+        "name": "Lenskart Solutions Ltd.",
+        "sector": "Consumer Services",
+        "entry": 654.8,
+        "target": 654.8,
+        "category": "earnings_winners"
+      },
+      {
+        "symbol": "NAUKRI",
+        "name": "Info Edge (India) Ltd.",
+        "sector": "Consumer Services",
+        "entry": 1360.9,
+        "target": 1407.76,
+        "category": "momentum_leaders"
+      },
+      {
+        "symbol": "PAYTM",
+        "name": "One 97 Communications Ltd.",
+        "sector": "Financial Services",
+        "entry": 1603.6,
+        "target": 1649.5,
+        "category": "momentum_leaders"
+      },
+      {
+        "symbol": "ETERNAL",
+        "name": "Eternal Ltd.",
+        "sector": "Consumer Services",
+        "entry": 327.95,
+        "target": 354.35,
+        "category": "earnings_winners"
+      },
+      {
+        "symbol": "LODHA",
+        "name": "Lodha Developers Ltd.",
+        "sector": "Realty",
+        "entry": 1240.0,
+        "target": 1311.74,
+        "category": "momentum_leaders"
+      },
+      {
+        "symbol": "DIXON",
+        "name": "Dixon Technologies (India) Ltd.",
+        "sector": "Consumer Durables",
+        "entry": 14850.0,
+        "target": 18331.0,
+        "category": "turnaround_stories"
+      }
+    ]
   }
 ]
