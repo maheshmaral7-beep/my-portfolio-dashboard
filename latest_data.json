@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-20T19:47:13.981525+00:00",
+  "fetched_at": "2026-08-20T21:00:11.032251+00:00",
   "market_prices": {
     "Nifty 50": {
       "price": 24231.85,
@@ -16,6 +16,11 @@
   },
   "news": {
     "Economic Times": [
+      {
+        "title": "US stocks: US market sinks as bond yields rise, Walmart results disappoint",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-us-market-sinks-as-bond-yields-rise-walmart-results-disappoint/articleshow/133387377.cms",
+        "published": "Fri, 21 Aug 2026 01:41:54 +0530"
+      },
       {
         "title": "Shein targets September 1 for Hong Kong IPO: Report",
         "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/shein-targets-september-1-for-hong-kong-ipo-report/articleshow/133384924.cms",
@@ -35,11 +40,6 @@
         "title": "Upstox begins talks with investment banks for $350-400 million IPO; crosses 2 crore customers",
         "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/upstox-begins-talks-with-investment-banks-for-350-400-million-ipo-crosses-2-crore-customers/articleshow/133383629.cms",
         "published": "Thu, 20 Aug 2026 22:21:52 +0530"
-      },
-      {
-        "title": "Augmont Enterprises mops up Rs 246 crore in anchor round ahead of IPO; Nomura, HDFC MF among investors",
-        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/augmont-enterprises-mops-up-rs-246-crore-in-anchor-round-ahead-of-ipo-nomura-hdfc-mf-among-investors/articleshow/133383091.cms",
-        "published": "Thu, 20 Aug 2026 22:09:00 +0530"
       }
     ],
     "Moneycontrol": [
@@ -66,6 +66,11 @@
     ],
     "Livemint": [
       {
+        "title": "Dollar rebounds from losses sparked by Treasury buyback plan",
+        "link": "https://www.livemint.com/market/dollar-rebounds-from-losses-sparked-by-treasury-buyback-plan-11787255798556.html",
+        "published": "Fri, 21 Aug 2026 01:26:38 +0530"
+      },
+      {
         "title": "Canadian dollar hits near 3-month high as oil prices climb",
         "link": "https://www.livemint.com/market/canadian-dollar-hits-near-3-month-high-as-oil-prices-climb-11787252930972.html",
         "published": "Fri, 21 Aug 2026 00:38:50 +0530"
@@ -84,11 +89,6 @@
         "title": "Augmont Enterprises raises  \u20b9246 crore from anchor investors ahead of IPO launch on Friday",
         "link": "https://www.livemint.com/market/stock-market-news/augmont-enterprises-raises-rs-246-crore-from-anchor-investors-ahead-of-ipo-launch-on-friday-11787242962230.html",
         "published": "Thu, 20 Aug 2026 22:08:14 +0530"
-      },
-      {
-        "title": "Retail F&amp;O losses ease, but frequent traders continue to bear the brunt",
-        "link": "https://www.livemint.com/market/stock-market-news/retail-f-o-losses-ease-but-frequent-traders-continue-to-bear-the-brunt-11787239107795.html",
-        "published": "Thu, 20 Aug 2026 21:56:56 +0530"
       }
     ]
   },
