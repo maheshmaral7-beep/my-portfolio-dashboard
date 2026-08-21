@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-21T19:17:08.189700+00:00",
+  "fetched_at": "2026-08-21T19:55:49.432737+00:00",
   "market_prices": {
     "Nifty 50": {
       "price": 24252.0,
@@ -16,6 +16,11 @@
   },
   "news": {
     "Economic Times": [
+      {
+        "title": "Citadel unloads over 80% of bets bought from Leopold Aschenbrenner\u2019s Situational Awareness",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/citadel-unloads-over-80-of-bets-bought-from-leopold-aschenbrenners-situational-awareness/articleshow/133413202.cms",
+        "published": "Sat, 22 Aug 2026 01:00:16 +0530"
+      },
       {
         "title": "US equity funds see strong inflows this week amid bond pressure, draw $11.72 billion from investors",
         "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-equity-funds-see-strong-inflows-this-week-amid-bond-pressure-draw-11-72-billion-from-investors/articleshow/133411899.cms",
@@ -35,11 +40,6 @@
         "title": "India bond yields hit two-month high as rate hike fears intensify",
         "link": "https://economictimes.indiatimes.com/markets/bonds/india-bond-yields-hit-two-month-high-as-rate-hike-fears-intensify/articleshow/133407966.cms",
         "published": "Fri, 21 Aug 2026 20:46:13 +0530"
-      },
-      {
-        "title": "FIIs near historical lows: Jio BlackRock flags potential contrarian setup for Indian equities",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/fiis-near-historical-lows-jio-blackrock-flags-potential-contrarian-setup-for-indian-equities/articleshow/133407830.cms",
-        "published": "Fri, 21 Aug 2026 20:44:12 +0530"
       }
     ],
     "Moneycontrol": [
@@ -66,6 +66,16 @@
     ],
     "Livemint": [
       {
+        "title": "Dollar falls to three-month low on Treasury buyback worries",
+        "link": "https://www.livemint.com/market/dollar-falls-to-three-month-low-on-treasury-buyback-worries-11787341555185.html",
+        "published": "Sat, 22 Aug 2026 01:15:54 +0530"
+      },
+      {
+        "title": "Week of Whiplash in Treasuries Is Closing With Muddied Outlook",
+        "link": "https://www.livemint.com/market/week-of-whiplash-in-treasuries-is-closing-with-muddied-outlook-11787340705313.html",
+        "published": "Sat, 22 Aug 2026 01:01:44 +0530"
+      },
+      {
         "title": "Allspring\u2019s Miletti Sees Jackson Hole as Bigger Risk Than Nvidia",
         "link": "https://www.livemint.com/market/allsprings-miletti-sees-jackson-hole-as-bigger-risk-than-nvidia-11787337053320.html",
         "published": "Sat, 22 Aug 2026 00:00:52 +0530"
@@ -79,16 +89,6 @@
         "title": "Symbiotec Pharmalab IPO: Price band, lot size, GMP, listing date and other key details",
         "link": "https://www.livemint.com/market/ipo/symbiotec-pharmalab-ipo-price-band-lot-size-gmp-listing-date-and-other-key-details-11787319352853.html",
         "published": "Fri, 21 Aug 2026 19:46:55 +0530"
-      },
-      {
-        "title": "US stocks surge as bond market volatility eases, crypto stocks rally",
-        "link": "https://www.livemint.com/market/stock-market-news/us-stocks-surge-as-bond-market-volatility-eases-11787319906181.html",
-        "published": "Fri, 21 Aug 2026 19:33:55 +0530"
-      },
-      {
-        "title": "Sebi proposes bond distributor network, tighter ad rules to deepen retail participation",
-        "link": "https://www.livemint.com/market/sebi-bond-distributor-network-ad-rules-retail-participation-mutual-fund-11787316933242.html",
-        "published": "Fri, 21 Aug 2026 19:23:35 +0530"
       }
     ]
   },
