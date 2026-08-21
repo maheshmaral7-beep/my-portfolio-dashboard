@@ -508,5 +508,90 @@
         "category": "turnaround_stories"
       }
     ]
+  },
+  {
+    "date": "2026-08-21",
+    "picks": [
+      {
+        "symbol": "KALYANKJIL",
+        "name": "Kalyan Jewellers India Ltd.",
+        "sector": "Consumer Durables",
+        "entry": 603.55,
+        "target": 634.6,
+        "category": "momentum_leaders"
+      },
+      {
+        "symbol": "COFORGE",
+        "name": "Coforge Ltd.",
+        "sector": "Information Technology",
+        "entry": 1891.7,
+        "target": 1964.09,
+        "category": "emerging_leaders"
+      },
+      {
+        "symbol": "ADANIGREEN",
+        "name": "Adani Green Energy Ltd.",
+        "sector": "Power",
+        "entry": 1320.0,
+        "target": 1604.5,
+        "category": "turnaround_stories"
+      },
+      {
+        "symbol": "LENSKART",
+        "name": "Lenskart Solutions Ltd.",
+        "sector": "Consumer Services",
+        "entry": 661.4,
+        "target": 661.4,
+        "category": "earnings_winners"
+      },
+      {
+        "symbol": "PAYTM",
+        "name": "One 97 Communications Ltd.",
+        "sector": "Financial Services",
+        "entry": 1632.0,
+        "target": 1649.5,
+        "category": "momentum_leaders"
+      },
+      {
+        "symbol": "ETERNAL",
+        "name": "Eternal Ltd.",
+        "sector": "Consumer Services",
+        "entry": 328.0,
+        "target": 354.35,
+        "category": "earnings_winners"
+      },
+      {
+        "symbol": "RADICO",
+        "name": "Radico Khaitan Ltd",
+        "sector": "Fast Moving Consumer Goods",
+        "entry": 4639.8,
+        "target": 4732.9,
+        "category": "momentum_leaders"
+      },
+      {
+        "symbol": "DIXON",
+        "name": "Dixon Technologies (India) Ltd.",
+        "sector": "Consumer Durables",
+        "entry": 14850.0,
+        "target": 18331.0,
+        "category": "turnaround_stories"
+      },
+      {
+        "symbol": "JUBLFOOD",
+        "name": "Jubilant Foodworks Ltd.",
+        "sector": "Consumer Services",
+        "entry": 506.75,
+        "target": 661.92,
+        "category": "emerging_leaders"
+      },
+      {
+        "symbol": "LODHA",
+        "name": "Lodha Developers Ltd.",
+        "sector": "Realty",
+        "entry": 1242.0,
+        "target": 1311.74,
+        "category": "momentum_leaders"
+      }
+    ]
   }
 ]
