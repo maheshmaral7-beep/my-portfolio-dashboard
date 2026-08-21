@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-21T18:03:00.393248+00:00",
+  "fetched_at": "2026-08-21T19:17:08.189700+00:00",
   "market_prices": {
     "Nifty 50": {
       "price": 24252.0,
@@ -16,6 +16,11 @@
   },
   "news": {
     "Economic Times": [
+      {
+        "title": "US equity funds see strong inflows this week amid bond pressure, draw $11.72 billion from investors",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-equity-funds-see-strong-inflows-this-week-amid-bond-pressure-draw-11-72-billion-from-investors/articleshow/133411899.cms",
+        "published": "Sat, 22 Aug 2026 00:09:23 +0530"
+      },
       {
         "title": "Gold could top Goldman\u2019s $4,900 forecast as options demand fuels rally",
         "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/gold-could-top-goldmans-4900-forecast-as-options-demand-fuels-rally/articleshow/133408548.cms",
@@ -35,15 +40,36 @@
         "title": "FIIs near historical lows: Jio BlackRock flags potential contrarian setup for Indian equities",
         "link": "https://economictimes.indiatimes.com/markets/stocks/news/fiis-near-historical-lows-jio-blackrock-flags-potential-contrarian-setup-for-indian-equities/articleshow/133407830.cms",
         "published": "Fri, 21 Aug 2026 20:44:12 +0530"
-      },
-      {
-        "title": "Gold rallies to 3-month high on weaker dollar, bullish technicals",
-        "link": "https://economictimes.indiatimes.com/markets/commodities/gold-rallies-to-3-month-high-on-weaker-dollar-bullish-technicals/articleshow/133407758.cms",
-        "published": "Fri, 21 Aug 2026 20:36:47 +0530"
       }
     ],
-    "Moneycontrol": [],
+    "Moneycontrol": [
+      {
+        "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+        "link": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
+        "published": "Tue, 23 Apr 2024 15:46:31 +0530"
+      },
+      {
+        "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
+        "published": "Tue, 23 Apr 2024 14:51:26 +0530"
+      },
+      {
+        "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
+        "link": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
+        "published": "Tue, 23 Apr 2024 12:23:21 +0530"
+      },
+      {
+        "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
+        "published": "Tue, 23 Apr 2024 09:45:50 +0530"
+      }
+    ],
     "Livemint": [
+      {
+        "title": "Allspring\u2019s Miletti Sees Jackson Hole as Bigger Risk Than Nvidia",
+        "link": "https://www.livemint.com/market/allsprings-miletti-sees-jackson-hole-as-bigger-risk-than-nvidia-11787337053320.html",
+        "published": "Sat, 22 Aug 2026 00:00:52 +0530"
+      },
       {
         "title": "Crude oil prices head for second weekly gain as US steps up economic pressure on Iran",
         "link": "https://www.livemint.com/market/commodities/crude-oil-prices-head-for-second-weekly-gain-as-us-steps-up-economic-pressure-on-iran-11787327365673.html",
@@ -63,11 +89,6 @@
         "title": "Sebi proposes bond distributor network, tighter ad rules to deepen retail participation",
         "link": "https://www.livemint.com/market/sebi-bond-distributor-network-ad-rules-retail-participation-mutual-fund-11787316933242.html",
         "published": "Fri, 21 Aug 2026 19:23:35 +0530"
-      },
-      {
-        "title": "Pulse of the Street: Cyclicals buck weak market as FPI inflows hit 23-month high",
-        "link": "https://www.livemint.com/market/stock-market-news/pulse-of-the-street-cyclicals-buck-weak-market-as-fpi-inflows-hit-23-month-high-11787315061912.html",
-        "published": "Fri, 21 Aug 2026 19:06:48 +0530"
       }
     ]
   },
