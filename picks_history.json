@@ -593,5 +593,90 @@
         "category": "momentum_leaders"
       }
     ]
+  },
+  {
+    "date": "2026-08-24",
+    "picks": [
+      {
+        "symbol": "KALYANKJIL",
+        "name": "Kalyan Jewellers India Ltd.",
+        "sector": "Consumer Durables",
+        "entry": 607.95,
+        "target": 634.6,
+        "category": "momentum_leaders"
+      },
+      {
+        "symbol": "PAYTM",
+        "name": "One 97 Communications Ltd.",
+        "sector": "Financial Services",
+        "entry": 1623.5,
+        "target": 1649.5,
+        "category": "emerging_leaders"
+      },
+      {
+        "symbol": "ADANIGREEN",
+        "name": "Adani Green Energy Ltd.",
+        "sector": "Power",
+        "entry": 1308.0,
+        "target": 1604.5,
+        "category": "turnaround_stories"
+      },
+      {
+        "symbol": "LENSKART",
+        "name": "Lenskart Solutions Ltd.",
+        "sector": "Consumer Services",
+        "entry": 659.75,
+        "target": 661.4,
+        "category": "earnings_winners"
+      },
+      {
+        "symbol": "LODHA",
+        "name": "Lodha Developers Ltd.",
+        "sector": "Realty",
+        "entry": 1258.4,
+        "target": 1311.74,
+        "category": "momentum_leaders"
+      },
+      {
+        "symbol": "COFORGE",
+        "name": "Coforge Ltd.",
+        "sector": "Information Technology",
+        "entry": 1873.0,
+        "target": 1964.09,
+        "category": "emerging_leaders"
+      },
+      {
+        "symbol": "ETERNAL",
+        "name": "Eternal Ltd.",
+        "sector": "Consumer Services",
+        "entry": 327.15,
+        "target": 354.35,
+        "category": "earnings_winners"
+      },
+      {
+        "symbol": "DIXON",
+        "name": "Dixon Technologies (India) Ltd.",
+        "sector": "Consumer Durables",
+        "entry": 14570.0,
+        "target": 18331.0,
+        "category": "turnaround_stories"
+      },
+      {
+        "symbol": "NATIONALUM",
+        "name": "National Aluminium Co. Ltd.",
+        "sector": "Metals & Mining",
+        "entry": 403.3,
+        "target": 438.2,
+        "category": "emerging_leaders"
+      },
+      {
+        "symbol": "NAUKRI",
+        "name": "Info Edge (India) Ltd.",
+        "sector": "Consumer Services",
+        "entry": 1349.0,
+        "target": 1407.76,
+        "category": "momentum_leaders"
+      }
+    ]
   }
 ]
