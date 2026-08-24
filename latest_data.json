@@ -1,94 +1,73 @@
 {
-  "fetched_at": "2026-08-24T03:34:10.271592+00:00",
+  "fetched_at": "2026-08-24T05:26:05.768845+00:00",
   "market_prices": {
     "Nifty 50": {
-      "price": 24252.0,
-      "as_of": "2026-08-21 15:29:00+05:30"
+      "price": 24270.2,
+      "as_of": "2026-08-24 10:56:00+05:30"
     },
     "Sensex": {
-      "price": 77540.83,
-      "as_of": "2026-08-21 15:29:00+05:30"
+      "price": 77634.41,
+      "as_of": "2026-08-24 10:41:00+05:30"
     },
     "Bank Nifty": {
-      "price": 57761.95,
-      "as_of": "2026-08-21 15:29:00+05:30"
+      "price": 57592.8,
+      "as_of": "2026-08-24 10:56:00+05:30"
     }
   },
   "news": {
     "Economic Times": [
       {
-        "title": "JBM Auto among 5 stocks showing bullish RSI upswing",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/jbm-auto-among-5-stocks-showing-bullish-rsi-upswing/slideshow/133450057.cms",
-        "published": "Mon, 24 Aug 2026 08:31:16 +0530"
+        "title": "LIC, Indian Overseas Bank among 10 stocks with maximum GoI holding in Q1: See full list",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/lic-indian-overseas-bank-among-10-stocks-with-maximum-goi-holding-in-q1-see-full-list/slideshow/133451860.cms",
+        "published": "Mon, 24 Aug 2026 10:31:40 +0530"
       },
       {
-        "title": "Hero MotoCorp Share Price Live Updates: Hero MotoCorp's market performance reflected in its beta",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/hero-motocorp-stock-price-today-live-24-aug-2026/liveblog/133449731.cms",
-        "published": "Mon, 24 Aug 2026 08:10:22 +0530"
+        "title": "JGB yields edge higher amid fiscal, inflation worries",
+        "link": "https://economictimes.indiatimes.com/markets/bonds/jgb-yields-edge-higher-amid-fiscal-inflation-worries/articleshow/133451695.cms",
+        "published": "Mon, 24 Aug 2026 10:29:43 +0530"
       },
       {
-        "title": "Lalithaa Jewellery Mart shares to debut today; GMP signals 37% premium ahead of listing",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/lalithaa-jewellery-mart-shares-to-debut-today-gmp-signals-37-premium-ahead-of-listing/articleshow/133449448.cms",
-        "published": "Mon, 24 Aug 2026 07:56:59 +0530"
+        "title": "Nifty loses 7% in 2026, smallcaps gain 13%; Is it time to bet on broader markets?",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/nifty-loses-7-in-2026-smallcaps-gain-13-is-it-time-to-bet-on-broader-markets/articleshow/133451576.cms",
+        "published": "Mon, 24 Aug 2026 10:25:29 +0530"
       },
       {
-        "title": "Stocks to buy in 2026 for long term: Jubilant FoodWorks, Max Financial among 5 stocks that could give 10-30% return",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/stocks-to-buy-in-2026-for-long-term-jubilant-foodworks-max-financial-among-5-stocks-that-could-give-10-30-return/slideshow/133449559.cms",
-        "published": "Mon, 24 Aug 2026 07:50:58 +0530"
+        "title": "Global Market:  Japan\u2019s Nikkei swings as AI stocks slip ahead of Nvidia results",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-japans-nikkei-swings-as-ai-stocks-slip-ahead-of-nvidia-results/articleshow/133451438.cms",
+        "published": "Mon, 24 Aug 2026 10:20:35 +0530"
       },
       {
-        "title": "Oil Price Today (August 24): Crude oil slips below $93 ahead of US sanctions announcement on Iran. What are experts saying?",
-        "link": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-24-crude-oil-slips-below-93-ahead-of-us-sanctions-announcement-on-iran-what-are-experts-saying/articleshow/133449404.cms",
-        "published": "Mon, 24 Aug 2026 07:42:15 +0530"
+        "title": "Will Paras Defence, MTAR Tech, HAL, other defence stocks deliver explosive returns? Here's what analysts say",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/will-paras-defence-mtar-tech-hal-other-defence-stocks-deliver-explosive-returns-heres-what-analysts-say/articleshow/133451464.cms",
+        "published": "Mon, 24 Aug 2026 10:17:30 +0530"
       }
     ],
-    "Moneycontrol": [
-      {
-        "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
-        "link": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
-        "published": "Tue, 23 Apr 2024 15:46:31 +0530"
-      },
-      {
-        "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
-        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
-        "published": "Tue, 23 Apr 2024 14:51:26 +0530"
-      },
-      {
-        "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
-        "link": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
-        "published": "Tue, 23 Apr 2024 12:23:21 +0530"
-      },
-      {
-        "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
-        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
-        "published": "Tue, 23 Apr 2024 09:45:50 +0530"
-      }
-    ],
+    "Moneycontrol": [],
     "Livemint": [
       {
-        "title": "Priority Jewels IPO price band set at  \u20b9190- \u20b9200. Here's date, size &amp; other key details",
-        "link": "https://www.livemint.com/market/ipo/priority-jewels-ipo-price-band-set-at-190-200-heres-date-size-other-key-details-11787540369833.html",
-        "published": "Mon, 24 Aug 2026 08:44:21 +0530"
+        "title": "Alibaba shares plunge 11% after $10.2 billion share placement to fund AI expansion",
+        "link": "https://www.livemint.com/market/stock-market-news/alibaba-shares-plunge-11-after-10-2-billion-share-placement-to-fund-ai-expansion-11787547880961.html",
+        "published": "Mon, 24 Aug 2026 10:38:39 +0530"
       },
       {
-        "title": "Rays of Belief IPO: Price band set at  \u20b9227-239 per share; check key dates, issue details",
-        "link": "https://www.livemint.com/market/ipo/rays-of-belief-ipo-price-band-set-at-rs-227-239-per-share-check-key-dates-issue-details-11787539870153.html",
-        "published": "Mon, 24 Aug 2026 08:42:24 +0530"
+        "title": "Why Vishal Mega Mart share price is rising today? Stock hits the upper circuit",
+        "link": "https://www.livemint.com/market/stock-market-news/why-vishal-mega-mart-share-price-is-rising-today-stock-hits-the-upper-circuit-11787547310653.html",
+        "published": "Mon, 24 Aug 2026 10:32:19 +0530"
       },
       {
-        "title": "FTSE\u2019s Reshuffle May Give Vietnam Stocks a $3 Billion Boost",
-        "link": "https://www.livemint.com/market/ftses-reshuffle-may-give-vietnam-stocks-a-3-billion-boost-11787540652711.html",
-        "published": "Mon, 24 Aug 2026 08:34:12 +0530"
+        "title": "Gaja Alternative Asset Management IPO allotment in focus, GMP signals 12% listing pop | guide to check status online",
+        "link": "https://www.livemint.com/market/ipo/gaja-alternative-asset-management-ipo-allotment-status-in-focus-gmp-signals-12-listing-pop-guide-to-check-status-11787544644821.html",
+        "published": "Mon, 24 Aug 2026 10:28:31 +0530"
       },
       {
-        "title": "Tempsens Instruments IPO Day 3: Issue booked 21.66x so far. Here's GMP, review, other key details - Apply or not?",
-        "link": "https://www.livemint.com/market/ipo/tempsens-instruments-ipo-day-3-issue-booked-21-66x-so-far-heres-gmp-review-other-key-details-apply-or-not-11787538665690.html",
-        "published": "Mon, 24 Aug 2026 08:23:02 +0530"
+        "title": "Lalithaa Jewellery IPO listing: Shares list at 32% premium over the issue price. Details here",
+        "link": "https://www.livemint.com/market/stock-market-news/lalithaa-jewellery-ipo-listing-shares-list-at-32-premium-over-the-issue-price-details-here-11787545678542.html",
+        "published": "Mon, 24 Aug 2026 10:04:03 +0530"
       },
       {
-        "title": "Stock market today: Gift Nifty hints a flat-to-positive start; eight day trading stocks to buy on Monday, 24 August",
-        "link": "https://www.livemint.com/market/stock-market-news/stock-market-today-gift-nifty-hints-a-flat-to-positive-start-eight-day-trading-stocks-to-buy-on-monday-24-august-11787537236634.html",
-        "published": "Mon, 24 Aug 2026 08:12:31 +0530"
+        "title": "Horizon Industrial Parks IPO listing: Shares debut flat in a range-bound market",
+        "link": "https://www.livemint.com/market/ipo/horizon-industrial-parks-ipo-listing-shares-debut-flat-in-a-range-bound-market-11787545062108.html",
+        "published": "Mon, 24 Aug 2026 10:01:10 +0530"
       }
     ]
   },
