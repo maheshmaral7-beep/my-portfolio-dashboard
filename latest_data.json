@@ -1,73 +1,94 @@
 {
-  "fetched_at": "2026-08-24T05:26:05.768845+00:00",
+  "fetched_at": "2026-08-24T08:08:42.744387+00:00",
   "market_prices": {
     "Nifty 50": {
-      "price": 24270.2,
-      "as_of": "2026-08-24 10:56:00+05:30"
+      "price": 24170.8,
+      "as_of": "2026-08-24 13:38:00+05:30"
     },
     "Sensex": {
-      "price": 77634.41,
-      "as_of": "2026-08-24 10:41:00+05:30"
+      "price": 77286.03,
+      "as_of": "2026-08-24 13:23:00+05:30"
     },
     "Bank Nifty": {
-      "price": 57592.8,
-      "as_of": "2026-08-24 10:56:00+05:30"
+      "price": 57359.8,
+      "as_of": "2026-08-24 13:38:00+05:30"
     }
   },
   "news": {
     "Economic Times": [
       {
-        "title": "LIC, Indian Overseas Bank among 10 stocks with maximum GoI holding in Q1: See full list",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/lic-indian-overseas-bank-among-10-stocks-with-maximum-goi-holding-in-q1-see-full-list/slideshow/133451860.cms",
-        "published": "Mon, 24 Aug 2026 10:31:40 +0530"
+        "title": "Markets brace for more hawkish ECB as energy risks threaten to keep inflation elevated",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/markets-brace-for-more-hawkish-ecb-as-energy-risks-threaten-to-keep-inflation-elevated/articleshow/133456888.cms",
+        "published": "Mon, 24 Aug 2026 13:23:22 +0530"
       },
       {
-        "title": "JGB yields edge higher amid fiscal, inflation worries",
-        "link": "https://economictimes.indiatimes.com/markets/bonds/jgb-yields-edge-higher-amid-fiscal-inflation-worries/articleshow/133451695.cms",
-        "published": "Mon, 24 Aug 2026 10:29:43 +0530"
+        "title": "Global Market: China\u2019s property crisis deepens as Evergrande founder gets life sentence",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-chinas-property-crisis-deepens-as-evergrande-founder-gets-life-sentence/articleshow/133456559.cms",
+        "published": "Mon, 24 Aug 2026 13:17:48 +0530"
       },
       {
-        "title": "Nifty loses 7% in 2026, smallcaps gain 13%; Is it time to bet on broader markets?",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/nifty-loses-7-in-2026-smallcaps-gain-13-is-it-time-to-bet-on-broader-markets/articleshow/133451576.cms",
-        "published": "Mon, 24 Aug 2026 10:25:29 +0530"
+        "title": "Infosys, HCLTech, other IT stocks gain on Nvidia\u2019s likely price hikes. Are AI bubble worries coming true?",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/infosys-hcltech-other-it-stocks-gain-on-nvidias-likely-price-hikes-are-ai-bubble-worries-coming-true/articleshow/133456658.cms",
+        "published": "Mon, 24 Aug 2026 13:17:12 +0530"
       },
       {
-        "title": "Global Market:  Japan\u2019s Nikkei swings as AI stocks slip ahead of Nvidia results",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-japans-nikkei-swings-as-ai-stocks-slip-ahead-of-nvidia-results/articleshow/133451438.cms",
-        "published": "Mon, 24 Aug 2026 10:20:35 +0530"
+        "title": "Muthoot Finance, Manappuram Finance shares rally up to 11% in 4 days as gold crosses Rs 1.63 lakh",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/muthoot-finance-manappuram-finance-shares-rally-up-to-11-in-4-days-as-gold-crosses-rs-1-63-lakh/articleshow/133455929.cms",
+        "published": "Mon, 24 Aug 2026 13:00:07 +0530"
       },
       {
-        "title": "Will Paras Defence, MTAR Tech, HAL, other defence stocks deliver explosive returns? Here's what analysts say",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/will-paras-defence-mtar-tech-hal-other-defence-stocks-deliver-explosive-returns-heres-what-analysts-say/articleshow/133451464.cms",
-        "published": "Mon, 24 Aug 2026 10:17:30 +0530"
+        "title": "Trump vs Michael Burry: US Prez buys shares of Warren Buffett's firm but 'Big Short' investor feels it's not an attractive bet",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/trump-vs-michael-burry-us-prez-buys-shares-of-warren-buffetts-firm-but-big-short-investor-feels-its-not-an-attractive-bet/articleshow/133455250.cms",
+        "published": "Mon, 24 Aug 2026 12:44:17 +0530"
       }
     ],
-    "Moneycontrol": [],
+    "Moneycontrol": [
+      {
+        "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+        "link": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
+        "published": "Tue, 23 Apr 2024 15:46:31 +0530"
+      },
+      {
+        "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
+        "published": "Tue, 23 Apr 2024 14:51:26 +0530"
+      },
+      {
+        "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
+        "link": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
+        "published": "Tue, 23 Apr 2024 12:23:21 +0530"
+      },
+      {
+        "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
+        "published": "Tue, 23 Apr 2024 09:45:50 +0530"
+      }
+    ],
     "Livemint": [
       {
-        "title": "Alibaba shares plunge 11% after $10.2 billion share placement to fund AI expansion",
-        "link": "https://www.livemint.com/market/stock-market-news/alibaba-shares-plunge-11-after-10-2-billion-share-placement-to-fund-ai-expansion-11787547880961.html",
-        "published": "Mon, 24 Aug 2026 10:38:39 +0530"
+        "title": "Augmont Enterprises IPO day 2: Issue subscribed over 9 times; GMP signals nearly 50% listing pop; apply or not?",
+        "link": "https://www.livemint.com/market/ipo/augmont-enterprises-ipo-day-2-issue-subscribed-over-9-times-gmp-signals-nearly-50-listing-pop-apply-or-not-11787554341340.html",
+        "published": "Mon, 24 Aug 2026 13:22:40 +0530"
       },
       {
-        "title": "Why Vishal Mega Mart share price is rising today? Stock hits the upper circuit",
-        "link": "https://www.livemint.com/market/stock-market-news/why-vishal-mega-mart-share-price-is-rising-today-stock-hits-the-upper-circuit-11787547310653.html",
-        "published": "Mon, 24 Aug 2026 10:32:19 +0530"
+        "title": "How retail F&amp;O participation changed after Sebi tightened rules, in charts",
+        "link": "https://www.livemint.com/market/stock-market-news/retail-futures-options-traders-f-o-participation-sebi-report-fy26-11787548104758.html",
+        "published": "Mon, 24 Aug 2026 13:15:24 +0530"
       },
       {
-        "title": "Gaja Alternative Asset Management IPO allotment in focus, GMP signals 12% listing pop | guide to check status online",
-        "link": "https://www.livemint.com/market/ipo/gaja-alternative-asset-management-ipo-allotment-status-in-focus-gmp-signals-12-listing-pop-guide-to-check-status-11787544644821.html",
-        "published": "Mon, 24 Aug 2026 10:28:31 +0530"
+        "title": "Did you get Lalithaa Jewellery Mart IPO? Shares up 36% from IPO price -What's next for investors? Buy more?Sell or hold?",
+        "link": "https://www.livemint.com/market/stock-market-news/did-you-get-lalithaa-jewellery-mart-ipo-shares-up-36-from-ipo-price-whats-next-for-investors-buy-more-sell-or-hold-11787554814815.html",
+        "published": "Mon, 24 Aug 2026 13:11:30 +0530"
       },
       {
-        "title": "Lalithaa Jewellery IPO listing: Shares list at 32% premium over the issue price. Details here",
-        "link": "https://www.livemint.com/market/stock-market-news/lalithaa-jewellery-ipo-listing-shares-list-at-32-premium-over-the-issue-price-details-here-11787545678542.html",
-        "published": "Mon, 24 Aug 2026 10:04:03 +0530"
+        "title": "Small-cap IT stock under  \u20b950 jumps 5% after implementation of SpaceX International agreement plan",
+        "link": "https://www.livemint.com/market/stock-market-news/smallcap-it-stock-under-50-blue-cloud-softech-solutions-jumps-5-after-implementation-of-spacex-international-plan-11787552936919.html",
+        "published": "Mon, 24 Aug 2026 12:19:31 +0530"
       },
       {
-        "title": "Horizon Industrial Parks IPO listing: Shares debut flat in a range-bound market",
-        "link": "https://www.livemint.com/market/ipo/horizon-industrial-parks-ipo-listing-shares-debut-flat-in-a-range-bound-market-11787545062108.html",
-        "published": "Mon, 24 Aug 2026 10:01:10 +0530"
+        "title": "Aurobindo Pharma US subsidiary Lannett Company LLC faces 4 observations from the USFDA",
+        "link": "https://www.livemint.com/market/stock-market-news/aurobindo-pharma-us-subsidiary-lannett-company-llc-faces-4-observations-from-the-usfda-11787552311921.html",
+        "published": "Mon, 24 Aug 2026 11:56:35 +0530"
       }
     ]
   },
