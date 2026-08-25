@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T07:36:07.827551+00:00",
+  "generated_at": "2026-08-25T08:10:53.542408+00:00",
   "disclaimer": "Descriptive classification of today's futures/options activity, not a prediction or a trade recommendation. Does not suggest any option, strike, or strategy to trade.",
   "stock_futures_scanned": 207,
   "buildup": {
@@ -2082,108 +2082,108 @@
   },
   "index_options": {
     "NIFTY": {
-      "underlying_value": 24144.05,
+      "underlying_value": 24137.5,
       "expiry": "25-Aug-2026",
       "atm_strike": 24150,
       "max_pain": 24150,
-      "total_call_oi": 4963837,
-      "total_put_oi": 3866179,
-      "pcr": 0.78,
+      "total_call_oi": 5164244,
+      "total_put_oi": 3685186,
+      "pcr": 0.71,
       "top_call_oi_strikes": [
         {
           "strike": "24200",
-          "oi": 777597
-        },
-        {
-          "strike": "24300",
-          "oi": 459285
-        },
-        {
-          "strike": "24250",
-          "oi": 414079
+          "oi": 812809
         },
         {
           "strike": "24150",
-          "oi": 393340
+          "oi": 572066
         },
         {
-          "strike": "24500",
-          "oi": 238183
+          "strike": "24300",
+          "oi": 436949
+        },
+        {
+          "strike": "24250",
+          "oi": 387002
+        },
+        {
+          "strike": "24100",
+          "oi": 239295
         }
       ],
       "top_put_oi_strikes": [
         {
           "strike": "24100",
-          "oi": 546839
+          "oi": 551575
         },
         {
           "strike": "24150",
-          "oi": 510101
+          "oi": 423418
         },
         {
           "strike": "24000",
-          "oi": 342128
-        },
-        {
-          "strike": "24200",
-          "oi": 300599
+          "oi": 340001
         },
         {
           "strike": "24050",
-          "oi": 232419
+          "oi": 266680
+        },
+        {
+          "strike": "24200",
+          "oi": 252095
         }
       ]
     },
     "BANKNIFTY": {
-      "underlying_value": 57369.4,
+      "underlying_value": 57310.6,
       "expiry": "25-Aug-2026",
       "atm_strike": 57500,
-      "max_pain": 57500,
-      "total_call_oi": 1125654,
-      "total_put_oi": 890281,
-      "pcr": 0.79,
+      "max_pain": 57400,
+      "total_call_oi": 1243383,
+      "total_put_oi": 850429,
+      "pcr": 0.68,
       "top_call_oi_strikes": [
         {
           "strike": "57500",
-          "oi": 130563
+          "oi": 162351
         },
         {
           "strike": "58000",
-          "oi": 106587
+          "oi": 104785
+        },
+        {
+          "strike": "57400",
+          "oi": 90703
         },
         {
           "strike": "57600",
-          "oi": 92244
+          "oi": 89688
         },
         {
           "strike": "57700",
-          "oi": 88934
-        },
-        {
-          "strike": "57800",
-          "oi": 69500
+          "oi": 75255
         }
       ],
       "top_put_oi_strikes": [
         {
-          "strike": "57300",
-          "oi": 85297
-        },
-        {
-          "strike": "57400",
-          "oi": 79670
-        },
-        {
           "strike": "57000",
-          "oi": 71215
+          "oi": 80659
         },
         {
           "strike": "57200",
-          "oi": 67754
+          "oi": 77159
         },
         {
-          "strike": "57500",
-          "oi": 61654
+          "strike": "57300",
+          "oi": 70923
+        },
+        {
+          "strike": "57100",
+          "oi": 70460
+        },
+        {
+          "strike": "56000",
+          "oi": 45328
         }
       ]
     }
