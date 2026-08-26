@@ -1,16 +1,17 @@
 {
-  "fetched_at": "2026-08-26T08:09:35.773396+00:00",
+  "fetched_at": "2026-08-26T09:00:43.690863+00:00",
   "market_prices": {
     "Nifty 50": {
-      "error": "Too Many Requests. Rate limited. Try after a while."
+      "price": 24272.8,
+      "as_of": "2026-08-26 14:30:00+05:30"
     },
     "Sensex": {
-      "price": 77598.68,
-      "as_of": "2026-08-26 13:23:00+05:30"
+      "price": 77618.36,
+      "as_of": "2026-08-26 14:15:00+05:30"
     },
     "Bank Nifty": {
-      "price": 57884.8,
-      "as_of": "2026-08-26 13:38:00+05:30"
+      "price": 57857.8,
+      "as_of": "2026-08-26 14:30:00+05:30"
     }
   },
   "news": {
@@ -22,7 +23,7 @@
       },
       {
         "title": "14 midcap stocks crash up to 55% from their peaks. Are you holding any?",
-        "link": "https://economictimes.indiatimes.com/markets/commodities/news/14-midcap-stocks-crash-up-to-55-from-their-peaks-are-you-holding-any/slideshow/133534547.cms",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/14-midcap-stocks-crash-up-to-55-from-their-peaks-are-you-holding-any/slideshow/133534547.cms",
         "published": "Wed, 26 Aug 2026 13:23:16 +0530"
       },
       {
@@ -41,29 +42,13 @@
         "published": "Wed, 26 Aug 2026 13:06:01 +0530"
       }
     ],
-    "Moneycontrol": [
-      {
-        "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
-        "link": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
-        "published": "Tue, 23 Apr 2024 15:46:31 +0530"
-      },
-      {
-        "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
-        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
-        "published": "Tue, 23 Apr 2024 14:51:26 +0530"
-      },
-      {
-        "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
-        "link": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
-        "published": "Tue, 23 Apr 2024 12:23:21 +0530"
-      },
-      {
-        "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
-        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
-        "published": "Tue, 23 Apr 2024 09:45:50 +0530"
-      }
-    ],
+    "Moneycontrol": [],
     "Livemint": [
+      {
+        "title": "Gaja Alternative share price slumps over 8% after strong debut. Should you buy, sell or hold?",
+        "link": "https://www.livemint.com/market/stock-market-news/gaja-alternative-share-price-slumps-over-7-after-strong-debut-should-you-buy-sell-or-hold-11787733431047.html",
+        "published": "Wed, 26 Aug 2026 14:19:19 +0530"
+      },
       {
         "title": "Nifty 50 stuck below 25,000: Is the IPO boom this year a reason behind the poor show of the Indian stock market?",
         "link": "https://www.livemint.com/market/stock-market-news/nifty-50-stuck-below-25-000-is-the-ipo-boom-this-year-a-reason-behind-the-poor-show-of-the-indian-stock-market-11787719494000.html",
@@ -83,11 +68,6 @@
         "title": "Madhur Knit Crafts IPO Day 3: Issue booked 55% so far. GMP hints 16% listing pop. Check key dates, issue details",
         "link": "https://www.livemint.com/market/ipo/madhur-knit-crafts-ipo-day-3-issue-booked-55-so-far-gmp-hints-16-listing-pop-check-key-dates-issue-details-11787725851725.html",
         "published": "Wed, 26 Aug 2026 12:36:52 +0530"
-      },
-      {
-        "title": "Healthcare stock Park Medi World jumps 3%, rises for 5th consecutive session after this capex update | Details here",
-        "link": "https://www.livemint.com/market/stock-market-news/healthcare-stock-park-medi-world-jumps-3-rises-for-5th-consecutive-session-after-this-capex-update-details-here-11787724749621.html",
-        "published": "Wed, 26 Aug 2026 11:49:48 +0530"
       }
     ]
   },
