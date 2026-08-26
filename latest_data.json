@@ -1,21 +1,31 @@
 {
-  "fetched_at": "2026-08-26T05:20:02.761513+00:00",
+  "fetched_at": "2026-08-26T05:54:43.891190+00:00",
   "market_prices": {
     "Nifty 50": {
-      "price": 24318.5,
-      "as_of": "2026-08-26 10:50:00+05:30"
+      "price": 24303.25,
+      "as_of": "2026-08-26 11:24:00+05:30"
     },
     "Sensex": {
-      "price": 77785.08,
-      "as_of": "2026-08-26 10:35:00+05:30"
+      "price": 77772.04,
+      "as_of": "2026-08-26 11:09:00+05:30"
     },
     "Bank Nifty": {
-      "price": 57924.85,
-      "as_of": "2026-08-26 10:50:00+05:30"
+      "price": 57910.25,
+      "as_of": "2026-08-26 11:24:00+05:30"
     }
   },
   "news": {
     "Economic Times": [
+      {
+        "title": "Pernia\u2019s Pop-Up Studio parent Purple Style Labs sets IPO price band at Rs 546\u2013575; subscription opens August 31",
+        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/pernias-pop-up-studio-parent-purple-style-labs-sets-ipo-price-band-at-rs-546575-subscription-opens-august-31/articleshow/133530532.cms",
+        "published": "Wed, 26 Aug 2026 10:48:43 +0530"
+      },
+      {
+        "title": "US Stock Market: Nvidia earnings to test AI boom as markets brace for sharp move",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stock-market-nvidia-earnings-to-test-ai-boom-as-markets-brace-for-sharp-move/articleshow/133530414.cms",
+        "published": "Wed, 26 Aug 2026 10:39:08 +0530"
+      },
       {
         "title": "Global Market: Ueda\u2019s Jackson Hole absence puts focus on BOJ\u2019s September rate decision",
         "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-uedas-jackson-hole-absence-puts-focus-on-bojs-september-rate-decision/articleshow/133530007.cms",
@@ -30,20 +40,41 @@
         "title": "Gold prices rise marginally; silver rebounds Rs 2,000/kg as traders await US inflation data. Key levels to track",
         "link": "https://economictimes.indiatimes.com/markets/commodities/news/gold-prices-rise-marginally-silver-rebounds-rs-2000/kg-as-traders-await-us-inflation-data-key-levels-to-track/articleshow/133529617.cms",
         "published": "Wed, 26 Aug 2026 10:04:30 +0530"
-      },
-      {
-        "title": "Global Market: Japan stocks rise ahead of Nvidia earnings, US inflation data",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-japan-stocks-rise-ahead-of-nvidia-earnings-us-inflation-data/articleshow/133529314.cms",
-        "published": "Wed, 26 Aug 2026 09:47:34 +0530"
-      },
-      {
-        "title": "Global Market: KOSPI rises as investors await Nvidia results for AI trade cues",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-kospi-rises-as-investors-await-nvidia-results-for-ai-trade-cues/articleshow/133529158.cms",
-        "published": "Wed, 26 Aug 2026 09:38:48 +0530"
       }
     ],
-    "Moneycontrol": [],
+    "Moneycontrol": [
+      {
+        "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+        "link": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
+        "published": "Tue, 23 Apr 2024 15:46:31 +0530"
+      },
+      {
+        "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
+        "published": "Tue, 23 Apr 2024 14:51:26 +0530"
+      },
+      {
+        "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
+        "link": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
+        "published": "Tue, 23 Apr 2024 12:23:21 +0530"
+      },
+      {
+        "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
+        "published": "Tue, 23 Apr 2024 09:45:50 +0530"
+      }
+    ],
     "Livemint": [
+      {
+        "title": "SBI, PNB to Bank of Maharashtra: PSU bank stocks rise up to 6%. What's driving the rally? Do you own any of these?",
+        "link": "https://www.livemint.com/market/stock-market-news/sbi-pnb-to-bank-of-maharashtra-psu-bank-stocks-rise-up-to-4-whats-driving-the-rally-do-you-own-any-of-these-11787720628727.html",
+        "published": "Wed, 26 Aug 2026 11:00:32 +0530"
+      },
+      {
+        "title": "ABH Healthcare IPO Day 3: Issue booked 83% so far. Check GMP, issue details",
+        "link": "https://www.livemint.com/market/ipo/abh-healthcare-ipo-day-3-issue-booked-83-so-far-check-gmp-issue-details-11787720403740.html",
+        "published": "Wed, 26 Aug 2026 10:49:25 +0530"
+      },
       {
         "title": "Gautam Adani's Adani Energy Solutions wins  \u20b94,700 crore transmission project in Maharashtra | shares rise",
         "link": "https://www.livemint.com/market/stock-market-news/gautam-adanis-adani-energy-solutions-wins-rs-4-700-crore-transmission-project-in-maharashtra-shares-rise-11787717367517.html",
@@ -58,16 +89,6 @@
         "title": "Retail investors return to stocks as IPO appetite cools in FY27",
         "link": "https://www.livemint.com/market/stock-market-news/retail-investors-secondary-market-ipo-primary-market-nse-fy27-retail-flows-listed-stocks-ipo-pipeline-11787711484359.html",
         "published": "Wed, 26 Aug 2026 09:54:20 +0530"
-      },
-      {
-        "title": "Indus Towers to AU Small Finance Bank - Jay Thakkar suggests 3 stocks to buy or sell for short-term in F&amp;O segment",
-        "link": "https://www.livemint.com/market/stock-market-news/indus-towers-to-au-small-finance-bank-jay-thakkar-suggests-3-stocks-to-buy-or-sell-for-short-term-in-f-o-segment-11787717193068.html",
-        "published": "Wed, 26 Aug 2026 09:52:58 +0530"
-      },
-      {
-        "title": "Breakout stocks to buy or sell: Sumeet Bagadia recommends five stocks to buy today \u201426 August 2026",
-        "link": "https://www.livemint.com/market/stock-market-news/breakout-stocks-to-buy-or-sell-sumeet-bagadia-recommends-five-stocks-to-buy-today-26-august-2026-11787713474862.html",
-        "published": "Wed, 26 Aug 2026 09:08:32 +0530"
       }
     ]
   },
