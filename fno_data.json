@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T08:33:39.309325+00:00",
+  "generated_at": "2026-08-26T09:05:59.577215+00:00",
   "disclaimer": "Descriptive classification of today's futures/options activity, not a prediction or a trade recommendation. Does not suggest any option, strike, or strategy to trade.",
   "stock_futures_scanned": 207,
   "buildup": {
@@ -2086,55 +2086,55 @@
       "error": "list index out of range"
     },
     "BANKNIFTY": {
-      "underlying_value": 57896.7,
+      "underlying_value": 57880.25,
       "expiry": "29-Sep-2026",
       "atm_strike": 58500,
       "max_pain": 57800,
-      "total_call_oi": 332023,
-      "total_put_oi": 380306,
-      "pcr": 1.15,
+      "total_call_oi": 332979,
+      "total_put_oi": 380786,
+      "pcr": 1.14,
       "top_call_oi_strikes": [
         {
           "strike": "57500",
-          "oi": 59965
+          "oi": 59924
         },
         {
           "strike": "58000",
-          "oi": 36893
+          "oi": 36793
         },
         {
           "strike": "60000",
-          "oi": 25862
+          "oi": 25986
         },
         {
           "strike": "59000",
-          "oi": 21335
+          "oi": 21497
         },
         {
           "strike": "61000",
-          "oi": 17510
+          "oi": 17620
         }
       ],
       "top_put_oi_strikes": [
         {
           "strike": "57500",
-          "oi": 58132
+          "oi": 58130
         },
         {
           "strike": "58000",
-          "oi": 38048
+          "oi": 38175
         },
         {
           "strike": "57000",
-          "oi": 22454
+          "oi": 22499
         },
         {
           "strike": "56000",
-          "oi": 19847
+          "oi": 19857
         },
         {
           "strike": "54000",
-          "oi": 17585
+          "oi": 17162
         }
       ]
     }
