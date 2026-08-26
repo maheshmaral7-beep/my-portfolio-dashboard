@@ -1,49 +1,80 @@
 {
-  "fetched_at": "2026-08-26T09:00:43.690863+00:00",
+  "fetched_at": "2026-08-26T09:51:12.194045+00:00",
   "market_prices": {
     "Nifty 50": {
-      "price": 24272.8,
-      "as_of": "2026-08-26 14:30:00+05:30"
+      "price": 24276.9,
+      "as_of": "2026-08-26 15:21:00+05:30"
     },
     "Sensex": {
-      "price": 77618.36,
-      "as_of": "2026-08-26 14:15:00+05:30"
+      "price": 77625.3,
+      "as_of": "2026-08-26 15:06:00+05:30"
     },
     "Bank Nifty": {
-      "price": 57857.8,
-      "as_of": "2026-08-26 14:30:00+05:30"
+      "price": 57876.8,
+      "as_of": "2026-08-26 15:21:00+05:30"
     }
   },
   "news": {
     "Economic Times": [
       {
+        "title": "Global Market: Mexico\u2019s \u2018Super Peso\u2019 rally puts exporters under pressure",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-mexicos-super-peso-rally-puts-exporters-under-pressure/articleshow/133536190.cms",
+        "published": "Wed, 26 Aug 2026 15:03:06 +0530"
+      },
+      {
+        "title": "Global Market: ECB may raise rates in September as Iran war fuels inflation concerns: Reports",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-ecb-may-raise-rates-in-september-as-iran-war-fuels-inflation-concerns-reports/articleshow/133535841.cms",
+        "published": "Wed, 26 Aug 2026 14:40:35 +0530"
+      },
+      {
+        "title": "Mold-Tek Packaging board approves 1:1 bonus issue, Rs 3 final dividend",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/mold-tek-packaging-board-approves-11-bonus-issue-rs-3-final-dividend/articleshow/133535801.cms",
+        "published": "Wed, 26 Aug 2026 14:38:02 +0530"
+      },
+      {
+        "title": "Global Market: European shares edge higher as oil prices fall, Nvidia earnings in focus",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-european-shares-edge-higher-as-oil-prices-fall-nvidia-earnings-in-focus/articleshow/133535441.cms",
+        "published": "Wed, 26 Aug 2026 14:25:48 +0530"
+      },
+      {
         "title": "Four regional Fed banks backed rate hike ahead of July decision, minutes show",
         "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/four-regional-fed-banks-backed-rate-hike-ahead-of-july-decision-minutes-show/articleshow/133534568.cms",
         "published": "Wed, 26 Aug 2026 13:38:46 +0530"
-      },
-      {
-        "title": "14 midcap stocks crash up to 55% from their peaks. Are you holding any?",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/14-midcap-stocks-crash-up-to-55-from-their-peaks-are-you-holding-any/slideshow/133534547.cms",
-        "published": "Wed, 26 Aug 2026 13:23:16 +0530"
-      },
-      {
-        "title": "Private credit play: Modulus Alternatives\u2019 third fund crosses Rs 300 crore in first close",
-        "link": "https://economictimes.indiatimes.com/markets/aif-pms/private-credit-play-modulus-alternatives-third-fund-crosses-rs-300-crore-in-first-close/articleshow/133534023.cms",
-        "published": "Wed, 26 Aug 2026 13:20:49 +0530"
-      },
-      {
-        "title": "Dmart owner eyes debt market comeback after 7-year hiatus, bankers say",
-        "link": "https://economictimes.indiatimes.com/markets/bonds/indias-dmart-owner-eyes-debt-market-comeback-after-7-year-hiatus-bankers-say/articleshow/133534011.cms",
-        "published": "Wed, 26 Aug 2026 13:20:22 +0530"
-      },
-      {
-        "title": "Global Market: Fiscal dominance debate takes centre stage as government debt mounts",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-fiscal-dominance-debate-takes-centre-stage-as-government-debt-mounts/articleshow/133533749.cms",
-        "published": "Wed, 26 Aug 2026 13:06:01 +0530"
       }
     ],
-    "Moneycontrol": [],
+    "Moneycontrol": [
+      {
+        "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+        "link": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
+        "published": "Tue, 23 Apr 2024 15:46:31 +0530"
+      },
+      {
+        "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
+        "published": "Tue, 23 Apr 2024 14:51:26 +0530"
+      },
+      {
+        "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
+        "link": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
+        "published": "Tue, 23 Apr 2024 12:23:21 +0530"
+      },
+      {
+        "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
+        "published": "Tue, 23 Apr 2024 09:45:50 +0530"
+      }
+    ],
     "Livemint": [
+      {
+        "title": "Penny stock under  \u20b95 hits upper circuit after the board approves issuing warrants on a preferential basis",
+        "link": "https://www.livemint.com/market/stock-market-news/penny-stock-under-5-hits-upper-circuit-after-promoters-raise-stake-11787733323269.html",
+        "published": "Wed, 26 Aug 2026 15:11:30 +0530"
+      },
+      {
+        "title": "Capri Global Capital shares pop 9% on strong volumes, hit highest level in over a month",
+        "link": "https://www.livemint.com/market/stock-market-news/capri-global-capital-shares-pop-9-on-strong-volumes-hit-highest-level-in-over-a-month-11787736616461.html",
+        "published": "Wed, 26 Aug 2026 15:07:31 +0530"
+      },
       {
         "title": "Gaja Alternative share price slumps over 8% after strong debut. Should you buy, sell or hold?",
         "link": "https://www.livemint.com/market/stock-market-news/gaja-alternative-share-price-slumps-over-7-after-strong-debut-should-you-buy-sell-or-hold-11787733431047.html",
@@ -58,16 +89,6 @@
         "title": "TCS revs up M&amp;As with Porsche deal, but fails to wow",
         "link": "https://www.livemint.com/market/mark-to-market/tcs-mhp-porsche-acquisition-ai-m-a-strategy-2026-11787719259211.html",
         "published": "Wed, 26 Aug 2026 13:12:45 +0530"
-      },
-      {
-        "title": "Textile firms spin smart comeback in Q1, eye strong FY27",
-        "link": "https://www.livemint.com/market/mark-to-market/india-textile-sector-q1f-earnings-exports-arvind-welspun-vardhman-11787721952182.html",
-        "published": "Wed, 26 Aug 2026 12:37:45 +0530"
-      },
-      {
-        "title": "Madhur Knit Crafts IPO Day 3: Issue booked 55% so far. GMP hints 16% listing pop. Check key dates, issue details",
-        "link": "https://www.livemint.com/market/ipo/madhur-knit-crafts-ipo-day-3-issue-booked-55-so-far-gmp-hints-16-listing-pop-check-key-dates-issue-details-11787725851725.html",
-        "published": "Wed, 26 Aug 2026 12:36:52 +0530"
       }
     ]
   },
