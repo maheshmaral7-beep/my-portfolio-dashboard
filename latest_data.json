@@ -1,21 +1,31 @@
 {
-  "fetched_at": "2026-08-26T09:51:12.194045+00:00",
+  "fetched_at": "2026-08-26T10:20:51.529791+00:00",
   "market_prices": {
     "Nifty 50": {
-      "price": 24276.9,
-      "as_of": "2026-08-26 15:21:00+05:30"
+      "price": 24207.75,
+      "as_of": "2026-08-26 15:29:00+05:30"
     },
     "Sensex": {
-      "price": 77625.3,
-      "as_of": "2026-08-26 15:06:00+05:30"
+      "price": 77472.94,
+      "as_of": "2026-08-26 15:29:00+05:30"
     },
     "Bank Nifty": {
-      "price": 57876.8,
-      "as_of": "2026-08-26 15:21:00+05:30"
+      "price": 57783.75,
+      "as_of": "2026-08-26 15:29:00+05:30"
     }
   },
   "news": {
     "Economic Times": [
+      {
+        "title": "Bitcoin consolidates near $79K ahead of US PCE, GDP Data; whales book record $1.2 billion profit in 3 days",
+        "link": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/bitcoin-consolidates-near-79k-ahead-of-us-pce-gdp-data-whales-book-record-1-2-billion-profit-in-3-days/articleshow/133536752.cms",
+        "published": "Wed, 26 Aug 2026 15:23:30 +0530"
+      },
+      {
+        "title": "Adani\u2019s Cemindia is said to near up to $524 million share sale",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/adanis-cemindia-is-said-to-near-up-to-524-million-share-sale/articleshow/133536591.cms",
+        "published": "Wed, 26 Aug 2026 15:16:36 +0530"
+      },
       {
         "title": "Global Market: Mexico\u2019s \u2018Super Peso\u2019 rally puts exporters under pressure",
         "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-mexicos-super-peso-rally-puts-exporters-under-pressure/articleshow/133536190.cms",
@@ -30,16 +40,6 @@
         "title": "Mold-Tek Packaging board approves 1:1 bonus issue, Rs 3 final dividend",
         "link": "https://economictimes.indiatimes.com/markets/stocks/news/mold-tek-packaging-board-approves-11-bonus-issue-rs-3-final-dividend/articleshow/133535801.cms",
         "published": "Wed, 26 Aug 2026 14:38:02 +0530"
-      },
-      {
-        "title": "Global Market: European shares edge higher as oil prices fall, Nvidia earnings in focus",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-european-shares-edge-higher-as-oil-prices-fall-nvidia-earnings-in-focus/articleshow/133535441.cms",
-        "published": "Wed, 26 Aug 2026 14:25:48 +0530"
-      },
-      {
-        "title": "Four regional Fed banks backed rate hike ahead of July decision, minutes show",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/four-regional-fed-banks-backed-rate-hike-ahead-of-july-decision-minutes-show/articleshow/133534568.cms",
-        "published": "Wed, 26 Aug 2026 13:38:46 +0530"
       }
     ],
     "Moneycontrol": [
@@ -66,6 +66,16 @@
     ],
     "Livemint": [
       {
+        "title": "Avaada Electro cuts IPO size to  \u20b97,600 crore amid valuation, concentration concerns",
+        "link": "https://www.livemint.com/market/ipo/avaada-electro-ipo-size-cut-rs-7600-crore-ipo-11787735978270.html",
+        "published": "Wed, 26 Aug 2026 15:40:12 +0530"
+      },
+      {
+        "title": "Stock market today: Sensex falls 183 points, Nifty 50 ends at 24,208; mid, small-caps outperform",
+        "link": "https://www.livemint.com/market/stock-market-news/stock-market-today-sensex-falls-183-points-nifty-50-ends-at-24-208-mid-small-caps-outperform-11787738738493.html",
+        "published": "Wed, 26 Aug 2026 15:39:41 +0530"
+      },
+      {
         "title": "Penny stock under  \u20b95 hits upper circuit after the board approves issuing warrants on a preferential basis",
         "link": "https://www.livemint.com/market/stock-market-news/penny-stock-under-5-hits-upper-circuit-after-promoters-raise-stake-11787733323269.html",
         "published": "Wed, 26 Aug 2026 15:11:30 +0530"
@@ -79,16 +89,6 @@
         "title": "Gaja Alternative share price slumps over 8% after strong debut. Should you buy, sell or hold?",
         "link": "https://www.livemint.com/market/stock-market-news/gaja-alternative-share-price-slumps-over-7-after-strong-debut-should-you-buy-sell-or-hold-11787733431047.html",
         "published": "Wed, 26 Aug 2026 14:19:19 +0530"
-      },
-      {
-        "title": "Nifty 50 stuck below 25,000: Is the IPO boom this year a reason behind the poor show of the Indian stock market?",
-        "link": "https://www.livemint.com/market/stock-market-news/nifty-50-stuck-below-25-000-is-the-ipo-boom-this-year-a-reason-behind-the-poor-show-of-the-indian-stock-market-11787719494000.html",
-        "published": "Wed, 26 Aug 2026 13:13:10 +0530"
-      },
-      {
-        "title": "TCS revs up M&amp;As with Porsche deal, but fails to wow",
-        "link": "https://www.livemint.com/market/mark-to-market/tcs-mhp-porsche-acquisition-ai-m-a-strategy-2026-11787719259211.html",
-        "published": "Wed, 26 Aug 2026 13:12:45 +0530"
       }
     ]
   },
