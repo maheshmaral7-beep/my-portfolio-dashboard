@@ -1,21 +1,36 @@
 {
-  "fetched_at": "2026-08-26T04:51:52.713510+00:00",
+  "fetched_at": "2026-08-26T05:20:02.761513+00:00",
   "market_prices": {
     "Nifty 50": {
-      "price": 24304.95,
-      "as_of": "2026-08-26 10:21:00+05:30"
+      "price": 24318.5,
+      "as_of": "2026-08-26 10:50:00+05:30"
     },
     "Sensex": {
-      "price": 77902.39,
-      "as_of": "2026-08-26 10:06:00+05:30"
+      "price": 77785.08,
+      "as_of": "2026-08-26 10:35:00+05:30"
     },
     "Bank Nifty": {
-      "price": 57839.0,
-      "as_of": "2026-08-26 10:21:00+05:30"
+      "price": 57924.85,
+      "as_of": "2026-08-26 10:50:00+05:30"
     }
   },
   "news": {
     "Economic Times": [
+      {
+        "title": "Global Market: Ueda\u2019s Jackson Hole absence puts focus on BOJ\u2019s September rate decision",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-uedas-jackson-hole-absence-puts-focus-on-bojs-september-rate-decision/articleshow/133530007.cms",
+        "published": "Wed, 26 Aug 2026 10:21:35 +0530"
+      },
+      {
+        "title": "MTAR Tech shares rally 3%, extend gains for second session. What\u2019s triggering the surge?",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/mtar-tech-shares-rally-3-extend-gains-for-second-session-whats-triggering-the-surge/articleshow/133529737.cms",
+        "published": "Wed, 26 Aug 2026 10:07:17 +0530"
+      },
+      {
+        "title": "Gold prices rise marginally; silver rebounds Rs 2,000/kg as traders await US inflation data. Key levels to track",
+        "link": "https://economictimes.indiatimes.com/markets/commodities/news/gold-prices-rise-marginally-silver-rebounds-rs-2000/kg-as-traders-await-us-inflation-data-key-levels-to-track/articleshow/133529617.cms",
+        "published": "Wed, 26 Aug 2026 10:04:30 +0530"
+      },
       {
         "title": "Global Market: Japan stocks rise ahead of Nvidia earnings, US inflation data",
         "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-japan-stocks-rise-ahead-of-nvidia-earnings-us-inflation-data/articleshow/133529314.cms",
@@ -25,21 +40,6 @@
         "title": "Global Market: KOSPI rises as investors await Nvidia results for AI trade cues",
         "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-kospi-rises-as-investors-await-nvidia-results-for-ai-trade-cues/articleshow/133529158.cms",
         "published": "Wed, 26 Aug 2026 09:38:48 +0530"
-      },
-      {
-        "title": "Hy-Tech Engineers IPO Day 3: GMP at 57%, subscription reaches 19.33x. Should you subscribe?",
-        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/hy-tech-engineers-ipo-day-3-gmp-at-57-subscription-reaches-19-33x-should-you-subscribe/articleshow/133529025.cms",
-        "published": "Wed, 26 Aug 2026 09:35:11 +0530"
-      },
-      {
-        "title": "Sensex rises over 300 points; Nifty above 24,350 as oil prices slide. What lies ahead?",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/sensex-rises-over-200-points-nifty-nears-24350-as-oil-prices-slide-what-lies-ahead/articleshow/133528847.cms",
-        "published": "Wed, 26 Aug 2026 09:26:10 +0530"
-      },
-      {
-        "title": "Avaada Electro files updated draft papers with Sebi for Rs 7,600-cr IPO",
-        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/avaada-electro-files-updated-draft-papers-with-sebi-for-rs-7600-cr-ipo/articleshow/133528857.cms",
-        "published": "Wed, 26 Aug 2026 09:22:44 +0530"
       }
     ],
     "Moneycontrol": [],
