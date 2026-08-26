@@ -1,23 +1,38 @@
 {
-  "fetched_at": "2026-08-26T04:05:42.141100+00:00",
+  "fetched_at": "2026-08-26T04:51:52.713510+00:00",
   "market_prices": {
     "Nifty 50": {
-      "price": 24346.05,
-      "as_of": "2026-08-26 09:35:00+05:30"
+      "price": 24304.95,
+      "as_of": "2026-08-26 10:21:00+05:30"
     },
     "Sensex": {
-      "price": 77859.71,
-      "as_of": "2026-08-26 09:20:00+05:30"
+      "price": 77902.39,
+      "as_of": "2026-08-26 10:06:00+05:30"
     },
     "Bank Nifty": {
-      "price": 57957.6,
-      "as_of": "2026-08-26 09:35:00+05:30"
+      "price": 57839.0,
+      "as_of": "2026-08-26 10:21:00+05:30"
     }
   },
   "news": {
     "Economic Times": [
       {
-        "title": "Sensex rises over 200 points; Nifty nears 24,350 as oil prices slide. What lies ahead?",
+        "title": "Global Market: Japan stocks rise ahead of Nvidia earnings, US inflation data",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-japan-stocks-rise-ahead-of-nvidia-earnings-us-inflation-data/articleshow/133529314.cms",
+        "published": "Wed, 26 Aug 2026 09:47:34 +0530"
+      },
+      {
+        "title": "Global Market: KOSPI rises as investors await Nvidia results for AI trade cues",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-kospi-rises-as-investors-await-nvidia-results-for-ai-trade-cues/articleshow/133529158.cms",
+        "published": "Wed, 26 Aug 2026 09:38:48 +0530"
+      },
+      {
+        "title": "Hy-Tech Engineers IPO Day 3: GMP at 57%, subscription reaches 19.33x. Should you subscribe?",
+        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/hy-tech-engineers-ipo-day-3-gmp-at-57-subscription-reaches-19-33x-should-you-subscribe/articleshow/133529025.cms",
+        "published": "Wed, 26 Aug 2026 09:35:11 +0530"
+      },
+      {
+        "title": "Sensex rises over 300 points; Nifty above 24,350 as oil prices slide. What lies ahead?",
         "link": "https://economictimes.indiatimes.com/markets/stocks/news/sensex-rises-over-200-points-nifty-nears-24350-as-oil-prices-slide-what-lies-ahead/articleshow/133528847.cms",
         "published": "Wed, 26 Aug 2026 09:26:10 +0530"
       },
@@ -25,70 +40,34 @@
         "title": "Avaada Electro files updated draft papers with Sebi for Rs 7,600-cr IPO",
         "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/avaada-electro-files-updated-draft-papers-with-sebi-for-rs-7600-cr-ipo/articleshow/133528857.cms",
         "published": "Wed, 26 Aug 2026 09:22:44 +0530"
-      },
-      {
-        "title": "HEG shares in focus as company fixes record date for demerger. What it means for shareholders",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/heg-shares-in-focus-as-company-fixes-record-date-for-demerger-what-it-means-for-shareholders/articleshow/133528755.cms",
-        "published": "Wed, 26 Aug 2026 09:17:44 +0530"
-      },
-      {
-        "title": "Mopshop Distribution, Dhanwel Hybrid Seeds shares set to list today: Here\u2019s what GMP suggests",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/mopshop-distribution-dhanwel-hybrid-seeds-shares-set-to-list-today-heres-what-gmp-suggests/articleshow/133528779.cms",
-        "published": "Wed, 26 Aug 2026 09:16:54 +0530"
-      },
-      {
-        "title": "Reliance Industries, SBI among 10 stocks with highest DII holding in Q1. Do you own any?",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/reliance-industries-sbi-among-10-stocks-with-highest-dii-holding-in-q1-do-you-own-any/slideshow/133528902.cms",
-        "published": "Wed, 26 Aug 2026 09:09:21 +0530"
       }
     ],
-    "Moneycontrol": [
-      {
-        "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
-        "link": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
-        "published": "Tue, 23 Apr 2024 15:46:31 +0530"
-      },
-      {
-        "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
-        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
-        "published": "Tue, 23 Apr 2024 14:51:26 +0530"
-      },
-      {
-        "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
-        "link": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
-        "published": "Tue, 23 Apr 2024 12:23:21 +0530"
-      },
-      {
-        "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
-        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
-        "published": "Tue, 23 Apr 2024 09:45:50 +0530"
-      }
-    ],
+    "Moneycontrol": [],
     "Livemint": [
+      {
+        "title": "Gautam Adani's Adani Energy Solutions wins  \u20b94,700 crore transmission project in Maharashtra | shares rise",
+        "link": "https://www.livemint.com/market/stock-market-news/gautam-adanis-adani-energy-solutions-wins-rs-4-700-crore-transmission-project-in-maharashtra-shares-rise-11787717367517.html",
+        "published": "Wed, 26 Aug 2026 10:06:19 +0530"
+      },
+      {
+        "title": "Gaja Alternative Asset Management IPO listing: Shares list at a 16% premium over the issue price",
+        "link": "https://www.livemint.com/market/ipo/gaja-alternative-asset-management-ipo-listing-shares-list-at-a-16-premium-over-the-issue-price-11787717617976.html",
+        "published": "Wed, 26 Aug 2026 10:00:38 +0530"
+      },
+      {
+        "title": "Retail investors return to stocks as IPO appetite cools in FY27",
+        "link": "https://www.livemint.com/market/stock-market-news/retail-investors-secondary-market-ipo-primary-market-nse-fy27-retail-flows-listed-stocks-ipo-pipeline-11787711484359.html",
+        "published": "Wed, 26 Aug 2026 09:54:20 +0530"
+      },
+      {
+        "title": "Indus Towers to AU Small Finance Bank - Jay Thakkar suggests 3 stocks to buy or sell for short-term in F&amp;O segment",
+        "link": "https://www.livemint.com/market/stock-market-news/indus-towers-to-au-small-finance-bank-jay-thakkar-suggests-3-stocks-to-buy-or-sell-for-short-term-in-f-o-segment-11787717193068.html",
+        "published": "Wed, 26 Aug 2026 09:52:58 +0530"
+      },
       {
         "title": "Breakout stocks to buy or sell: Sumeet Bagadia recommends five stocks to buy today \u201426 August 2026",
         "link": "https://www.livemint.com/market/stock-market-news/breakout-stocks-to-buy-or-sell-sumeet-bagadia-recommends-five-stocks-to-buy-today-26-august-2026-11787713474862.html",
         "published": "Wed, 26 Aug 2026 09:08:32 +0530"
-      },
-      {
-        "title": "Gold and silver prices rise on MCX amid a crash in oil prices and a weaker dollar ahead of key US inflation data",
-        "link": "https://www.livemint.com/market/commodities/gold-and-silver-prices-rise-on-mcx-amid-a-crash-in-oil-prices-and-a-weaker-dollar-ahead-of-key-us-inflation-data-11787715056435.html",
-        "published": "Wed, 26 Aug 2026 09:06:19 +0530"
-      },
-      {
-        "title": "Hindustan Copper share price in focus as OFS opens for retail investors today. Should you apply?",
-        "link": "https://www.livemint.com/market/stock-market-news/hindustan-copper-share-price-in-focus-as-ofs-opens-for-retail-investors-today-should-you-apply-11787713785032.html",
-        "published": "Wed, 26 Aug 2026 08:45:54 +0530"
-      },
-      {
-        "title": "Buy or sell: Gift Nifty signals gap-up start | Vaishali Parekh recommends three stocks to buy today \u2014 26 August 2026",
-        "link": "https://www.livemint.com/market/stock-market-news/buy-or-sell-gift-nifty-signals-gap-up-start-vaishali-parekh-recommends-three-stocks-to-buy-today-26-august-2026-11787709370297.html",
-        "published": "Wed, 26 Aug 2026 08:29:56 +0530"
-      },
-      {
-        "title": "Stock market today: Gift Nifty hints a positive start; eight day trading stocks to buy on Wednesday, 26 August",
-        "link": "https://www.livemint.com/market/stock-market-news/stock-market-today-gift-nifty-hints-a-positive-start-eight-day-trading-stocks-to-buy-on-wednesday-26-august-11787709978109.html",
-        "published": "Wed, 26 Aug 2026 08:09:00 +0530"
       }
     ]
   },
