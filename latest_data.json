@@ -1,73 +1,94 @@
 {
-  "fetched_at": "2026-08-27T00:03:20.696230+00:00",
+  "fetched_at": "2026-08-27T09:29:29.717137+00:00",
   "market_prices": {
     "Nifty 50": {
-      "price": 24207.75,
-      "as_of": "2026-08-26 15:29:00+05:30"
+      "price": 24153.95,
+      "as_of": "2026-08-27 14:59:00+05:30"
     },
     "Sensex": {
-      "price": 77472.94,
-      "as_of": "2026-08-26 15:29:00+05:30"
+      "price": 77196.69,
+      "as_of": "2026-08-27 14:44:00+05:30"
     },
     "Bank Nifty": {
-      "price": 57783.75,
-      "as_of": "2026-08-26 15:29:00+05:30"
+      "price": 57611.9,
+      "as_of": "2026-08-27 14:59:00+05:30"
     }
   },
   "news": {
     "Economic Times": [
       {
-        "title": "Salesforce raises annual revenue forecasts on AI product momentum",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/salesforce-raises-annual-revenue-forecasts-on-ai-product-momentum/articleshow/133550791.cms",
-        "published": "Thu, 27 Aug 2026 02:00:39 +0530"
+        "title": "Global Market: Japanese bond yields retreat after BOJ deputy governor signals no clear rate-hike timing",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-japanese-bond-yields-retreat-after-boj-deputy-governor-signals-no-clear-rate-hike-timing/articleshow/133562490.cms",
+        "published": "Thu, 27 Aug 2026 14:14:11 +0530"
       },
       {
-        "title": "Nvidia earnings: Chipmaker forecasts Q3 revenue at $108 billion, above analysts' estimates as Q2 profit, revenue double YoY",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/nvidia-earnings-chipmaker-forecasts-quarterly-revenue-at-108-billion-well-above-analysts-estimates/articleshow/133550767.cms",
-        "published": "Thu, 27 Aug 2026 01:57:29 +0530"
+        "title": "Bitcoin consolidates at $79,000 as profit-taking and consolidation keep market cautious. Here's what experts say",
+        "link": "https://economictimes.indiatimes.com/markets/cryptocurrency/bitcoin-consolidates-at-79000-as-profit-taking-and-consolidation-keep-market-cautious-heres-what-experts-say/articleshow/133561956.cms",
+        "published": "Thu, 27 Aug 2026 13:45:21 +0530"
       },
       {
-        "title": "HP forecasts strong fourth-quarter profit on price hikes, US tariff refunds",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/hp-forecasts-strong-fourth-quarter-profit-on-price-hikes-us-tariff-refunds/articleshow/133550766.cms",
-        "published": "Thu, 27 Aug 2026 01:53:26 +0530"
+        "title": "Six Months of Conflict: How the Iran war has reshaped global markets",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/six-months-of-conflict-how-the-iran-war-has-reshaped-global-markets/articleshow/133561861.cms",
+        "published": "Thu, 27 Aug 2026 13:42:14 +0530"
       },
       {
-        "title": "US stocks today: US stocks end near flat as hot inflation data clouds Fed rate outlook",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-us-stocks-end-near-flat-as-hot-inflation-data-clouds-fed-rate-outlook/articleshow/133550754.cms",
-        "published": "Thu, 27 Aug 2026 01:48:34 +0530"
+        "title": "Goldman Sachs says Britannia could see biggest cost impact as sugar prices continue to soar",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/goldman-sachs-says-britannia-could-see-biggest-cost-impact-as-surge-prices-continue-to-soar/articleshow/133561622.cms",
+        "published": "Thu, 27 Aug 2026 13:36:42 +0530"
       },
       {
-        "title": "US corporate profit margins widen to highest on record",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-corporate-profit-margins-widen-to-highest-on-record/articleshow/133548769.cms",
-        "published": "Wed, 26 Aug 2026 23:48:45 +0530"
+        "title": "A91 Partners and Sixth Sense-backed Pushp Brand gets SEBI nod for IPO, to offer 74.45 lakh shares via OFS",
+        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/a91-partners-and-sixth-sense-backed-pushp-brand-gets-sebi-nod-for-ipo-to-offer-74-45-lakh-shares-via-ofs/articleshow/133561043.cms",
+        "published": "Thu, 27 Aug 2026 13:16:46 +0530"
       }
     ],
-    "Moneycontrol": [],
+    "Moneycontrol": [
+      {
+        "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+        "link": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
+        "published": "Tue, 23 Apr 2024 15:46:31 +0530"
+      },
+      {
+        "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
+        "published": "Tue, 23 Apr 2024 14:51:26 +0530"
+      },
+      {
+        "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
+        "link": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
+        "published": "Tue, 23 Apr 2024 12:23:21 +0530"
+      },
+      {
+        "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
+        "published": "Tue, 23 Apr 2024 09:45:50 +0530"
+      }
+    ],
     "Livemint": [
       {
-        "title": "Oil Dips as Traders Assess Hormuz Talks, Ukraine War Escalation",
-        "link": "https://www.livemint.com/market/oil-dips-as-traders-assess-hormuz-talks-ukraine-war-escalation-11787778798554.html",
-        "published": "Thu, 27 Aug 2026 02:43:18 +0530"
+        "title": "Multibagger stock:  \u20b91 stock hits 52-week high, locks in upper circuit for 16th day in a row | Jumps 110% in one month",
+        "link": "https://www.livemint.com/market/stock-market-news/multibagger-stock-rs-1-stock-hits-52-week-high-locks-in-upper-circuit-for-16th-day-in-a-row-jumps-110-in-one-month-11787816478338.html",
+        "published": "Thu, 27 Aug 2026 14:48:54 +0530"
       },
       {
-        "title": "Dollar Gains Most in Over Two Weeks as PCE Backs Fed Hike",
-        "link": "https://www.livemint.com/market/dollar-gains-most-in-over-two-weeks-as-pce-backs-fed-hike-11787778441174.html",
-        "published": "Thu, 27 Aug 2026 02:37:20 +0530"
+        "title": "Tempsens Instruments IPO listing in focus. Here's what GMP signals ahead of debut",
+        "link": "https://www.livemint.com/market/ipo/tempsens-instruments-ipo-listing-in-focus-heres-what-gmp-signals-ahead-of-debut-11787819165564.html",
+        "published": "Thu, 27 Aug 2026 14:41:26 +0530"
       },
       {
-        "title": "Gold Rally Eases as Traders Turn Focus to Fed Interest Rate Path",
-        "link": "https://www.livemint.com/market/gold-rally-eases-as-traders-turn-focus-to-fed-interest-rate-path-11787775547971.html",
-        "published": "Thu, 27 Aug 2026 01:49:07 +0530"
+        "title": "Indian Hotels on a simplification journey amid bright prospects",
+        "link": "https://www.livemint.com/market/mark-to-market/indian-hotels-share-price-oriental-hotel-indian-hotels-q1-earnings-hospitality-industry-india-11787818745722.html",
+        "published": "Thu, 27 Aug 2026 14:25:22 +0530"
       },
       {
-        "title": "Indexes end close to flat after hot inflation data ahead of Nvidia earnings",
-        "link": "https://www.livemint.com/market/indexes-end-close-to-flat-after-hot-inflation-data-ahead-of-nvidia-earnings-11787774565346.html",
-        "published": "Thu, 27 Aug 2026 01:32:44 +0530"
+        "title": "BIG DEAL | ICICI Prudential raises stake in SBI Cards and Payment Services to 7.30%",
+        "link": "https://www.livemint.com/market/stock-market-news/big-deal-icici-prudential-raises-stake-in-sbi-cards-and-payment-services-to-730-11787818758122.html",
+        "published": "Thu, 27 Aug 2026 13:56:19 +0530"
       },
       {
-        "title": "Wheat soars to daily limit on Black Sea export worries, corn at lifetime highs",
-        "link": "https://www.livemint.com/market/wheat-soars-to-daily-limit-on-black-sea-export-worries-corn-at-lifetime-highs-11787773711563.html",
-        "published": "Thu, 27 Aug 2026 01:18:31 +0530"
+        "title": "Gold rate today: Precious metal rises 12% this month. Is it the right time to buy gold?",
+        "link": "https://www.livemint.com/market/commodities/gold-rate-today-precious-metal-rises-12-this-month-is-it-the-right-time-to-buy-gold-11787815915522.html",
+        "published": "Thu, 27 Aug 2026 13:54:07 +0530"
       }
     ]
   },
