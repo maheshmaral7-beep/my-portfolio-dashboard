@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-26T20:35:37.617461+00:00",
+  "fetched_at": "2026-08-27T00:03:20.696230+00:00",
   "market_prices": {
     "Nifty 50": {
       "price": 24207.75,
@@ -17,54 +17,43 @@
   "news": {
     "Economic Times": [
       {
+        "title": "Salesforce raises annual revenue forecasts on AI product momentum",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/salesforce-raises-annual-revenue-forecasts-on-ai-product-momentum/articleshow/133550791.cms",
+        "published": "Thu, 27 Aug 2026 02:00:39 +0530"
+      },
+      {
+        "title": "Nvidia earnings: Chipmaker forecasts Q3 revenue at $108 billion, above analysts' estimates as Q2 profit, revenue double YoY",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/nvidia-earnings-chipmaker-forecasts-quarterly-revenue-at-108-billion-well-above-analysts-estimates/articleshow/133550767.cms",
+        "published": "Thu, 27 Aug 2026 01:57:29 +0530"
+      },
+      {
+        "title": "HP forecasts strong fourth-quarter profit on price hikes, US tariff refunds",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/hp-forecasts-strong-fourth-quarter-profit-on-price-hikes-us-tariff-refunds/articleshow/133550766.cms",
+        "published": "Thu, 27 Aug 2026 01:53:26 +0530"
+      },
+      {
+        "title": "US stocks today: US stocks end near flat as hot inflation data clouds Fed rate outlook",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-us-stocks-end-near-flat-as-hot-inflation-data-clouds-fed-rate-outlook/articleshow/133550754.cms",
+        "published": "Thu, 27 Aug 2026 01:48:34 +0530"
+      },
+      {
         "title": "US corporate profit margins widen to highest on record",
         "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-corporate-profit-margins-widen-to-highest-on-record/articleshow/133548769.cms",
         "published": "Wed, 26 Aug 2026 23:48:45 +0530"
-      },
-      {
-        "title": "Next market winners: Jefferies sees potential in data centers as hyperscalers race for AI capacity",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/next-market-winners-jefferies-sees-potential-in-hyperscalers-race-for-ai-capacity-via-data-centers/articleshow/133545549.cms",
-        "published": "Wed, 26 Aug 2026 21:28:02 +0530"
-      },
-      {
-        "title": "Ahead of Market: 10 things that will decide stock market action on Thursday",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-thursday/articleshow/133545509.cms",
-        "published": "Wed, 26 Aug 2026 21:25:03 +0530"
-      },
-      {
-        "title": "Market Trading Guide: Ashok Leyland among 2 stock recommendations for Thursday",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/market-trading-guide-ashok-leyland-among-2-stock-recommendations-for-thursday/articleshow/133545484.cms",
-        "published": "Wed, 26 Aug 2026 21:22:36 +0530"
-      },
-      {
-        "title": "Anthropic gears up for Wall Street debut: Five things investors need to know",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/anthropics-gears-up-for-wall-street-debut-five-things-investors-need-to-know/slideshow/133545308.cms",
-        "published": "Wed, 26 Aug 2026 21:00:49 +0530"
       }
     ],
-    "Moneycontrol": [
-      {
-        "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
-        "link": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
-        "published": "Tue, 23 Apr 2024 15:46:31 +0530"
-      },
-      {
-        "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
-        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
-        "published": "Tue, 23 Apr 2024 14:51:26 +0530"
-      },
-      {
-        "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
-        "link": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
-        "published": "Tue, 23 Apr 2024 12:23:21 +0530"
-      },
-      {
-        "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
-        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
-        "published": "Tue, 23 Apr 2024 09:45:50 +0530"
-      }
-    ],
+    "Moneycontrol": [],
     "Livemint": [
+      {
+        "title": "Oil Dips as Traders Assess Hormuz Talks, Ukraine War Escalation",
+        "link": "https://www.livemint.com/market/oil-dips-as-traders-assess-hormuz-talks-ukraine-war-escalation-11787778798554.html",
+        "published": "Thu, 27 Aug 2026 02:43:18 +0530"
+      },
+      {
+        "title": "Dollar Gains Most in Over Two Weeks as PCE Backs Fed Hike",
+        "link": "https://www.livemint.com/market/dollar-gains-most-in-over-two-weeks-as-pce-backs-fed-hike-11787778441174.html",
+        "published": "Thu, 27 Aug 2026 02:37:20 +0530"
+      },
       {
         "title": "Gold Rally Eases as Traders Turn Focus to Fed Interest Rate Path",
         "link": "https://www.livemint.com/market/gold-rally-eases-as-traders-turn-focus-to-fed-interest-rate-path-11787775547971.html",
@@ -79,16 +68,6 @@
         "title": "Wheat soars to daily limit on Black Sea export worries, corn at lifetime highs",
         "link": "https://www.livemint.com/market/wheat-soars-to-daily-limit-on-black-sea-export-worries-corn-at-lifetime-highs-11787773711563.html",
         "published": "Thu, 27 Aug 2026 01:18:31 +0530"
-      },
-      {
-        "title": "Why Oura and Whoop Are Bound for IPO Glory",
-        "link": "https://www.livemint.com/market/why-oura-and-whoop-are-bound-for-ipo-glory-11787772060529.html",
-        "published": "Thu, 27 Aug 2026 00:51:00 +0530"
-      },
-      {
-        "title": "US data buoys dollar as Fed hike expectations nudged higher",
-        "link": "https://www.livemint.com/market/us-data-buoys-dollar-as-fed-hike-expectations-nudged-higher-11787770825665.html",
-        "published": "Thu, 27 Aug 2026 00:30:25 +0530"
       }
     ]
   },
