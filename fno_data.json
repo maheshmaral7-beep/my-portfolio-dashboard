@@ -1,2083 +1,2084 @@
 {
-  "generated_at": "2026-08-26T10:07:22.294937+00:00",
+  "generated_at": "2026-08-27T14:15:01.396922+00:00",
   "disclaimer": "Descriptive classification of today's futures/options activity, not a prediction or a trade recommendation. Does not suggest any option, strike, or strategy to trade.",
-  "stock_futures_scanned": 207,
+  "stock_futures_scanned": 210,
   "buildup": {
     "long_buildup": [
       {
-        "symbol": "PAYTM",
-        "price": 1710.7,
-        "price_change_pct": 5.51,
-        "open_interest": 5136625,
-        "oi_change": 108750,
-        "oi_change_pct": 2.16,
-        "buildup": "Long Buildup",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "HINDPETRO",
-        "price": 374.2,
-        "price_change_pct": 0.84,
-        "open_interest": 7136100,
-        "oi_change": 107325,
-        "oi_change_pct": 1.53,
-        "buildup": "Long Buildup",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "VOLTAS",
-        "price": 1241.3,
-        "price_change_pct": 0.57,
-        "open_interest": 2745750,
-        "oi_change": 31500,
-        "oi_change_pct": 1.16,
-        "buildup": "Long Buildup",
-        "as_of": "25-Aug-2026"
-      }
-    ],
-    "short_buildup": [],
-    "short_covering": [
-      {
-        "symbol": "IDEA",
-        "price": 15.2,
-        "price_change_pct": 7.73,
-        "open_interest": 118862925,
-        "oi_change": -1026238050,
-        "oi_change_pct": -89.62,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
         "symbol": "SAIL",
-        "price": 185.35,
-        "price_change_pct": 3.63,
-        "open_interest": 9592700,
-        "oi_change": -80464000,
-        "oi_change_pct": -89.35,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "JIOFIN",
-        "price": 243.3,
-        "price_change_pct": 0.35,
-        "open_interest": 10577350,
-        "oi_change": -52473150,
-        "oi_change_pct": -83.22,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "ADANIPOWER",
-        "price": 207.12,
-        "price_change_pct": 2.17,
-        "open_interest": 8086900,
-        "oi_change": -38198000,
-        "oi_change_pct": -82.53,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "IEX",
-        "price": 124.39,
-        "price_change_pct": 0.94,
-        "open_interest": 3105900,
-        "oi_change": -12789000,
-        "oi_change_pct": -80.46,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "ADANIENT",
-        "price": 3101.8,
-        "price_change_pct": 4.17,
-        "open_interest": 669603,
-        "oi_change": -2687373,
-        "oi_change_pct": -80.05,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "NBCC",
-        "price": 89.11,
-        "price_change_pct": 0.75,
-        "open_interest": 4491500,
-        "oi_change": -17836000,
-        "oi_change_pct": -79.88,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "PNB",
-        "price": 115.98,
-        "price_change_pct": 0.44,
-        "open_interest": 7744000,
-        "oi_change": -29968000,
-        "oi_change_pct": -79.47,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "JSWENERGY",
-        "price": 545.3,
-        "price_change_pct": 0.17,
-        "open_interest": 965350,
-        "oi_change": -3621675,
-        "oi_change_pct": -78.95,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "CANBK",
-        "price": 127.73,
-        "price_change_pct": 0.61,
-        "open_interest": 11286000,
-        "oi_change": -41121000,
-        "oi_change_pct": -78.46,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "INDUSTOWER",
-        "price": 384.85,
-        "price_change_pct": 2.27,
-        "open_interest": 1948200,
-        "oi_change": -7012500,
-        "oi_change_pct": -78.26,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
+        "price": 197.11,
+        "price_change_pct": 5.58,
+        "open_interest": 185142400,
+        "oi_change": 22621100,
+        "oi_change_pct": 13.92,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
       },
       {
         "symbol": "LICHSGFIN",
-        "price": 506.5,
-        "price_change_pct": 3.22,
-        "open_interest": 2103000,
-        "oi_change": -7330000,
-        "oi_change_pct": -77.71,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "INDHOTEL",
-        "price": 730.5,
-        "price_change_pct": 0.56,
-        "open_interest": 590000,
-        "oi_change": -1991000,
-        "oi_change_pct": -77.14,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "ADANIGREEN",
-        "price": 1330.5,
-        "price_change_pct": 2.18,
-        "open_interest": 1272000,
-        "oi_change": -4086000,
-        "oi_change_pct": -76.26,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "BANKINDIA",
-        "price": 143.65,
-        "price_change_pct": 1.81,
-        "open_interest": 4758000,
-        "oi_change": -14783600,
-        "oi_change_pct": -75.65,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "AUROPHARMA",
-        "price": 1617.5,
-        "price_change_pct": 0.58,
-        "open_interest": 302500,
-        "oi_change": -906400,
-        "oi_change_pct": -74.98,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "VBL",
-        "price": 436.35,
-        "price_change_pct": 2.24,
-        "open_interest": 2551275,
-        "oi_change": -7434525,
-        "oi_change_pct": -74.45,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "CGPOWER",
-        "price": 878.2,
-        "price_change_pct": 0.82,
-        "open_interest": 923950,
-        "oi_change": -2675800,
-        "oi_change_pct": -74.33,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "BANKBARODA",
-        "price": 241.15,
-        "price_change_pct": 0.08,
-        "open_interest": 6753825,
-        "oi_change": -18386550,
-        "oi_change_pct": -73.14,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "IREDA",
-        "price": 121.66,
-        "price_change_pct": 5.73,
-        "open_interest": 5543125,
-        "oi_change": -14792225,
-        "oi_change_pct": -72.74,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "AMBUJACEM",
-        "price": 411.25,
-        "price_change_pct": 0.87,
-        "open_interest": 3873600,
-        "oi_change": -10036800,
-        "oi_change_pct": -72.15,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "GMRAIRPORT",
-        "price": 99.25,
-        "price_change_pct": 0.54,
-        "open_interest": 9765000,
-        "oi_change": -24949575,
-        "oi_change_pct": -71.87,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "BHEL",
-        "price": 418.8,
-        "price_change_pct": 1.98,
-        "open_interest": 3386250,
-        "oi_change": -8641500,
-        "oi_change_pct": -71.85,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "CDSL",
-        "price": 1392.7,
-        "price_change_pct": 0.24,
-        "open_interest": 579975,
-        "oi_change": -1462050,
-        "oi_change_pct": -71.6,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "TRENT",
-        "price": 2937.3,
-        "price_change_pct": 0.98,
-        "open_interest": 500625,
-        "oi_change": -1196550,
-        "oi_change_pct": -70.5,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "ADANIPORTS",
-        "price": 1697.3,
-        "price_change_pct": 1.24,
-        "open_interest": 1417400,
-        "oi_change": -3283200,
-        "oi_change_pct": -69.85,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "BHARTIARTL",
-        "price": 1942.9,
-        "price_change_pct": 0.27,
-        "open_interest": 1825425,
-        "oi_change": -4189025,
-        "oi_change_pct": -69.65,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "POLYCAB",
-        "price": 9064,
-        "price_change_pct": 0.55,
-        "open_interest": 153875,
-        "oi_change": -337250,
-        "oi_change_pct": -68.67,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "DELHIVERY",
-        "price": 446.6,
-        "price_change_pct": 0.73,
-        "open_interest": 1867500,
-        "oi_change": -4052475,
-        "oi_change_pct": -68.45,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "TIINDIA",
-        "price": 2880.8,
-        "price_change_pct": 0.43,
-        "open_interest": 140800,
-        "oi_change": -294800,
-        "oi_change_pct": -67.68,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "NHPC",
-        "price": 76.71,
-        "price_change_pct": 0.47,
-        "open_interest": 7214100,
-        "oi_change": -15039800,
-        "oi_change_pct": -67.58,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "RELIANCE",
-        "price": 1311.1,
-        "price_change_pct": 0.51,
-        "open_interest": 7613500,
-        "oi_change": -15640000,
-        "oi_change_pct": -67.26,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "ICICIPRULI",
-        "price": 509.95,
-        "price_change_pct": 0.46,
-        "open_interest": 633625,
-        "oi_change": -1298700,
-        "oi_change_pct": -67.21,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "TATACONSUM",
-        "price": 1060.8,
-        "price_change_pct": 0.61,
-        "open_interest": 806850,
-        "oi_change": -1561450,
-        "oi_change_pct": -65.93,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "INDIGO",
-        "price": 5208.5,
-        "price_change_pct": 1.52,
-        "open_interest": 350700,
-        "oi_change": -637200,
-        "oi_change_pct": -64.5,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "SHRIRAMFIN",
-        "price": 1145.2,
-        "price_change_pct": 2.33,
-        "open_interest": 1151700,
-        "oi_change": -2060850,
-        "oi_change_pct": -64.15,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "UPL",
-        "price": 581.45,
-        "price_change_pct": 2.44,
-        "open_interest": 3811615,
-        "oi_change": -6501290,
-        "oi_change_pct": -63.04,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "TMPV",
-        "price": 314.95,
-        "price_change_pct": 0.4,
-        "open_interest": 10227200,
-        "oi_change": -17284800,
-        "oi_change_pct": -62.83,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "HINDUNILVR",
-        "price": 2027.2,
-        "price_change_pct": 0.3,
-        "open_interest": 1401600,
-        "oi_change": -2300700,
-        "oi_change_pct": -62.14,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "BEL",
-        "price": 412.85,
-        "price_change_pct": 1.21,
-        "open_interest": 9007425,
-        "oi_change": -14435250,
-        "oi_change_pct": -61.58,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "DIXON",
-        "price": 15115,
-        "price_change_pct": 4.79,
-        "open_interest": 199550,
-        "oi_change": -318250,
-        "oi_change_pct": -61.46,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "ITC",
-        "price": 270.3,
-        "price_change_pct": 0.82,
-        "open_interest": 17826150,
-        "oi_change": -28136475,
-        "oi_change_pct": -61.22,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "SHREECEM",
-        "price": 24550,
-        "price_change_pct": 1.85,
-        "open_interest": 21625,
-        "oi_change": -32975,
-        "oi_change_pct": -60.39,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "AMBER",
-        "price": 7452,
-        "price_change_pct": 1.16,
-        "open_interest": 132400,
-        "oi_change": -196600,
-        "oi_change_pct": -59.76,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "ULTRACEMCO",
-        "price": 11585,
-        "price_change_pct": 0.38,
-        "open_interest": 92900,
-        "oi_change": -137500,
-        "oi_change_pct": -59.68,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "INFY",
-        "price": 1135.2,
-        "price_change_pct": 0.15,
-        "open_interest": 8928000,
-        "oi_change": -13155200,
-        "oi_change_pct": -59.57,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "SBIN",
-        "price": 1044,
-        "price_change_pct": 0.91,
-        "open_interest": 8077500,
-        "oi_change": -11710500,
-        "oi_change_pct": -59.18,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "MANKIND",
-        "price": 2367.9,
-        "price_change_pct": 0.05,
-        "open_interest": 213750,
-        "oi_change": -304750,
-        "oi_change_pct": -58.78,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "LTF",
-        "price": 318.5,
-        "price_change_pct": 0.43,
-        "open_interest": 3109500,
-        "oi_change": -4389750,
-        "oi_change_pct": -58.54,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "ASHOKLEY",
-        "price": 175.07,
-        "price_change_pct": 1.33,
-        "open_interest": 13480000,
-        "oi_change": -18895000,
-        "oi_change_pct": -58.36,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "UNIONBANK",
-        "price": 187.31,
-        "price_change_pct": 2.45,
-        "open_interest": 7451700,
-        "oi_change": -10381050,
-        "oi_change_pct": -58.21,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "PREMIERENE",
-        "price": 1032.7,
-        "price_change_pct": 0.24,
-        "open_interest": 652600,
-        "oi_change": -908700,
-        "oi_change_pct": -58.2,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "NESTLEIND",
-        "price": 1479.2,
-        "price_change_pct": 0.76,
-        "open_interest": 744000,
-        "oi_change": -983000,
-        "oi_change_pct": -56.92,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "BLUESTARCO",
-        "price": 1509.9,
-        "price_change_pct": 0.39,
-        "open_interest": 359125,
-        "oi_change": -462475,
-        "oi_change_pct": -56.29,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "GAIL",
-        "price": 174.11,
-        "price_change_pct": 0.46,
-        "open_interest": 7387550,
-        "oi_change": -9467850,
-        "oi_change_pct": -56.17,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "UNITDSPR",
-        "price": 1548.6,
-        "price_change_pct": 0.09,
-        "open_interest": 441600,
-        "oi_change": -542800,
-        "oi_change_pct": -55.14,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "HAL",
-        "price": 4887.6,
-        "price_change_pct": 0.18,
-        "open_interest": 762450,
-        "oi_change": -920550,
-        "oi_change_pct": -54.7,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "ANGELONE",
-        "price": 301.6,
-        "price_change_pct": 5.38,
-        "open_interest": 5012500,
-        "oi_change": -6010000,
-        "oi_change_pct": -54.52,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "GRASIM",
-        "price": 3274.8,
-        "price_change_pct": 0.12,
-        "open_interest": 1342250,
-        "oi_change": -1604750,
-        "oi_change_pct": -54.45,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "JSWSTEEL",
-        "price": 1319.6,
-        "price_change_pct": 0.05,
-        "open_interest": 1514025,
-        "oi_change": -1781325,
-        "oi_change_pct": -54.06,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "HDFCAMC",
-        "price": 2673.5,
-        "price_change_pct": 2.45,
-        "open_interest": 319800,
-        "oi_change": -374400,
-        "oi_change_pct": -53.93,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "ICICIBANK",
-        "price": 1421.2,
-        "price_change_pct": 0.23,
-        "open_interest": 5833100,
-        "oi_change": -6822900,
-        "oi_change_pct": -53.91,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "ABB",
-        "price": 7637.5,
-        "price_change_pct": 1.6,
-        "open_interest": 252750,
-        "oi_change": -286625,
-        "oi_change_pct": -53.14,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "KOTAKBANK",
-        "price": 399.85,
-        "price_change_pct": 0.04,
-        "open_interest": 6250000,
-        "oi_change": -7076000,
-        "oi_change_pct": -53.1,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "PNBHOUSING",
-        "price": 1180.7,
-        "price_change_pct": 1.45,
-        "open_interest": 746200,
-        "oi_change": -842400,
-        "oi_change_pct": -53.03,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "GODREJCP",
-        "price": 928.9,
-        "price_change_pct": 0.05,
-        "open_interest": 2031000,
-        "oi_change": -2248000,
-        "oi_change_pct": -52.54,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "TECHM",
-        "price": 1596.9,
-        "price_change_pct": 0.92,
-        "open_interest": 1718400,
-        "oi_change": -1842000,
-        "oi_change_pct": -51.74,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "360ONE",
-        "price": 1204.9,
-        "price_change_pct": 0.74,
-        "open_interest": 521000,
-        "oi_change": -558000,
-        "oi_change_pct": -51.71,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "APOLLOHOSP",
-        "price": 8829,
-        "price_change_pct": 1.88,
-        "open_interest": 167500,
-        "oi_change": -177875,
-        "oi_change_pct": -51.5,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "KALYANKJIL",
-        "price": 615.15,
-        "price_change_pct": 1.15,
-        "open_interest": 2998350,
-        "oi_change": -3141450,
-        "oi_change_pct": -51.17,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "LODHA",
-        "price": 1289.2,
-        "price_change_pct": 2.41,
-        "open_interest": 771250,
-        "oi_change": -794375,
-        "oi_change_pct": -50.74,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "ALKEM",
-        "price": 5337.5,
-        "price_change_pct": 0.08,
-        "open_interest": 95875,
-        "oi_change": -95625,
-        "oi_change_pct": -49.93,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "TCS",
-        "price": 2286.7,
-        "price_change_pct": 0.11,
-        "open_interest": 2460150,
-        "oi_change": -2421450,
-        "oi_change_pct": -49.6,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "CHOLAFIN",
-        "price": 1866.4,
-        "price_change_pct": 1.3,
-        "open_interest": 893125,
-        "oi_change": -868125,
-        "oi_change_pct": -49.29,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "APLAPOLLO",
-        "price": 2158.5,
-        "price_change_pct": 0.38,
-        "open_interest": 361900,
-        "oi_change": -348950,
-        "oi_change_pct": -49.09,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "GODREJPROP",
-        "price": 2055.6,
-        "price_change_pct": 0.8,
-        "open_interest": 530075,
-        "oi_change": -509275,
-        "oi_change_pct": -49.0,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "MAXHEALTH",
-        "price": 1012.8,
-        "price_change_pct": 2.37,
-        "open_interest": 1442175,
-        "oi_change": -1319325,
-        "oi_change_pct": -47.78,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "KPITTECH",
-        "price": 592.9,
-        "price_change_pct": 1.81,
-        "open_interest": 1823575,
-        "oi_change": -1644550,
-        "oi_change_pct": -47.42,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "ADANIENSOL",
-        "price": 1585.6,
-        "price_change_pct": 2.4,
-        "open_interest": 1402650,
-        "oi_change": -1247400,
-        "oi_change_pct": -47.07,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "PIIND",
-        "price": 2490.9,
-        "price_change_pct": 0.71,
-        "open_interest": 371700,
-        "oi_change": -328650,
-        "oi_change_pct": -46.93,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "BAJAJFINSV",
-        "price": 2006.1,
-        "price_change_pct": 0.28,
-        "open_interest": 535200,
-        "oi_change": -469200,
-        "oi_change_pct": -46.71,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "PHOENIXLTD",
-        "price": 1933.1,
-        "price_change_pct": 0.1,
-        "open_interest": 645750,
-        "oi_change": -559300,
-        "oi_change_pct": -46.41,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "MAZDOCK",
-        "price": 2604.7,
-        "price_change_pct": 2.59,
-        "open_interest": 725625,
-        "oi_change": -600975,
-        "oi_change_pct": -45.3,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "MUTHOOTFIN",
-        "price": 3218.6,
-        "price_change_pct": 0.73,
-        "open_interest": 893475,
-        "oi_change": -701250,
-        "oi_change_pct": -43.97,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "CUMMINSIND",
-        "price": 5231.5,
-        "price_change_pct": 1.18,
-        "open_interest": 723200,
-        "oi_change": -563000,
-        "oi_change_pct": -43.77,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "GLENMARK",
-        "price": 2398,
-        "price_change_pct": 0.05,
-        "open_interest": 985125,
-        "oi_change": -759750,
-        "oi_change_pct": -43.54,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "ETERNAL",
-        "price": 329.3,
-        "price_change_pct": 0.34,
-        "open_interest": 22996275,
-        "oi_change": -17474550,
-        "oi_change_pct": -43.18,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "HYUNDAI",
-        "price": 2236.3,
-        "price_change_pct": 1.38,
-        "open_interest": 346225,
-        "oi_change": -251350,
-        "oi_change_pct": -42.06,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "JINDALSTEL",
-        "price": 1152.6,
-        "price_change_pct": 0.91,
-        "open_interest": 1690625,
-        "oi_change": -1210625,
-        "oi_change_pct": -41.73,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "INDIANB",
-        "price": 881.95,
-        "price_change_pct": 1.38,
-        "open_interest": 2019000,
-        "oi_change": -1446000,
-        "oi_change_pct": -41.73,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "AUBANK",
-        "price": 1125.1,
-        "price_change_pct": 1.43,
-        "open_interest": 1279000,
-        "oi_change": -891000,
-        "oi_change_pct": -41.06,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "ASTRAL",
-        "price": 1546.2,
-        "price_change_pct": 0.87,
-        "open_interest": 686375,
-        "oi_change": -474300,
-        "oi_change_pct": -40.86,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "OBEROIRLTY",
-        "price": 1878.9,
-        "price_change_pct": 0.62,
-        "open_interest": 644350,
-        "oi_change": -416500,
-        "oi_change_pct": -39.26,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "DIVISLAB",
-        "price": 8739,
-        "price_change_pct": 2.59,
-        "open_interest": 230600,
-        "oi_change": -145100,
-        "oi_change_pct": -38.62,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "RADICO",
-        "price": 4641.5,
-        "price_change_pct": 1.22,
-        "open_interest": 102750,
-        "oi_change": -63900,
-        "oi_change_pct": -38.34,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "PFC",
-        "price": 365.3,
-        "price_change_pct": 0.47,
-        "open_interest": 7133100,
-        "oi_change": -4360200,
-        "oi_change_pct": -37.94,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "SWIGGY",
-        "price": 287.8,
-        "price_change_pct": 0.89,
-        "open_interest": 8626775,
-        "oi_change": -5069850,
-        "oi_change_pct": -37.02,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "MFSL",
-        "price": 1589,
-        "price_change_pct": 1.04,
-        "open_interest": 726400,
-        "oi_change": -422400,
-        "oi_change_pct": -36.77,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "COCHINSHIP",
-        "price": 1519.8,
-        "price_change_pct": 0.18,
-        "open_interest": 652400,
-        "oi_change": -374800,
-        "oi_change_pct": -36.49,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "OFSS",
-        "price": 11645,
-        "price_change_pct": 1.65,
-        "open_interest": 129000,
-        "oi_change": -73900,
-        "oi_change_pct": -36.42,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "BAJAJHLDNG",
-        "price": 11222,
-        "price_change_pct": 1.3,
-        "open_interest": 111600,
-        "oi_change": -62250,
-        "oi_change_pct": -35.81,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "KAYNES",
-        "price": 3937.1,
-        "price_change_pct": 2.4,
-        "open_interest": 468750,
-        "oi_change": -246000,
-        "oi_change_pct": -34.42,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "FORTIS",
-        "price": 923.45,
-        "price_change_pct": 1.06,
-        "open_interest": 1732125,
-        "oi_change": -905200,
-        "oi_change_pct": -34.32,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "BIOCON",
-        "price": 415.55,
-        "price_change_pct": 1.45,
-        "open_interest": 7315000,
-        "oi_change": -3795000,
-        "oi_change_pct": -34.16,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "DLF",
-        "price": 684.4,
-        "price_change_pct": 0.18,
-        "open_interest": 6866600,
-        "oi_change": -3479850,
-        "oi_change_pct": -33.63,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "M&M",
-        "price": 3441.4,
-        "price_change_pct": 0.92,
-        "open_interest": 1445000,
-        "oi_change": -713800,
-        "oi_change_pct": -33.06,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "LAURUSLABS",
-        "price": 1865.3,
-        "price_change_pct": 3.52,
-        "open_interest": 3417850,
-        "oi_change": -1654950,
-        "oi_change_pct": -32.62,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "MOTILALOFS",
-        "price": 1012.4,
-        "price_change_pct": 1.51,
-        "open_interest": 786625,
-        "oi_change": -368900,
-        "oi_change_pct": -31.92,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "COFORGE",
-        "price": 1904.7,
-        "price_change_pct": 1.42,
-        "open_interest": 1511450,
-        "oi_change": -646950,
-        "oi_change_pct": -29.97,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "BOSCHLTD",
-        "price": 48565,
-        "price_change_pct": 0.78,
-        "open_interest": 25825,
-        "oi_change": -10850,
-        "oi_change_pct": -29.58,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "SUNPHARMA",
-        "price": 1914.5,
-        "price_change_pct": 0.48,
-        "open_interest": 1227450,
-        "oi_change": -479150,
-        "oi_change_pct": -28.08,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
+        "price": 529.9,
+        "price_change_pct": 3.83,
+        "open_interest": 37579000,
+        "oi_change": 3244000,
+        "oi_change_pct": 9.45,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "VEDL",
+        "price": 289.6,
+        "price_change_pct": 4.64,
+        "open_interest": 65194650,
+        "oi_change": 4695450,
+        "oi_change_pct": 7.76,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
       },
       {
         "symbol": "GVT&D",
-        "price": 4196.4,
-        "price_change_pct": 0.88,
-        "open_interest": 566250,
-        "oi_change": -217000,
-        "oi_change_pct": -27.71,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
+        "price": 4392.3,
+        "price_change_pct": 4.18,
+        "open_interest": 2899875,
+        "oi_change": 158000,
+        "oi_change_pct": 5.76,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
       },
       {
-        "symbol": "TORNTPHARM",
-        "price": 4914.5,
-        "price_change_pct": 0.68,
-        "open_interest": 271625,
-        "oi_change": -100875,
-        "oi_change_pct": -27.08,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
+        "symbol": "MAZDOCK",
+        "price": 2649.2,
+        "price_change_pct": 1.32,
+        "open_interest": 4622175,
+        "oi_change": 234450,
+        "oi_change_pct": 5.34,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
       },
       {
-        "symbol": "MARUTI",
-        "price": 13649,
-        "price_change_pct": 0.67,
-        "open_interest": 282400,
-        "oi_change": -103900,
-        "oi_change_pct": -26.9,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
+        "symbol": "KAYNES",
+        "price": 4082,
+        "price_change_pct": 3.12,
+        "open_interest": 3435450,
+        "oi_change": 141750,
+        "oi_change_pct": 4.3,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
       },
       {
-        "symbol": "POLICYBZR",
-        "price": 1796.4,
-        "price_change_pct": 0.55,
-        "open_interest": 735000,
-        "oi_change": -254800,
-        "oi_change_pct": -25.74,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
+        "symbol": "CDSL",
+        "price": 1446.1,
+        "price_change_pct": 3.02,
+        "open_interest": 11126875,
+        "oi_change": 441275,
+        "oi_change_pct": 4.13,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
       },
       {
-        "symbol": "TITAN",
-        "price": 5123.7,
-        "price_change_pct": 1.13,
-        "open_interest": 1111775,
-        "oi_change": -319550,
-        "oi_change_pct": -22.33,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
+        "symbol": "COCHINSHIP",
+        "price": 1566,
+        "price_change_pct": 2.13,
+        "open_interest": 5256400,
+        "oi_change": 193600,
+        "oi_change_pct": 3.82,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
       },
       {
-        "symbol": "IOC",
-        "price": 138.64,
-        "price_change_pct": 0.54,
-        "open_interest": 23716875,
-        "oi_change": -6786000,
-        "oi_change_pct": -22.25,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
+        "symbol": "CONCOR",
+        "price": 520.6,
+        "price_change_pct": 0.18,
+        "open_interest": 21867500,
+        "oi_change": 677500,
+        "oi_change_pct": 3.2,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "MANKIND",
+        "price": 2416.1,
+        "price_change_pct": 1.21,
+        "open_interest": 3104000,
+        "oi_change": 88000,
+        "oi_change_pct": 2.92,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "DIXON",
+        "price": 14296,
+        "price_change_pct": 0.18,
+        "open_interest": 3021900,
+        "oi_change": 83550,
+        "oi_change_pct": 2.84,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "KFINTECH",
+        "price": 978.4,
+        "price_change_pct": 1.22,
+        "open_interest": 5045050,
+        "oi_change": 138000,
+        "oi_change_pct": 2.81,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "ADANIPOWER",
+        "price": 209.59,
+        "price_change_pct": 0.53,
+        "open_interest": 165266700,
+        "oi_change": 4196100,
+        "oi_change_pct": 2.61,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "HYUNDAI",
+        "price": 2228.3,
+        "price_change_pct": 0.16,
+        "open_interest": 3336025,
+        "oi_change": 82775,
+        "oi_change_pct": 2.54,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "CAMS",
+        "price": 755,
+        "price_change_pct": 0.25,
+        "open_interest": 10344675,
+        "oi_change": 239250,
+        "oi_change_pct": 2.37,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
       },
       {
         "symbol": "ZYDUSLIFE",
-        "price": 1123.4,
-        "price_change_pct": 1.55,
-        "open_interest": 3657600,
-        "oi_change": -1035000,
-        "oi_change_pct": -22.06,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
+        "price": 1157.1,
+        "price_change_pct": 2.64,
+        "open_interest": 9560700,
+        "oi_change": 219600,
+        "oi_change_pct": 2.35,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
       },
       {
-        "symbol": "BAJAJ-AUTO",
-        "price": 11867,
-        "price_change_pct": 0.53,
-        "open_interest": 254475,
-        "oi_change": -63750,
-        "oi_change_pct": -20.03,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
+        "symbol": "HINDZINC",
+        "price": 632.65,
+        "price_change_pct": 6.1,
+        "open_interest": 29130500,
+        "oi_change": 650475,
+        "oi_change_pct": 2.28,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "JINDALSTEL",
+        "price": 1188.2,
+        "price_change_pct": 2.63,
+        "open_interest": 14755000,
+        "oi_change": 298125,
+        "oi_change_pct": 2.06,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "BSE",
+        "price": 3363.3,
+        "price_change_pct": 0.96,
+        "open_interest": 11412600,
+        "oi_change": 213600,
+        "oi_change_pct": 1.91,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "LAURUSLABS",
+        "price": 1880.8,
+        "price_change_pct": 0.55,
+        "open_interest": 15813400,
+        "oi_change": 283050,
+        "oi_change_pct": 1.82,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "MPHASIS",
+        "price": 2426.3,
+        "price_change_pct": -0.0,
+        "open_interest": 4436025,
+        "oi_change": 72325,
+        "oi_change_pct": 1.66,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "BANDHANBNK",
+        "price": 174.49,
+        "price_change_pct": 0.06,
+        "open_interest": 119250000,
+        "oi_change": 1940400,
+        "oi_change_pct": 1.65,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "ULTRACEMCO",
+        "price": 11846,
+        "price_change_pct": 1.41,
+        "open_interest": 1909850,
+        "oi_change": 26900,
+        "oi_change_pct": 1.43,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "HDFCBANK",
+        "price": 733.65,
+        "price_change_pct": 0.62,
+        "open_interest": 352008800,
+        "oi_change": 4473300,
+        "oi_change_pct": 1.29,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "POLYCAB",
+        "price": 9142,
+        "price_change_pct": 0.14,
+        "open_interest": 2266000,
+        "oi_change": 28125,
+        "oi_change_pct": 1.26,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "price": 1710.7,
+        "price_change_pct": 0.16,
+        "open_interest": 20130500,
+        "oi_change": 244625,
+        "oi_change_pct": 1.23,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "LUPIN",
+        "price": 2212,
+        "price_change_pct": 0.8,
+        "open_interest": 8257325,
+        "oi_change": 98175,
+        "oi_change_pct": 1.2,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "DIVISLAB",
+        "price": 9067.5,
+        "price_change_pct": 3.32,
+        "open_interest": 3095800,
+        "oi_change": 34700,
+        "oi_change_pct": 1.13,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "OFSS",
+        "price": 11841,
+        "price_change_pct": 1.4,
+        "open_interest": 1109900,
+        "oi_change": 11800,
+        "oi_change_pct": 1.07,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "price": 418.65,
+        "price_change_pct": 3.83,
+        "open_interest": 177260000,
+        "oi_change": 1844000,
+        "oi_change_pct": 1.05,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "BAJAJFINSV",
+        "price": 2024.9,
+        "price_change_pct": 0.32,
+        "open_interest": 8556900,
+        "oi_change": 87300,
+        "oi_change_pct": 1.03,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "SWIGGY",
+        "price": 288.1,
+        "price_change_pct": 0.05,
+        "open_interest": 69983275,
+        "oi_change": 711750,
+        "oi_change_pct": 1.03,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "BOSCHLTD",
+        "price": 49040,
+        "price_change_pct": 0.64,
+        "open_interest": 185350,
+        "oi_change": 1875,
+        "oi_change_pct": 1.02,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "MAXHEALTH",
+        "price": 1017.9,
+        "price_change_pct": 0.07,
+        "open_interest": 11452875,
+        "oi_change": 109200,
+        "oi_change_pct": 0.96,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
       },
       {
         "symbol": "EICHERMOT",
-        "price": 8044,
-        "price_change_pct": 0.54,
-        "open_interest": 317400,
-        "oi_change": -70500,
-        "oi_change_pct": -18.17,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
+        "price": 8110.5,
+        "price_change_pct": 0.02,
+        "open_interest": 3294600,
+        "oi_change": 29400,
+        "oi_change_pct": 0.9,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
       },
       {
-        "symbol": "BRITANNIA",
-        "price": 5347,
-        "price_change_pct": 0.92,
-        "open_interest": 426875,
-        "oi_change": -93500,
-        "oi_change_pct": -17.97,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
+        "symbol": "DELHIVERY",
+        "price": 452.9,
+        "price_change_pct": 0.77,
+        "open_interest": 25202950,
+        "oi_change": 222025,
+        "oi_change_pct": 0.89,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
       },
       {
-        "symbol": "KEI",
-        "price": 5556.8,
-        "price_change_pct": 0.98,
-        "open_interest": 339325,
-        "oi_change": -67200,
-        "oi_change_pct": -16.53,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
+        "symbol": "MOTHERSON",
+        "price": 166.92,
+        "price_change_pct": 0.01,
+        "open_interest": 130017150,
+        "oi_change": 1137750,
+        "oi_change_pct": 0.88,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
       },
       {
-        "symbol": "JUBLFOOD",
-        "price": 517.6,
-        "price_change_pct": 1.75,
-        "open_interest": 6470000,
-        "oi_change": -1263750,
-        "oi_change_pct": -16.34,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
+        "symbol": "SBILIFE",
+        "price": 1787,
+        "price_change_pct": 0.63,
+        "open_interest": 8334000,
+        "oi_change": 53250,
+        "oi_change_pct": 0.64,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
       },
       {
-        "symbol": "LT",
-        "price": 4106.3,
-        "price_change_pct": 0.7,
-        "open_interest": 1646750,
-        "oi_change": -319375,
-        "oi_change_pct": -16.24,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "BAJFINANCE",
-        "price": 1083.2,
-        "price_change_pct": 0.35,
-        "open_interest": 6804750,
-        "oi_change": -578250,
-        "oi_change_pct": -7.83,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "MCX",
-        "price": 3278,
-        "price_change_pct": 0.52,
-        "open_interest": 3815100,
-        "oi_change": -296550,
-        "oi_change_pct": -7.21,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "ASIANPAINT",
-        "price": 2636.5,
-        "price_change_pct": 0.35,
-        "open_interest": 1848750,
-        "oi_change": -138500,
-        "oi_change_pct": -6.97,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "LICI",
-        "price": 424.8,
+        "symbol": "COALINDIA",
+        "price": 401.85,
         "price_change_pct": 0.37,
-        "open_interest": 10935400,
-        "oi_change": -791000,
-        "oi_change_pct": -6.75,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
+        "open_interest": 89571150,
+        "oi_change": 553500,
+        "oi_change_pct": 0.62,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "UNIONBANK",
+        "price": 189.41,
+        "price_change_pct": 0.49,
+        "open_interest": 91336425,
+        "oi_change": 504450,
+        "oi_change_pct": 0.56,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "SBIN",
+        "price": 1059.7,
+        "price_change_pct": 0.74,
+        "open_interest": 84170250,
+        "oi_change": 447750,
+        "oi_change_pct": 0.53,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "TATASTEEL",
+        "price": 190.22,
+        "price_change_pct": 2.16,
+        "open_interest": 240306000,
+        "oi_change": 1196250,
+        "oi_change_pct": 0.5,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "ALKEM",
+        "price": 5376.5,
+        "price_change_pct": 0.14,
+        "open_interest": 1247750,
+        "oi_change": 5875,
+        "oi_change_pct": 0.47,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "BANKINDIA",
+        "price": 146.46,
+        "price_change_pct": 1.1,
+        "open_interest": 81790800,
+        "oi_change": 379600,
+        "oi_change_pct": 0.47,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
       },
       {
         "symbol": "BPCL",
-        "price": 318.3,
-        "price_change_pct": 1.84,
-        "open_interest": 6019800,
-        "oi_change": -217250,
-        "oi_change_pct": -3.48,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
+        "price": 321.35,
+        "price_change_pct": 0.16,
+        "open_interest": 33411075,
+        "oi_change": 146150,
+        "oi_change_pct": 0.44,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
       },
       {
-        "symbol": "TVSMOTOR",
-        "price": 4412.9,
-        "price_change_pct": 1.06,
-        "open_interest": 1130850,
-        "oi_change": -39025,
-        "oi_change_pct": -3.34,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
+        "symbol": "AUROPHARMA",
+        "price": 1633.8,
+        "price_change_pct": 0.36,
+        "open_interest": 10135400,
+        "oi_change": 36850,
+        "oi_change_pct": 0.36,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
       },
       {
-        "symbol": "NYKAA",
-        "price": 334,
-        "price_change_pct": 1.01,
-        "open_interest": 8034375,
-        "oi_change": -203125,
-        "oi_change_pct": -2.47,
-        "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
+        "symbol": "CHOLAFIN",
+        "price": 1890.1,
+        "price_change_pct": 0.61,
+        "open_interest": 14686875,
+        "oi_change": 51875,
+        "oi_change_pct": 0.35,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "PRESTIGE",
+        "price": 1625.9,
+        "price_change_pct": 0.17,
+        "open_interest": 5284350,
+        "oi_change": 17100,
+        "oi_change_pct": 0.32,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "MUTHOOTFIN",
+        "price": 3231.3,
+        "price_change_pct": 0.02,
+        "open_interest": 5686175,
+        "oi_change": 17875,
+        "oi_change_pct": 0.32,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "BAJAJHLDNG",
+        "price": 11459,
+        "price_change_pct": 1.69,
+        "open_interest": 251100,
+        "oi_change": 750,
+        "oi_change_pct": 0.3,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "GLENMARK",
+        "price": 2457.7,
+        "price_change_pct": 2.11,
+        "open_interest": 11167500,
+        "oi_change": 18750,
+        "oi_change_pct": 0.17,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "PIIND",
+        "price": 2511.9,
+        "price_change_pct": 0.97,
+        "open_interest": 3626175,
+        "oi_change": 5075,
+        "oi_change_pct": 0.14,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "ICICIPRULI",
+        "price": 520.55,
+        "price_change_pct": 1.21,
+        "open_interest": 15634350,
+        "oi_change": 17575,
+        "oi_change_pct": 0.11,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "JSWSTEEL",
+        "price": 1347.9,
+        "price_change_pct": 1.81,
+        "open_interest": 39889125,
+        "oi_change": 32400,
+        "oi_change_pct": 0.08,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "SUZLON",
+        "price": 47.35,
+        "price_change_pct": 0.85,
+        "open_interest": 440931300,
+        "oi_change": 177800,
+        "oi_change_pct": 0.04,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "PNB",
+        "price": 117.49,
+        "price_change_pct": 0.53,
+        "open_interest": 268872000,
+        "oi_change": 80000,
+        "oi_change_pct": 0.03,
+        "buildup": "Long Buildup",
+        "as_of": "26-Aug-2026"
+      }
+    ],
+    "short_buildup": [
+      {
+        "symbol": "PREMIERENE",
+        "price": 997.3,
+        "price_change_pct": -4.09,
+        "open_interest": 8091850,
+        "oi_change": 1572350,
+        "oi_change_pct": 24.12,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "VBL",
+        "price": 424.05,
+        "price_change_pct": -3.62,
+        "open_interest": 60906750,
+        "oi_change": 7627050,
+        "oi_change_pct": 14.32,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "ICICIGI",
+        "price": 1605.3,
+        "price_change_pct": -0.95,
+        "open_interest": 5878275,
+        "oi_change": 598325,
+        "oi_change_pct": 11.33,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "LICI",
+        "price": 420.55,
+        "price_change_pct": -1.83,
+        "open_interest": 49064400,
+        "oi_change": 3579800,
+        "oi_change_pct": 7.87,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "LT",
+        "price": 4080.8,
+        "price_change_pct": -1.4,
+        "open_interest": 12874225,
+        "oi_change": 790825,
+        "oi_change_pct": 6.54,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "ETERNAL",
+        "price": 326.25,
+        "price_change_pct": -1.12,
+        "open_interest": 140778525,
+        "oi_change": 7718775,
+        "oi_change_pct": 5.8,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "BLUESTARCO",
+        "price": 1474.8,
+        "price_change_pct": -2.1,
+        "open_interest": 5483075,
+        "oi_change": 283725,
+        "oi_change_pct": 5.46,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "CROMPTON",
+        "price": 240.45,
+        "price_change_pct": -1.78,
+        "open_interest": 67787350,
+        "oi_change": 3259400,
+        "oi_change_pct": 5.05,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "SIEMENS",
+        "price": 4040.3,
+        "price_change_pct": -1.31,
+        "open_interest": 3576300,
+        "oi_change": 170800,
+        "oi_change_pct": 5.02,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "TATAPOWER",
+        "price": 367.55,
+        "price_change_pct": -1.71,
+        "open_interest": 70449700,
+        "oi_change": 3110250,
+        "oi_change_pct": 4.62,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "CUMMINSIND",
+        "price": 5229,
+        "price_change_pct": -0.63,
+        "open_interest": 4898000,
+        "oi_change": 206000,
+        "oi_change_pct": 4.39,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "HEROMOTOCO",
+        "price": 5626,
+        "price_change_pct": -0.77,
+        "open_interest": 3990600,
+        "oi_change": 158400,
+        "oi_change_pct": 4.13,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "VOLTAS",
+        "price": 1223.7,
+        "price_change_pct": -2.18,
+        "open_interest": 10247625,
+        "oi_change": 395625,
+        "oi_change_pct": 4.02,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "NESTLEIND",
+        "price": 1462.6,
+        "price_change_pct": -1.61,
+        "open_interest": 9916500,
+        "oi_change": 353000,
+        "oi_change_pct": 3.69,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "FORCEMOT",
+        "price": 17515,
+        "price_change_pct": -0.14,
+        "open_interest": 243550,
+        "oi_change": 7225,
+        "oi_change_pct": 3.06,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "SHRIRAMFIN",
+        "price": 1128.9,
+        "price_change_pct": -1.79,
+        "open_interest": 29206650,
+        "oi_change": 862950,
+        "oi_change_pct": 3.04,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "LODHA",
+        "price": 1208.6,
+        "price_change_pct": -3.13,
+        "open_interest": 10698125,
+        "oi_change": 311250,
+        "oi_change_pct": 3.0,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "ANGELONE",
+        "price": 297.45,
+        "price_change_pct": -1.78,
+        "open_interest": 30162500,
+        "oi_change": 827500,
+        "oi_change_pct": 2.82,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "WAAREEENER",
+        "price": 2623.9,
+        "price_change_pct": -1.28,
+        "open_interest": 6995275,
+        "oi_change": 181650,
+        "oi_change_pct": 2.67,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "SUPREMEIND",
+        "price": 3561.5,
+        "price_change_pct": -0.7,
+        "open_interest": 1929900,
+        "oi_change": 49000,
+        "oi_change_pct": 2.61,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "BDL",
+        "price": 1356.7,
+        "price_change_pct": -0.19,
+        "open_interest": 5638475,
+        "oi_change": 142375,
+        "oi_change_pct": 2.59,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "ONGC",
+        "price": 233.68,
+        "price_change_pct": -0.58,
+        "open_interest": 70449750,
+        "oi_change": 1770750,
+        "oi_change_pct": 2.58,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "PGEL",
+        "price": 592,
+        "price_change_pct": -1.37,
+        "open_interest": 12157150,
+        "oi_change": 302100,
+        "oi_change_pct": 2.55,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "TIINDIA",
+        "price": 2875.9,
+        "price_change_pct": -0.88,
+        "open_interest": 1989000,
+        "oi_change": 48800,
+        "oi_change_pct": 2.52,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "BHARATFORG",
+        "price": 2027.1,
+        "price_change_pct": -1.42,
+        "open_interest": 8255000,
+        "oi_change": 196000,
+        "oi_change_pct": 2.43,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "KEI",
+        "price": 5560,
+        "price_change_pct": -0.01,
+        "open_interest": 1612975,
+        "oi_change": 37275,
+        "oi_change_pct": 2.37,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "ADANIGREEN",
+        "price": 1317.2,
+        "price_change_pct": -1.8,
+        "open_interest": 26681400,
+        "oi_change": 610800,
+        "oi_change_pct": 2.34,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "MARUTI",
+        "price": 13646,
+        "price_change_pct": -0.89,
+        "open_interest": 1779200,
+        "oi_change": 40200,
+        "oi_change_pct": 2.31,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "JUBLFOOD",
+        "price": 498.9,
+        "price_change_pct": -1.36,
+        "open_interest": 23277500,
+        "oi_change": 482500,
+        "oi_change_pct": 2.12,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "COLPAL",
+        "price": 1880,
+        "price_change_pct": -0.2,
+        "open_interest": 5896825,
+        "oi_change": 116600,
+        "oi_change_pct": 2.02,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "PNBHOUSING",
+        "price": 1186.9,
+        "price_change_pct": -0.07,
+        "open_interest": 9532250,
+        "oi_change": 187850,
+        "oi_change_pct": 2.01,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "DRREDDY",
+        "price": 1178.9,
+        "price_change_pct": -0.61,
+        "open_interest": 17563125,
+        "oi_change": 331875,
+        "oi_change_pct": 1.93,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "POWERGRID",
+        "price": 268.1,
+        "price_change_pct": -1.43,
+        "open_interest": 77964600,
+        "oi_change": 1419300,
+        "oi_change_pct": 1.85,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "PATANJALI",
+        "price": 348.95,
+        "price_change_pct": -0.94,
+        "open_interest": 33441100,
+        "oi_change": 535350,
+        "oi_change_pct": 1.63,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "price": 1924.7,
+        "price_change_pct": -1.67,
+        "open_interest": 51240150,
+        "oi_change": 798000,
+        "oi_change_pct": 1.58,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "BEL",
+        "price": 411.3,
+        "price_change_pct": -0.92,
+        "open_interest": 103422225,
+        "oi_change": 1489125,
+        "oi_change_pct": 1.46,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "HDFCAMC",
+        "price": 2689,
+        "price_change_pct": -0.12,
+        "open_interest": 6458700,
+        "oi_change": 92100,
+        "oi_change_pct": 1.45,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "ABB",
+        "price": 7635.5,
+        "price_change_pct": -0.72,
+        "open_interest": 1753750,
+        "oi_change": 24500,
+        "oi_change_pct": 1.42,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "PHOENIXLTD",
+        "price": 1942.1,
+        "price_change_pct": -0.11,
+        "open_interest": 3640000,
+        "oi_change": 50050,
+        "oi_change_pct": 1.39,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "LTM",
+        "price": 4474.7,
+        "price_change_pct": -1.23,
+        "open_interest": 3886200,
+        "oi_change": 52800,
+        "oi_change_pct": 1.38,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "360ONE",
+        "price": 1209.7,
+        "price_change_pct": -0.21,
+        "open_interest": 3543500,
+        "oi_change": 45500,
+        "oi_change_pct": 1.3,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "KALYANKJIL",
+        "price": 613.35,
+        "price_change_pct": -0.54,
+        "open_interest": 31259250,
+        "oi_change": 378000,
+        "oi_change_pct": 1.22,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "RELIANCE",
+        "price": 1311.3,
+        "price_change_pct": -0.79,
+        "open_interest": 129167000,
+        "oi_change": 1530000,
+        "oi_change_pct": 1.2,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "DABUR",
+        "price": 396.8,
+        "price_change_pct": -0.23,
+        "open_interest": 29290000,
+        "oi_change": 336250,
+        "oi_change_pct": 1.16,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "HAVELLS",
+        "price": 1258.4,
+        "price_change_pct": -0.97,
+        "open_interest": 6539000,
+        "oi_change": 73500,
+        "oi_change_pct": 1.14,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "ASIANPAINT",
+        "price": 2654,
+        "price_change_pct": -0.14,
+        "open_interest": 8077500,
+        "oi_change": 90000,
+        "oi_change_pct": 1.13,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "NHPC",
+        "price": 75.4,
+        "price_change_pct": -1.01,
+        "open_interest": 129422900,
+        "oi_change": 1445600,
+        "oi_change_pct": 1.13,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "INDUSINDBK",
+        "price": 1003.6,
+        "price_change_pct": -0.6,
+        "open_interest": 34971300,
+        "oi_change": 364700,
+        "oi_change_pct": 1.05,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "CIPLA",
+        "price": 1416.2,
+        "price_change_pct": -0.92,
+        "open_interest": 10744425,
+        "oi_change": 110925,
+        "oi_change_pct": 1.04,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "DMART",
+        "price": 3848.1,
+        "price_change_pct": -1.87,
+        "open_interest": 4866900,
+        "oi_change": 49950,
+        "oi_change_pct": 1.04,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "TATAELXSI",
+        "price": 3637.9,
+        "price_change_pct": -1.04,
+        "open_interest": 2026625,
+        "oi_change": 20625,
+        "oi_change_pct": 1.03,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "JIOFIN",
+        "price": 242.95,
+        "price_change_pct": -0.86,
+        "open_interest": 223548450,
+        "oi_change": 2265400,
+        "oi_change_pct": 1.02,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "JSWENERGY",
+        "price": 549.35,
+        "price_change_pct": -0.02,
+        "open_interest": 27059900,
+        "oi_change": 270900,
+        "oi_change_pct": 1.01,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "UNITDSPR",
+        "price": 1537.3,
+        "price_change_pct": -1.3,
+        "open_interest": 7137200,
+        "oi_change": 70000,
+        "oi_change_pct": 0.99,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "PERSISTENT",
+        "price": 5635.5,
+        "price_change_pct": -0.66,
+        "open_interest": 3043000,
+        "oi_change": 25500,
+        "oi_change_pct": 0.85,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "ASTRAL",
+        "price": 1514.3,
+        "price_change_pct": -0.28,
+        "open_interest": 6884150,
+        "oi_change": 58225,
+        "oi_change_pct": 0.85,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "IEX",
+        "price": 122.76,
+        "price_change_pct": -2.07,
+        "open_interest": 73936950,
+        "oi_change": 617700,
+        "oi_change_pct": 0.84,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "HAL",
+        "price": 4928.1,
+        "price_change_pct": -0.03,
+        "open_interest": 5963400,
+        "oi_change": 49950,
+        "oi_change_pct": 0.84,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "CGPOWER",
+        "price": 872.65,
+        "price_change_pct": -1.35,
+        "open_interest": 18681300,
+        "oi_change": 152150,
+        "oi_change_pct": 0.82,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "INFY",
+        "price": 1129.9,
+        "price_change_pct": -1.02,
+        "open_interest": 75176000,
+        "oi_change": 610000,
+        "oi_change_pct": 0.82,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "TMPV",
+        "price": 316.15,
+        "price_change_pct": -0.24,
+        "open_interest": 87596800,
+        "oi_change": 694400,
+        "oi_change_pct": 0.8,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "APOLLOHOSP",
+        "price": 8863,
+        "price_change_pct": -0.33,
+        "open_interest": 2314000,
+        "oi_change": 17625,
+        "oi_change_pct": 0.77,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "BRITANNIA",
+        "price": 5351,
+        "price_change_pct": -0.59,
+        "open_interest": 2130625,
+        "oi_change": 15625,
+        "oi_change_pct": 0.74,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "WIPRO",
+        "price": 177.46,
+        "price_change_pct": -0.85,
+        "open_interest": 199359000,
+        "oi_change": 1452000,
+        "oi_change_pct": 0.73,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "YESBANK",
+        "price": 22.57,
+        "price_change_pct": -0.35,
+        "open_interest": 989322100,
+        "oi_change": 7090800,
+        "oi_change_pct": 0.72,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "TATACONSUM",
+        "price": 1052.1,
+        "price_change_pct": -1.47,
+        "open_interest": 17670400,
+        "oi_change": 124850,
+        "oi_change_pct": 0.71,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "HINDUNILVR",
+        "price": 2038.7,
+        "price_change_pct": -0.1,
+        "open_interest": 16144800,
+        "oi_change": 112500,
+        "oi_change_pct": 0.7,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "HCLTECH",
+        "price": 1309.5,
+        "price_change_pct": -0.89,
+        "open_interest": 25803200,
+        "oi_change": 162800,
+        "oi_change_pct": 0.63,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "SONACOMS",
+        "price": 804.7,
+        "price_change_pct": -1.27,
+        "open_interest": 10942925,
+        "oi_change": 60025,
+        "oi_change_pct": 0.55,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "M&M",
+        "price": 3433.6,
+        "price_change_pct": -0.35,
+        "open_interest": 12105000,
+        "oi_change": 59800,
+        "oi_change_pct": 0.5,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "BHEL",
+        "price": 419.75,
+        "price_change_pct": -0.25,
+        "open_interest": 73271625,
+        "oi_change": 346500,
+        "oi_change_pct": 0.48,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "TCS",
+        "price": 2289.9,
+        "price_change_pct": -0.5,
+        "open_interest": 31311225,
+        "oi_change": 141750,
+        "oi_change_pct": 0.45,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "TECHM",
+        "price": 1586,
+        "price_change_pct": -1.16,
+        "open_interest": 17604600,
+        "oi_change": 75000,
+        "oi_change_pct": 0.43,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "INDHOTEL",
+        "price": 727.9,
+        "price_change_pct": -0.99,
+        "open_interest": 25345000,
+        "oi_change": 97000,
+        "oi_change_pct": 0.38,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "VMM",
+        "price": 110.8,
+        "price_change_pct": -0.99,
+        "open_interest": 49688250,
+        "oi_change": 179450,
+        "oi_change_pct": 0.36,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "NAM-INDIA",
+        "price": 1232.6,
+        "price_change_pct": -0.24,
+        "open_interest": 7858125,
+        "oi_change": 26250,
+        "oi_change_pct": 0.34,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "PAGEIND",
+        "price": 35470,
+        "price_change_pct": -0.81,
+        "open_interest": 229560,
+        "oi_change": 720,
+        "oi_change_pct": 0.31,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "NBCC",
+        "price": 89.18,
+        "price_change_pct": -0.21,
+        "open_interest": 99450000,
+        "oi_change": 260000,
+        "oi_change_pct": 0.26,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "INDUSTOWER",
+        "price": 381.4,
+        "price_change_pct": -1.51,
+        "open_interest": 101677000,
+        "oi_change": 263500,
+        "oi_change_pct": 0.26,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "PFC",
+        "price": 362.2,
+        "price_change_pct": -0.64,
+        "open_interest": 87127300,
+        "oi_change": 213200,
+        "oi_change_pct": 0.25,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "TITAN",
+        "price": 5126.1,
+        "price_change_pct": -0.55,
+        "open_interest": 4723950,
+        "oi_change": 11900,
+        "oi_change_pct": 0.25,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
       },
       {
         "symbol": "NAUKRI",
-        "price": 1343.2,
-        "price_change_pct": 0.22,
-        "open_interest": 2458500,
-        "oi_change": -55000,
+        "price": 1336.3,
+        "price_change_pct": -1.39,
+        "open_interest": 13333100,
+        "oi_change": 32450,
+        "oi_change_pct": 0.24,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "MARICO",
+        "price": 837.6,
+        "price_change_pct": -1.38,
+        "open_interest": 16162800,
+        "oi_change": 32400,
+        "oi_change_pct": 0.2,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "PETRONET",
+        "price": 291,
+        "price_change_pct": -0.82,
+        "open_interest": 27838800,
+        "oi_change": 41800,
+        "oi_change_pct": 0.15,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "TORNTPHARM",
+        "price": 4933.5,
+        "price_change_pct": -0.27,
+        "open_interest": 3016875,
+        "oi_change": 4625,
+        "oi_change_pct": 0.15,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "NTPC",
+        "price": 334.55,
+        "price_change_pct": -0.71,
+        "open_interest": 126876000,
+        "oi_change": 163500,
+        "oi_change_pct": 0.13,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "IOC",
+        "price": 139.57,
+        "price_change_pct": -0.21,
+        "open_interest": 147863625,
+        "oi_change": 170625,
+        "oi_change_pct": 0.12,
+        "buildup": "Short Buildup",
+        "as_of": "26-Aug-2026"
+      }
+    ],
+    "short_covering": [
+      {
+        "symbol": "PAYTM",
+        "price": 1722.8,
+        "price_change_pct": 0.37,
+        "open_interest": 17639250,
+        "oi_change": -973675,
+        "oi_change_pct": -5.23,
+        "buildup": "Short Covering",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "MOTILALOFS",
+        "price": 1045.7,
+        "price_change_pct": 2.68,
+        "open_interest": 6253475,
+        "oi_change": -326275,
+        "oi_change_pct": -4.96,
+        "buildup": "Short Covering",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "LTF",
+        "price": 324.6,
+        "price_change_pct": 1.14,
+        "open_interest": 43911000,
+        "oi_change": -1660500,
+        "oi_change_pct": -3.64,
+        "buildup": "Short Covering",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "ADANIENT",
+        "price": 3146.9,
+        "price_change_pct": 0.88,
+        "open_interest": 15306315,
+        "oi_change": -478023,
+        "oi_change_pct": -3.03,
+        "buildup": "Short Covering",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "NYKAA",
+        "price": 339.7,
+        "price_change_pct": 0.82,
+        "open_interest": 40337500,
+        "oi_change": -1225000,
+        "oi_change_pct": -2.95,
+        "buildup": "Short Covering",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "SBICARD",
+        "price": 662.7,
+        "price_change_pct": 1.42,
+        "open_interest": 21816000,
+        "oi_change": -611200,
+        "oi_change_pct": -2.73,
+        "buildup": "Short Covering",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "IRFC",
+        "price": 86.52,
+        "price_change_pct": 0.71,
+        "open_interest": 88790975,
+        "oi_change": -1985550,
         "oi_change_pct": -2.19,
         "buildup": "Short Covering",
-        "as_of": "25-Aug-2026"
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "MCX",
+        "price": 3360,
+        "price_change_pct": 1.89,
+        "open_interest": 6562125,
+        "oi_change": -127575,
+        "oi_change_pct": -1.91,
+        "buildup": "Short Covering",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "NATIONALUM",
+        "price": 403.4,
+        "price_change_pct": 1.34,
+        "open_interest": 37016250,
+        "oi_change": -688125,
+        "oi_change_pct": -1.83,
+        "buildup": "Short Covering",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "SHREECEM",
+        "price": 25065,
+        "price_change_pct": 1.58,
+        "open_interest": 333600,
+        "oi_change": -5725,
+        "oi_change_pct": -1.69,
+        "buildup": "Short Covering",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "ABCAPITAL",
+        "price": 413.5,
+        "price_change_pct": 0.66,
+        "open_interest": 38396600,
+        "oi_change": -616900,
+        "oi_change_pct": -1.58,
+        "buildup": "Short Covering",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "GRASIM",
+        "price": 3304.8,
+        "price_change_pct": 0.74,
+        "open_interest": 9203000,
+        "oi_change": -140500,
+        "oi_change_pct": -1.5,
+        "buildup": "Short Covering",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "OIL",
+        "price": 469.9,
+        "price_change_pct": 0.63,
+        "open_interest": 12489400,
+        "oi_change": -184800,
+        "oi_change_pct": -1.46,
+        "buildup": "Short Covering",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "RVNL",
+        "price": 222.68,
+        "price_change_pct": 1.14,
+        "open_interest": 33972400,
+        "oi_change": -492800,
+        "oi_change_pct": -1.43,
+        "buildup": "Short Covering",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "UNOMINDA",
+        "price": 1266.2,
+        "price_change_pct": 1.22,
+        "open_interest": 5492300,
+        "oi_change": -79200,
+        "oi_change_pct": -1.42,
+        "buildup": "Short Covering",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "BANKBARODA",
+        "price": 245.12,
+        "price_change_pct": 0.82,
+        "open_interest": 141195600,
+        "oi_change": -1997775,
+        "oi_change_pct": -1.4,
+        "buildup": "Short Covering",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "CANBK",
+        "price": 130.16,
+        "price_change_pct": 1.1,
+        "open_interest": 362785500,
+        "oi_change": -5163750,
+        "oi_change_pct": -1.4,
+        "buildup": "Short Covering",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "POLICYBZR",
+        "price": 1848.5,
+        "price_change_pct": 2.19,
+        "open_interest": 6775300,
+        "oi_change": -94150,
+        "oi_change_pct": -1.37,
+        "buildup": "Short Covering",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "FEDERALBNK",
+        "price": 348.85,
+        "price_change_pct": 0.17,
+        "open_interest": 83112500,
+        "oi_change": -1007500,
+        "oi_change_pct": -1.2,
+        "buildup": "Short Covering",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "BIOCON",
+        "price": 419.65,
+        "price_change_pct": 0.17,
+        "open_interest": 49080000,
+        "oi_change": -547500,
+        "oi_change_pct": -1.1,
+        "buildup": "Short Covering",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "INDIANB",
+        "price": 896.85,
+        "price_change_pct": 1.14,
+        "open_interest": 8911000,
+        "oi_change": -96000,
+        "oi_change_pct": -1.07,
+        "buildup": "Short Covering",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "AMBUJACEM",
+        "price": 424.3,
+        "price_change_pct": 2.28,
+        "open_interest": 90973200,
+        "oi_change": -928800,
+        "oi_change_pct": -1.01,
+        "buildup": "Short Covering",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "ITC",
+        "price": 272.85,
+        "price_change_pct": 0.11,
+        "open_interest": 169131075,
+        "oi_change": -1680150,
+        "oi_change_pct": -0.98,
+        "buildup": "Short Covering",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "GAIL",
+        "price": 174.92,
+        "price_change_pct": 0.09,
+        "open_interest": 74837550,
+        "oi_change": -663850,
+        "oi_change_pct": -0.88,
+        "buildup": "Short Covering",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "TVSMOTOR",
+        "price": 4462.2,
+        "price_change_pct": 0.36,
+        "open_interest": 7897750,
+        "oi_change": -66675,
+        "oi_change_pct": -0.84,
+        "buildup": "Short Covering",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "ASHOKLEY",
+        "price": 180.67,
+        "price_change_pct": 2.7,
+        "open_interest": 128910000,
+        "oi_change": -990000,
+        "oi_change_pct": -0.76,
+        "buildup": "Short Covering",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "SRF",
+        "price": 2609.7,
+        "price_change_pct": 0.87,
+        "open_interest": 4477800,
+        "oi_change": -33800,
+        "oi_change_pct": -0.75,
+        "buildup": "Short Covering",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "HINDALCO",
+        "price": 1065.7,
+        "price_change_pct": 1.21,
+        "open_interest": 47070800,
+        "oi_change": -318500,
+        "oi_change_pct": -0.67,
+        "buildup": "Short Covering",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "AXISBANK",
+        "price": 1261,
+        "price_change_pct": 1.5,
+        "open_interest": 97263125,
+        "oi_change": -617500,
+        "oi_change_pct": -0.63,
+        "buildup": "Short Covering",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "ICICIBANK",
+        "price": 1444.8,
+        "price_change_pct": 0.79,
+        "open_interest": 94469200,
+        "oi_change": -483700,
+        "oi_change_pct": -0.51,
+        "buildup": "Short Covering",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "POWERINDIA",
+        "price": 33500,
+        "price_change_pct": 0.24,
+        "open_interest": 482625,
+        "oi_change": -2100,
+        "oi_change_pct": -0.43,
+        "buildup": "Short Covering",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "INDIGO",
+        "price": 5271,
+        "price_change_pct": 0.54,
+        "open_interest": 6265050,
+        "oi_change": -24600,
+        "oi_change_pct": -0.39,
+        "buildup": "Short Covering",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "APLAPOLLO",
+        "price": 2168.3,
+        "price_change_pct": 0.72,
+        "open_interest": 8744400,
+        "oi_change": -27650,
+        "oi_change_pct": -0.32,
+        "buildup": "Short Covering",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "UPL",
+        "price": 588.25,
+        "price_change_pct": 0.28,
+        "open_interest": 31567435,
+        "oi_change": -89430,
+        "oi_change_pct": -0.28,
+        "buildup": "Short Covering",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "GODFRYPHLP",
+        "price": 2170.8,
+        "price_change_pct": 2.94,
+        "open_interest": 1417625,
+        "oi_change": -3850,
+        "oi_change_pct": -0.27,
+        "buildup": "Short Covering",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "HDFCLIFE",
+        "price": 558.9,
+        "price_change_pct": 1.38,
+        "open_interest": 53084900,
+        "oi_change": -141900,
+        "oi_change_pct": -0.27,
+        "buildup": "Short Covering",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "AMBER",
+        "price": 7516.5,
+        "price_change_pct": 0.19,
+        "open_interest": 1356800,
+        "oi_change": -3600,
+        "oi_change_pct": -0.26,
+        "buildup": "Short Covering",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "NMDC",
+        "price": 89.14,
+        "price_change_pct": 3.36,
+        "open_interest": 333443250,
+        "oi_change": -519750,
+        "oi_change_pct": -0.16,
+        "buildup": "Short Covering",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "MANAPPURAM",
+        "price": 370.85,
+        "price_change_pct": 0.54,
+        "open_interest": 63168000,
+        "oi_change": -69000,
+        "oi_change_pct": -0.11,
+        "buildup": "Short Covering",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "SOLARINDS",
+        "price": 20292,
+        "price_change_pct": 1.87,
+        "open_interest": 783450,
+        "oi_change": -750,
+        "oi_change_pct": -0.1,
+        "buildup": "Short Covering",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "price": 1094.6,
+        "price_change_pct": 0.22,
+        "open_interest": 60594000,
+        "oi_change": -63000,
+        "oi_change_pct": -0.1,
+        "buildup": "Short Covering",
+        "as_of": "26-Aug-2026"
       }
     ],
     "long_unwinding": [
       {
-        "symbol": "NMDC",
-        "price": 85.57,
-        "price_change_pct": -0.33,
-        "open_interest": 8552250,
-        "oi_change": -110497500,
-        "oi_change_pct": -92.82,
+        "symbol": "ADANIENSOL",
+        "price": 1587.8,
+        "price_change_pct": -0.35,
+        "open_interest": 17767350,
+        "oi_change": -564300,
+        "oi_change_pct": -3.08,
         "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "GODREJCP",
+        "price": 932.2,
+        "price_change_pct": -0.26,
+        "open_interest": 13422500,
+        "oi_change": -280000,
+        "oi_change_pct": -2.04,
+        "buildup": "Long Unwinding",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "IDEA",
+        "price": 15.13,
+        "price_change_pct": -1.37,
+        "open_interest": 5690410650,
+        "oi_change": -101137125,
+        "oi_change_pct": -1.75,
+        "buildup": "Long Unwinding",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "COFORGE",
+        "price": 1894.1,
+        "price_change_pct": -0.97,
+        "open_interest": 13447725,
+        "oi_change": -198550,
+        "oi_change_pct": -1.45,
+        "buildup": "Long Unwinding",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "AUBANK",
+        "price": 1123.6,
+        "price_change_pct": -0.9,
+        "open_interest": 20227000,
+        "oi_change": -205000,
+        "oi_change_pct": -1.0,
+        "buildup": "Long Unwinding",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "FORTIS",
+        "price": 924.4,
+        "price_change_pct": -0.4,
+        "open_interest": 12968075,
+        "oi_change": -110050,
+        "oi_change_pct": -0.84,
+        "buildup": "Long Unwinding",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "KPITTECH",
+        "price": 591.55,
+        "price_change_pct": -0.54,
+        "open_interest": 11111950,
+        "oi_change": -91450,
+        "oi_change_pct": -0.82,
+        "buildup": "Long Unwinding",
+        "as_of": "26-Aug-2026"
+      },
+      {
+        "symbol": "OBEROIRLTY",
+        "price": 1875.2,
+        "price_change_pct": -0.85,
+        "open_interest": 4586050,
+        "oi_change": -35000,
+        "oi_change_pct": -0.76,
+        "buildup": "Long Unwinding",
+        "as_of": "26-Aug-2026"
       },
       {
         "symbol": "RBLBANK",
-        "price": 383.55,
-        "price_change_pct": -1.19,
-        "open_interest": 1069975,
-        "oi_change": -8093075,
-        "oi_change_pct": -88.32,
+        "price": 383.95,
+        "price_change_pct": -0.63,
+        "open_interest": 39122350,
+        "oi_change": -234950,
+        "oi_change_pct": -0.6,
         "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
+        "as_of": "26-Aug-2026"
       },
       {
-        "symbol": "INOXWIND",
-        "price": 73.3,
-        "price_change_pct": -0.23,
-        "open_interest": 5337600,
-        "oi_change": -33984000,
-        "oi_change_pct": -86.43,
+        "symbol": "TRENT",
+        "price": 2927.8,
+        "price_change_pct": -0.94,
+        "open_interest": 10825875,
+        "oi_change": -59625,
+        "oi_change_pct": -0.55,
         "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "INDUSINDBK",
-        "price": 1005.5,
-        "price_change_pct": -0.52,
-        "open_interest": 1229900,
-        "oi_change": -4908400,
-        "oi_change_pct": -79.96,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "YESBANK",
-        "price": 22.48,
-        "price_change_pct": -0.22,
-        "open_interest": 58654600,
-        "oi_change": -226376900,
-        "oi_change_pct": -79.42,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "CROMPTON",
-        "price": 243.05,
-        "price_change_pct": -0.98,
-        "open_interest": 2840150,
-        "oi_change": -10337200,
-        "oi_change_pct": -78.45,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "MANAPPURAM",
-        "price": 365.55,
-        "price_change_pct": -0.33,
-        "open_interest": 2226000,
-        "oi_change": -8034000,
-        "oi_change_pct": -78.3,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
+        "as_of": "26-Aug-2026"
       },
       {
         "symbol": "IDFCFIRSTB",
-        "price": 85.25,
-        "price_change_pct": -0.43,
-        "open_interest": 11732875,
-        "oi_change": -38788050,
-        "oi_change_pct": -76.78,
+        "price": 85.32,
+        "price_change_pct": -0.61,
+        "open_interest": 369590200,
+        "oi_change": -1743700,
+        "oi_change_pct": -0.47,
         "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
+        "as_of": "26-Aug-2026"
       },
       {
-        "symbol": "HCLTECH",
-        "price": 1312.6,
-        "price_change_pct": -0.77,
-        "open_interest": 801200,
-        "oi_change": -2580000,
-        "oi_change_pct": -76.3,
+        "symbol": "BAJAJ-AUTO",
+        "price": 11867,
+        "price_change_pct": -0.7,
+        "open_interest": 1731750,
+        "oi_change": -7125,
+        "oi_change_pct": -0.41,
         "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
+        "as_of": "26-Aug-2026"
       },
       {
-        "symbol": "SUZLON",
-        "price": 46.61,
-        "price_change_pct": -0.3,
-        "open_interest": 28003500,
-        "oi_change": -88011000,
-        "oi_change_pct": -75.86,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "MARICO",
-        "price": 843.5,
-        "price_change_pct": -0.5,
-        "open_interest": 729600,
-        "oi_change": -2289600,
-        "oi_change_pct": -75.83,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "PATANJALI",
-        "price": 349.35,
-        "price_change_pct": -0.23,
-        "open_interest": 1625400,
-        "oi_change": -4994450,
-        "oi_change_pct": -75.45,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "DABUR",
-        "price": 395,
-        "price_change_pct": -0.75,
-        "open_interest": 1636250,
-        "oi_change": -4238750,
-        "oi_change_pct": -72.15,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "WAAREEENER",
-        "price": 2650.2,
-        "price_change_pct": -0.54,
-        "open_interest": 268100,
-        "oi_change": -672525,
-        "oi_change_pct": -71.5,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "PRESTIGE",
-        "price": 1613.9,
-        "price_change_pct": -0.67,
-        "open_interest": 269100,
-        "oi_change": -656100,
-        "oi_change_pct": -70.91,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "RVNL",
-        "price": 218.68,
-        "price_change_pct": -1.09,
-        "open_interest": 3742200,
-        "oi_change": -8970500,
-        "oi_change_pct": -70.56,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "SRF",
-        "price": 2567.4,
-        "price_change_pct": -0.46,
-        "open_interest": 350600,
-        "oi_change": -774400,
-        "oi_change_pct": -68.84,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "ABCAPITAL",
-        "price": 407.55,
-        "price_change_pct": -1.03,
-        "open_interest": 1345400,
-        "oi_change": -2945000,
-        "oi_change_pct": -68.64,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "FORCEMOT",
-        "price": 17489,
-        "price_change_pct": -0.55,
-        "open_interest": 23725,
-        "oi_change": -50975,
-        "oi_change_pct": -68.24,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "PETRONET",
-        "price": 292.75,
-        "price_change_pct": -0.44,
-        "open_interest": 1501000,
-        "oi_change": -3209100,
-        "oi_change_pct": -68.13,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "HDFCLIFE",
-        "price": 547.4,
+        "symbol": "RADICO",
+        "price": 4662.5,
         "price_change_pct": -0.31,
-        "open_interest": 2041600,
-        "oi_change": -4279000,
-        "oi_change_pct": -67.7,
+        "open_interest": 952200,
+        "oi_change": -3600,
+        "oi_change_pct": -0.38,
         "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
+        "as_of": "26-Aug-2026"
       },
       {
-        "symbol": "PGEL",
-        "price": 595.85,
-        "price_change_pct": -0.65,
-        "open_interest": 955700,
-        "oi_change": -1995950,
-        "oi_change_pct": -67.62,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "MOTHERSON",
-        "price": 165.49,
-        "price_change_pct": -1.31,
-        "open_interest": 11746500,
-        "oi_change": -24274050,
-        "oi_change_pct": -67.39,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "HDFCBANK",
-        "price": 723.6,
-        "price_change_pct": -0.56,
-        "open_interest": 20650500,
-        "oi_change": -41857400,
-        "oi_change_pct": -66.96,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "IRFC",
-        "price": 85.36,
-        "price_change_pct": -0.58,
-        "open_interest": 6830075,
-        "oi_change": -13790350,
-        "oi_change_pct": -66.88,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "SUPREMEIND",
-        "price": 3560.9,
-        "price_change_pct": -0.77,
-        "open_interest": 138600,
-        "oi_change": -279475,
-        "oi_change_pct": -66.85,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "TATAPOWER",
-        "price": 371.8,
-        "price_change_pct": -0.12,
-        "open_interest": 4268800,
-        "oi_change": -8446250,
-        "oi_change_pct": -66.43,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "VEDL",
-        "price": 274.6,
-        "price_change_pct": -0.67,
-        "open_interest": 3056700,
-        "oi_change": -5898350,
-        "oi_change_pct": -65.87,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "BHARATFORG",
-        "price": 2040.4,
-        "price_change_pct": -0.27,
-        "open_interest": 624000,
-        "oi_change": -1094500,
-        "oi_change_pct": -63.69,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "MPHASIS",
-        "price": 2407.7,
-        "price_change_pct": -0.75,
-        "open_interest": 312400,
-        "oi_change": -523325,
-        "oi_change_pct": -62.62,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "COALINDIA",
-        "price": 402.25,
-        "price_change_pct": -0.97,
-        "open_interest": 4839750,
-        "oi_change": -8052750,
-        "oi_change_pct": -62.46,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "CONCOR",
-        "price": 516.85,
-        "price_change_pct": -0.07,
-        "open_interest": 2502500,
-        "oi_change": -4110000,
-        "oi_change_pct": -62.16,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "NAM-INDIA",
-        "price": 1236.7,
-        "price_change_pct": -1.07,
-        "open_interest": 231875,
-        "oi_change": -376875,
-        "oi_change_pct": -61.91,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "TATASTEEL",
-        "price": 185.09,
+        "symbol": "SUNPHARMA",
+        "price": 1917.4,
         "price_change_pct": -0.46,
-        "open_interest": 16084750,
-        "oi_change": -24590500,
-        "oi_change_pct": -60.46,
+        "open_interest": 16723700,
+        "oi_change": -58450,
+        "oi_change_pct": -0.35,
         "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "UNOMINDA",
-        "price": 1241.7,
-        "price_change_pct": -0.42,
-        "open_interest": 160050,
-        "oi_change": -244750,
-        "oi_change_pct": -60.46,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "BSE",
-        "price": 3311.2,
-        "price_change_pct": -0.14,
-        "open_interest": 1334400,
-        "oi_change": -1987200,
-        "oi_change_pct": -59.83,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
+        "as_of": "26-Aug-2026"
       },
       {
         "symbol": "RECLTD",
-        "price": 326.55,
-        "price_change_pct": -0.15,
-        "open_interest": 3123225,
-        "oi_change": -4605300,
-        "oi_change_pct": -59.59,
+        "price": 324.85,
+        "price_change_pct": -1.05,
+        "open_interest": 50625225,
+        "oi_change": -173250,
+        "oi_change_pct": -0.34,
         "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
+        "as_of": "26-Aug-2026"
       },
       {
-        "symbol": "SOLARINDS",
-        "price": 19787,
-        "price_change_pct": -0.68,
-        "open_interest": 68200,
-        "oi_change": -99150,
-        "oi_change_pct": -59.25,
+        "symbol": "INOXWIND",
+        "price": 73.72,
+        "price_change_pct": -0.14,
+        "open_interest": 119769600,
+        "oi_change": -345600,
+        "oi_change_pct": -0.29,
         "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
+        "as_of": "26-Aug-2026"
       },
       {
-        "symbol": "AXISBANK",
-        "price": 1232.8,
-        "price_change_pct": -0.29,
-        "open_interest": 4028125,
-        "oi_change": -5792500,
-        "oi_change_pct": -58.98,
+        "symbol": "IREDA",
+        "price": 113.17,
+        "price_change_pct": -0.16,
+        "open_interest": 92291900,
+        "oi_change": -239825,
+        "oi_change_pct": -0.26,
         "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
+        "as_of": "26-Aug-2026"
       },
       {
-        "symbol": "HINDALCO",
-        "price": 1045.55,
-        "price_change_pct": -0.47,
-        "open_interest": 2975700,
-        "oi_change": -4277700,
-        "oi_change_pct": -58.98,
+        "symbol": "HINDPETRO",
+        "price": 377.1,
+        "price_change_pct": -0.07,
+        "open_interest": 39566475,
+        "oi_change": -91125,
+        "oi_change_pct": -0.23,
         "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
+        "as_of": "26-Aug-2026"
       },
       {
-        "symbol": "NATIONALUM",
-        "price": 396.05,
-        "price_change_pct": -1.01,
-        "open_interest": 2968125,
-        "oi_change": -3982500,
-        "oi_change_pct": -57.3,
+        "symbol": "DLF",
+        "price": 679.9,
+        "price_change_pct": -1.22,
+        "open_interest": 45064200,
+        "oi_change": -46550,
+        "oi_change_pct": -0.1,
         "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
+        "as_of": "26-Aug-2026"
       },
       {
-        "symbol": "LUPIN",
-        "price": 2179.4,
-        "price_change_pct": -0.13,
-        "open_interest": 928200,
-        "oi_change": -1217200,
-        "oi_change_pct": -56.74,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "VMM",
-        "price": 111.89,
-        "price_change_pct": -0.55,
-        "open_interest": 2589900,
-        "oi_change": -3327100,
-        "oi_change_pct": -56.23,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "POWERINDIA",
-        "price": 33185,
-        "price_change_pct": -1.31,
-        "open_interest": 45925,
-        "oi_change": -53825,
-        "oi_change_pct": -53.96,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "DMART",
-        "price": 3917.2,
-        "price_change_pct": -0.55,
-        "open_interest": 381300,
-        "oi_change": -418800,
-        "oi_change_pct": -52.34,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "ICICIGI",
-        "price": 1611.6,
-        "price_change_pct": -0.41,
-        "open_interest": 527150,
-        "oi_change": -541125,
-        "oi_change_pct": -50.65,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "PAGEIND",
-        "price": 35560,
-        "price_change_pct": -0.03,
-        "open_interest": 29720,
-        "oi_change": -30240,
-        "oi_change_pct": -50.43,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "CAMS",
-        "price": 745.9,
-        "price_change_pct": -0.88,
-        "open_interest": 954525,
-        "oi_change": -969375,
-        "oi_change_pct": -50.39,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "CIPLA",
-        "price": 1418.9,
-        "price_change_pct": -0.6,
-        "open_interest": 648550,
-        "oi_change": -625175,
-        "oi_change_pct": -49.08,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "HAVELLS",
-        "price": 1262.5,
-        "price_change_pct": -0.12,
-        "open_interest": 605500,
-        "oi_change": -551000,
-        "oi_change_pct": -47.64,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "GODFRYPHLP",
-        "price": 2085.9,
-        "price_change_pct": -0.65,
-        "open_interest": 331650,
-        "oi_change": -292600,
-        "oi_change_pct": -46.87,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "HINDZINC",
-        "price": 592.15,
-        "price_change_pct": -1.78,
-        "open_interest": 2800350,
-        "oi_change": -2450000,
-        "oi_change_pct": -46.66,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "POWERGRID",
-        "price": 269.7,
-        "price_change_pct": -0.3,
-        "open_interest": 5650600,
-        "oi_change": -4943800,
-        "oi_change_pct": -46.66,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "NTPC",
-        "price": 337.7,
+        "symbol": "GODREJPROP",
+        "price": 2059.5,
         "price_change_pct": -0.27,
-        "open_interest": 6418500,
-        "oi_change": -5236500,
-        "oi_change_pct": -44.93,
+        "open_interest": 7795775,
+        "oi_change": -8125,
+        "oi_change_pct": -0.1,
         "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
+        "as_of": "26-Aug-2026"
       },
       {
-        "symbol": "COLPAL",
-        "price": 1867.6,
-        "price_change_pct": -0.72,
-        "open_interest": 695475,
-        "oi_change": -544225,
-        "oi_change_pct": -43.9,
+        "symbol": "GMRAIRPORT",
+        "price": 99.45,
+        "price_change_pct": -0.56,
+        "open_interest": 138676950,
+        "oi_change": -76725,
+        "oi_change_pct": -0.06,
         "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "SIEMENS",
-        "price": 4084.7,
-        "price_change_pct": -0.11,
-        "open_interest": 406350,
-        "oi_change": -314825,
-        "oi_change_pct": -43.65,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "TATAELXSI",
-        "price": 3654.1,
-        "price_change_pct": -0.7,
-        "open_interest": 331750,
-        "oi_change": -238250,
-        "oi_change_pct": -41.8,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "WIPRO",
-        "price": 179.82,
-        "price_change_pct": -1.14,
-        "open_interest": 19167000,
-        "oi_change": -12333000,
-        "oi_change_pct": -39.15,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "BDL",
-        "price": 1358.8,
-        "price_change_pct": -0.61,
-        "open_interest": 1847475,
-        "oi_change": -1116900,
-        "oi_change_pct": -37.68,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "LTM",
-        "price": 4508.7,
-        "price_change_pct": -0.27,
-        "open_interest": 224100,
-        "oi_change": -129750,
-        "oi_change_pct": -36.67,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "OIL",
-        "price": 465.25,
-        "price_change_pct": -2.5,
-        "open_interest": 2842000,
-        "oi_change": -1586200,
-        "oi_change_pct": -35.82,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "PERSISTENT",
-        "price": 5640,
-        "price_change_pct": -0.63,
-        "open_interest": 321375,
-        "oi_change": -158750,
-        "oi_change_pct": -33.06,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "DRREDDY",
-        "price": 1184.8,
-        "price_change_pct": -0.04,
-        "open_interest": 1859375,
-        "oi_change": -803125,
-        "oi_change_pct": -30.16,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
+        "as_of": "26-Aug-2026"
       },
       {
         "symbol": "PIDILITIND",
-        "price": 1647.3,
-        "price_change_pct": -0.25,
-        "open_interest": 469000,
-        "oi_change": -180000,
-        "oi_change_pct": -27.73,
+        "price": 1656.4,
+        "price_change_pct": -0.39,
+        "open_interest": 5752000,
+        "oi_change": -3000,
+        "oi_change_pct": -0.05,
         "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
+        "as_of": "26-Aug-2026"
       },
       {
-        "symbol": "ONGC",
-        "price": 234.16,
-        "price_change_pct": -0.8,
-        "open_interest": 8741250,
-        "oi_change": -2866500,
-        "oi_change_pct": -24.69,
+        "symbol": "MFSL",
+        "price": 1594.6,
+        "price_change_pct": -0.33,
+        "open_interest": 8735600,
+        "oi_change": -800,
+        "oi_change_pct": -0.01,
         "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "SBICARD",
-        "price": 651.35,
-        "price_change_pct": -0.12,
-        "open_interest": 3047200,
-        "oi_change": -900800,
-        "oi_change_pct": -22.82,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "BANDHANBNK",
-        "price": 172.94,
-        "price_change_pct": -0.56,
-        "open_interest": 13690800,
-        "oi_change": -3722400,
-        "oi_change_pct": -21.38,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "HEROMOTOCO",
-        "price": 5621,
-        "price_change_pct": -0.46,
-        "open_interest": 787350,
-        "oi_change": -194850,
-        "oi_change_pct": -19.84,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "KFINTECH",
-        "price": 961.2,
-        "price_change_pct": -0.85,
-        "open_interest": 1037300,
-        "oi_change": -237475,
-        "oi_change_pct": -18.63,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "SONACOMS",
-        "price": 811.3,
-        "price_change_pct": -0.46,
-        "open_interest": 4318125,
-        "oi_change": -928550,
-        "oi_change_pct": -17.7,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "SBILIFE",
-        "price": 1763.1,
-        "price_change_pct": -0.05,
-        "open_interest": 821625,
-        "oi_change": -121875,
-        "oi_change_pct": -12.92,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
-      },
-      {
-        "symbol": "FEDERALBNK",
-        "price": 345.15,
-        "price_change_pct": -3.39,
-        "open_interest": 8485000,
-        "oi_change": -172500,
-        "oi_change_pct": -1.99,
-        "buildup": "Long Unwinding",
-        "as_of": "25-Aug-2026"
+        "as_of": "26-Aug-2026"
       }
     ]
   },
@@ -2086,55 +2087,55 @@
       "error": "list index out of range"
     },
     "BANKNIFTY": {
-      "underlying_value": 57783.75,
+      "underlying_value": 57509.95,
       "expiry": "29-Sep-2026",
-      "atm_strike": 58500,
+      "atm_strike": 57000,
       "max_pain": 57800,
-      "total_call_oi": 330069,
-      "total_put_oi": 378349,
-      "pcr": 1.15,
+      "total_call_oi": 358823,
+      "total_put_oi": 393313,
+      "pcr": 1.1,
       "top_call_oi_strikes": [
         {
           "strike": "57500",
-          "oi": 59893
+          "oi": 60988
         },
         {
           "strike": "58000",
-          "oi": 36017
+          "oi": 42332
         },
         {
           "strike": "60000",
-          "oi": 25346
+          "oi": 27205
         },
         {
           "strike": "59000",
-          "oi": 21940
+          "oi": 23671
         },
         {
-          "strike": "61000",
-          "oi": 18319
+          "strike": "58500",
+          "oi": 19100
         }
       ],
       "top_put_oi_strikes": [
         {
           "strike": "57500",
-          "oi": 58216
+          "oi": 58780
         },
         {
           "strike": "58000",
-          "oi": 37622
+          "oi": 38428
         },
         {
           "strike": "57000",
-          "oi": 21939
+          "oi": 23035
         },
         {
           "strike": "56000",
-          "oi": 19627
+          "oi": 22417
         },
         {
           "strike": "54000",
-          "oi": 17228
+          "oi": 18151
         }
       ]
     }
