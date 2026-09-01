@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-01T17:55:45.210134+00:00",
+  "fetched_at": "2026-09-01T20:28:11.403790+00:00",
   "market_prices": {
     "Nifty 50": {
       "price": 24055.8,
@@ -17,6 +17,21 @@
   "news": {
     "Economic Times": [
       {
+        "title": "US stocks today: US stocks end lower as oil, yields raise September jitters",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-us-stocks-end-lower-as-oil-yields-raise-september-jitters/articleshow/133691517.cms",
+        "published": "Wed, 02 Sep 2026 01:48:02 +0530"
+      },
+      {
+        "title": "S&amp;P Global weighs multibillion-dollar spinout of Capital IQ Pro: Report",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/sp-global-weighs-multibillion-dollar-spinout-of-capital-iq-pro/articleshow/133690470.cms",
+        "published": "Wed, 02 Sep 2026 00:25:10 +0530"
+      },
+      {
+        "title": "US Fed's Michael Barr warns central bank may need to raise rates if inflation stays high",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-feds-michael-barr-warns-central-bank-may-need-to-raise-rates-if-inflation-stays-high/articleshow/133688340.cms",
+        "published": "Tue, 01 Sep 2026 22:56:39 +0530"
+      },
+      {
         "title": "Struggling GoPro sells majority stake to optical maker Starman for $285 million",
         "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/struggling-gopro-sells-majority-stake-to-optical-maker-starman-for-285-million/articleshow/133686722.cms",
         "published": "Tue, 01 Sep 2026 21:31:42 +0530"
@@ -25,21 +40,6 @@
         "title": "US Treasury bond yields ease from highs after data as Iran war escalation fans inflation concerns",
         "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-treasury-bond-yields-ease-from-highs-after-data-as-iran-war-escalation-fans-inflation-concerns/articleshow/133686615.cms",
         "published": "Tue, 01 Sep 2026 21:30:04 +0530"
-      },
-      {
-        "title": "US Treasury yields are rising \u2014 Why does it matter?",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-treasury-yields-are-rising-why-does-it-matter/articleshow/133686474.cms",
-        "published": "Tue, 01 Sep 2026 21:23:35 +0530"
-      },
-      {
-        "title": "Market Trading Guide: Acme Solar, BEML among 4 stock recommendations for Wednesday",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/market-trading-guide-acme-solar-beml-among-4-stock-recommendations-for-wednesday/slideshow/133686279.cms",
-        "published": "Tue, 01 Sep 2026 21:06:22 +0530"
-      },
-      {
-        "title": "US bond yields reflect 'flat to down' inflation expectations, stronger growth, Bessent says",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-bond-yields-reflect-flat-to-down-inflation-expectations-stronger-growth-bessent-says/articleshow/133684502.cms",
-        "published": "Tue, 01 Sep 2026 19:52:06 +0530"
       }
     ],
     "Moneycontrol": [
@@ -66,29 +66,29 @@
     ],
     "Livemint": [
       {
-        "title": "Goldman Sachs, BofA and others plan to issue dollar stablecoin together in 2027",
-        "link": "https://www.livemint.com/market/cryptocurrency/goldman-sachs-bofa-and-others-plan-to-issue-dollar-stablecoin-together-in-2027-11788275732303.html",
-        "published": "Tue, 01 Sep 2026 20:56:27 +0530"
+        "title": "US Oil Tops $90 for First Time Since July Amid Fresh Strikes",
+        "link": "https://www.livemint.com/market/us-oil-tops-90-for-first-time-since-july-amid-fresh-strikes-11788290702226.html",
+        "published": "Wed, 02 Sep 2026 00:55:01 +0530"
       },
       {
-        "title": "Sugar stocks crash: Why share prices fell sharply today \u2014 Dealer stock limit news impact decoded",
-        "link": "https://www.livemint.com/market/commodities/sugar-stocks-crash-share-prices-fell-sharply-today-dealer-stock-limit-news-impact-decode-govt-cut-to-reduce-retail-price-11788267284618.html",
-        "published": "Tue, 01 Sep 2026 20:08:33 +0530"
+        "title": "Cattle futures lower as screwworm restrictions lift",
+        "link": "https://www.livemint.com/market/cattle-futures-lower-as-screwworm-restrictions-lift-11788289167412.html",
+        "published": "Wed, 02 Sep 2026 00:29:27 +0530"
       },
       {
-        "title": "Oil tops $90 as inflation fears push US 10-year yield to highest since January 2025",
-        "link": "https://www.livemint.com/market/stock-market-news/oil-tops-90-as-inflation-fears-push-us-10-year-yield-to-highest-since-january-2025-11788270385773.html",
-        "published": "Tue, 01 Sep 2026 19:31:03 +0530"
+        "title": "Gold falls to two-week low as rising Treasury yields, dollar weigh",
+        "link": "https://www.livemint.com/market/gold-falls-to-two-week-low-as-rising-treasury-yields-dollar-weigh-11788288241495.html",
+        "published": "Wed, 02 Sep 2026 00:14:01 +0530"
       },
       {
-        "title": "Big Question: How new Apple CEO John Ternus will move the stock as Tim Cook leaves huge shoes to fill",
-        "link": "https://www.livemint.com/market/stock-market-news/big-question-how-new-apple-ceo-john-ternus-will-move-the-stock-as-tim-cook-leaves-huge-shoes-to-fill-11788262656414.html",
-        "published": "Tue, 01 Sep 2026 17:47:45 +0530"
+        "title": "Wall Street dips as higher yields, rising oil prices mark shaky start to September",
+        "link": "https://www.livemint.com/market/wall-street-dips-as-higher-yields-rising-oil-prices-mark-shaky-start-to-september-11788287811841.html",
+        "published": "Wed, 02 Sep 2026 00:06:51 +0530"
       },
       {
-        "title": "Stock Market prediction tomorrow: Sensex, Nifty outlook for Wednesday | Kospi, Taiwan Index, Nikkei cues to watch",
-        "link": "https://www.livemint.com/market/stock-market-news/stock-market-prediction-for-2-september-2026-what-will-happen-to-sensex-nifty-kospi-nikkei-11788256845031.html",
-        "published": "Tue, 01 Sep 2026 16:52:02 +0530"
+        "title": "SB Energy heads for IPO after Nvidia backs $105 billion OpenAI data-centre project",
+        "link": "https://www.livemint.com/market/ipo/sb-energy-heads-for-ipo-after-nvidia-backs-105-billion-openai-data-centre-project-11788283009834.html",
+        "published": "Tue, 01 Sep 2026 23:28:07 +0530"
       }
     ]
   },
