@@ -1,73 +1,94 @@
 {
-  "fetched_at": "2026-09-01T00:08:01.073989+00:00",
+  "fetched_at": "2026-09-01T05:01:57.649467+00:00",
   "market_prices": {
     "Nifty 50": {
-      "price": 24080.4,
-      "as_of": "2026-08-31 15:29:00+05:30"
+      "price": 24068.1,
+      "as_of": "2026-09-01 10:31:00+05:30"
     },
     "Sensex": {
-      "price": 76957.27,
-      "as_of": "2026-08-31 15:29:00+05:30"
+      "price": 76910.09,
+      "as_of": "2026-09-01 10:16:00+05:30"
     },
     "Bank Nifty": {
-      "price": 58024.95,
-      "as_of": "2026-08-31 15:29:00+05:30"
+      "price": 57493.5,
+      "as_of": "2026-09-01 10:31:00+05:30"
     }
   },
   "news": {
     "Economic Times": [
       {
-        "title": "US stocks today: US stocks close lower as oil prices jump, indexes notch monthly gains",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-today-wall-street-closes-lower-as-oil-prices-jump-indexes-notch-monthly-gains/articleshow/133662681.cms",
-        "published": "Tue, 01 Sep 2026 01:38:26 +0530"
+        "title": "Global Market: Japan stocks see sector rotation as tech shares tumble",
+        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/global-market-japan-stocks-see-sector-rotation-as-tech-shares-tumble/articleshow/133668432.cms",
+        "published": "Tue, 01 Sep 2026 10:07:31 +0530"
       },
       {
-        "title": "US SEC chairman moves to give states power over shareholder resolutions",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-sec-chairman-moves-to-give-states-power-over-shareholder-resolutions/articleshow/133662558.cms",
-        "published": "Tue, 01 Sep 2026 01:28:55 +0530"
+        "title": "Closing Auction Session needs market makers as price swings persist",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/closing-auction-session-needs-market-makers-as-price-swings-persist/articleshow/133668287.cms",
+        "published": "Tue, 01 Sep 2026 10:04:28 +0530"
       },
       {
-        "title": "New trade rules raise compliance worries for banks over cross-border payments",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/new-trade-rules-raise-compliance-worries-for-banks-over-cross-border-payments/articleshow/133665342.cms",
-        "published": "Tue, 01 Sep 2026 01:25:07 +0530"
+        "title": "Sugar rush on Dalal Street: Stocks soar up to 59%, but are valuations turning risky?",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/sugar-rush-on-dalal-street-stocks-soar-up-to-59-but-are-valuations-turning-risky/articleshow/133667982.cms",
+        "published": "Tue, 01 Sep 2026 09:57:40 +0530"
       },
       {
-        "title": "JP Morgan traders back down bullishness on US stocks after Fed chair Warsh's Jackson Hole speech",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/jp-morgan-traders-back-down-bullishness-on-us-stocks-after-fed-chair-warshs-jackson-hole-speech/articleshow/133662266.cms",
-        "published": "Tue, 01 Sep 2026 01:17:09 +0530"
+        "title": "ESDS Software Solution IPO Day 3: GMP indicates 74% premium; issue subscribed 18.34x. Should you bid?",
+        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/esds-software-solution-ipo-day-3-gmp-indicates-74-premium-issue-subscribed-18-34x-should-you-bid/articleshow/133667935.cms",
+        "published": "Tue, 01 Sep 2026 09:55:40 +0530"
       },
       {
-        "title": "US 10-year Treasury yield tops 19-month high as oil prices fuel rate-hike bets",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-10-year-treasury-yield-tops-19-month-high-as-oil-prices-fuel-rate-hike-bets/articleshow/133661626.cms",
-        "published": "Tue, 01 Sep 2026 00:27:27 +0530"
+        "title": "Rays of Belief IPO opens today: GMP at 20%; Check price band, lot size and key details",
+        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/rays-of-belief-ipo-opens-today-gmp-at-20-check-price-band-lot-size-and-key-details/articleshow/133667856.cms",
+        "published": "Tue, 01 Sep 2026 09:42:48 +0530"
       }
     ],
-    "Moneycontrol": [],
+    "Moneycontrol": [
+      {
+        "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+        "link": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
+        "published": "Tue, 23 Apr 2024 15:46:31 +0530"
+      },
+      {
+        "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
+        "published": "Tue, 23 Apr 2024 14:51:26 +0530"
+      },
+      {
+        "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
+        "link": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
+        "published": "Tue, 23 Apr 2024 12:23:21 +0530"
+      },
+      {
+        "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
+        "published": "Tue, 23 Apr 2024 09:45:50 +0530"
+      }
+    ],
     "Livemint": [
       {
-        "title": "India\u2019s valuation premium is shrinking. Is the market finally an entry point?",
-        "link": "https://www.livemint.com/market/stock-market-news/india-valuation-premium-is-shrinking-is-the-market-finally-an-entry-point-11788154367487.html",
-        "published": "Tue, 01 Sep 2026 05:30:36 +0530"
+        "title": "Symbiotec Pharmalab IPO listing: Shares list at a 1% discount on BSE",
+        "link": "https://www.livemint.com/market/ipo/symbiotec-pharmalab-ipo-listing-shares-list-at-a-1-discount-on-bse-11788235240066.html",
+        "published": "Tue, 01 Sep 2026 10:00:44 +0530"
       },
       {
-        "title": "Return to Peak Venezuela Oil Output to Take Decades, Rystad Says",
-        "link": "https://www.livemint.com/market/return-to-peak-venezuela-oil-output-to-take-decades-rystad-says-11788218435841.html",
-        "published": "Tue, 01 Sep 2026 04:50:35 +0530"
+        "title": "Hy-Tech Engineers share price makes a blockbuster debut, stock opens with a 41.51% premium at  \u20b975 apiece on NSE",
+        "link": "https://www.livemint.com/market/ipo/hytech-engineers-share-price-makes-a-blockbuster-debut-stock-opens-with-a-41-51-premium-at-rs-75-apiece-on-nse-11788234685741.html",
+        "published": "Tue, 01 Sep 2026 10:00:02 +0530"
       },
       {
-        "title": "Australia Raises Wheat Crop Forecast as Export Demand Picks Up",
-        "link": "https://www.livemint.com/market/australia-raises-wheat-crop-forecast-as-export-demand-picks-up-11788215862266.html",
-        "published": "Tue, 01 Sep 2026 04:07:41 +0530"
+        "title": "Skyways Air Services IPO listing: Shares list at 10% discount to the issue price",
+        "link": "https://www.livemint.com/market/stock-market-news/skyways-air-services-ipo-listing-shares-list-at-10-discount-to-the-ipo-price-11788235588061.html",
+        "published": "Tue, 01 Sep 2026 09:59:14 +0530"
       },
       {
-        "title": "Billionaire Justin Sun\u2019s Bride Price Stunt\u00a0Prolongs Crypto Winter",
-        "link": "https://www.livemint.com/market/billionaire-justin-sun-s-bride-price-stunt-prolongs-crypto-winter-11788214150879.html",
-        "published": "Tue, 01 Sep 2026 03:39:10 +0530"
+        "title": "NTPC dividend 2026: Last day to buy alert! Check amount per share and payment date",
+        "link": "https://www.livemint.com/market/stock-market-news/ntpc-dividend-2026-last-day-to-buy-alert-check-amount-per-share-and-payment-date-for-psu-stock-11788234085470.html",
+        "published": "Tue, 01 Sep 2026 09:49:22 +0530"
       },
       {
-        "title": "Gold Slips as Renewed Mideast Tensions Keep Fed Hike Bets Alive",
-        "link": "https://www.livemint.com/market/gold-slips-as-renewed-mideast-tensions-keep-fed-hike-bets-alive-11788207528743.html",
-        "published": "Tue, 01 Sep 2026 01:48:48 +0530"
+        "title": "Why ITC share price is down today? What's behind the stock plunge? Trigger and data details here",
+        "link": "https://www.livemint.com/market/stock-market-news/why-itc-share-price-is-down-today-whats-behind-the-stock-plunge-trigger-and-data-details-here-11788234769815.html",
+        "published": "Tue, 01 Sep 2026 09:46:37 +0530"
       }
     ]
   },
