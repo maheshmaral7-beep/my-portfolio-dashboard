@@ -1273,5 +1273,90 @@
         "category": "emerging_leaders"
       }
     ]
+  },
+  {
+    "date": "2026-09-03",
+    "picks": [
+      {
+        "symbol": "KALYANKJIL",
+        "name": "Kalyan Jewellers India Ltd.",
+        "sector": "Consumer Durables",
+        "entry": 585.3,
+        "target": 634.6,
+        "category": "momentum_leaders"
+      },
+      {
+        "symbol": "LENSKART",
+        "name": "Lenskart Solutions Ltd.",
+        "sector": "Consumer Services",
+        "entry": 672.45,
+        "target": 672.45,
+        "category": "breakout_candidates"
+      },
+      {
+        "symbol": "ADANIGREEN",
+        "name": "Adani Green Energy Ltd.",
+        "sector": "Power",
+        "entry": 1283.4,
+        "target": 1604.5,
+        "category": "turnaround_stories"
+      },
+      {
+        "symbol": "MCX",
+        "name": "Multi Commodity Exchange of India Ltd.",
+        "sector": "Financial Services",
+        "entry": 3170.2,
+        "target": 3433.29,
+        "category": "emerging_leaders"
+      },
+      {
+        "symbol": "OFSS",
+        "name": "Oracle Financial Services Software Ltd.",
+        "sector": "Information Technology",
+        "entry": 12149.0,
+        "target": 12540.0,
+        "category": "undervalued_quality"
+      },
+      {
+        "symbol": "GLENMARK",
+        "name": "Glenmark Pharmaceuticals Ltd.",
+        "sector": "Healthcare",
+        "entry": 2459.0,
+        "target": 2512.5,
+        "category": "earnings_winners"
+      },
+      {
+        "symbol": "PAYTM",
+        "name": "One 97 Communications Ltd.",
+        "sector": "Financial Services",
+        "entry": 1637.0,
+        "target": 1718.0,
+        "category": "momentum_leaders"
+      },
+      {
+        "symbol": "COFORGE",
+        "name": "Coforge Ltd.",
+        "sector": "Information Technology",
+        "entry": 1971.8,
+        "target": 2014.6,
+        "category": "momentum_leaders"
+      },
+      {
+        "symbol": "LODHA",
+        "name": "Lodha Developers Ltd.",
+        "sector": "Realty",
+        "entry": 1234.0,
+        "target": 1311.74,
+        "category": "momentum_leaders"
+      },
+      {
+        "symbol": "ADANIPOWER",
+        "name": "Adani Power Ltd.",
+        "sector": "Power",
+        "entry": 208.29,
+        "target": 248.91,
+        "category": "turnaround_stories"
+      }
+    ]
   }
 ]
