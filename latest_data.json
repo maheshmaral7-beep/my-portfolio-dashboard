@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-03T19:51:16.638873+00:00",
+  "fetched_at": "2026-09-03T21:56:04.563023+00:00",
   "market_prices": {
     "Nifty 50": {
       "price": 23873.45,
@@ -16,6 +16,11 @@
   },
   "news": {
     "Economic Times": [
+      {
+        "title": "US stocks today: Dow soars 600 pts, S&amp;P, Nasdaq over 1% as Fed governor Waller's remarks ease rate hike fears",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-us-stocks-jump-as-waller-comments-ease-rate-hike-fears/articleshow/133745833.cms",
+        "published": "Fri, 04 Sep 2026 01:43:46 +0530"
+      },
       {
         "title": "Gold jumps 2% as Fed Governor Waller's comments temper rate hike bets",
         "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/gold-jumps-2-as-fed-governor-wallers-comments-temper-rate-hike-bets/articleshow/133744754.cms",
@@ -35,36 +40,20 @@
         "title": "Calcutta exchange\u2019s unlisted shares double on revival hopes",
         "link": "https://economictimes.indiatimes.com/markets/stocks/news/calcutta-exchanges-unlisted-shares-double-on-revival-hopes/articleshow/133740959.cms",
         "published": "Thu, 03 Sep 2026 21:39:45 +0530"
-      },
-      {
-        "title": "Ahead of Market: 10 things that will decide stock market action on Friday",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-friday/articleshow/133740635.cms",
-        "published": "Thu, 03 Sep 2026 21:21:42 +0530"
       }
     ],
-    "Moneycontrol": [
-      {
-        "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
-        "link": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
-        "published": "Tue, 23 Apr 2024 15:46:31 +0530"
-      },
-      {
-        "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
-        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
-        "published": "Tue, 23 Apr 2024 14:51:26 +0530"
-      },
-      {
-        "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
-        "link": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
-        "published": "Tue, 23 Apr 2024 12:23:21 +0530"
-      },
-      {
-        "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
-        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
-        "published": "Tue, 23 Apr 2024 09:45:50 +0530"
-      }
-    ],
+    "Moneycontrol": [],
     "Livemint": [
+      {
+        "title": "Canadas TSX rises, markets assess rate-hike bets",
+        "link": "https://www.livemint.com/market/canadas-tsx-rises-markets-assess-rate-hike-bets-11788468361918.html",
+        "published": "Fri, 04 Sep 2026 02:16:01 +0530"
+      },
+      {
+        "title": "Wall Street ends sharply higher as Waller remarks ease rate hike fears",
+        "link": "https://www.livemint.com/market/wall-street-ends-sharply-higher-as-waller-remarks-ease-rate-hike-fears-11788465720251.html",
+        "published": "Fri, 04 Sep 2026 01:31:59 +0530"
+      },
       {
         "title": "US yields decline as Waller comments dent rate hike expectations",
         "link": "https://www.livemint.com/market/us-yields-decline-as-waller-comments-dent-rate-hike-expectations-11788461571526.html",
@@ -79,16 +68,6 @@
         "title": "NSE pre-open session rules to change from September 7: Here's how the new system will work",
         "link": "https://www.livemint.com/market/stock-market-news/nse-pre-open-session-rules-to-change-from-september-7-heres-how-the-new-system-will-work-11788450302197.html",
         "published": "Thu, 03 Sep 2026 22:29:15 +0530"
-      },
-      {
-        "title": "Stock market holiday tomorrow on Janmashtami or not? NSE, BSE open or closed for trading on Friday?",
-        "link": "https://www.livemint.com/market/stock-market-holiday-tomorrow-on-janmashtami-or-not-nse-bse-open-or-closed-for-trading-on-friday-11788452245762.html",
-        "published": "Thu, 03 Sep 2026 22:07:00 +0530"
-      },
-      {
-        "title": "Sebi to propose changes in derivatives settlement prices after closing auction runs into hurdles",
-        "link": "https://www.livemint.com/market/stock-market-news/sebi-derivatives-settlement-prices-closing-auction-cas-india-markets-11788449233035.html",
-        "published": "Thu, 03 Sep 2026 21:31:01 +0530"
       }
     ]
   },
