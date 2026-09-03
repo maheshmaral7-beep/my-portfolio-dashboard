@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-03T17:13:31.363388+00:00",
+  "fetched_at": "2026-09-03T19:51:16.638873+00:00",
   "market_prices": {
     "Nifty 50": {
       "price": 23873.45,
@@ -17,6 +17,21 @@
   "news": {
     "Economic Times": [
       {
+        "title": "Gold jumps 2% as Fed Governor Waller's comments temper rate hike bets",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/gold-jumps-2-as-fed-governor-wallers-comments-temper-rate-hike-bets/articleshow/133744754.cms",
+        "published": "Fri, 04 Sep 2026 00:12:01 +0530"
+      },
+      {
+        "title": "Fed's Waller says safety premium for Treasuries is gone, pushing neutral rate higher",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/feds-waller-says-safety-premium-for-treasuries-is-gone-pushing-neutral-rate-higher/articleshow/133743982.cms",
+        "published": "Thu, 03 Sep 2026 23:41:55 +0530"
+      },
+      {
+        "title": "US 30-year mortgage rate hits highest level in more than a year",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-30-year-mortgage-rate-hits-highest-level-in-more-than-a-year/articleshow/133743142.cms",
+        "published": "Thu, 03 Sep 2026 23:10:16 +0530"
+      },
+      {
         "title": "Calcutta exchange\u2019s unlisted shares double on revival hopes",
         "link": "https://economictimes.indiatimes.com/markets/stocks/news/calcutta-exchanges-unlisted-shares-double-on-revival-hopes/articleshow/133740959.cms",
         "published": "Thu, 03 Sep 2026 21:39:45 +0530"
@@ -25,25 +40,41 @@
         "title": "Ahead of Market: 10 things that will decide stock market action on Friday",
         "link": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-friday/articleshow/133740635.cms",
         "published": "Thu, 03 Sep 2026 21:21:42 +0530"
-      },
-      {
-        "title": "Sebi to review derivatives settlement price methodology after CAS volatility",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-to-review-derivatives-settlement-price-methodology-after-cas-volatility/articleshow/133740569.cms",
-        "published": "Thu, 03 Sep 2026 21:17:47 +0530"
-      },
-      {
-        "title": "Gland Pharma shares: Promoter Fosun Pharma likely to divest 5% equity worth Rs 2,279 crore via block deal",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/gland-pharma-shares-promoter-fosun-pharma-likely-to-divest-5-equity-worth-rs-2279-crore-via-block-deal/articleshow/133740560.cms",
-        "published": "Thu, 03 Sep 2026 21:16:58 +0530"
-      },
-      {
-        "title": "Tyson Foods cuts annual profit forecast again as beef pressure drains margins",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/tyson-foods-cuts-annual-profit-forecast-again-as-beef-pressure-drains-margins/articleshow/133738959.cms",
-        "published": "Thu, 03 Sep 2026 19:49:57 +0530"
       }
     ],
-    "Moneycontrol": [],
+    "Moneycontrol": [
+      {
+        "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+        "link": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
+        "published": "Tue, 23 Apr 2024 15:46:31 +0530"
+      },
+      {
+        "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
+        "published": "Tue, 23 Apr 2024 14:51:26 +0530"
+      },
+      {
+        "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
+        "link": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
+        "published": "Tue, 23 Apr 2024 12:23:21 +0530"
+      },
+      {
+        "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
+        "published": "Tue, 23 Apr 2024 09:45:50 +0530"
+      }
+    ],
     "Livemint": [
+      {
+        "title": "US yields decline as Waller comments dent rate hike expectations",
+        "link": "https://www.livemint.com/market/us-yields-decline-as-waller-comments-dent-rate-hike-expectations-11788461571526.html",
+        "published": "Fri, 04 Sep 2026 00:22:51 +0530"
+      },
+      {
+        "title": "Top stocks to watch tomorrow, Sept 4 and reasons why they are in focus for Friday\u2019s trading session",
+        "link": "https://www.livemint.com/market/stock-market-news/top-stocks-to-watch-tomorrow-sept-4-and-reasons-why-they-are-in-focus-for-friday-s-trading-session-11788454580633.html",
+        "published": "Thu, 03 Sep 2026 23:17:50 +0530"
+      },
       {
         "title": "NSE pre-open session rules to change from September 7: Here's how the new system will work",
         "link": "https://www.livemint.com/market/stock-market-news/nse-pre-open-session-rules-to-change-from-september-7-heres-how-the-new-system-will-work-11788450302197.html",
@@ -58,16 +89,6 @@
         "title": "Sebi to propose changes in derivatives settlement prices after closing auction runs into hurdles",
         "link": "https://www.livemint.com/market/stock-market-news/sebi-derivatives-settlement-prices-closing-auction-cas-india-markets-11788449233035.html",
         "published": "Thu, 03 Sep 2026 21:31:01 +0530"
-      },
-      {
-        "title": "Snowflake stock hovers near 5-year high: How strong AI demand sparked a 26% share rally",
-        "link": "https://www.livemint.com/market/stock-market-news/snowflake-stock-hovers-near-5-year-high-how-strong-ai-demand-sparked-a-26-rally-11788444778421.html",
-        "published": "Thu, 03 Sep 2026 20:21:44 +0530"
-      },
-      {
-        "title": "US stocks rise as Fed Governor signals possible rate pause; Nvidia, Snowflake rally",
-        "link": "https://www.livemint.com/market/stock-market-news/us-stocks-climb-after-fed-governor-s-comments-on-holding-rates-steady-11788443392991.html",
-        "published": "Thu, 03 Sep 2026 19:33:09 +0530"
       }
     ]
   },
