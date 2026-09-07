@@ -1,73 +1,94 @@
 {
-  "fetched_at": "2026-09-07T05:55:08.402853+00:00",
+  "fetched_at": "2026-09-07T11:21:02.036556+00:00",
   "market_prices": {
     "Nifty 50": {
-      "price": 23768.85,
-      "as_of": "2026-09-07 11:25:00+05:30"
+      "price": 23779.15,
+      "as_of": "2026-09-07 15:29:00+05:30"
     },
     "Sensex": {
-      "price": 76113.39,
-      "as_of": "2026-09-07 11:10:00+05:30"
+      "price": 76132.81,
+      "as_of": "2026-09-07 15:29:00+05:30"
     },
     "Bank Nifty": {
-      "price": 57082.15,
-      "as_of": "2026-09-07 11:25:00+05:30"
+      "price": 57088.3,
+      "as_of": "2026-09-07 15:29:00+05:30"
     }
   },
   "news": {
     "Economic Times": [
       {
-        "title": "Wires on fire: Why UltraTech\u2019s Rs 1,800 crore Ultravolt bet wiped out Rs 21,500 crore in 2 days",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/wires-on-fire-why-ultratechs-rs-1800-crore-ultravolt-bet-wiped-out-rs-21500-crore-in-2-days/articleshow/133865793.cms",
-        "published": "Mon, 07 Sep 2026 11:14:44 +0530"
+        "title": "Arnya Realestates, Casagrand Premier to raise Rs 750 cr equity fund",
+        "link": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/arnya-realestates-casagrand-premier-to-raise-rs-750-cr-equity-fund/articleshow/133877735.cms",
+        "published": "Mon, 07 Sep 2026 16:30:27 +0530"
       },
       {
-        "title": "Axis Direct initiates coverage on Pricol with Buy rating. Check target price",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/axis-direct-initiates-coverage-on-pricol-with-buy-rating-check-target-price/articleshow/133865425.cms",
-        "published": "Mon, 07 Sep 2026 11:02:56 +0530"
+        "title": "Rupee ends flat, hemmed in by RBI intervention, oil pangs",
+        "link": "https://economictimes.indiatimes.com/markets/forex/rupee-ends-flat-hemmed-in-by-rbi-intervention-oil-pangs/articleshow/133876884.cms",
+        "published": "Mon, 07 Sep 2026 16:07:45 +0530"
       },
       {
-        "title": "BSE shares surge 10% in just 3 sessions. What\u2019s driving the rally?",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/bse-shares-surge-10-in-just-3-sessions-whats-driving-the-rally/articleshow/133865305.cms",
-        "published": "Mon, 07 Sep 2026 10:58:16 +0530"
+        "title": "FIIs raise stakes in 9 midcap stocks for four straight quarters; shares surge up to 70% in a year",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/fiis-raise-stakes-in-9-midcap-stocks-for-four-straight-quarters-shares-surge-up-to-70-in-a-year/slideshow/133876469.cms",
+        "published": "Mon, 07 Sep 2026 15:50:18 +0530"
       },
       {
-        "title": "Holiday Halt: Why S&amp;P 500, Nasdaq are closed for trading today",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/holiday-halt-why-sp-500-nasdaq-are-closed-for-trading-today/articleshow/133865116.cms",
-        "published": "Mon, 07 Sep 2026 10:53:14 +0530"
+        "title": "Bitcoin near $80,000, Ethereum at $2,500 as crypto market absorbs U.S. rate expectations",
+        "link": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/bitcoin-near-80000-ethereum-at-2500-as-crypto-market-absorbs-u-s-rate-expectations/articleshow/133875649.cms",
+        "published": "Mon, 07 Sep 2026 15:37:44 +0530"
       },
       {
-        "title": "Nomura raises target price of stock that\u2019s up over 150% in 2025; stock soars another 6%",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/nomura-raises-target-price-of-stock-thats-up-over-150-in-2025-stock-soars-another-6/articleshow/133865022.cms",
-        "published": "Mon, 07 Sep 2026 10:48:15 +0530"
+        "title": "ECB rate decision: Five key questions for markets as energy prices fuel inflation fears",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/ecb-rate-decision-five-key-questions-for-markets-as-energy-prices-fuel-inflation-fears/articleshow/133875550.cms",
+        "published": "Mon, 07 Sep 2026 15:35:46 +0530"
       }
     ],
-    "Moneycontrol": [],
+    "Moneycontrol": [
+      {
+        "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+        "link": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
+        "published": "Tue, 23 Apr 2024 15:46:31 +0530"
+      },
+      {
+        "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
+        "published": "Tue, 23 Apr 2024 14:51:26 +0530"
+      },
+      {
+        "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
+        "link": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
+        "published": "Tue, 23 Apr 2024 12:23:21 +0530"
+      },
+      {
+        "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
+        "published": "Tue, 23 Apr 2024 09:45:50 +0530"
+      }
+    ],
     "Livemint": [
       {
-        "title": "Newly-listed stock MV Electrosystems jumps 15% to hit record high - What's fuelling the rally?",
-        "link": "https://www.livemint.com/market/stock-market-news/newlylisted-stock-mv-electrosystems-jumps-15-to-hit-record-high-whats-fuelling-the-rally-11788759409501.html",
-        "published": "Mon, 07 Sept 2026 11:16:00 +0530"
+        "title": "Gold Prediction: Will Gold prices fall further? Experts reveal key levels for investors to watch",
+        "link": "https://www.livemint.com/market/commodities/gold-prediction-will-gold-prices-fall-further-experts-reveal-key-levels-for-investors-to-watch-11788776900146.html",
+        "published": "Mon, 07 Sep 2026 16:17:11 +0530"
       },
       {
-        "title": "PC Jeweller share price surges 15% today - jumps 35% in 1 month - rally reason explained",
-        "link": "https://www.livemint.com/market/stock-market-news/pc-jeweller-share-price-surges-15-today-jumps-35-in-1-month-rally-reason-explained-11788756711988.html",
-        "published": "Mon, 07 Sept 2026 10:30:57 +0530"
+        "title": "Stock Market prediction tomorrow: Sensex, Nifty outlook for Tuesday | Kospi, Taiwan Index, Nikkei cues to watch",
+        "link": "https://www.livemint.com/market/stock-market-news/stock-market-prediction-tomorrow-sensex-nifty-outlook-for-tuesday-kospi-taiwan-index-nikkei-cues-to-watch-11788773810533.html",
+        "published": "Mon, 07 Sep 2026 15:44:19 +0530"
       },
       {
-        "title": "ESDS Software Solution share price hits 20% upper circuit | Jumps 155% against issue price in two days post-listing",
-        "link": "https://www.livemint.com/market/stock-market-news/esds-software-solution-share-price-hits-20-upper-circuit-jumps-155-against-issue-price-in-two-days-postlisting-11788755203000.html",
-        "published": "Mon, 07 Sept 2026 10:23:18 +0530"
+        "title": "Penny stock under 10 rupees Nandan Denim jumps 9% despite stock market sell-off",
+        "link": "https://www.livemint.com/market/stock-market-news/penny-stock-under-10-rupees-nandan-denim-jumps-9-despite-stock-market-selloff-11788774193408.html",
+        "published": "Mon, 07 Sep 2026 15:31:56 +0530"
       },
       {
-        "title": "Vodafone Idea share price up 4% today | Rises over 20% in one month \u2014 what's fueling telecom stock",
-        "link": "https://www.livemint.com/market/stock-market-news/vodafone-idea-share-price-up-4-today-rises-over-20-in-one-month-whats-fueling-telecom-stock-11788754415169.html",
-        "published": "Mon, 07 Sept 2026 10:05:11 +0530"
+        "title": "L&amp;T plans to raise up to  \u20b9500 crore via tokenized bonds after REC's success, marking new era for debt markets",
+        "link": "https://www.livemint.com/market/bonds/lt-rec-tokenized-bonds-bond-markets-blockchain-rbi-sebi-11788771885850.html",
+        "published": "Mon, 07 Sep 2026 15:18:04 +0530"
       },
       {
-        "title": "NSE IPO effect? This PSU stock hits 52-week high before paring gains | Check its NSE Stake, other key details",
-        "link": "https://www.livemint.com/market/stock-market-news/nse-ipo-effect-this-psu-stock-niacl-hits-52-week-high-before-paring-gains-check-its-nse-stake-other-key-details-11788754103434.html",
-        "published": "Mon, 07 Sept 2026 10:02:32 +0530"
+        "title": "Rays of Belief IPO listing date tomorrow. Here's what GMP signals ahead of debut",
+        "link": "https://www.livemint.com/market/stock-market-news/rays-of-belief-ipo-listing-date-tomorrow-heres-what-gmp-signals-ahead-of-debut-11788767735166.html",
+        "published": "Mon, 07 Sep 2026 14:47:24 +0530"
       }
     ]
   },
