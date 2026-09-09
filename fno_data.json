@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-09T08:11:36.062294+00:00",
+  "generated_at": "2026-09-09T08:30:25.666438+00:00",
   "disclaimer": "Descriptive classification of today's futures/options activity, not a prediction or a trade recommendation. Does not suggest any option, strike, or strategy to trade.",
-  "stock_futures_scanned": 207,
+  "stock_futures_scanned": 210,
   "buildup": {
     "long_buildup": [
       {
@@ -251,6 +251,16 @@
         "open_interest": 2254875,
         "oi_change": 10500,
         "oi_change_pct": 0.47,
+        "buildup": "Long Buildup",
+        "as_of": "08-Sep-2026"
+      },
+      {
+        "symbol": "M&M",
+        "price": 3170,
+        "price_change_pct": 0.16,
+        "open_interest": 12582400,
+        "oi_change": 54200,
+        "oi_change_pct": 0.43,
         "buildup": "Long Buildup",
         "as_of": "08-Sep-2026"
       },
@@ -877,6 +887,16 @@
         "as_of": "08-Sep-2026"
       },
       {
+        "symbol": "TATACONSUM",
+        "price": 1016.7,
+        "price_change_pct": -0.04,
+        "open_interest": 17549950,
+        "oi_change": 89650,
+        "oi_change_pct": 0.51,
+        "buildup": "Short Buildup",
+        "as_of": "08-Sep-2026"
+      },
+      {
         "symbol": "BANKINDIA",
         "price": 140.92,
         "price_change_pct": -0.96,
@@ -1354,6 +1374,16 @@
         "price_change_pct": 0.49,
         "open_interest": 54068175,
         "oi_change": -778050,
+        "oi_change_pct": -1.42,
+        "buildup": "Short Covering",
+        "as_of": "08-Sep-2026"
+      },
+      {
+        "symbol": "HEROMOTOCO",
+        "price": 5306.5,
+        "price_change_pct": 0.1,
+        "open_interest": 3828600,
+        "oi_change": -55050,
         "oi_change_pct": -1.42,
         "buildup": "Short Covering",
         "as_of": "08-Sep-2026"
@@ -2087,55 +2117,55 @@
       "error": "list index out of range"
     },
     "BANKNIFTY": {
-      "underlying_value": 56667.15,
+      "underlying_value": 56687.1,
       "expiry": "29-Sep-2026",
       "atm_strike": 57000,
       "max_pain": 57500,
-      "total_call_oi": 523384,
-      "total_put_oi": 462802,
+      "total_call_oi": 524810,
+      "total_put_oi": 463294,
       "pcr": 0.88,
       "top_call_oi_strikes": [
         {
           "strike": "57500",
-          "oi": 73492
+          "oi": 73527
         },
         {
           "strike": "58000",
-          "oi": 48448
+          "oi": 49008
         },
         {
           "strike": "60000",
-          "oi": 37849
+          "oi": 37780
         },
         {
           "strike": "59000",
-          "oi": 34748
+          "oi": 34813
         },
         {
           "strike": "57000",
-          "oi": 31120
+          "oi": 31228
         }
       ],
       "top_put_oi_strikes": [
         {
           "strike": "57500",
-          "oi": 60419
+          "oi": 60312
         },
         {
           "strike": "57000",
-          "oi": 31506
+          "oi": 31702
         },
         {
           "strike": "58000",
-          "oi": 29104
+          "oi": 29076
         },
         {
           "strike": "56000",
-          "oi": 26973
+          "oi": 27042
         },
         {
           "strike": "54000",
-          "oi": 23395
+          "oi": 23367
         }
       ]
     }
