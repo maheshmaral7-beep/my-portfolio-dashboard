@@ -1,73 +1,94 @@
 {
-  "fetched_at": "2026-09-10T05:01:56.914303+00:00",
+  "fetched_at": "2026-09-10T09:35:20.952830+00:00",
   "market_prices": {
     "Nifty 50": {
-      "price": 23424.75,
-      "as_of": "2026-09-10 10:31:00+05:30"
+      "price": 23390.3,
+      "as_of": "2026-09-10 15:05:00+05:30"
     },
     "Sensex": {
-      "price": 74736.82,
-      "as_of": "2026-09-10 10:16:00+05:30"
+      "price": 74760.26,
+      "as_of": "2026-09-10 14:50:00+05:30"
     },
     "Bank Nifty": {
-      "price": 56448.55,
-      "as_of": "2026-09-10 10:31:00+05:30"
+      "price": 56256.25,
+      "as_of": "2026-09-10 15:05:00+05:30"
     }
   },
   "news": {
     "Economic Times": [
       {
-        "title": "Gold prices dip to Rs 1.53 lakh, silver falls Rs 1,500/kg ahead of US inflation data. What should you do?",
-        "link": "https://economictimes.indiatimes.com/markets/commodities/news/gold-prices-dip-to-rs-1-53-lakh-silver-falls-rs-1500/kg-ahead-of-us-inflation-data-what-should-you-do/articleshow/133994056.cms",
-        "published": "Thu, 10 Sep 2026 10:07:41 +0530"
+        "title": "Global Market: European shares edge higher ahead of ECB rate decision",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-european-shares-edge-higher-ahead-of-ecb-rate-decision/articleshow/134001720.cms",
+        "published": "Thu, 10 Sep 2026 14:44:18 +0530"
       },
       {
-        "title": "Shakti Pumps shares surge 12% on Rs 236 crore Maharashtra solar pump order",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/shakti-pumps-shares-surge-12-on-rs-236-crore-maharashtra-solar-pump-order/articleshow/133993963.cms",
-        "published": "Thu, 10 Sep 2026 10:03:10 +0530"
+        "title": "Explained: Why US ETFs listed in India are trading at steep 65% premiums over the iNAV. Should you worry?",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/explained-why-us-etfs-listed-in-india-are-trading-at-steep-65-premiums-over-the-inav-should-you-worry/articleshow/134001531.cms",
+        "published": "Thu, 10 Sep 2026 14:37:06 +0530"
       },
       {
-        "title": "Apple Event 2026 impact: Redington shares jump 5% after Apple unveils first-ever foldable iPhone",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/apple-event-2026-impact-redington-shares-jump-5-after-apple-unveils-first-ever-foldable-iphone/articleshow/133993680.cms",
-        "published": "Thu, 10 Sep 2026 09:52:17 +0530"
+        "title": "BSE suffers outage, Zerodha users complain of F&amp;O price not reflecting",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/bse-suffers-outage-zerodha-users-complain-of-fo-price-not-reflecting/articleshow/134000694.cms",
+        "published": "Thu, 10 Sep 2026 14:15:31 +0530"
       },
       {
-        "title": "6 mainboard IPOs enter Day 2: Karamtara Engineering, Steamhouse India, LCC Projects &amp; more; check GMP, subscription status",
-        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/6-mainboard-ipos-enter-day-2-karamtara-engineering-steamhouse-india-lcc-projects-more-check-gmp-subscription-status/articleshow/133993631.cms",
-        "published": "Thu, 10 Sep 2026 09:49:13 +0530"
+        "title": "Global Market: Blackstone acquires majority stake in South Korea logistics park",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/global-market-blackstone-acquires-majority-stake-in-south-korea-logistics-park/articleshow/134000613.cms",
+        "published": "Thu, 10 Sep 2026 14:10:36 +0530"
       },
       {
-        "title": "Kanohar Electricals IPO Day 3: GMP signals 35% premium, subscription crosses 10x. Should you subscribe?",
-        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/kanohar-electricals-ipo-day-3-gmp-signals-35-premium-subscription-crosses-10x-should-you-subscribe/articleshow/133993542.cms",
-        "published": "Thu, 10 Sep 2026 09:45:56 +0530"
+        "title": "11 stocks that recorded profit margins above 10% for 4 straight quarters; surge up to 120%",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/11-stocks-that-recorded-profit-margins-above-10-for-4-straight-quarters-surge-up-to-120/slideshow/134000584.cms",
+        "published": "Thu, 10 Sep 2026 14:02:25 +0530"
       }
     ],
-    "Moneycontrol": [],
+    "Moneycontrol": [
+      {
+        "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+        "link": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
+        "published": "Tue, 23 Apr 2024 15:46:31 +0530"
+      },
+      {
+        "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
+        "published": "Tue, 23 Apr 2024 14:51:26 +0530"
+      },
+      {
+        "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
+        "link": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
+        "published": "Tue, 23 Apr 2024 12:23:21 +0530"
+      },
+      {
+        "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
+        "published": "Tue, 23 Apr 2024 09:45:50 +0530"
+      }
+    ],
     "Livemint": [
       {
-        "title": "ESDS share price triples investor wealth! AI stock up 264% in just 5 days of listing: Is the rally still worth chasing?",
-        "link": "https://www.livemint.com/market/stock-market-news/esds-share-price-triples-investor-wealth-ai-stock-up-264-in-just-5-days-of-listing-is-the-rally-still-worth-chasing-11789012800278.html",
-        "published": "Thu, 10 Sep 2026 09:57:02 +0530"
+        "title": "Nuvama says 'Buy' Marico; check 12-month price target, stock performance, shareholding pattern",
+        "link": "https://www.livemint.com/market/stock-market-news/nuvama-says-buy-marico-check-12-month-price-target-stock-performance-shareholding-pattern-11788952174352.html",
+        "published": "Thu, 10 Sept 2026 14:51:50 +0530"
       },
       {
-        "title": "Dividend stocks alert! Last day to qualify for dividend of these stocks - Check full list, amount, record date",
-        "link": "https://www.livemint.com/market/stock-market-news/dividend-stocks-alert-last-day-to-qualify-for-dividend-of-these-stocks-check-full-list-amount-record-date-11789013955665.html",
-        "published": "Thu, 10 Sep 2026 09:55:56 +0530"
+        "title": "Over 18% dip in YTD | Delhi-based realty company is bullish on this beaten-down stock \u2014 do you own?",
+        "link": "https://www.livemint.com/market/stock-market-news/over-18-dip-in-ytd-delhi-based-realty-company-is-bullish-on-this-beaten-down-stock-do-you-own-11789026385961.html",
+        "published": "Thu, 10 Sept 2026 14:06:58 +0530"
       },
       {
-        "title": "PC Jeweller share price shines for second session | What's behind the rally?",
-        "link": "https://www.livemint.com/market/stock-market-news/pc-jeweller-share-price-shines-for-second-session-whats-behind-the-rally-11789012672313.html",
-        "published": "Thu, 10 Sep 2026 09:49:28 +0530"
+        "title": "SBI Mutual Fund raises stake in sugar stock EID Parry to 9.13% | Check stock performance",
+        "link": "https://www.livemint.com/market/stock-market-news/sbi-mutual-fund-raises-stake-in-sugar-stock-eid-parry-to-9-13-check-stock-performance-11789028725313.html",
+        "published": "Thu, 10 Sept 2026 14:03:34 +0530"
       },
       {
-        "title": "Why is ONGC share price rising? Stock climbs more than 2% - What should investors do?",
-        "link": "https://www.livemint.com/market/stock-market-news/why-is-ongc-share-price-rising-stock-climbs-more-than-2-what-should-investors-do-11789013230920.html",
-        "published": "Thu, 10 Sep 2026 09:48:49 +0530"
+        "title": "NSE IPO shrinks as Morgan Stanley, other investors cut stake sales",
+        "link": "https://www.livemint.com/market/ipo/nse-ipo-shrinks-as-morgan-stanley-other-investors-cut-stake-sales-11789023066875.html",
+        "published": "Thu, 10 Sept 2026 13:49:33 +0530"
       },
       {
-        "title": "Pranav Constructions IPO allotment to be finalised today; GMP hints 32% listing gain | 4 steps to check status",
-        "link": "https://www.livemint.com/market/ipo/pranav-constructions-ipo-allotment-to-be-finalised-today-gmp-hints-32-listing-gain-4-steps-to-check-status-11789010666665.html",
-        "published": "Thu, 10 Sep 2026 09:38:11 +0530"
+        "title": "Swiggy, Jindal Steel among stocks to buy | Kotak Securities' expert bullish on 3 shares for short term | Do you own any?",
+        "link": "https://www.livemint.com/market/stock-market-news/swiggy-jindal-steel-among-stocks-to-buy-kotak-securities-expert-bullish-on-3-shares-for-short-term-do-you-own-any-11789026733235.html",
+        "published": "Thu, 10 Sept 2026 13:46:11 +0530"
       }
     ]
   },
