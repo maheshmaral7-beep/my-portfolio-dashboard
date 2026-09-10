@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-10T08:10:56.325073+00:00",
+  "generated_at": "2026-09-10T08:32:29.534376+00:00",
   "disclaimer": "Descriptive classification of today's futures/options activity, not a prediction or a trade recommendation. Does not suggest any option, strike, or strategy to trade.",
-  "stock_futures_scanned": 209,
+  "stock_futures_scanned": 210,
   "buildup": {
     "long_buildup": [
       {
@@ -2001,6 +2001,16 @@
         "as_of": "09-Sep-2026"
       },
       {
+        "symbol": "BAJFINANCE",
+        "price": 1047.6,
+        "price_change_pct": -1.1,
+        "open_interest": 60854250,
+        "oi_change": -168750,
+        "oi_change_pct": -0.28,
+        "buildup": "Long Unwinding",
+        "as_of": "09-Sep-2026"
+      },
+      {
         "symbol": "LAURUSLABS",
         "price": 1938.8,
         "price_change_pct": -0.56,
@@ -2107,55 +2117,55 @@
       "error": "list index out of range"
     },
     "BANKNIFTY": {
-      "underlying_value": 56415.95,
+      "underlying_value": 56385.6,
       "expiry": "29-Sep-2026",
       "atm_strike": 57000,
       "max_pain": 57500,
-      "total_call_oi": 533160,
-      "total_put_oi": 447443,
+      "total_call_oi": 532874,
+      "total_put_oi": 448333,
       "pcr": 0.84,
       "top_call_oi_strikes": [
         {
           "strike": "57500",
-          "oi": 73143
+          "oi": 73243
         },
         {
           "strike": "58000",
-          "oi": 50044
+          "oi": 49995
         },
         {
           "strike": "60000",
-          "oi": 36719
+          "oi": 36588
         },
         {
           "strike": "59000",
-          "oi": 33195
+          "oi": 33215
         },
         {
           "strike": "57000",
-          "oi": 32005
+          "oi": 31652
         }
       ],
       "top_put_oi_strikes": [
         {
           "strike": "57500",
-          "oi": 58027
+          "oi": 58006
         },
         {
           "strike": "57000",
-          "oi": 29118
+          "oi": 28985
         },
         {
           "strike": "58000",
-          "oi": 27732
+          "oi": 27747
         },
         {
           "strike": "56000",
-          "oi": 25614
+          "oi": 25418
         },
         {
           "strike": "54000",
-          "oi": 24364
+          "oi": 24493
         }
       ]
     }
