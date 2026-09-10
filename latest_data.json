@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-10T19:46:34.817187+00:00",
+  "fetched_at": "2026-09-10T21:57:29.657977+00:00",
   "market_prices": {
     "Nifty 50": {
       "price": 23477.8,
@@ -16,6 +16,11 @@
   },
   "news": {
     "Economic Times": [
+      {
+        "title": "US stocks today: US stocks end lower as rising oil, Treasury yields lift Fed hike bets",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-us-stocks-end-lower-as-rising-oil-treasury-yields-lift-fed-hike-bets/articleshow/134028937.cms",
+        "published": "Fri, 11 Sep 2026 01:48:47 +0530"
+      },
       {
         "title": "US bond yields climb to multi-year highs as oil surge revives bets on higher Fed rates",
         "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-bond-yields-climb-as-oil-surge-revives-bets-on-higher-fed-rates/articleshow/134023668.cms",
@@ -35,11 +40,6 @@
         "title": "Ahead of Market: 10 things that will decide stock market action on Friday",
         "link": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-friday/articleshow/134018556.cms",
         "published": "Thu, 10 Sep 2026 21:26:10 +0530"
-      },
-      {
-        "title": "Will Bitcoin touch $400,000 by 2030? Coinbase CEO Brian Armstrong answers",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/will-bitcoin-touch-400000-by-2030-coinbase-ceo-brian-armstrong-answers/articleshow/134018361.cms",
-        "published": "Thu, 10 Sep 2026 21:22:29 +0530"
       }
     ],
     "Moneycontrol": [
@@ -66,6 +66,16 @@
     ],
     "Livemint": [
       {
+        "title": "Dollar rises, euro slips after ECB rate increase",
+        "link": "https://www.livemint.com/market/dollar-rises-euro-slips-after-ecb-rate-increase-11789073684557.html",
+        "published": "Fri, 11 Sep 2026 02:24:44 +0530"
+      },
+      {
+        "title": "German Yield Hits 17-Year High as Traders Up ECB Hike Bets",
+        "link": "https://www.livemint.com/market/german-yield-hits-17-year-high-as-traders-up-ecb-hike-bets-11789072150224.html",
+        "published": "Fri, 11 Sep 2026 01:59:09 +0530"
+      },
+      {
         "title": "Is copper a new gold? Experts unveil this strategy to make money",
         "link": "https://www.livemint.com/market/stock-market-news/is-copper-a-new-gold-experts-unveil-this-strategy-to-make-money-11789059703371.html",
         "published": "Thu, 10 Sep 2026 23:33:59 +0530"
@@ -79,16 +89,6 @@
         "title": "Oracle shares fall over 3% ahead of earnings as AI spending in focus",
         "link": "https://www.livemint.com/market/stock-market-news/oracle-shares-fall-over-3-ahead-of-earnings-as-ai-spending-in-focus-11789055560625.html",
         "published": "Thu, 10 Sep 2026 22:20:15 +0530"
-      },
-      {
-        "title": "Why are big chip stocks under pressure? SK Hynix, AMD, Intel, Nvidia fall up to 6.5%; is the AI rally losing steam?",
-        "link": "https://www.livemint.com/market/stock-market-news/why-are-big-chip-stocks-under-pressure-sk-hynix-amd-intel-nvidia-fall-up-to-6-5-is-the-ai-rally-losing-steam-11789050327575.html",
-        "published": "Thu, 10 Sep 2026 20:55:28 +0530"
-      },
-      {
-        "title": "India\u2019s CAS liquidity concerns not unique, says Sebi chief",
-        "link": "https://www.livemint.com/market/stock-market-news/indias-cas-liquidity-concerns-not-unique-says-sebi-chief-11789044778671.html",
-        "published": "Thu, 10 Sep 2026 20:09:48 +0530"
       }
     ]
   },
