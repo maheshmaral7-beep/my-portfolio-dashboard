@@ -1,94 +1,73 @@
 {
-  "fetched_at": "2026-09-11T01:30:39.472757+00:00",
+  "fetched_at": "2026-09-11T06:35:17.205637+00:00",
   "market_prices": {
     "Nifty 50": {
-      "price": 23477.8,
-      "as_of": "2026-09-10 15:29:00+05:30"
+      "price": 23351.55,
+      "as_of": "2026-09-11 12:05:00+05:30"
     },
     "Sensex": {
-      "price": 74902.59,
-      "as_of": "2026-09-10 15:29:00+05:30"
+      "price": 74522.49,
+      "as_of": "2026-09-11 11:50:00+05:30"
     },
     "Bank Nifty": {
-      "price": 56471.95,
-      "as_of": "2026-09-10 15:29:00+05:30"
+      "price": 56159.3,
+      "as_of": "2026-09-11 12:05:00+05:30"
     }
   },
   "news": {
     "Economic Times": [
       {
-        "title": "Global Market Today: Asian stocks, bonds fall on oil, inflation concern",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-bonds-fall-on-oil-inflation-concern/articleshow/134038662.cms",
-        "published": "Fri, 11 Sep 2026 06:36:20 +0530"
+        "title": "Global Market: China state insurers, banks to raise up to $54 billion to bolster capital",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-china-state-insurers-banks-to-raise-up-to-54-billion-to-bolster-capital/articleshow/134049568.cms",
+        "published": "Fri, 11 Sep 2026 11:46:46 +0530"
       },
       {
-        "title": "CAS here to stay, liquidity will pick up, says Sebi Chief",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/cas-here-to-stay-liquidity-will-pick-up-says-sebi-chief/articleshow/134037952.cms",
-        "published": "Fri, 11 Sep 2026 06:22:17 +0530"
+        "title": "Is investing in stock market an art or science? What Peter Lynch says in 'One Up on Wall Street'",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/is-investing-in-stock-market-an-art-or-science-what-peter-lynch-says-in-one-up-on-wall-street/articleshow/134049329.cms",
+        "published": "Fri, 11 Sep 2026 11:41:28 +0530"
       },
       {
-        "title": "Canara Bank eyes $2 billion via overseas bonds",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/canara-bank-eyes-2-billion-via-overseas-bonds/articleshow/134037708.cms",
-        "published": "Fri, 11 Sep 2026 06:19:49 +0530"
+        "title": "SBICAP Securities partners with Appreciate for global market access via India INX GA, NSEIXGA",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/sbicap-securities-partners-with-appreciate-for-global-market-access-via-india-inx-ga-nseixga/articleshow/134048797.cms",
+        "published": "Fri, 11 Sep 2026 11:37:43 +0530"
       },
       {
-        "title": "BSE tech glitch disrupts F&amp;O trading on Sensex expiry day",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/bse-tech-glitch-disrupts-fo-trading-on-sensex-expiry-day/articleshow/134037535.cms",
-        "published": "Fri, 11 Sep 2026 06:13:16 +0530"
+        "title": "Midcap rally hides a deeper split: Every second stock down but index up 11% in 1 year. Are investors walking on thin ice?",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/midcap-rally-hides-a-deeper-split-every-second-down-but-index-up-11-in-1-year-are-investors-walking-on-thin-ice/articleshow/134049249.cms",
+        "published": "Fri, 11 Sep 2026 11:36:08 +0530"
       },
       {
-        "title": "NPA provisions fall for second straight quarter as bank asset quality improves",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/npa-provisions-fall-for-a-second-quarter-as-banks-sustain-asset-quality/articleshow/134037281.cms",
-        "published": "Fri, 11 Sep 2026 06:03:13 +0530"
+        "title": "HDFC Bank shares fall 2% to fresh 52-week low despite victory in Credit Suisse AT1 bonds cases in Bahrain",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/hdfc-bank-shares-fall-2-to-fresh-52-week-low-despite-victory-in-credit-suisse-at1-bonds-cases-in-bahrain/articleshow/134048892.cms",
+        "published": "Fri, 11 Sep 2026 11:31:39 +0530"
       }
     ],
-    "Moneycontrol": [
-      {
-        "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
-        "link": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
-        "published": "Tue, 23 Apr 2024 15:46:31 +0530"
-      },
-      {
-        "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
-        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
-        "published": "Tue, 23 Apr 2024 14:51:26 +0530"
-      },
-      {
-        "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
-        "link": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
-        "published": "Tue, 23 Apr 2024 12:23:21 +0530"
-      },
-      {
-        "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
-        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
-        "published": "Tue, 23 Apr 2024 09:45:50 +0530"
-      }
-    ],
+    "Moneycontrol": [],
     "Livemint": [
       {
-        "title": "NSE IPO: Price band set at  \u20b91,700-1,785 per share; check key dates, issue details",
-        "link": "https://www.livemint.com/market/ipo/nse-ipo-price-band-set-at-rs-1-700-1-785-per-share-check-key-dates-issue-details-11789087370238.html",
-        "published": "Fri, 11 Sep 2026 06:27:38 +0530"
+        "title": "Kirloskar Industries share price rockets 13% on heavy volumes. Do you own?",
+        "link": "https://www.livemint.com/market/stock-market-news/kirloskar-industries-share-price-rockets-13-on-heavy-volumes-do-you-own-11789107380122.html",
+        "published": "Fri, 11 Sep 2026 12:01:22 +0530"
       },
       {
-        "title": "Stock recommendations for 11 September from MarketSmith India",
-        "link": "https://www.livemint.com/market/stock-market-news/stock-recommendations-for-11-september-from-marketsmith-india-11789042912558.html",
-        "published": "Fri, 11 Sep 2026 06:00:35 +0530"
+        "title": "IPO GMP comparison: Last day alert! LCC Projects vs Karamtara Engineering vs Steamhouse India",
+        "link": "https://www.livemint.com/market/ipo/ipo-gmp-comparison-last-day-alert-lcc-projects-vs-karamtara-engineering-vs-steamhouse-india-11789106232944.html",
+        "published": "Fri, 11 Sep 2026 11:33:56 +0530"
       },
       {
-        "title": "Raja Venkatraman recommends three stocks for 11 September",
-        "link": "https://www.livemint.com/market/stock-market-news/raja-venkatraman-recommends-three-stocks-for-11-september-11789058673473.html",
-        "published": "Fri, 11 Sep 2026 06:00:35 +0530"
+        "title": "Godrej Properties share price falls 7%: What triggered the sudden sell-off in trade today?",
+        "link": "https://www.livemint.com/market/stock-market-news/godrej-properties-share-price-falls-7-what-triggered-the-sudden-sell-off-in-trade-today-orris-dispute-clarified-11789105371547.html",
+        "published": "Fri, 11 Sep 2026 11:24:51 +0530"
       },
       {
-        "title": "Sebi likely to allow co-location for commodity markets next year",
-        "link": "https://www.livemint.com/market/commodities/sebi-likely-to-allow-co-location-for-commodity-markets-next-year-11789031645675.html",
-        "published": "Fri, 11 Sep 2026 05:55:35 +0530"
+        "title": "Authum Investment share price jumps 9% in a weak market; can it rise further? Experts decode",
+        "link": "https://www.livemint.com/market/stock-market-news/authum-investment-share-price-jumps-9-in-a-weak-market-can-it-rise-further-experts-decode-11789105010967.html",
+        "published": "Fri, 11 Sep 2026 11:15:22 +0530"
       },
       {
-        "title": "SoftBank Rally Raises Short Squeeze Risk After Bearish Bets Jump",
-        "link": "https://www.livemint.com/market/softbank-rally-raises-short-squeeze-risk-after-bearish-bets-jump-11789086093086.html",
-        "published": "Fri, 11 Sep 2026 05:51:32 +0530"
+        "title": "Nexus Select's portfolio expansion drive can give an edge to one important metric",
+        "link": "https://www.livemint.com/market/mark-to-market/nexus-select-trust-retail-reit-guwahati-galaxy-complex-east-india-dpu-noi-retail-malls-consumption-real-estate-11789100166129.html",
+        "published": "Fri, 11 Sep 2026 11:09:15 +0530"
       }
     ]
   },
