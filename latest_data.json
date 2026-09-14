@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-14T18:50:42.785634+00:00",
+  "fetched_at": "2026-09-14T22:08:08.065279+00:00",
   "market_prices": {
     "Nifty 50": {
       "error": "no data returned"
@@ -13,6 +13,11 @@
   },
   "news": {
     "Economic Times": [
+      {
+        "title": "US stocks today: US stocks end lower as AI slowdown fears hit chipmakers",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-us-stocks-end-lower-as-ai-slowdown-fears-hit-chipmakers/articleshow/134247627.cms",
+        "published": "Tue, 15 Sep 2026 01:43:43 +0530"
+      },
       {
         "title": "CVC-backed Bamboo Insurance targets $3.24 billion valuation in US IPO",
         "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/cvc-backed-bamboo-insurance-targets-3-24-billion-valuation-in-us-ipo/articleshow/134246642.cms",
@@ -32,36 +37,15 @@
         "title": "Crypto data firm Kaiko secures $110 million funding round led by S&amp;P Global",
         "link": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/crypto-data-firm-kaiko-secures-110-million-funding-round-led-by-sp-global/articleshow/134244840.cms",
         "published": "Mon, 14 Sep 2026 22:17:02 +0530"
-      },
-      {
-        "title": "Ahead of Market: 10 things that will decide stock market action on Tuesday",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-tuesday/articleshow/134243986.cms",
-        "published": "Mon, 14 Sep 2026 21:15:43 +0530"
       }
     ],
-    "Moneycontrol": [
-      {
-        "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
-        "link": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
-        "published": "Tue, 23 Apr 2024 15:46:31 +0530"
-      },
-      {
-        "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
-        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
-        "published": "Tue, 23 Apr 2024 14:51:26 +0530"
-      },
-      {
-        "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
-        "link": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
-        "published": "Tue, 23 Apr 2024 12:23:21 +0530"
-      },
-      {
-        "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
-        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
-        "published": "Tue, 23 Apr 2024 09:45:50 +0530"
-      }
-    ],
+    "Moneycontrol": [],
     "Livemint": [
+      {
+        "title": "Emerging-Market Assets Fall as Oil Surge, AI Jitters Dent Mood",
+        "link": "https://www.livemint.com/market/emergingmarket-assets-fall-as-oil-surge-ai-jitters-dent-mood-11789418890064.html",
+        "published": "Tue, 15 Sep 2026 02:18:09 +0530"
+      },
       {
         "title": "BHEL approves  \u20b965 crore further investment in NTPC joint venture NBPPL",
         "link": "https://www.livemint.com/market/stock-market-news/bhel-approves-rs-65-crore-further-investment-in-ntpc-joint-venture-nbppl-11789408978841.html",
@@ -81,11 +65,6 @@
         "title": "10-year Treasury yield hits highest level since 2023 as US Federal Reserve decision looms",
         "link": "https://www.livemint.com/market/stock-market-news/10year-treasury-yield-hits-highest-level-since-2023-as-us-federal-reserve-decision-looms-11789400968499.html",
         "published": "Mon, 14 Sep 2026 21:55:48 +0530"
-      },
-      {
-        "title": "US market crash: Nvidia, Intel among chip stocks plunging up to 9.5% as AI slowdown fears hit Wall Street",
-        "link": "https://www.livemint.com/market/stock-market-news/us-market-crash-nvidia-intel-among-chip-stocks-plunging-up-to-9-5-as-ai-slowdown-fears-hit-wall-street-11789395371565.html",
-        "published": "Mon, 14 Sep 2026 20:50:21 +0530"
       }
     ]
   },
