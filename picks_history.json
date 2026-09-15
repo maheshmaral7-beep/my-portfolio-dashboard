@@ -1953,5 +1953,90 @@
         "category": "emerging_leaders"
       }
     ]
+  },
+  {
+    "date": "2026-09-15",
+    "picks": [
+      {
+        "symbol": "KALYANKJIL",
+        "name": "Kalyan Jewellers India Ltd.",
+        "sector": "Consumer Durables",
+        "entry": 604.2,
+        "target": 632.02,
+        "category": "momentum_leaders"
+      },
+      {
+        "symbol": "LENSKART",
+        "name": "Lenskart Solutions Ltd.",
+        "sector": "Consumer Services",
+        "entry": 685.4,
+        "target": 695.75,
+        "category": "breakout_candidates"
+      },
+      {
+        "symbol": "LODHA",
+        "name": "Lodha Developers Ltd.",
+        "sector": "Realty",
+        "entry": 1064.8,
+        "target": 1311.74,
+        "category": "turnaround_stories"
+      },
+      {
+        "symbol": "GLENMARK",
+        "name": "Glenmark Pharmaceuticals Ltd.",
+        "sector": "Healthcare",
+        "entry": 2371.7,
+        "target": 2512.5,
+        "category": "earnings_winners"
+      },
+      {
+        "symbol": "PAYTM",
+        "name": "One 97 Communications Ltd.",
+        "sector": "Financial Services",
+        "entry": 1730.0,
+        "target": 1807.5,
+        "category": "momentum_leaders"
+      },
+      {
+        "symbol": "LICHSGFIN",
+        "name": "LIC Housing Finance Ltd.",
+        "sector": "Financial Services",
+        "entry": 542.0,
+        "target": 581.77,
+        "category": "emerging_leaders"
+      },
+      {
+        "symbol": "ADANIGREEN",
+        "name": "Adani Green Energy Ltd.",
+        "sector": "Power",
+        "entry": 1255.0,
+        "target": 1604.5,
+        "category": "turnaround_stories"
+      },
+      {
+        "symbol": "TATAINVEST",
+        "name": "Tata Investment Corporation Ltd.",
+        "sector": "Financial Services",
+        "entry": 718.35,
+        "target": 1052.57,
+        "category": "emerging_leaders"
+      },
+      {
+        "symbol": "LAURUSLABS",
+        "name": "Laurus Labs Ltd.",
+        "sector": "Healthcare",
+        "entry": 1926.9,
+        "target": 1969.0,
+        "category": "momentum_leaders"
+      },
+      {
+        "symbol": "ETERNAL",
+        "name": "Eternal Ltd.",
+        "sector": "Consumer Services",
+        "entry": 315.25,
+        "target": 354.35,
+        "category": "earnings_winners"
+      }
+    ]
   }
 ]
