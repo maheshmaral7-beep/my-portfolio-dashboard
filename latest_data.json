@@ -1,70 +1,94 @@
 {
-  "fetched_at": "2026-09-15T00:36:03.983257+00:00",
+  "fetched_at": "2026-09-15T05:16:35.553684+00:00",
   "market_prices": {
     "Nifty 50": {
-      "error": "no data returned"
+      "price": 23349.25,
+      "as_of": "2026-09-15 10:46:00+05:30"
     },
     "Sensex": {
-      "error": "no data returned"
+      "price": 74732.18,
+      "as_of": "2026-09-15 10:31:00+05:30"
     },
     "Bank Nifty": {
-      "error": "no data returned"
+      "price": 56208.7,
+      "as_of": "2026-09-15 10:46:00+05:30"
     }
   },
   "news": {
     "Economic Times": [
       {
-        "title": "US stocks today: US stocks end lower as AI slowdown fears hit chipmakers",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-us-stocks-end-lower-as-ai-slowdown-fears-hit-chipmakers/articleshow/134247627.cms",
-        "published": "Tue, 15 Sep 2026 01:43:43 +0530"
+        "title": "PNC Infratech shares tank 20%. What\u2019s triggering the steep plunge on Tuesday?",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/pnc-infratech-shares-tank-20-whats-triggering-the-steep-plunge-on-tuesday/articleshow/134252127.cms",
+        "published": "Tue, 15 Sep 2026 10:13:32 +0530"
       },
       {
-        "title": "Trump, Altman, Musk and Amodei clash over AI risks as safety debate heats up",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/trump-altman-musk-and-amodei-clash-over-ai-risks-as-safety-debate-heats-up/articleshow/134246892.cms",
-        "published": "Tue, 15 Sep 2026 00:19:49 +0530"
+        "title": "Steamhouse IPO allotment likely today: GMP signals 30% listing gain; here\u2019s how to check status",
+        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/steamhouse-ipo-allotment-likely-today-gmp-signals-30-listing-gain-heres-how-to-check-status/articleshow/134251992.cms",
+        "published": "Tue, 15 Sep 2026 10:10:28 +0530"
       },
       {
-        "title": "CVC-backed Bamboo Insurance targets $3.24 billion valuation in US IPO",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/cvc-backed-bamboo-insurance-targets-3-24-billion-valuation-in-us-ipo/articleshow/134246642.cms",
-        "published": "Tue, 15 Sep 2026 00:00:53 +0530"
+        "title": "Vijay Kedia reveals multibagger playbook: How the superstar picks stocks using RISE strategy",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/vijay-kedia-reveals-multibagger-playbook-how-the-superstar-picks-stocks-using-rise-strategy/articleshow/134251870.cms",
+        "published": "Tue, 15 Sep 2026 10:03:09 +0530"
       },
       {
-        "title": "Copper price hits three-week low as inventories rise and dollar strengthens",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/copper-hits-three-week-low-as-inventories-rise-and-dollar-strengthens/articleshow/134245729.cms",
-        "published": "Mon, 14 Sep 2026 23:12:25 +0530"
+        "title": "Global Market: SB Energy to sell up to $500 million worth of shares to Japanese investors ahead of US IPO",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-sb-energy-to-sell-up-to-500-million-worth-of-shares-to-japanese-investors-ahead-of-us-ipo/articleshow/134251818.cms",
+        "published": "Tue, 15 Sep 2026 09:55:30 +0530"
       },
       {
-        "title": "US Senate Republicans release new crypto bill text ahead of critical vote",
-        "link": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/us-senate-republicans-release-new-crypto-bill-text-ahead-of-critical-vote/articleshow/134244934.cms",
-        "published": "Mon, 14 Sep 2026 22:22:54 +0530"
+        "title": "Why is stock market rising today? 3 key factors driving Sensex and  Nifty rebound",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/why-is-stock-market-rising-today-3-key-factors-driving-sensex-and-nifty-rebound/articleshow/134251297.cms",
+        "published": "Tue, 15 Sep 2026 09:53:13 +0530"
       }
     ],
-    "Moneycontrol": [],
+    "Moneycontrol": [
+      {
+        "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+        "link": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
+        "published": "Tue, 23 Apr 2024 15:46:31 +0530"
+      },
+      {
+        "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
+        "published": "Tue, 23 Apr 2024 14:51:26 +0530"
+      },
+      {
+        "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
+        "link": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
+        "published": "Tue, 23 Apr 2024 12:23:21 +0530"
+      },
+      {
+        "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
+        "published": "Tue, 23 Apr 2024 09:45:50 +0530"
+      }
+    ],
     "Livemint": [
       {
-        "title": "Stock recommendations for 15 September from MarketSmith India",
-        "link": "https://www.livemint.com/market/stock-market-news/stock-recommendations-for-15-september-from-marketsmith-india-11789129589490.html",
-        "published": "Tue, 15 Sep 2026 06:01:03 +0530"
+        "title": "Why are IT stocks on fire? Check TCS, HCL Tech, LTM, Tech Mahindra, Infosys share performance",
+        "link": "https://www.livemint.com/market/stock-market-news/why-are-it-stocks-on-fire-check-tcs-hcl-tech-ltm-tech-mahindra-infosys-share-performance-11789447093149.html",
+        "published": "Tue, 15 Sep 2026 10:35:08 +0530"
       },
       {
-        "title": "NSE IPO's steep valuation discount to BSE based on FY26 earnings is misleading",
-        "link": "https://www.livemint.com/market/mark-to-market/nse-ipo-valuation-discount-vs-bse-share-price-financials-11789354083493.html",
-        "published": "Tue, 15 Sep 2026 06:01:03 +0530"
+        "title": "IT behemoth Infosys shares surge 6%; how Anthropic AI pace warning triggered the rally",
+        "link": "https://www.livemint.com/market/stock-market-news/it-behemoth-infosys-shares-surge-6-how-anthropic-ai-pace-warning-triggered-the-rally-11789447729134.html",
+        "published": "Tue, 15 Sep 2026 10:31:13 +0530"
       },
       {
-        "title": "Raja Venkatraman recommends three stocks for 15 September",
-        "link": "https://www.livemint.com/market/stock-market-news/raja-venkatraman-recommends-three-stocks-for-15-september-11789194970094.html",
-        "published": "Tue, 15 Sep 2026 06:00:23 +0530"
+        "title": "Netweb Tech shares crash over 5%\u2014 Is it an opportunity to buy this multibagger stock?",
+        "link": "https://www.livemint.com/market/stock-market-news/netweb-tech-shares-crash-over-5-is-it-an-opportunity-to-buy-this-multibagger-stock-11789447150079.html",
+        "published": "Tue, 15 Sep 2026 10:18:14 +0530"
       },
       {
-        "title": "Gold Holds Losses as Higher Oil Stokes September Rate-Hike Bets",
-        "link": "https://www.livemint.com/market/gold-holds-losses-as-higher-oil-stokes-september-rate-hike-bets-11789431995593.html",
-        "published": "Tue, 15 Sep 2026 05:56:35 +0530"
+        "title": "KEC International, Coforge shares jump up to 5% - What's behind the surge",
+        "link": "https://www.livemint.com/market/stock-market-news/kec-international-coforge-shares-jump-up-to-5-whats-behind-the-surge-11789446308266.html",
+        "published": "Tue, 15 Sep 2026 10:14:32 +0530"
       },
       {
-        "title": "Waaree Renewable\u2019s data centre push raises the stakes",
-        "link": "https://www.livemint.com/market/mark-to-market/waaree-renewable-technologies-sunstar-data-centers-ai-data-centres-india-11789370615415.html",
-        "published": "Tue, 15 Sep 2026 05:55:23 +0530"
+        "title": "Why is Raymond share price rising today? Stock hits fresh 52-week high, zooms 200% in 6 months",
+        "link": "https://www.livemint.com/market/stock-market-news/why-is-raymond-share-price-rising-today-stock-hits-fresh-52-week-high-zooms-200-in-6-months-11789445644698.html",
+        "published": "Tue, 15 Sep 2026 10:12:30 +0530"
       }
     ]
   },
