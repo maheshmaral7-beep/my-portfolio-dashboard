@@ -1,73 +1,94 @@
 {
-  "fetched_at": "2026-09-16T06:49:13.159001+00:00",
+  "fetched_at": "2026-09-16T12:12:17.875282+00:00",
   "market_prices": {
     "Nifty 50": {
-      "price": 23241.05,
-      "as_of": "2026-09-16 12:19:00+05:30"
+      "price": 23217.6,
+      "as_of": "2026-09-16 15:29:00+05:30"
     },
     "Sensex": {
-      "price": 74277.95,
-      "as_of": "2026-09-16 12:04:00+05:30"
+      "price": 74336.45,
+      "as_of": "2026-09-16 15:29:00+05:30"
     },
     "Bank Nifty": {
-      "price": 56196.4,
-      "as_of": "2026-09-16 12:19:00+05:30"
+      "price": 56292.45,
+      "as_of": "2026-09-16 15:29:00+05:30"
     }
   },
   "news": {
     "Economic Times": [
       {
-        "title": "Solar Industries\u2019 defence share may fall to 22-25% by FY30 after Omnia deal: Jefferies",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/solar-industries-defence-share-may-fall-to-22-25-by-fy30-after-omnia-deal-jefferies/articleshow/134280191.cms",
-        "published": "Wed, 16 Sep 2026 12:08:54 +0530"
+        "title": "Maruti Suzuki among 8 large-cap stocks to hit 52-week lows and fall up to 12% in a month",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/maruti-suzuki-among-8-large-cap-stocks-to-hit-52-week-lows-and-fall-up-to-12-in-a-month/slideshow/134286817.cms",
+        "published": "Wed, 16 Sep 2026 17:05:08 +0530"
       },
       {
-        "title": "Global Market: Japan bond yields rise as inflation concerns build ahead of Fed decision",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-japan-bond-yields-rise-as-inflation-concerns-build-ahead-of-fed-decision/articleshow/134280079.cms",
-        "published": "Wed, 16 Sep 2026 12:02:15 +0530"
+        "title": "Market wrap: SBI, HDFC Life, TCS, Infosys top gainers and losers on Nifty and Sensex on Thursday",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/market-wrap-sbi-hdfc-life-tcs-infosys-top-gainers-and-losers-on-nifty-and-sensex-on-thursday/articleshow/134286572.cms",
+        "published": "Wed, 16 Sep 2026 17:03:51 +0530"
       },
       {
-        "title": "UPI MDR explained for investors: How will new charges impact your mutual fund SIPs and stock investments?",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/upi-mdr-explained-for-investors-how-will-new-charges-impact-your-mutual-fund-sips-and-stock-investments/articleshow/134280097.cms",
-        "published": "Wed, 16 Sep 2026 12:01:37 +0530"
+        "title": "Quote of the day by Edward Thorp: \"I think that we only get estimates of the distributions and that we can only be somewhat sure of the estimates. That makes the problems in the financial world much more difficult, I think, because you have these uncertainties in the distributions.\"",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/quote-of-the-day-by-edward-thorp-i-think-that-we-only-get-estimates-of-the-distributions-and-that-we-can-only-be-somewhat-sure-of-the-estimates-that-makes-the-problems-in-the-financial-world-much-more-difficult-i-think-because-you-have-these-uncertainties-in-the-distributions-/articleshow/134286305.cms",
+        "published": "Wed, 16 Sep 2026 16:57:35 +0530"
       },
       {
-        "title": "Global Market: China, Hong Kong shares rise as tech stocks gain ahead of Fed decision",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-china-hong-kong-shares-rise-as-tech-stocks-gain-ahead-of-fed-decision/articleshow/134280040.cms",
-        "published": "Wed, 16 Sep 2026 11:58:32 +0530"
+        "title": "\u2018Biggest crash in history has begun\u2019: Rich Dad Poor Dad author Robert Kiyosaki sounds the alarm",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/biggest-crash-in-history-has-begun-rich-dad-poor-dad-author-robert-kiyosaki-sounds-the-alarm/articleshow/134286192.cms",
+        "published": "Wed, 16 Sep 2026 16:48:32 +0530"
       },
       {
-        "title": "Sensex rises 400 points, Nifty nears 23,250 as investors await Fed meeting outcome. What to expect?",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/sensex-rises-400-points-nifty-nears-23250-as-investors-await-fed-meeting-outcome-what-to-expect/articleshow/134279785.cms",
-        "published": "Wed, 16 Sep 2026 11:44:02 +0530"
+        "title": "AI, algorithms and human judgement: The future of portfolio management",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/ai-algorithms-and-human-judgement-the-future-of-portfolio-management/articleshow/134285324.cms",
+        "published": "Wed, 16 Sep 2026 16:12:11 +0530"
       }
     ],
-    "Moneycontrol": [],
+    "Moneycontrol": [
+      {
+        "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+        "link": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
+        "published": "Tue, 23 Apr 2024 15:46:31 +0530"
+      },
+      {
+        "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
+        "published": "Tue, 23 Apr 2024 14:51:26 +0530"
+      },
+      {
+        "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
+        "link": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
+        "published": "Tue, 23 Apr 2024 12:23:21 +0530"
+      },
+      {
+        "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
+        "published": "Tue, 23 Apr 2024 09:45:50 +0530"
+      }
+    ],
     "Livemint": [
       {
-        "title": "Raymond shares slump 6% after strong run | Key support levels to watch",
-        "link": "https://www.livemint.com/market/stock-market-news/raymond-shares-slump-6-after-strong-run-key-support-levels-to-watch-11789539463468.html",
-        "published": "Wed, 16 Sept 2026 12:14:33 +0530"
+        "title": "Ahead of US Fed rate hike impact prediction on American Treasuries: FOMC outcome likely effects decoded",
+        "link": "https://www.livemint.com/market/stock-market-news/ahead-of-us-fed-rate-hike-impact-prediction-on-american-treasuries-fomc-outcome-likely-effects-decoded-11789558513675.html",
+        "published": "Wed, 16 Sep 2026 17:37:55 +0530"
       },
       {
-        "title": "Vedanta Power to Vedanta Iron &amp; Steel - Anil Agarwal-owned group stocks extend losses for second session. Here's why",
-        "link": "https://www.livemint.com/market/stock-market-news/vedanta-power-to-vedanta-iron-steel-anil-agarwal-owned-group-stocks-extend-losses-for-second-session-heres-why-11789537752902.html",
-        "published": "Wed, 16 Sept 2026 12:12:31 +0530"
+        "title": "Dabur India shares: From Reduce to Add - What led to upgrade from Kotak Institutional Equities",
+        "link": "https://www.livemint.com/market/stock-market-news/dabur-india-shares-from-reduce-to-add-what-led-to-upgrade-from-kotak-institutional-equities-11789558937172.html",
+        "published": "Wed, 16 Sep 2026 17:17:00 +0530"
       },
       {
-        "title": "RIL, HUL, Nestle, Tata Consumer, Hyundai shares on the rise today | Key things to know",
-        "link": "https://www.livemint.com/market/stock-market-news/ril-hul-nestle-tata-consumer-muthoot-hyundai-shares-on-the-rise-today-key-things-to-know-11789539484574.html",
-        "published": "Wed, 16 Sept 2026 11:56:22 +0530"
+        "title": "Sebi grants 1% unhedged leeway to arbitrage funds to boost closing auction participation",
+        "link": "https://www.livemint.com/market/sebi-grants-1-unhedged-leeway-to-arbitrage-funds-to-boost-cas-participation-11789554658156.html",
+        "published": "Wed, 16 Sep 2026 17:12:28 +0530"
       },
       {
-        "title": "Nifty 50 slips further below 200-DMA, raising fears of a bearish turn",
-        "link": "https://www.livemint.com/market/stock-market-news/nifty-50-slips-further-below-200-dma-raising-fears-of-a-bearish-turn-stock-market-shares-11789531644414.html",
-        "published": "Wed, 16 Sept 2026 11:32:27 +0530"
+        "title": "Expert view: What a booming IPO market means for Indian investors",
+        "link": "https://www.livemint.com/market/stock-market-news/expert-view-what-a-booming-ipo-market-means-for-indian-investors-11789556704448.html",
+        "published": "Wed, 16 Sep 2026 16:52:21 +0530"
       },
       {
-        "title": "ITC shares edge higher after rise in select cigarette brands, experts see 10% rally in short term | Target, outlook",
-        "link": "https://www.livemint.com/market/stock-market-news/itc-shares-edge-higher-after-rise-in-select-cigarette-brands-experts-see-10-rally-in-short-term-target-outlook-11789536356887.html",
-        "published": "Wed, 16 Sept 2026 11:26:12 +0530"
+        "title": "1:5 stock split alert! Mukul Agrawal-portfolio stock nearing record date; delivers 400% return in 5 years | Do you own?",
+        "link": "https://www.livemint.com/market/stock-market-news/15-stock-split-alert-mukul-agrawal-portfolio-stock-nearing-record-date-delivers-400-return-in-5-years-do-you-own-11789555598323.html",
+        "published": "Wed, 16 Sep 2026 16:50:05 +0530"
       }
     ]
   },
