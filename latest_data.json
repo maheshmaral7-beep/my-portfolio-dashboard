@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-16T16:55:42.645347+00:00",
+  "fetched_at": "2026-09-16T19:49:51.934527+00:00",
   "market_prices": {
     "Nifty 50": {
       "price": 23217.6,
@@ -16,6 +16,11 @@
   },
   "news": {
     "Economic Times": [
+      {
+        "title": "A 25 bps hike: US Federal Reserve raises interest rates for first time since 2023",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/a-25-bps-hike-us-federal-reserve-raises-interest-rates-for-first-time-since-2023/articleshow/134293809.cms",
+        "published": "Wed, 16 Sep 2026 23:31:38 +0530"
+      },
       {
         "title": "Ahead of Market: 10 things that will decide stock market action on Thursday",
         "link": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-thursday/articleshow/134291836.cms",
@@ -35,39 +40,55 @@
         "title": "Morgan Stanley shifts $10 billion in municipal bond mutual funds to ETFs",
         "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/morgan-stanley-shifts-10-billion-in-municipal-bond-mutual-funds-to-etfs/articleshow/134291061.cms",
         "published": "Wed, 16 Sep 2026 20:35:14 +0530"
-      },
-      {
-        "title": "LIC, Morgan Stanley, Goldman Sachs among anchor investors as NSE raises Rs 6,746 crore ahead of IPO",
-        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/nse-allots-shares-worth-703-million-to-anchor-investors-ahead-of-ipo-sources-say/articleshow/134290868.cms",
-        "published": "Wed, 16 Sep 2026 20:34:43 +0530"
       }
     ],
-    "Moneycontrol": [],
+    "Moneycontrol": [
+      {
+        "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+        "link": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
+        "published": "Tue, 23 Apr 2024 15:46:31 +0530"
+      },
+      {
+        "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
+        "published": "Tue, 23 Apr 2024 14:51:26 +0530"
+      },
+      {
+        "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
+        "link": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
+        "published": "Tue, 23 Apr 2024 12:23:21 +0530"
+      },
+      {
+        "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
+        "published": "Tue, 23 Apr 2024 09:45:50 +0530"
+      }
+    ],
     "Livemint": [
       {
-        "title": "Stock Market prediction tomorrow: Sensex, Nifty outlook for Thu | Kospi, Taiwan Index, Nikkei cues to watch | 17 Sept",
-        "link": "https://www.livemint.com/market/stock-market-news/stock-market-prediction-tomorrow-sensex-nifty-outlook-for-thu-kospi-taiwan-index-nikkei-cues-to-watch-17-sept-11789567603146.html",
-        "published": "Wed, 16 Sep 2026 21:31:42 +0530"
+        "title": "US Fed rate hike impact on Indian economy: FOMC outcome effect decoded",
+        "link": "https://www.livemint.com/market/stock-market-news/us-fed-rate-hike-impact-on-indian-economy-fomc-outcome-effect-decoded-11789584407060.html",
+        "published": "Thu, 17 Sep 2026 01:13:20 +0530"
       },
       {
-        "title": "Bitcoin under renewed pressure as looming Fed hike adds to woes",
-        "link": "https://www.livemint.com/market/cryptocurrency/bitcoin-under-renewed-pressure-as-looming-fed-hike-adds-to-woes-11789573570118.html",
-        "published": "Wed, 16 Sep 2026 21:21:03 +0530"
+        "title": "Gold falls more than 1% after Fed hikes interest rates",
+        "link": "https://www.livemint.com/market/gold-falls-more-than-1-after-fed-hikes-interest-rates-11789587476132.html",
+        "published": "Thu, 17 Sep 2026 01:07:55 +0530"
       },
       {
-        "title": "US Fed Meeting LIVE: Treasury yields, bitcoin, stock markets feel pressure ahead of FOMC's rate decision",
-        "link": "https://www.livemint.com/market/stock-market-news/us-fed-meeting-2026-live-updates-interest-rate-decision-today-us-economy-fed-interest-rate-kevin-warsh-16-september-11789571646644.html",
-        "published": "Wed, 16 Sep 2026 21:04:35 +0530"
+        "title": "US Fed Rate Hike Impact on American Treasuries: FOMC outcome effect decoded",
+        "link": "https://www.livemint.com/market/bonds/us-fed-rate-hike-impact-on-american-treasuries-fomc-outcome-effect-decoded-11789584491881.html",
+        "published": "Thu, 17 Sep 2026 01:06:48 +0530"
       },
       {
-        "title": "NSE IPO: Anchor book gets  \u20b96,745 crore from 100-plus investors; LIC, Norges Bank, ADIA among key buyers: Report",
-        "link": "https://www.livemint.com/market/nse-ipo-anchor-book-gets-rs-6-745-crore-from-100-plus-investors-lic-norges-bank-adia-among-key-buyers-report-11789570911742.html",
-        "published": "Wed, 16 Sep 2026 20:40:11 +0530"
+        "title": "Turkish Funds With $7.5 Billion Assets Default on Redemptions",
+        "link": "https://www.livemint.com/market/turkish-funds-with-7-5-billion-assets-default-on-redemptions-11789586987057.html",
+        "published": "Thu, 17 Sep 2026 00:59:46 +0530"
       },
       {
-        "title": "Wall Street: S&amp;P 500, Nasdaq edge higher ahead of Federal Reserve's rate decision as oil slips",
-        "link": "https://www.livemint.com/market/stock-market-news/wall-street-edges-higher-ahead-of-federal-reserves-rate-decision-11789566757056.html",
-        "published": "Wed, 16 Sep 2026 19:33:29 +0530"
+        "title": "Bitcoin Faces \u2018Double Whammy\u2019 After Bill Rejection, Rate Hike",
+        "link": "https://www.livemint.com/market/bitcoin-faces-double-whammy-after-bill-rejection-rate-hike-11789584416956.html",
+        "published": "Thu, 17 Sep 2026 00:16:56 +0530"
       }
     ]
   },
