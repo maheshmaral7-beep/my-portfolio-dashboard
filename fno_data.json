@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T14:26:24.136416+00:00",
+  "generated_at": "2026-09-16T08:37:58.428693+00:00",
   "disclaimer": "Descriptive classification of today's futures/options activity, not a prediction or a trade recommendation. Does not suggest any option, strike, or strategy to trade.",
   "stock_futures_scanned": 210,
   "buildup": {
@@ -2117,55 +2117,55 @@
       "error": "list index out of range"
     },
     "BANKNIFTY": {
-      "underlying_value": 55794.75,
+      "underlying_value": 56233.55,
       "expiry": "29-Sep-2026",
       "atm_strike": 55500,
-      "max_pain": 57100,
-      "total_call_oi": 601624,
-      "total_put_oi": 473570,
-      "pcr": 0.79,
+      "max_pain": 57200,
+      "total_call_oi": 579022,
+      "total_put_oi": 511777,
+      "pcr": 0.88,
       "top_call_oi_strikes": [
         {
           "strike": "57500",
-          "oi": 73111
+          "oi": 74526
         },
         {
           "strike": "58000",
-          "oi": 55380
-        },
-        {
-          "strike": "60000",
-          "oi": 38375
-        },
-        {
-          "strike": "57000",
-          "oi": 37998
+          "oi": 53401
         },
         {
           "strike": "59000",
-          "oi": 35254
+          "oi": 36896
+        },
+        {
+          "strike": "60000",
+          "oi": 36263
+        },
+        {
+          "strike": "57000",
+          "oi": 35785
         }
       ],
       "top_put_oi_strikes": [
         {
           "strike": "57500",
-          "oi": 53332
+          "oi": 52829
         },
         {
           "strike": "56000",
-          "oi": 27078
-        },
-        {
-          "strike": "57000",
-          "oi": 26739
-        },
-        {
-          "strike": "58000",
-          "oi": 25985
+          "oi": 32275
         },
         {
           "strike": "54000",
-          "oi": 25094
+          "oi": 29575
+        },
+        {
+          "strike": "57000",
+          "oi": 28503
+        },
+        {
+          "strike": "58000",
+          "oi": 26014
         }
       ]
     }
