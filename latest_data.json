@@ -1,73 +1,94 @@
 {
-  "fetched_at": "2026-09-17T00:43:56.441445+00:00",
+  "fetched_at": "2026-09-17T05:28:02.035820+00:00",
   "market_prices": {
     "Nifty 50": {
-      "price": 23217.6,
-      "as_of": "2026-09-16 15:29:00+05:30"
+      "price": 23277.35,
+      "as_of": "2026-09-17 10:58:00+05:30"
     },
     "Sensex": {
-      "price": 74336.45,
-      "as_of": "2026-09-16 15:29:00+05:30"
+      "price": 74407.78,
+      "as_of": "2026-09-17 10:42:00+05:30"
     },
     "Bank Nifty": {
-      "price": 56292.45,
-      "as_of": "2026-09-16 15:29:00+05:30"
+      "price": 56264.75,
+      "as_of": "2026-09-17 10:58:00+05:30"
     }
   },
   "news": {
     "Economic Times": [
       {
-        "title": "Stocks in news: Infosys, Mazagon Dock, Fortis Healthcare, JSW Energy and Kalpataru Projects",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/stocks-in-news-infosys-mazagon-dock-fortis-healthcare-jsw-energy-and-kalpataru-projects/articleshow/134296725.cms",
-        "published": "Thu, 17 Sep 2026 06:00:00 +0530"
+        "title": "US Market: Fed's Warsh points to AI investment, geopolitical risks for higher yields",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-market-feds-warsh-points-to-ai-investment-geopolitical-risks-for-higher-yields/articleshow/134302106.cms",
+        "published": "Thu, 17 Sep 2026 10:32:15 +0530"
       },
       {
-        "title": "Pre-market action: Here's the trade setup for today's session",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/pre-market-action-heres-the-trade-setup-for-todays-session/articleshow/134296710.cms",
-        "published": "Thu, 17 Sep 2026 06:00:00 +0530"
+        "title": "Rupee slips below 96 per dollar level in early trade",
+        "link": "https://economictimes.indiatimes.com/markets/forex/rupee-slips-below-96-per-dollar-level-in-early-trade/articleshow/134302075.cms",
+        "published": "Thu, 17 Sep 2026 10:28:26 +0530"
       },
       {
-        "title": "Retail investors shift from secondary market to IPOs in July-August, selling Rs 5,674 crore",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/retail-investors-shift-from-secondary-market-to-ipos-in-july-august-selling-rs-5674-crore/articleshow/134296954.cms",
-        "published": "Thu, 17 Sep 2026 05:51:18 +0530"
+        "title": "US Fed Rate Hike: What it means for your money and investments",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-fed-rate-hike-what-it-means-for-your-money-and-investments/articleshow/134301840.cms",
+        "published": "Thu, 17 Sep 2026 10:17:45 +0530"
       },
       {
-        "title": "Shriram Finance plans $500 million bond buyback",
-        "link": "https://economictimes.indiatimes.com/markets/bonds/shriram-finance-plans-500-million-bond-buyback/articleshow/134296966.cms",
-        "published": "Thu, 17 Sep 2026 05:47:54 +0530"
+        "title": "LCC Projects makes strong D-Street debut, listing at 31% premium over IPO price",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/lcc-projects-makes-strong-d-street-debut-lists-at-31-premium-on-nse/articleshow/134301876.cms",
+        "published": "Thu, 17 Sep 2026 10:14:45 +0530"
       },
       {
-        "title": "NSE IPO attracts 150+ anchor investors, raises Rs 6,746 crore",
-        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/nse-anchor-book-draws-rs-6746-crore-from-150-plus-anchor-investors/articleshow/134296772.cms",
-        "published": "Thu, 17 Sep 2026 05:30:33 +0530"
+        "title": "Asset Reconstruction Company shares list flat at Rs 139 on BSE, NSE",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/asset-reconstruction-company-shares-list-flat-at-rs-139-on-bse-nse/articleshow/134301418.cms",
+        "published": "Thu, 17 Sep 2026 10:11:07 +0530"
       }
     ],
-    "Moneycontrol": [],
+    "Moneycontrol": [
+      {
+        "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+        "link": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
+        "published": "Tue, 23 Apr 2024 15:46:31 +0530"
+      },
+      {
+        "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
+        "published": "Tue, 23 Apr 2024 14:51:26 +0530"
+      },
+      {
+        "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
+        "link": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
+        "published": "Tue, 23 Apr 2024 12:23:21 +0530"
+      },
+      {
+        "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
+        "published": "Tue, 23 Apr 2024 09:45:50 +0530"
+      }
+    ],
     "Livemint": [
       {
-        "title": "Thin margins, high costs: why discount brokers are upset over UPI fees",
-        "link": "https://www.livemint.com/market/brokers-forum-raises-concerns-on-mdr-with-sebi-11789568350506.html",
-        "published": "Thu, 17 Sep 2026 06:00:52 +0530"
+        "title": "Pine Labs share price jumps 5%: Why new UPI MDR rules could boost earnings - Check new target",
+        "link": "https://www.livemint.com/market/stock-market-news/pine-labs-share-price-jumps-5-why-new-upi-mdr-rules-could-boost-earnings-check-new-target-11789620515487.html",
+        "published": "Thu, 17 Sep 2026 10:30:11 +0530"
       },
       {
-        "title": "Brokers push back against Sebi's proposed net worth rule",
-        "link": "https://www.livemint.com/market/sebis-new-capital-rule-for-brokers-sparks-pushback-we-dont-hold-that-money-anymore-11789539286446.html",
-        "published": "Thu, 17 Sep 2026 06:00:12 +0530"
+        "title": "GRSE vs Cochin Shipyard dividend comparison ahead of record date: Which defence PSU wins on yield, stock performance?",
+        "link": "https://www.livemint.com/market/stock-market-news/grse-vs-cochin-shipyard-dividend-comparison-ahead-of-record-date-which-defence-psu-wins-on-yield-stock-performance-11789617257760.html",
+        "published": "Thu, 17 Sep 2026 10:24:10 +0530"
       },
       {
-        "title": "Stock recommendations for 17 September from MarketSmith India",
-        "link": "https://www.livemint.com/market/stock-market-news/stock-recommendations-for-17-september-from-marketsmith-india-11789562865616.html",
-        "published": "Thu, 17 Sep 2026 06:00:12 +0530"
+        "title": "Tata Sons Listing: 1st board meeting after RBI directive \u2014 Only 3 options, one is IPO, check other 2 as expert weighs in",
+        "link": "https://www.livemint.com/market/ipo/tata-sons-listing-1st-board-meeting-after-rbi-directive-only-3-options-one-is-ipo-check-other-2-as-expert-weighs-in-11789615193609.html",
+        "published": "Thu, 17 Sep 2026 10:14:53 +0530"
       },
       {
-        "title": "Fed to Pressure Asian FX With Yen in Focus, Strategists Say",
-        "link": "https://www.livemint.com/market/fed-to-pressure-asian-fx-with-yen-in-focus-strategists-say-11789602661534.html",
-        "published": "Thu, 17 Sep 2026 05:21:01 +0530"
+        "title": "IPOs listing: Rentomojo, Karamtara Engineering to LCC Projects \u2014 six IPOs list today, delivers up to 30% premium",
+        "link": "https://www.livemint.com/market/ipos-listing-rentomojo-karamtara-engineering-to-lcc-projects-six-ipos-list-today-delivers-up-to-30-premium-11789618177065.html",
+        "published": "Thu, 17 Sep 2026 10:09:30 +0530"
       },
       {
-        "title": "ROI-Move over real estate, Wall St now drives US spending:\u00a0McGeever",
-        "link": "https://www.livemint.com/market/roimove-over-real-estate-wall-st-now-drives-us-spendingmcgeever-11789601497819.html",
-        "published": "Thu, 17 Sep 2026 05:01:37 +0530"
+        "title": "Krsnaa Diagnostics share price jumps 11%: Stock in focus after company enters PET-CT segment",
+        "link": "https://www.livemint.com/market/stock-market-news/krsnaa-diagnostics-share-price-jumps-11-stock-in-focus-after-company-enters-pet-ct-segment-11789618324127.html",
+        "published": "Thu, 17 Sep 2026 09:58:42 +0530"
       }
     ]
   },
