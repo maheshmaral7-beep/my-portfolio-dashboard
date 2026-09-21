@@ -1,73 +1,94 @@
 {
-  "fetched_at": "2026-09-21T00:29:20.604554+00:00",
+  "fetched_at": "2026-09-21T05:19:14.996201+00:00",
   "market_prices": {
     "Nifty 50": {
-      "price": 23346.4,
-      "as_of": "2026-09-18 15:29:00+05:30"
+      "price": 23377.6,
+      "as_of": "2026-09-21 10:49:00+05:30"
     },
     "Sensex": {
-      "price": 74294.96,
-      "as_of": "2026-09-18 15:29:00+05:30"
+      "price": 74613.76,
+      "as_of": "2026-09-21 10:34:00+05:30"
     },
     "Bank Nifty": {
-      "price": 56358.7,
-      "as_of": "2026-09-18 15:29:00+05:30"
+      "price": 56408.4,
+      "as_of": "2026-09-21 10:49:00+05:30"
     }
   },
   "news": {
     "Economic Times": [
       {
-        "title": "EM local bonds gain favour as dollar debt lags",
-        "link": "https://economictimes.indiatimes.com/markets/bonds/em-local-bonds-gain-favour-as-dollar-debt-lags/articleshow/134377150.cms",
-        "published": "Mon, 21 Sep 2026 04:54:23 +0530"
+        "title": "JSW Cement shares gain 2% after Motilal Oswal upgrades stock to Buy. Check target price",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/jsw-cement-shares-gain-2-after-motilal-oswal-upgrades-stock-to-buy-check-target-price/articleshow/134380119.cms",
+        "published": "Mon, 21 Sep 2026 10:22:34 +0530"
       },
       {
-        "title": "India Inc, individuals could soon get to settle fund diversion cases",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/india-inc-individuals-could-soon-get-to-settle-fund-diversion-cases/articleshow/134377339.cms",
-        "published": "Mon, 21 Sep 2026 01:20:02 +0530"
+        "title": "Do Rs 10,000 crore IPOs reward investors? Rs 1 lakh crore history has a warning for NSE bulls",
+        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/do-rs-10000-crore-ipos-reward-investors-rs-1-lakh-crore-history-has-a-warning-for-nse-bulls/articleshow/134380003.cms",
+        "published": "Mon, 21 Sep 2026 10:11:24 +0530"
       },
       {
-        "title": "Ahead of Market: 10 things that will decide stock market action on Monday",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-monday/articleshow/134367341.cms",
-        "published": "Sun, 20 Sep 2026 16:48:48 +0530"
+        "title": "Jindal Supreme IPO allotment likely today: GMP signals 31% listing gain. Here\u2019s how to check status",
+        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/jindal-supreme-ipo-allotment-likely-today-gmp-signals-31-listing-gain-heres-how-to-check-status/articleshow/134379830.cms",
+        "published": "Mon, 21 Sep 2026 10:02:00 +0530"
       },
       {
-        "title": "SME IPO: Liqvd Digital India issue to open on Sep 23; price band fixed at Rs 51-54",
-        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/sme-ipo-liqvd-digital-india-issue-to-open-on-sep-23-price-band-fixed-at-rs-51-54/articleshow/134367283.cms",
-        "published": "Sun, 20 Sep 2026 16:44:10 +0530"
+        "title": "Lenskart shares drop 3% after 3 crore shares change hands in block deal; Platinum Jasmine likely seller",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/lenskart-shares-drop-3-after-3-crore-shares-change-hands-in-block-deal-platinum-jasmine-likely-seller/articleshow/134379757.cms",
+        "published": "Mon, 21 Sep 2026 10:01:32 +0530"
       },
       {
-        "title": "Gold likely to stay range-bound next week as dollar, West Asia tensions guide market: Analysts",
-        "link": "https://economictimes.indiatimes.com/markets/commodities/news/gold-likely-to-stay-range-bound-next-week-as-dollar-west-asia-tensions-guide-market-analysts/articleshow/134367215.cms",
-        "published": "Sun, 20 Sep 2026 16:42:00 +0530"
+        "title": "Gold prices fall Rs 1,331/10 gram, silver dips Rs 1,600/kg as Mideast tensions outweigh oil fall: Key levels to track",
+        "link": "https://economictimes.indiatimes.com/markets/commodities/news/gold-prices-fall-rs-1331/10-gram-silver-dips-rs-1600/kg-as-mideast-tensions-outweigh-oil-fall-key-levels-to-track/articleshow/134379699.cms",
+        "published": "Mon, 21 Sep 2026 09:55:34 +0530"
       }
     ],
-    "Moneycontrol": [],
+    "Moneycontrol": [
+      {
+        "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+        "link": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
+        "published": "Tue, 23 Apr 2024 15:46:31 +0530"
+      },
+      {
+        "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
+        "published": "Tue, 23 Apr 2024 14:51:26 +0530"
+      },
+      {
+        "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
+        "link": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
+        "published": "Tue, 23 Apr 2024 12:23:21 +0530"
+      },
+      {
+        "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
+        "published": "Tue, 23 Apr 2024 09:45:50 +0530"
+      }
+    ],
     "Livemint": [
       {
-        "title": "Oil Steady as Traders Look to Mideast Supply Risks and Diplomacy",
-        "link": "https://www.livemint.com/market/oil-steady-as-traders-look-to-mideast-supply-risks-and-diplomacy-11789945835765.html",
-        "published": "Mon, 21 Sep 2026 04:40:35 +0530"
+        "title": "295% return in 5 years: Jaiprakash Power Ventures share price zooms 12% today - what's driving the rally?",
+        "link": "https://www.livemint.com/market/stock-market-news/295-return-in-5-years-jaiprakash-power-ventures-share-price-zooms-12-today-whats-driving-the-rally-11789966643108.html",
+        "published": "Mon, 21 Sep 2026 10:36:54 +0530"
       },
       {
-        "title": "Yen Vulnerable With Japan on Holiday After BOJ Disappoints",
-        "link": "https://www.livemint.com/market/yen-vulnerable-with-japan-on-holiday-after-boj-disappoints-11789945472363.html",
-        "published": "Mon, 21 Sep 2026 04:34:31 +0530"
+        "title": "Anupam Rasayan share price falls 5% after NCD issue announcement | NCD size, other details here",
+        "link": "https://www.livemint.com/market/stock-market-news/anupam-rasayan-share-price-falls-5-after-ncd-issue-announcement-ncd-size-other-details-here-11789964385605.html",
+        "published": "Mon, 21 Sep 2026 10:04:29 +0530"
       },
       {
-        "title": "Gold Edges Higher as Lower Oil, Fed Hike Temper Inflation Fears",
-        "link": "https://www.livemint.com/market/gold-edges-higher-as-lower-oil-fed-hike-temper-inflation-fears-11789944196686.html",
-        "published": "Mon, 21 Sep 2026 04:13:16 +0530"
+        "title": "Why Adani Total Gas lost 5%, Adani Ports fell 2% despite gains on Sensex, Nifty | Check how other Adani stocks performed",
+        "link": "https://www.livemint.com/market/stock-market-news/why-adani-total-gas-lost-5-adani-ports-fell-2-despite-gains-on-sensex-nifty-check-how-other-adani-stocks-performed-11789964095418.html",
+        "published": "Mon, 21 Sep 2026 09:58:25 +0530"
       },
       {
-        "title": "Gold price prediction: Will US-Iran war, crude oil rates impact yellow metal rates? Check technical outlook",
-        "link": "https://www.livemint.com/market/commodities/gold-price-prediction-will-us-iran-war-crude-oil-rates-impact-yellow-metal-rates-check-technical-outlook-11789900773882.html",
-        "published": "Sun, 20 Sep 2026 17:18:06 +0530"
+        "title": "Refex Industries share price jumps 4% on  \u20b9160 crore order win ahead of board meeting | Check stock performance",
+        "link": "https://www.livemint.com/market/stock-market-news/refex-industries-share-price-jumps-4-on-160-crore-order-win-ahead-of-board-meeting-check-stock-performance-11789963623535.html",
+        "published": "Mon, 21 Sep 2026 09:56:50 +0530"
       },
       {
-        "title": "Top stocks in focus tomorrow: Mazagon Dock, RVNL, Nestle India shares to move Sensex, Nifty? Monday, 21 Sept | Triggers",
-        "link": "https://www.livemint.com/market/stock-market-news/top-stocks-in-focus-tomorrow-mazagon-dock-rvnl-nestle-india-shares-to-move-sensex-nifty-monday-21-sept-triggers-11789897835796.html",
-        "published": "Sun, 20 Sep 2026 16:04:26 +0530"
+        "title": "Welspun Corp, Welspun Enterprises hit 52-week highs after order wins; stocks jump up to 5% today",
+        "link": "https://www.livemint.com/market/stock-market-news/welspun-corp-welspun-enterprises-hit-52-week-highs-after-order-wins-stocks-jump-up-to-5-today-11789962742077.html",
+        "published": "Mon, 21 Sep 2026 09:40:30 +0530"
       }
     ]
   },
