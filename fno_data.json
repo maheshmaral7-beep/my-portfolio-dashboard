@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T15:57:38.383492+00:00",
+  "generated_at": "2026-09-22T08:35:19.401895+00:00",
   "disclaimer": "Descriptive classification of today's futures/options activity, not a prediction or a trade recommendation. Does not suggest any option, strike, or strategy to trade.",
   "stock_futures_scanned": 210,
   "buildup": {
@@ -2117,55 +2117,55 @@
       "error": "list index out of range"
     },
     "BANKNIFTY": {
-      "underlying_value": 56470.65,
+      "underlying_value": 56155.95,
       "expiry": "29-Sep-2026",
-      "atm_strike": 57000,
-      "max_pain": 57000,
-      "total_call_oi": 551805,
-      "total_put_oi": 535259,
-      "pcr": 0.97,
+      "atm_strike": 55500,
+      "max_pain": 56900,
+      "total_call_oi": 615800,
+      "total_put_oi": 530147,
+      "pcr": 0.86,
       "top_call_oi_strikes": [
         {
           "strike": "58000",
-          "oi": 53655
+          "oi": 53928
         },
         {
           "strike": "57500",
-          "oi": 48398
+          "oi": 52408
         },
         {
           "strike": "57000",
-          "oi": 37499
+          "oi": 42184
+        },
+        {
+          "strike": "56500",
+          "oi": 38759
         },
         {
           "strike": "60000",
-          "oi": 36206
-        },
-        {
-          "strike": "58500",
-          "oi": 30481
+          "oi": 34893
         }
       ],
       "top_put_oi_strikes": [
         {
           "strike": "57500",
-          "oi": 46408
-        },
-        {
-          "strike": "56000",
-          "oi": 33358
+          "oi": 44252
         },
         {
           "strike": "54000",
-          "oi": 32593
+          "oi": 31073
+        },
+        {
+          "strike": "56000",
+          "oi": 29428
         },
         {
           "strike": "55000",
-          "oi": 29035
+          "oi": 29362
         },
         {
-          "strike": "56500",
-          "oi": 25664
+          "strike": "55500",
+          "oi": 25528
         }
       ]
     }
