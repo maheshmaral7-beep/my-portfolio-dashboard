@@ -2378,5 +2378,90 @@
         "category": "earnings_winners"
       }
     ]
+  },
+  {
+    "date": "2026-09-22",
+    "picks": [
+      {
+        "symbol": "PAYTM",
+        "name": "One 97 Communications Ltd.",
+        "sector": "Financial Services",
+        "entry": 1814.4,
+        "target": 1849.9,
+        "category": "momentum_leaders"
+      },
+      {
+        "symbol": "LICHSGFIN",
+        "name": "LIC Housing Finance Ltd.",
+        "sector": "Financial Services",
+        "entry": 565.0,
+        "target": 581.77,
+        "category": "breakout_candidates"
+      },
+      {
+        "symbol": "ADANIGREEN",
+        "name": "Adani Green Energy Ltd.",
+        "sector": "Power",
+        "entry": 1304.0,
+        "target": 1604.5,
+        "category": "turnaround_stories"
+      },
+      {
+        "symbol": "PATANJALI",
+        "name": "Patanjali Foods Ltd.",
+        "sector": "Fast Moving Consumer Goods",
+        "entry": 404.0,
+        "target": 601.52,
+        "category": "emerging_leaders"
+      },
+      {
+        "symbol": "GLENMARK",
+        "name": "Glenmark Pharmaceuticals Ltd.",
+        "sector": "Healthcare",
+        "entry": 2461.4,
+        "target": 2512.5,
+        "category": "earnings_winners"
+      },
+      {
+        "symbol": "DIVISLAB",
+        "name": "Divi's Laboratories Ltd.",
+        "sector": "Healthcare",
+        "entry": 9352.0,
+        "target": 9575.0,
+        "category": "momentum_leaders"
+      },
+      {
+        "symbol": "LENSKART",
+        "name": "Lenskart Solutions Ltd.",
+        "sector": "Consumer Services",
+        "entry": 691.45,
+        "target": 707.2,
+        "category": "earnings_winners"
+      },
+      {
+        "symbol": "LAURUSLABS",
+        "name": "Laurus Labs Ltd.",
+        "sector": "Healthcare",
+        "entry": 2006.5,
+        "target": 2017.5,
+        "category": "momentum_leaders"
+      },
+      {
+        "symbol": "ADANIENSOL",
+        "name": "Adani Energy Solutions Ltd.",
+        "sector": "Power",
+        "entry": 1381.7,
+        "target": 1741.6,
+        "category": "turnaround_stories"
+      },
+      {
+        "symbol": "ETERNAL",
+        "name": "Eternal Ltd.",
+        "sector": "Consumer Services",
+        "entry": 342.0,
+        "target": 354.35,
+        "category": "earnings_winners"
+      }
+    ]
   }
 ]
