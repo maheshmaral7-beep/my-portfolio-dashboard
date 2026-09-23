@@ -1,73 +1,94 @@
 {
-  "fetched_at": "2026-09-23T00:56:22.415421+00:00",
+  "fetched_at": "2026-09-23T05:29:00.100768+00:00",
   "market_prices": {
     "Nifty 50": {
-      "price": 23329.0,
-      "as_of": "2026-09-22 15:29:00+05:30"
+      "price": 23415.25,
+      "as_of": "2026-09-23 10:58:00+05:30"
     },
     "Sensex": {
-      "price": 74529.08,
-      "as_of": "2026-09-22 15:29:00+05:30"
+      "price": 74787.34,
+      "as_of": "2026-09-23 10:43:00+05:30"
     },
     "Bank Nifty": {
-      "price": 56215.55,
-      "as_of": "2026-09-22 15:29:00+05:30"
+      "price": 56598.0,
+      "as_of": "2026-09-23 10:58:00+05:30"
     }
   },
   "news": {
     "Economic Times": [
       {
-        "title": "WACR tops repo rate for first time in nearly 2 months",
-        "link": "https://economictimes.indiatimes.com/markets/forex/forex-news/wacr-surpasses-repo-rate-for-the-first-time-in-2-months-as-rbi-drains-liquidity/articleshow/134423446.cms",
-        "published": "Wed, 23 Sep 2026 06:02:12 +0530"
+        "title": "Stocks to buy: Jefferies remains bullish on these 4 capital market stocks, sees up to 36% upside",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/stocks-to-buy-jefferies-remains-bullish-on-these-4-capital-market-stocks-sees-up-to-36-upside/slideshow/134426298.cms",
+        "published": "Wed, 23 Sep 2026 10:31:18 +0530"
       },
       {
-        "title": "Pre-market action: Here's the trade setup for today's session",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/pre-market-action-heres-the-trade-setup-for-todays-session/articleshow/134416943.cms",
-        "published": "Wed, 23 Sep 2026 06:00:00 +0530"
+        "title": "Sensex crossed 85K for first time 2 years ago, now down 10K points from milestone. What can trigger the next bull run?",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/sensex-crossed-85k-for-first-time-2-years-ago-now-down-10k-points-from-milestone-what-can-trigger-the-next-bull-run/articleshow/134426180.cms",
+        "published": "Wed, 23 Sep 2026 10:29:20 +0530"
       },
       {
-        "title": "Stocks in news: Adani Group, OMCs, Persistent Systems and IRB Infra",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/stocks-in-news-adani-group-omcs-persistent-systems-and-irb-infra/articleshow/134416639.cms",
-        "published": "Wed, 23 Sep 2026 06:00:00 +0530"
+        "title": "Ola Electric shares soar 10%, stock rallies 86% in 6 months. More upside ahead?",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/ola-electric-shares-soar-10-stock-rallies-86-in-6-months-more-upside-ahead/articleshow/134426139.cms",
+        "published": "Wed, 23 Sep 2026 10:23:57 +0530"
       },
       {
-        "title": "Rupee strengthens to 95.59 amid drop in oil prices &amp; RBI dollar sales",
-        "link": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-strengthens-to-95-59-amid-drop-in-oil-prices-rbi-dollar-sales/articleshow/134423415.cms",
-        "published": "Wed, 23 Sep 2026 05:53:13 +0530"
+        "title": "Missed the NSE IPO? Here are 5 of the largest issues in the pipeline to keep on your radar",
+        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/missed-the-nse-ipo-here-are-5-of-the-largest-issues-in-the-pipeline-to-keep-on-your-radar/articleshow/134426046.cms",
+        "published": "Wed, 23 Sep 2026 10:20:22 +0530"
       },
       {
-        "title": "September sees biggest IPO rush in nearly 30 years as 30 mainboard issues raise Rs 38,785 crore",
-        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/september-sees-biggest-ipo-rush-in-nearly-30-years-as-30-mainboard-issues-raise-rs-38785-crore/articleshow/134423399.cms",
-        "published": "Wed, 23 Sep 2026 05:49:17 +0530"
+        "title": "Arvind SmartSpaces shares rally 11% as bookings cross Rs 500 crore in Bengaluru project",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/arvind-smartspaces-shares-rally-11-as-bookings-cross-rs-500-crore-in-bengaluru-project/articleshow/134425999.cms",
+        "published": "Wed, 23 Sep 2026 10:15:09 +0530"
       }
     ],
-    "Moneycontrol": [],
+    "Moneycontrol": [
+      {
+        "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+        "link": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
+        "published": "Tue, 23 Apr 2024 15:46:31 +0530"
+      },
+      {
+        "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
+        "published": "Tue, 23 Apr 2024 14:51:26 +0530"
+      },
+      {
+        "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
+        "link": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
+        "published": "Tue, 23 Apr 2024 12:23:21 +0530"
+      },
+      {
+        "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
+        "published": "Tue, 23 Apr 2024 09:45:50 +0530"
+      }
+    ],
     "Livemint": [
       {
-        "title": "Stock recommendations for 23 September from MarketSmith India",
-        "link": "https://www.livemint.com/market/stock-market-news/stock-recommendations-for-23-september-from-marketsmith-india-11790078815895.html",
-        "published": "Wed, 23 Sep 2026 06:00:32 +0530"
+        "title": "Lalithaa Jewellery share price hits 5% upper circuit | What\u2019s driving the rally?",
+        "link": "https://www.livemint.com/market/stock-market-news/lalithaa-jewellery-share-price-hits-5-upper-circuit-what-s-driving-the-rally-11790139873026.html",
+        "published": "Wed, 23 Sep 2026 10:54:17 +0530"
       },
       {
-        "title": "Raja Venkatraman recommends three stocks for 23 September",
-        "link": "https://www.livemint.com/market/stock-market-news/raja-venkatraman-recommends-three-stocks-for-23-september-11790090181176.html",
-        "published": "Wed, 23 Sep 2026 06:00:32 +0530"
+        "title": "Arihant Capital Markets share price rallies 9% to  \u20b999 today: Check 1-week, 1-month, 1-year returns",
+        "link": "https://www.livemint.com/market/stock-market-news/arihant-capital-markets-share-price-rallies-9-to-rs-99-today-check-1-week-1-month-1-year-returns-11790136734071.html",
+        "published": "Wed, 23 Sep 2026 10:24:14 +0530"
       },
       {
-        "title": "Gold Steadies as Iran Talks Temper Concerns Over Fed Rate Path",
-        "link": "https://www.livemint.com/market/gold-steadies-as-iran-talks-temper-concerns-over-fed-rate-path-11790122783726.html",
-        "published": "Wed, 23 Sep 2026 05:49:43 +0530"
+        "title": "IPO listings today: SS Retail vs Hero Motors vs Jindal Supreme - Bumper listing and flop show details",
+        "link": "https://www.livemint.com/market/ipo/ipo-listings-today-ss-retail-vs-hero-motors-vs-jindal-supreme-bumper-listing-and-flop-show-details-11790134601026.html",
+        "published": "Wed, 23 Sep 2026 10:18:02 +0530"
       },
       {
-        "title": "Oil Extends Slump on Iran Talks Optimism, Saudi Pipeline Outlook",
-        "link": "https://www.livemint.com/market/oil-extends-slump-on-iran-talks-optimism-saudi-pipeline-outlook-11790120533470.html",
-        "published": "Wed, 23 Sep 2026 05:12:12 +0530"
+        "title": "Oswal Pumps share price rises 8% after  \u20b9273 crore order win | Rally ahead or resistance wall?",
+        "link": "https://www.livemint.com/market/stock-market-news/oswal-pumps-share-price-rises-8-after-rs-273-crore-order-win-rally-ahead-or-resistance-wall-11790135838844.html",
+        "published": "Wed, 23 Sep 2026 10:05:41 +0530"
       },
       {
-        "title": "CME cattle sag as traders watch cash prices, beef demand",
-        "link": "https://www.livemint.com/market/cme-cattle-sag-as-traders-watch-cash-prices-beef-demand-11790113929946.html",
-        "published": "Wed, 23 Sep 2026 03:22:09 +0530"
+        "title": "Allcargo Terminals share price jumps 7% after this monthly business update - Stock up 20% in 6 months",
+        "link": "https://www.livemint.com/market/stock-market-news/allcargo-terminals-share-price-jumps-7-after-this-monthly-business-update-stock-up-20-in-6-months-11790137565229.html",
+        "published": "Wed, 23 Sep 2026 10:04:28 +0530"
       }
     ]
   },
