@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-26T09:56:48.017865+00:00",
+  "fetched_at": "2026-09-26T14:07:49.435643+00:00",
   "market_prices": {
     "Nifty 50": {
       "price": 23140.5,
@@ -17,6 +17,16 @@
   "news": {
     "Economic Times": [
       {
+        "title": "Same playbook, different numbers: Why FPI selling may not be the story it looks like",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/same-playbook-different-numbers-why-fpi-selling-may-not-be-the-story-it-looks-like/articleshow/134503513.cms",
+        "published": "Sat, 26 Sep 2026 17:05:56 +0530"
+      },
+      {
+        "title": "J Infratech files IPO papers; eyes Rs 600 cr via fresh issue",
+        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/j-infratech-files-ipo-papers-eyes-rs-600-cr-via-fresh-issue/articleshow/134502249.cms",
+        "published": "Sat, 26 Sep 2026 15:48:10 +0530"
+      },
+      {
         "title": "F&amp;O Talk: 23,270 is a key Nifty hurdle; Sudeep Shah picks 5 stocks, discusses PB Fintech, Turtlemint strategy",
         "link": "https://economictimes.indiatimes.com/markets/expert-view/fo-talk-23270-is-a-key-nifty-hurdle-sudeep-shah-picks-5-stocks-discusses-pb-fintech-turtlemint-strategy/articleshow/134501331.cms",
         "published": "Sat, 26 Sep 2026 14:50:42 +0530"
@@ -30,20 +40,46 @@
         "title": "Nifty at key 23,000 support: Can bulls trigger a technical rebound?",
         "link": "https://economictimes.indiatimes.com/markets/stocks/news/nifty-at-key-23000-support-can-bulls-trigger-a-technical-rebound/articleshow/134500890.cms",
         "published": "Sat, 26 Sep 2026 14:21:07 +0530"
-      },
-      {
-        "title": "FIIs, MFs raise stakes in 10 stocks; shares gain up to 40% in 3 months",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/fiis-mfs-raise-stakes-in-10-stocks-shares-gain-up-to-40-in-3-months/slideshow/134500775.cms",
-        "published": "Sat, 26 Sep 2026 13:58:34 +0530"
-      },
-      {
-        "title": "Vishal Nirmiti IPO to open on Sep 30; price band fixed at Rs 208-220",
-        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/vishal-nirmiti-ipo-to-open-on-sep-30-price-band-fixed-at-rs-208-220/articleshow/134500328.cms",
-        "published": "Sat, 26 Sep 2026 13:44:34 +0530"
       }
     ],
-    "Moneycontrol": [],
+    "Moneycontrol": [
+      {
+        "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+        "link": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
+        "published": "Tue, 23 Apr 2024 15:46:31 +0530"
+      },
+      {
+        "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
+        "published": "Tue, 23 Apr 2024 14:51:26 +0530"
+      },
+      {
+        "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
+        "link": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
+        "published": "Tue, 23 Apr 2024 12:23:21 +0530"
+      },
+      {
+        "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
+        "published": "Tue, 23 Apr 2024 09:45:50 +0530"
+      }
+    ],
     "Livemint": [
+      {
+        "title": "\u2018India\u2019s drone leader\u2019: Buy Ideaforge stock for 27% upside, says Ashika Securities - check share price target",
+        "link": "https://www.livemint.com/market/stock-market-news/drone-stock-ideaforge-gets-buy-rating-ashika-sees-27-upside-check-target-price-11790422161462.html",
+        "published": "Sat, 26 Sep 2026 17:57:36 +0530"
+      },
+      {
+        "title": "After NSE IPO exchange debut, Macquarie calls stock \u2018The Dominator\u2019 - here\u2019s why | Check share price target",
+        "link": "https://www.livemint.com/market/stock-market-news/after-nse-ipo-exchange-debut-macquarie-calls-stock-the-dominator-here-s-why-check-share-price-target-11790419480001.html",
+        "published": "Sat, 26 Sep 2026 16:57:03 +0530"
+      },
+      {
+        "title": "Nifty 50 target: Will it hit 25,000 this year? Market experts weigh in on what could drive the recovery",
+        "link": "https://www.livemint.com/market/stock-market-news/nifty-50-target-will-it-hit-25-000-this-year-market-experts-weigh-in-on-what-could-drive-the-recovery-11790417165969.html",
+        "published": "Sat, 26 Sep 2026 16:04:13 +0530"
+      },
       {
         "title": "\u20b98 interim dividend declared; check company, record date, payment date",
         "link": "https://www.livemint.com/market/stock-market-news/rs-8-interim-dividend-declared-check-company-record-date-payment-date-11790411316866.html",
@@ -53,21 +89,6 @@
         "title": "Expert View: 'Stock selection crucial', says Hitesh Tailor of Choice Broking; reveals 3 sectors with strong technicals",
         "link": "https://www.livemint.com/market/stock-market-news/expert-view-stock-selection-crucial-says-hitesh-tailor-of-choice-broking-reveals-3-sectors-with-strong-technicals-11790409800130.html",
         "published": "Sat, 26 Sep 2026 13:57:50 +0530"
-      },
-      {
-        "title": "Adroit Industries, ArMee Infotech, Swastika Infra, Elevate Campuses: Check GMP, full subscription ahead of allotment",
-        "link": "https://www.livemint.com/market/ipo/adroit-industries-armee-infotech-swastika-infra-elevate-campuses-check-ipo-gmp-full-subscription-ahead-of-allotment-11790406651184.html",
-        "published": "Sat, 26 Sep 2026 13:20:24 +0530"
-      },
-      {
-        "title": "Stocks to buy for long term: Vedanta Iron and Steel, Vedanta Oil and Gas or Vedanta Power: Which is better? Target, SL",
-        "link": "https://www.livemint.com/market/stock-market-news/stocks-to-buy-for-long-term-vedanta-iron-and-steel-vedanta-oil-and-gas-or-vedanta-power-which-is-better-target-sl-11790398619797.html",
-        "published": "Sat, 26 Sep 2026 12:08:00 +0530"
-      },
-      {
-        "title": "Greed and Fear index: BEL, Adani Energy to Eternal | Chris Wood's Jefferies India portfolio has 22 stocks for long term",
-        "link": "https://www.livemint.com/market/stock-market-news/greed-and-fear-index-bel-adani-energy-to-eternal-chris-woods-jefferies-india-portfolio-has-22-stocks-for-long-term-11790402739237.html",
-        "published": "Sat, 26 Sep 2026 12:03:26 +0530"
       }
     ]
   },
