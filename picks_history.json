@@ -2803,5 +2803,90 @@
         "category": "turnaround_stories"
       }
     ]
+  },
+  {
+    "date": "2026-09-29",
+    "picks": [
+      {
+        "symbol": "DIVISLAB",
+        "name": "Divi's Laboratories Ltd.",
+        "sector": "Healthcare",
+        "entry": 9431.0,
+        "target": 9624.0,
+        "category": "momentum_leaders"
+      },
+      {
+        "symbol": "GLENMARK",
+        "name": "Glenmark Pharmaceuticals Ltd.",
+        "sector": "Healthcare",
+        "entry": 2441.5,
+        "target": 2512.5,
+        "category": "earnings_winners"
+      },
+      {
+        "symbol": "LODHA",
+        "name": "Lodha Developers Ltd.",
+        "sector": "Realty",
+        "entry": 1106.6,
+        "target": 1311.74,
+        "category": "turnaround_stories"
+      },
+      {
+        "symbol": "MANKIND",
+        "name": "Mankind Pharma Ltd.",
+        "sector": "Healthcare",
+        "entry": 2545.0,
+        "target": 2617.9,
+        "category": "emerging_leaders"
+      },
+      {
+        "symbol": "PERSISTENT",
+        "name": "Persistent Systems Ltd.",
+        "sector": "Information Technology",
+        "entry": 5162.0,
+        "target": 6517.4,
+        "category": "undervalued_quality"
+      },
+      {
+        "symbol": "PATANJALI",
+        "name": "Patanjali Foods Ltd.",
+        "sector": "Fast Moving Consumer Goods",
+        "entry": 371.4,
+        "target": 601.52,
+        "category": "emerging_leaders"
+      },
+      {
+        "symbol": "LENSKART",
+        "name": "Lenskart Solutions Ltd.",
+        "sector": "Consumer Services",
+        "entry": 674.6,
+        "target": 707.2,
+        "category": "earnings_winners"
+      },
+      {
+        "symbol": "ICICIAMC",
+        "name": "ICICI Prudential Asset Management Company Ltd.",
+        "sector": "Financial Services",
+        "entry": 3233.0,
+        "target": 3524.81,
+        "category": "emerging_leaders"
+      },
+      {
+        "symbol": "PAYTM",
+        "name": "One 97 Communications Ltd.",
+        "sector": "Financial Services",
+        "entry": 1683.0,
+        "target": 1849.9,
+        "category": "momentum_leaders"
+      },
+      {
+        "symbol": "ETERNAL",
+        "name": "Eternal Ltd.",
+        "sector": "Consumer Services",
+        "entry": 327.85,
+        "target": 354.35,
+        "category": "earnings_winners"
+      }
+    ]
   }
 ]
