@@ -1,73 +1,94 @@
 {
-  "fetched_at": "2026-10-01T07:43:53.652706+00:00",
+  "fetched_at": "2026-10-01T14:47:08.105801+00:00",
   "market_prices": {
     "Nifty 50": {
-      "price": 22374.25,
-      "as_of": "2026-10-01 13:13:00+05:30"
+      "price": 22421.95,
+      "as_of": "2026-10-01 15:29:00+05:30"
     },
     "Sensex": {
-      "price": 71564.99,
-      "as_of": "2026-10-01 12:58:00+05:30"
+      "price": 71909.7,
+      "as_of": "2026-10-01 15:29:00+05:30"
     },
     "Bank Nifty": {
-      "price": 54451.55,
-      "as_of": "2026-10-01 13:13:00+05:30"
+      "price": 54450.75,
+      "as_of": "2026-10-01 15:29:00+05:30"
     }
   },
   "news": {
     "Economic Times": [
       {
-        "title": "US Market: 10-year yield surges to 5.31%, highest since 2007",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-market-10-year-yield-surges-to-5-31-highest-since-2007/articleshow/134611550.cms",
-        "published": "Thu, 01 Oct 2026 12:44:22 +0530"
+        "title": "Sebi revamps Document Number Verification System, adds subject matter as mandatory field",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-revamps-document-number-verification-system-adds-subject-matter-as-mandatory-field/articleshow/134621918.cms",
+        "published": "Thu, 01 Oct 2026 19:58:00 +0530"
       },
       {
-        "title": "Highway Infrastructure shares jump 9% after Rs 245 crore toll operations win from UP authority, NHAI",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/highway-infrastructure-shares-jump-9-after-rs-245-crore-toll-operations-win-from-up-authority-nhai/articleshow/134610442.cms",
-        "published": "Thu, 01 Oct 2026 12:02:37 +0530"
+        "title": "UK pound falls to three-month lows as investors fret over rates, oil",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/uk-pound-falls-to-three-month-lows-as-investors-fret-over-rates-oil/articleshow/134621868.cms",
+        "published": "Thu, 01 Oct 2026 19:53:53 +0530"
       },
       {
-        "title": "$2 billion gone in two days! FIIs accelerate selling as Nifty, Sensex set to fall for 8th week running. Will they make a comeback?",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/2-billion-gone-in-two-days-fiis-accelerate-selling-as-nifty-sensex-set-to-fall-for-8th-week-running-will-they-make-a-comeback/articleshow/134610354.cms",
-        "published": "Thu, 01 Oct 2026 11:55:19 +0530"
+        "title": "UK 30-year gilt yields top 6% for the first time since 1998",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/uk-30-year-gilt-yields-top-6-for-the-first-time-since-1998/articleshow/134621852.cms",
+        "published": "Thu, 01 Oct 2026 19:52:13 +0530"
       },
       {
-        "title": "Global Market: BOJ policymakers see scope for faster rate hikes as inflation pressure builds",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-boj-policymakers-see-scope-for-faster-rate-hikes-as-inflation-pressure-builds/articleshow/134609392.cms",
-        "published": "Thu, 01 Oct 2026 11:11:56 +0530"
+        "title": "Jio Platforms IPO in final stages after concluding worldwide roadshows",
+        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-platforms-ipo-in-final-stages-after-concluding-worldwide-roadshows/articleshow/134621273.cms",
+        "published": "Thu, 01 Oct 2026 19:27:17 +0530"
       },
       {
-        "title": "Global Market: Japan\u2019s Nikkei hits six-week high as chip stocks rally on AI optimism",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-japans-nikkei-hits-six-week-high-as-chip-stocks-rally-on-ai-optimism/articleshow/134609469.cms",
-        "published": "Thu, 01 Oct 2026 11:11:15 +0530"
+        "title": "RBI eases bank stake rules, allows one-time approval for MFs, insurers for holdings up to 10%",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/rbi-eases-bank-stake-rules-allows-one-time-approval-for-mfs-insurers-for-holdings-up-to-10/articleshow/134621230.cms",
+        "published": "Thu, 01 Oct 2026 19:23:12 +0530"
       }
     ],
-    "Moneycontrol": [],
+    "Moneycontrol": [
+      {
+        "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+        "link": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
+        "published": "Tue, 23 Apr 2024 15:46:31 +0530"
+      },
+      {
+        "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
+        "published": "Tue, 23 Apr 2024 14:51:26 +0530"
+      },
+      {
+        "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
+        "link": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
+        "published": "Tue, 23 Apr 2024 12:23:21 +0530"
+      },
+      {
+        "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
+        "published": "Tue, 23 Apr 2024 09:45:50 +0530"
+      }
+    ],
     "Livemint": [
       {
-        "title": "Galaxy Surfactants shares rise 6% | What\u2019s boosting the outlook? Nuvama raises target price, retains \u2018Buy\u2019",
-        "link": "https://www.livemint.com/market/stock-market-news/galaxy-surfactants-shares-rise-6-what-s-boosting-the-outlook-nuvama-raises-target-price-retains-buy-11790837263522.html",
-        "published": "Thu, 01 Oct 2026 12:53:38 +0530"
+        "title": "HDFC Bank ADRs jump over 5% after Anup Bagchi appointed as MD &amp; CEO for three years",
+        "link": "https://www.livemint.com/market/hdfc-bank-adrs-jump-over-5-after-anup-bagchi-appointed-as-md-ceo-for-three-years-11790864222896.html",
+        "published": "Thu, 01 Oct 2026 20:04:11 +0530"
       },
       {
-        "title": "Bajaj Auto shares crash 8% on weak sales data, down 18% in 1 month: Will Dussehra-Diwali drive rebound? Expert decodes",
-        "link": "https://www.livemint.com/market/stock-market-news/bajaj-auto-share-price-crashes-8-post-weak-auto-sales-data-stock-down-18-in-1-month-can-diwali-dussehra-sales-fix-th-11790838777134.html",
-        "published": "Thu, 01 Oct 2026 12:48:11 +0530"
+        "title": "Pulse of the Street: Eight-week slide puts RBI, earnings in focus",
+        "link": "https://www.livemint.com/market/pulse-of-the-street-eight-week-slide-puts-rbi-earnings-in-focus-11790858167305.html",
+        "published": "Thu, 01 Oct 2026 19:51:09 +0530"
       },
       {
-        "title": "Multibagger power stock Transformers &amp; Rectifiers share price jumps 10% after PM-DHARA push - Can the rally continue?",
-        "link": "https://www.livemint.com/market/stock-market-news/multibagger-power-stock-transformers-rectifiers-share-price-jumps-10-after-pm-dhara-push-can-the-rally-continue-11790835387647.html",
-        "published": "Thu, 01 Oct 2026 12:23:00 +0530"
+        "title": "45% YTD rally! Experts see up to 56% upside in these 3 stocks on China's export shift | Target, rationale",
+        "link": "https://www.livemint.com/market/stock-market-news/45-ytd-rally-experts-see-up-to-56-upside-in-these-3-stocks-on-chinas-export-shift-target-rationale-11790861349055.html",
+        "published": "Thu, 01 Oct 2026 19:04:02 +0530"
       },
       {
-        "title": "100% rally in one year! Multibagger auto stock falls 4% \u2014 should you buy? Experts' rationale, target price",
-        "link": "https://www.livemint.com/market/stock-market-news/100-rally-in-one-year-multibagger-auto-stock-sml-mahindra-falls-4-should-you-buy-experts-rationale-target-price-11790833242622.html",
-        "published": "Thu, 01 Oct 2026 12:07:40 +0530"
+        "title": "Azad Engineering share price: Up 86% in 6 months! Is more steam left in this defence stock? Experts' view, target price",
+        "link": "https://www.livemint.com/market/stock-market-news/azad-engineering-share-price-up-86-in-6-months-is-more-steam-left-in-this-defence-stock-experts-view-target-price-11790858341152.html",
+        "published": "Thu, 01 Oct 2026 18:33:51 +0530"
       },
       {
-        "title": "Hero Motors share price doubles from IPO price, gains 104% | What\u2019s next for investors?",
-        "link": "https://www.livemint.com/market/stock-market-news/hero-motors-share-price-doubles-from-ipo-price-gains-104-what-s-next-for-investors-11790833672744.html",
-        "published": "Thu, 01 Oct 2026 12:06:53 +0530"
+        "title": "Infosys, Wipro ADRs jump up to 10% after Accenture Q4 results beat Wall Street estimates",
+        "link": "https://www.livemint.com/market/stock-market-news/infosys-wipro-adrs-jump-up-to-10-after-accenture-q4-results-beat-wall-street-estimates-11790859181291.html",
+        "published": "Thu, 01 Oct 2026 18:28:16 +0530"
       }
     ]
   },
