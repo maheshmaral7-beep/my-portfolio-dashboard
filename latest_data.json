@@ -1,73 +1,91 @@
 {
-  "fetched_at": "2026-10-02T02:32:01.797042+00:00",
+  "fetched_at": "2026-10-02T08:54:37.921051+00:00",
   "market_prices": {
     "Nifty 50": {
-      "price": 22421.95,
-      "as_of": "2026-10-01 15:29:00+05:30"
+      "error": "no data returned"
     },
     "Sensex": {
-      "price": 71909.7,
-      "as_of": "2026-10-01 15:29:00+05:30"
+      "error": "no data returned"
     },
     "Bank Nifty": {
-      "price": 54450.75,
-      "as_of": "2026-10-01 15:29:00+05:30"
+      "error": "no data returned"
     }
   },
   "news": {
     "Economic Times": [
       {
-        "title": "Oil rises slightly as market weighs mixed supply signals",
-        "link": "https://economictimes.indiatimes.com/markets/commodities/news/oil-rises-slightly-as-market-weighs-mixed-supply-signals/articleshow/134630396.cms",
-        "published": "Fri, 02 Oct 2026 07:43:57 +0530"
+        "title": "European shares edge higher after bonds-driven selloff, focus on inflation data",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/european-shares-edge-higher-after-bonds-driven-selloff-focus-on-inflation-data/articleshow/134635254.cms",
+        "published": "Fri, 02 Oct 2026 13:57:24 +0530"
       },
       {
-        "title": "US dollar climbs to 17-month high as global bond rout hits euro",
-        "link": "https://economictimes.indiatimes.com/markets/forex/forex-news/us-dollar-climbs-to-17-month-high-as-global-bond-rout-hits-euro/articleshow/134630374.cms",
-        "published": "Fri, 02 Oct 2026 07:41:38 +0530"
+        "title": "Inox Air Products files draft papers for initial offer",
+        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/inox-air-products-files-draft-papers-for-initial-offer/articleshow/134634874.cms",
+        "published": "Fri, 02 Oct 2026 13:35:21 +0530"
       },
       {
-        "title": "Stock market holiday today: Are NSE, BSE closed for Gandhi Jayanti? Check 2026 holiday list",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/stock-market-holiday-today-are-nse-bse-closed-for-gandhi-jayanti-check-2026-holiday-list/articleshow/134630179.cms",
-        "published": "Fri, 02 Oct 2026 07:27:42 +0530"
+        "title": "Carlsberg India unit, 3 other firms get Sebi nod to proceed with IPO plans",
+        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/carlsberg-india-unit-3-other-firms-get-sebi-nod-to-proceed-with-ipo-plans/articleshow/134634784.cms",
+        "published": "Fri, 02 Oct 2026 13:30:18 +0530"
       },
       {
-        "title": "US stocks: US market rebounds to close higher as surging Treasury yields recede",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-us-market-rebounds-to-close-higher-as-surging-treasury-yields-recede/articleshow/134626994.cms",
-        "published": "Fri, 02 Oct 2026 01:42:06 +0530"
+        "title": "Bitcoin leads crypto market rebound above $85K as short liquidations accelerate",
+        "link": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/bitcoin-leads-crypto-market-rebound-above-85k-as-short-liquidations-accelerate/articleshow/134634234.cms",
+        "published": "Fri, 02 Oct 2026 12:50:37 +0530"
       },
       {
-        "title": "Fed\u2019s Jefferson urges patience on rates; Kashkari sees more hikes ahead",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/feds-jefferson-urges-patience-on-rates-kashkari-sees-more-hikes-ahead/articleshow/134626712.cms",
-        "published": "Fri, 02 Oct 2026 01:12:38 +0530"
+        "title": "ETMarkets Smart Talk: Rupee under pressure, inflation sticky: Will RBI be forced to rethink rates? Ankita Pathak, Ionic Asset",
+        "link": "https://economictimes.indiatimes.com/markets/expert-view/etmarkets-smart-talk-rupee-under-pressure-inflation-sticky-will-rbi-be-forced-to-rethink-rates-ankita-pathak-ionic-asset/articleshow/134634188.cms",
+        "published": "Fri, 02 Oct 2026 12:44:12 +0530"
       }
     ],
-    "Moneycontrol": [],
+    "Moneycontrol": [
+      {
+        "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+        "link": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
+        "published": "Tue, 23 Apr 2024 15:46:31 +0530"
+      },
+      {
+        "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
+        "published": "Tue, 23 Apr 2024 14:51:26 +0530"
+      },
+      {
+        "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
+        "link": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
+        "published": "Tue, 23 Apr 2024 12:23:21 +0530"
+      },
+      {
+        "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
+        "published": "Tue, 23 Apr 2024 09:45:50 +0530"
+      }
+    ],
     "Livemint": [
       {
-        "title": "Stock market holiday: BSE, NSE closed today | Gandhi Jayanti, 2nd October 2026; how Sensex, Nifty fared on Thursday",
-        "link": "https://www.livemint.com/market/stock-market-news/stock-market-holiday-bse-nse-closed-today-gandhi-jayanti-2nd-october-2026-how-sensex-nifty-fared-on-thursday-11790875225418.html",
-        "published": "Fri, 02 Oct 2026 07:26:44 +0530"
+        "title": "66% returns in 6 months, small-cap stock Rolex Rings gets Buy rating: InCred sees 32% upside - Check share price target",
+        "link": "https://www.livemint.com/market/stock-market-news/66-returns-in-6-months-small-cap-stock-rolex-rings-gets-buy-rating-incred-sees-32-upside-check-share-price-target-11790927993426.html",
+        "published": "Fri, 02 Oct 2026 14:06:08 +0530"
       },
       {
-        "title": "H1 digest: New capex proposals rise, but momentum plunges in September quarter",
-        "link": "https://www.livemint.com/market/h1-digest-new-proposals-rise-in-the-first-half-but-momentum-plunges-in-the-september-quarter-11790847170840.html",
-        "published": "Fri, 02 Oct 2026 06:00:42 +0530"
+        "title": "Final touch underway for Jio Platforms IPO; latest GMP, expected launch date, size, valuation, shareholders quota",
+        "link": "https://www.livemint.com/market/ipo/final-touch-underway-for-jio-platforms-ipo-latest-gmp-expected-launch-date-size-valuation-shareholders-quota-11790924443524.html",
+        "published": "Fri, 02 Oct 2026 13:42:19 +0530"
       },
       {
-        "title": "Where could PB Fintech share price be in the next five years?",
-        "link": "https://www.livemint.com/market/stock-market-news/where-could-pb-fintech-share-price-be-in-the-next-five-years-11790853370279.html",
-        "published": "Fri, 02 Oct 2026 06:00:42 +0530"
+        "title": "Nifty 500 stocks fall up to 70% from 52-week highs; why broad market recovery may remain elusive in short term",
+        "link": "https://www.livemint.com/market/stock-market-news/nifty-500-stocks-fall-up-to-70-from-52-week-highs-why-broad-market-recovery-may-remain-elusive-in-short-term-11790910378791.html",
+        "published": "Fri, 02 Oct 2026 13:39:28 +0530"
       },
       {
-        "title": "Brokerages weigh new charges, mandates as UPI MDR set to take effect",
-        "link": "https://www.livemint.com/market/brokerages-weigh-new-charges-mandates-as-upi-mdr-set-to-take-effect-11790841248280.html",
-        "published": "Fri, 02 Oct 2026 06:00:42 +0530"
+        "title": "Emami\u2019s D2C bet faces a new test as buyback offers support",
+        "link": "https://www.livemint.com/market/mark-to-market/emamis-d2c-bet-faces-a-new-test-as-buyback-offers-support-11790923580043.html",
+        "published": "Fri, 02 Oct 2026 13:23:42 +0530"
       },
       {
-        "title": "Oil Extends Gains as US Weighs Sending Carrier to Middle East",
-        "link": "https://www.livemint.com/market/oil-extends-gains-as-us-weighs-sending-carrier-to-middle-east-11790897581331.html",
-        "published": "Fri, 02 Oct 2026 05:03:00 +0530"
+        "title": "Dividend, bonus, split, buyback, spin off in October: TCS, NMDC, PTC India, JSW Dulux among key corporate actions | List",
+        "link": "https://www.livemint.com/market/stock-market-news/dividend-bonus-split-buyback-spin-off-in-october-tcs-nmdc-ptc-india-jsw-dulux-among-key-corporate-actions-list-11790925015237.html",
+        "published": "Fri, 02 Oct 2026 13:15:20 +0530"
       }
     ]
   },
