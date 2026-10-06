@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T17:12:47.470845+00:00",
+  "generated_at": "2026-10-06T17:43:24.444951+00:00",
   "universe": "Nifty 200",
   "universe_size_scanned": 200,
   "disclaimer": "Rules-based screener, not investment advice or a prediction. Scores are percentile ranks within today's matching stocks, not probabilities.",
@@ -11,444 +11,19 @@
         "sector": "Healthcare",
         "score": 100,
         "confidence": 70,
-        "risk": 16,
-        "why": "Up 37.15% over 3 months, trading above both its 50-day and 200-day averages.",
-        "cmp": 9249.0,
-        "entry": 9249.0,
+        "risk": 13,
+        "why": "Up 40.28% over 3 months, trading above both its 50-day and 200-day averages.",
+        "cmp": 9550.0,
+        "entry": 9550.0,
         "target": 9624.0,
-        "upside_pct": 4.05,
+        "upside_pct": 0.77,
         "signal": "Momentum",
         "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=DIVISLAB",
         "stats": {
-          "ret_1m_pct": -0.01,
-          "ret_3m_pct": 37.15,
-          "dist_from_52w_high_pct": -3.9,
-          "volatility_ann_pct": 23.86
-        }
-      },
-      {
-        "symbol": "LAURUSLABS",
-        "name": "Laurus Labs Ltd.",
-        "sector": "Healthcare",
-        "score": 95,
-        "confidence": 70,
-        "risk": 47,
-        "why": "Up 34.29% over 3 months, trading above both its 50-day and 200-day averages.",
-        "cmp": 1984.0,
-        "entry": 1984.0,
-        "target": 2034.0,
-        "upside_pct": 2.52,
-        "signal": "Momentum",
-        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=LAURUSLABS",
-        "stats": {
-          "ret_1m_pct": 6.18,
-          "ret_3m_pct": 34.29,
-          "dist_from_52w_high_pct": -2.46,
-          "volatility_ann_pct": 28.35
-        }
-      },
-      {
-        "symbol": "PAYTM",
-        "name": "One 97 Communications Ltd.",
-        "sector": "Financial Services",
-        "score": 89,
-        "confidence": 70,
-        "risk": 89,
-        "why": "Up 32.91% over 3 months, trading above both its 50-day and 200-day averages.",
-        "cmp": 1656.0,
-        "entry": 1656.0,
-        "target": 1849.9,
-        "upside_pct": 11.71,
-        "signal": "Momentum",
-        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=PAYTM",
-        "stats": {
-          "ret_1m_pct": 1.16,
-          "ret_3m_pct": 32.91,
-          "dist_from_52w_high_pct": -10.48,
-          "volatility_ann_pct": 39.53
-        }
-      },
-      {
-        "symbol": "LENSKART",
-        "name": "Lenskart Solutions Ltd.",
-        "sector": "Consumer Services",
-        "score": 84,
-        "confidence": 70,
-        "risk": 58,
-        "why": "Up 29.04% over 3 months, trading above both its 50-day and 200-day averages.",
-        "cmp": 691.15,
-        "entry": 691.15,
-        "target": 707.2,
-        "upside_pct": 2.32,
-        "signal": "Momentum",
-        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=LENSKART",
-        "stats": {
-          "ret_1m_pct": 2.78,
-          "ret_3m_pct": 29.04,
-          "dist_from_52w_high_pct": -2.27,
-          "volatility_ann_pct": 35.04
-        }
-      },
-      {
-        "symbol": "APARINDS",
-        "name": "Apar Industries Ltd.",
-        "sector": "Capital Goods",
-        "score": 79,
-        "confidence": 70,
-        "risk": 95,
-        "why": "Up 25.12% over 3 months, trading above both its 50-day and 200-day averages.",
-        "cmp": 17648.0,
-        "entry": 17648.0,
-        "target": 18945.0,
-        "upside_pct": 7.35,
-        "signal": "Momentum",
-        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=APARINDS",
-        "stats": {
-          "ret_1m_pct": 0.03,
-          "ret_3m_pct": 25.12,
-          "dist_from_52w_high_pct": -6.85,
-          "volatility_ann_pct": 46.59
-        }
-      },
-      {
-        "symbol": "MCX",
-        "name": "Multi Commodity Exchange of India Ltd.",
-        "sector": "Financial Services",
-        "score": 74,
-        "confidence": 70,
-        "risk": 68,
-        "why": "Up 21.51% over 3 months, trading above both its 50-day and 200-day averages.",
-        "cmp": 3204.0,
-        "entry": 3204.0,
-        "target": 3433.29,
-        "upside_pct": 7.16,
-        "signal": "Momentum",
-        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=MCX",
-        "stats": {
-          "ret_1m_pct": 1.07,
-          "ret_3m_pct": 21.51,
-          "dist_from_52w_high_pct": -6.68,
-          "volatility_ann_pct": 38.28
-        }
-      },
-      {
-        "symbol": "COFORGE",
-        "name": "Coforge Ltd.",
-        "sector": "Information Technology",
-        "score": 68,
-        "confidence": 70,
-        "risk": 74,
-        "why": "Up 20.71% over 3 months, trading above both its 50-day and 200-day averages.",
-        "cmp": 1826.0,
-        "entry": 1826.0,
-        "target": 2014.6,
-        "upside_pct": 10.33,
-        "signal": "Momentum",
-        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=COFORGE",
-        "stats": {
-          "ret_1m_pct": -7.39,
-          "ret_3m_pct": 20.71,
-          "dist_from_52w_high_pct": -9.36,
-          "volatility_ann_pct": 38.68
-        }
-      },
-      {
-        "symbol": "APLAPOLLO",
-        "name": "APL Apollo Tubes Ltd.",
-        "sector": "Capital Goods",
-        "score": 63,
-        "confidence": 70,
-        "risk": 37,
-        "why": "Up 16.71% over 3 months, trading above both its 50-day and 200-day averages.",
-        "cmp": 2115.7,
-        "entry": 2115.7,
-        "target": 2272.05,
-        "upside_pct": 7.39,
-        "signal": "Momentum",
-        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=APLAPOLLO",
-        "stats": {
-          "ret_1m_pct": -1.65,
-          "ret_3m_pct": 16.71,
-          "dist_from_52w_high_pct": -6.88,
-          "volatility_ann_pct": 27.83
-        }
-      },
-      {
-        "symbol": "MEESHO",
-        "name": "Meesho Ltd.",
-        "sector": "Consumer Services",
-        "score": 58,
-        "confidence": 70,
-        "risk": 100,
-        "why": "Up 14.85% over 3 months, trading above both its 50-day and 200-day averages.",
-        "cmp": 218.69,
-        "entry": 218.69,
-        "target": 240.19,
-        "upside_pct": 9.83,
-        "signal": "Momentum",
-        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=MEESHO",
-        "stats": {
-          "ret_1m_pct": 4.27,
-          "ret_3m_pct": 14.85,
-          "dist_from_52w_high_pct": -8.95,
-          "volatility_ann_pct": 55.92
-        }
-      },
-      {
-        "symbol": "BHEL",
-        "name": "Bharat Heavy Electricals Ltd.",
-        "sector": "Capital Goods",
-        "score": 53,
-        "confidence": 70,
-        "risk": 63,
-        "why": "Up 12.19% over 3 months, trading above both its 50-day and 200-day averages.",
-        "cmp": 421.0,
-        "entry": 421.0,
-        "target": 442.65,
-        "upside_pct": 5.14,
-        "signal": "Momentum",
-        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=BHEL",
-        "stats": {
-          "ret_1m_pct": -2.5,
-          "ret_3m_pct": 12.19,
-          "dist_from_52w_high_pct": -4.89,
-          "volatility_ann_pct": 36.41
-        }
-      }
-    ],
-    "breakout_candidates": [],
-    "turnaround_stories": [
-      {
-        "symbol": "KALYANKJIL",
-        "name": "Kalyan Jewellers India Ltd.",
-        "sector": "Consumer Durables",
-        "score": 100,
-        "confidence": 55,
-        "risk": 100,
-        "why": "Up 60.42% from its 6-month low, still 16.38% below its 52-week high.",
-        "cmp": 528.5,
-        "entry": 528.5,
-        "target": 632.02,
-        "upside_pct": 19.59,
-        "signal": "Turnaround",
-        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=KALYANKJIL",
-        "stats": {
-          "ret_1m_pct": -9.34,
-          "ret_3m_pct": 49.59,
-          "dist_from_52w_high_pct": -16.38,
-          "volatility_ann_pct": 47.23
-        }
-      },
-      {
-        "symbol": "OFSS",
-        "name": "Oracle Financial Services Software Ltd.",
-        "sector": "Information Technology",
-        "score": 91,
-        "confidence": 55,
-        "risk": 27,
-        "why": "Up 49.61% from its 6-month low, still 16.91% below its 52-week high.",
-        "cmp": 10420.0,
-        "entry": 10420.0,
-        "target": 12540.0,
-        "upside_pct": 20.35,
-        "signal": "Turnaround",
-        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=OFSS",
-        "stats": {
-          "ret_1m_pct": -14.23,
-          "ret_3m_pct": -6.1,
-          "dist_from_52w_high_pct": -16.91,
-          "volatility_ann_pct": 32.73
-        }
-      },
-      {
-        "symbol": "LODHA",
-        "name": "Lodha Developers Ltd.",
-        "sector": "Realty",
-        "score": 82,
-        "confidence": 55,
-        "risk": 45,
-        "why": "Up 42.45% from its 6-month low, still 15.72% below its 52-week high.",
-        "cmp": 1105.6,
-        "entry": 1105.6,
-        "target": 1311.74,
-        "upside_pct": 18.65,
-        "signal": "Turnaround",
-        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=LODHA",
-        "stats": {
-          "ret_1m_pct": -10.41,
-          "ret_3m_pct": 0.63,
-          "dist_from_52w_high_pct": -15.72,
-          "volatility_ann_pct": 37.69
-        }
-      },
-      {
-        "symbol": "IDEA",
-        "name": "Vodafone Idea Ltd.",
-        "sector": "Telecommunication",
-        "score": 73,
-        "confidence": 55,
-        "risk": 91,
-        "why": "Up 38.6% from its 6-month low, still 18.97% below its 52-week high.",
-        "cmp": 12.64,
-        "entry": 12.64,
-        "target": 15.6,
-        "upside_pct": 23.42,
-        "signal": "Turnaround",
-        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=IDEA",
-        "stats": {
-          "ret_1m_pct": -12.71,
-          "ret_3m_pct": -8.74,
-          "dist_from_52w_high_pct": -18.97,
-          "volatility_ann_pct": 45.47
-        }
-      },
-      {
-        "symbol": "EXIDEIND",
-        "name": "Exide Industries Ltd.",
-        "sector": "Automobile and Auto Components",
-        "score": 64,
-        "confidence": 55,
-        "risk": 18,
-        "why": "Up 32.18% from its 6-month low, still 16.55% below its 52-week high.",
-        "cmp": 409.45,
-        "entry": 409.45,
-        "target": 490.65,
-        "upside_pct": 19.83,
-        "signal": "Turnaround",
-        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=EXIDEIND",
-        "stats": {
-          "ret_1m_pct": -3.2,
-          "ret_3m_pct": -1.22,
-          "dist_from_52w_high_pct": -16.55,
-          "volatility_ann_pct": 29.53
-        }
-      },
-      {
-        "symbol": "DIXON",
-        "name": "Dixon Technologies (India) Ltd.",
-        "sector": "Consumer Durables",
-        "score": 55,
-        "confidence": 55,
-        "risk": 55,
-        "why": "Up 25.37% from its 6-month low, still 27.14% below its 52-week high.",
-        "cmp": 12700.0,
-        "entry": 12700.0,
-        "target": 17431.59,
-        "upside_pct": 37.26,
-        "signal": "Turnaround",
-        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=DIXON",
-        "stats": {
-          "ret_1m_pct": -12.01,
-          "ret_3m_pct": -4.02,
-          "dist_from_52w_high_pct": -27.14,
-          "volatility_ann_pct": 38.86
-        }
-      },
-      {
-        "symbol": "PERSISTENT",
-        "name": "Persistent Systems Ltd.",
-        "sector": "Information Technology",
-        "score": 45,
-        "confidence": 55,
-        "risk": 36,
-        "why": "Up 25.29% from its 6-month low, still 17.65% below its 52-week high.",
-        "cmp": 5367.0,
-        "entry": 5367.0,
-        "target": 6517.4,
-        "upside_pct": 21.43,
-        "signal": "Turnaround",
-        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=PERSISTENT",
-        "stats": {
-          "ret_1m_pct": -5.13,
-          "ret_3m_pct": 10.25,
-          "dist_from_52w_high_pct": -17.65,
-          "volatility_ann_pct": 34.29
-        }
-      },
-      {
-        "symbol": "ADANIGREEN",
-        "name": "Adani Green Energy Ltd.",
-        "sector": "Power",
-        "score": 36,
-        "confidence": 55,
-        "risk": 73,
-        "why": "Up 23.94% from its 6-month low, still 20.47% below its 52-week high.",
-        "cmp": 1276.1,
-        "entry": 1276.1,
-        "target": 1604.5,
-        "upside_pct": 25.73,
-        "signal": "Turnaround",
-        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=ADANIGREEN",
-        "stats": {
-          "ret_1m_pct": -0.57,
-          "ret_3m_pct": -15.99,
-          "dist_from_52w_high_pct": -20.47,
-          "volatility_ann_pct": 41.64
-        }
-      },
-      {
-        "symbol": "ADANIENSOL",
-        "name": "Adani Energy Solutions Ltd.",
-        "sector": "Power",
-        "score": 27,
-        "confidence": 55,
-        "risk": 64,
-        "why": "Up 23.58% from its 6-month low, still 23.84% below its 52-week high.",
-        "cmp": 1326.4,
-        "entry": 1326.4,
-        "target": 1741.6,
-        "upside_pct": 31.3,
-        "signal": "Turnaround",
-        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=ADANIENSOL",
-        "stats": {
-          "ret_1m_pct": -4.28,
-          "ret_3m_pct": -19.66,
-          "dist_from_52w_high_pct": -23.84,
-          "volatility_ann_pct": 39.08
-        }
-      },
-      {
-        "symbol": "HCLTECH",
-        "name": "HCL Technologies Ltd.",
-        "sector": "Information Technology",
-        "score": 18,
-        "confidence": 55,
-        "risk": 9,
-        "why": "Up 21.43% from its 6-month low, still 26.0% below its 52-week high.",
-        "cmp": 1243.1,
-        "entry": 1243.1,
-        "target": 1679.96,
-        "upside_pct": 35.14,
-        "signal": "Turnaround",
-        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=HCLTECH",
-        "stats": {
-          "ret_1m_pct": -5.75,
-          "ret_3m_pct": 7.5,
-          "dist_from_52w_high_pct": -26.0,
-          "volatility_ann_pct": 28.81
-        }
-      }
-    ],
-    "emerging_leaders": [
-      {
-        "symbol": "MANKIND",
-        "name": "Mankind Pharma Ltd.",
-        "sector": "Healthcare",
-        "score": 100,
-        "confidence": 55,
-        "risk": 37,
-        "why": "Mid-cap (outside Nifty 50), up 7.02% in the past month, top quartile of the universe.",
-        "cmp": 2535.0,
-        "entry": 2535.0,
-        "target": 2617.9,
-        "upside_pct": 3.27,
-        "signal": "Emerging",
-        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=MANKIND",
-        "stats": {
-          "ret_1m_pct": 7.02,
-          "ret_3m_pct": 0.3,
-          "dist_from_52w_high_pct": -3.17,
-          "volatility_ann_pct": 26.42
+          "ret_1m_pct": -0.26,
+          "ret_3m_pct": 40.28,
+          "dist_from_52w_high_pct": -0.77,
+          "volatility_ann_pct": 24.05
         }
       },
       {
@@ -456,104 +31,466 @@
         "name": "Laurus Labs Ltd.",
         "sector": "Healthcare",
         "score": 97,
-        "confidence": 55,
-        "risk": 47,
-        "why": "Mid-cap (outside Nifty 50), up 6.18% in the past month, top quartile of the universe.",
-        "cmp": 1984.0,
-        "entry": 1984.0,
-        "target": 2034.0,
-        "upside_pct": 2.52,
-        "signal": "Emerging",
+        "confidence": 70,
+        "risk": 37,
+        "why": "Up 33.31% over 3 months, trading above both its 50-day and 200-day averages.",
+        "cmp": 2050.0,
+        "entry": 2050.0,
+        "target": 2050.0,
+        "upside_pct": 0.0,
+        "signal": "Momentum",
         "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=LAURUSLABS",
         "stats": {
-          "ret_1m_pct": 6.18,
-          "ret_3m_pct": 34.29,
-          "dist_from_52w_high_pct": -2.46,
-          "volatility_ann_pct": 28.35
+          "ret_1m_pct": 5.3,
+          "ret_3m_pct": 33.31,
+          "dist_from_52w_high_pct": 0.0,
+          "volatility_ann_pct": 28.49
         }
       },
       {
-        "symbol": "ENRIN",
-        "name": "Siemens Energy India Ltd.",
+        "symbol": "APARINDS",
+        "name": "Apar Industries Ltd.",
         "sector": "Capital Goods",
-        "score": 95,
-        "confidence": 55,
-        "risk": 82,
-        "why": "Mid-cap (outside Nifty 50), up 5.67% in the past month, top quartile of the universe.",
-        "cmp": 3334.0,
-        "entry": 3334.0,
-        "target": 3872.1,
-        "upside_pct": 16.14,
-        "signal": "Emerging",
-        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=ENRIN",
+        "score": 93,
+        "confidence": 70,
+        "risk": 90,
+        "why": "Up 28.6% over 3 months, trading above both its 50-day and 200-day averages.",
+        "cmp": 18016.0,
+        "entry": 18016.0,
+        "target": 18945.0,
+        "upside_pct": 5.16,
+        "signal": "Momentum",
+        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=APARINDS",
         "stats": {
-          "ret_1m_pct": 5.67,
-          "ret_3m_pct": -1.04,
-          "dist_from_52w_high_pct": -13.9,
-          "volatility_ann_pct": 39.02
+          "ret_1m_pct": 2.52,
+          "ret_3m_pct": 28.6,
+          "dist_from_52w_high_pct": -4.9,
+          "volatility_ann_pct": 46.46
         }
       },
       {
-        "symbol": "VBL",
-        "name": "Varun Beverages Ltd.",
-        "sector": "Fast Moving Consumer Goods",
-        "score": 92,
-        "confidence": 55,
-        "risk": 53,
-        "why": "Mid-cap (outside Nifty 50), up 4.46% in the past month, top quartile of the universe.",
-        "cmp": 425.3,
-        "entry": 425.3,
-        "target": 543.45,
-        "upside_pct": 27.78,
-        "signal": "Emerging",
-        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=VBL",
+        "symbol": "PAYTM",
+        "name": "One 97 Communications Ltd.",
+        "sector": "Financial Services",
+        "score": 90,
+        "confidence": 70,
+        "risk": 80,
+        "why": "Up 26.25% over 3 months, trading above both its 50-day and 200-day averages.",
+        "cmp": 1694.0,
+        "entry": 1694.0,
+        "target": 1849.9,
+        "upside_pct": 9.2,
+        "signal": "Momentum",
+        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=PAYTM",
         "stats": {
-          "ret_1m_pct": 4.46,
-          "ret_3m_pct": -12.08,
-          "dist_from_52w_high_pct": -21.74,
-          "volatility_ann_pct": 29.5
+          "ret_1m_pct": 1.44,
+          "ret_3m_pct": 26.25,
+          "dist_from_52w_high_pct": -8.43,
+          "volatility_ann_pct": 39.13
+        }
+      },
+      {
+        "symbol": "LENSKART",
+        "name": "Lenskart Solutions Ltd.",
+        "sector": "Consumer Services",
+        "score": 87,
+        "confidence": 70,
+        "risk": 57,
+        "why": "Up 25.97% over 3 months, trading above both its 50-day and 200-day averages.",
+        "cmp": 684.85,
+        "entry": 684.85,
+        "target": 707.2,
+        "upside_pct": 3.26,
+        "signal": "Momentum",
+        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=LENSKART",
+        "stats": {
+          "ret_1m_pct": -1.57,
+          "ret_3m_pct": 25.97,
+          "dist_from_52w_high_pct": -3.16,
+          "volatility_ann_pct": 34.84
+        }
+      },
+      {
+        "symbol": "COFORGE",
+        "name": "Coforge Ltd.",
+        "sector": "Information Technology",
+        "score": 83,
+        "confidence": 70,
+        "risk": 73,
+        "why": "Up 23.29% over 3 months, trading above both its 50-day and 200-day averages.",
+        "cmp": 1849.7,
+        "entry": 1849.7,
+        "target": 2014.6,
+        "upside_pct": 8.91,
+        "signal": "Momentum",
+        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=COFORGE",
+        "stats": {
+          "ret_1m_pct": -5.14,
+          "ret_3m_pct": 23.29,
+          "dist_from_52w_high_pct": -8.19,
+          "volatility_ann_pct": 38.44
         }
       },
       {
         "symbol": "MEESHO",
         "name": "Meesho Ltd.",
         "sector": "Consumer Services",
-        "score": 89,
-        "confidence": 55,
+        "score": 80,
+        "confidence": 70,
         "risk": 100,
-        "why": "Mid-cap (outside Nifty 50), up 4.27% in the past month, top quartile of the universe.",
-        "cmp": 218.69,
-        "entry": 218.69,
+        "why": "Up 22.72% over 3 months, trading above both its 50-day and 200-day averages.",
+        "cmp": 238.22,
+        "entry": 238.22,
         "target": 240.19,
-        "upside_pct": 9.83,
-        "signal": "Emerging",
+        "upside_pct": 0.83,
+        "signal": "Momentum",
         "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=MEESHO",
         "stats": {
-          "ret_1m_pct": 4.27,
-          "ret_3m_pct": 14.85,
-          "dist_from_52w_high_pct": -8.95,
-          "volatility_ann_pct": 55.92
+          "ret_1m_pct": 12.87,
+          "ret_3m_pct": 22.72,
+          "dist_from_52w_high_pct": -0.82,
+          "volatility_ann_pct": 55.91
         }
       },
       {
-        "symbol": "LGEINDIA",
-        "name": "LG Electronics India Ltd.",
+        "symbol": "APLAPOLLO",
+        "name": "APL Apollo Tubes Ltd.",
+        "sector": "Capital Goods",
+        "score": 77,
+        "confidence": 70,
+        "risk": 30,
+        "why": "Up 20.96% over 3 months, trading above both its 50-day and 200-day averages.",
+        "cmp": 2152.0,
+        "entry": 2152.0,
+        "target": 2272.05,
+        "upside_pct": 5.58,
+        "signal": "Momentum",
+        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=APLAPOLLO",
+        "stats": {
+          "ret_1m_pct": -2.47,
+          "ret_3m_pct": 20.96,
+          "dist_from_52w_high_pct": -5.28,
+          "volatility_ann_pct": 27.89
+        }
+      },
+      {
+        "symbol": "MCX",
+        "name": "Multi Commodity Exchange of India Ltd.",
+        "sector": "Financial Services",
+        "score": 73,
+        "confidence": 70,
+        "risk": 70,
+        "why": "Up 19.76% over 3 months, trading above both its 50-day and 200-day averages.",
+        "cmp": 3310.0,
+        "entry": 3310.0,
+        "target": 3433.29,
+        "upside_pct": 3.72,
+        "signal": "Momentum",
+        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=MCX",
+        "stats": {
+          "ret_1m_pct": -0.96,
+          "ret_3m_pct": 19.76,
+          "dist_from_52w_high_pct": -3.59,
+          "volatility_ann_pct": 38.32
+        }
+      },
+      {
+        "symbol": "SOLARINDS",
+        "name": "Solar Industries India Ltd.",
+        "sector": "Chemicals",
+        "score": 70,
+        "confidence": 70,
+        "risk": 60,
+        "why": "Up 15.55% over 3 months, trading above both its 50-day and 200-day averages.",
+        "cmp": 20071.0,
+        "entry": 20071.0,
+        "target": 22455.0,
+        "upside_pct": 11.88,
+        "signal": "Momentum",
+        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=SOLARINDS",
+        "stats": {
+          "ret_1m_pct": -8.56,
+          "ret_3m_pct": 15.55,
+          "dist_from_52w_high_pct": -10.62,
+          "volatility_ann_pct": 36.03
+        }
+      }
+    ],
+    "breakout_candidates": [],
+    "turnaround_stories": [
+      {
+        "symbol": "OFSS",
+        "name": "Oracle Financial Services Software Ltd.",
+        "sector": "Information Technology",
+        "score": 100,
+        "confidence": 55,
+        "risk": 29,
+        "why": "Up 50.5% from its 6-month low, still 16.41% below its 52-week high.",
+        "cmp": 10482.0,
+        "entry": 10482.0,
+        "target": 12540.0,
+        "upside_pct": 19.63,
+        "signal": "Turnaround",
+        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=OFSS",
+        "stats": {
+          "ret_1m_pct": -11.02,
+          "ret_3m_pct": -10.03,
+          "dist_from_52w_high_pct": -16.41,
+          "volatility_ann_pct": 32.57
+        }
+      },
+      {
+        "symbol": "IDEA",
+        "name": "Vodafone Idea Ltd.",
+        "sector": "Telecommunication",
+        "score": 86,
+        "confidence": 55,
+        "risk": 100,
+        "why": "Up 42.81% from its 6-month low, still 15.32% below its 52-week high.",
+        "cmp": 13.21,
+        "entry": 13.21,
+        "target": 15.6,
+        "upside_pct": 18.09,
+        "signal": "Turnaround",
+        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=IDEA",
+        "stats": {
+          "ret_1m_pct": -14.33,
+          "ret_3m_pct": -6.91,
+          "dist_from_52w_high_pct": -15.32,
+          "volatility_ann_pct": 45.24
+        }
+      },
+      {
+        "symbol": "PERSISTENT",
+        "name": "Persistent Systems Ltd.",
+        "sector": "Information Technology",
+        "score": 71,
+        "confidence": 55,
+        "risk": 43,
+        "why": "Up 28.89% from its 6-month low, still 15.29% below its 52-week high.",
+        "cmp": 5521.0,
+        "entry": 5521.0,
+        "target": 6517.4,
+        "upside_pct": 18.05,
+        "signal": "Turnaround",
+        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=PERSISTENT",
+        "stats": {
+          "ret_1m_pct": -0.7,
+          "ret_3m_pct": 9.62,
+          "dist_from_52w_high_pct": -15.29,
+          "volatility_ann_pct": 34.21
+        }
+      },
+      {
+        "symbol": "DIXON",
+        "name": "Dixon Technologies (India) Ltd.",
         "sector": "Consumer Durables",
+        "score": 57,
+        "confidence": 55,
+        "risk": 57,
+        "why": "Up 28.48% from its 6-month low, still 25.34% below its 52-week high.",
+        "cmp": 13015.0,
+        "entry": 13015.0,
+        "target": 17431.59,
+        "upside_pct": 33.93,
+        "signal": "Turnaround",
+        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=DIXON",
+        "stats": {
+          "ret_1m_pct": -8.15,
+          "ret_3m_pct": -3.35,
+          "dist_from_52w_high_pct": -25.34,
+          "volatility_ann_pct": 38.75
+        }
+      },
+      {
+        "symbol": "EXIDEIND",
+        "name": "Exide Industries Ltd.",
+        "sector": "Automobile and Auto Components",
+        "score": 43,
+        "confidence": 55,
+        "risk": 14,
+        "why": "Up 25.52% from its 6-month low, still 17.3% below its 52-week high.",
+        "cmp": 405.75,
+        "entry": 405.75,
+        "target": 490.65,
+        "upside_pct": 20.92,
+        "signal": "Turnaround",
+        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=EXIDEIND",
+        "stats": {
+          "ret_1m_pct": -2.97,
+          "ret_3m_pct": -4.39,
+          "dist_from_52w_high_pct": -17.3,
+          "volatility_ann_pct": 29.42
+        }
+      },
+      {
+        "symbol": "M&MFIN",
+        "name": "Mahindra & Mahindra Financial Services Ltd.",
+        "sector": "Financial Services",
+        "score": 29,
+        "confidence": 55,
+        "risk": 71,
+        "why": "Up 21.55% from its 6-month low, still 20.51% below its 52-week high.",
+        "cmp": 327.75,
+        "entry": 327.75,
+        "target": 412.3,
+        "upside_pct": 25.8,
+        "signal": "Turnaround",
+        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=M&MFIN",
+        "stats": {
+          "ret_1m_pct": -12.45,
+          "ret_3m_pct": -1.68,
+          "dist_from_52w_high_pct": -20.51,
+          "volatility_ann_pct": 39.69
+        }
+      },
+      {
+        "symbol": "ADANIGREEN",
+        "name": "Adani Green Energy Ltd.",
+        "sector": "Power",
+        "score": 14,
+        "confidence": 55,
+        "risk": 86,
+        "why": "Up 20.96% from its 6-month low, still 18.17% below its 52-week high.",
+        "cmp": 1313.0,
+        "entry": 1313.0,
+        "target": 1604.5,
+        "upside_pct": 22.2,
+        "signal": "Turnaround",
+        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=ADANIGREEN",
+        "stats": {
+          "ret_1m_pct": 1.63,
+          "ret_3m_pct": -14.55,
+          "dist_from_52w_high_pct": -18.17,
+          "volatility_ann_pct": 41.52
+        }
+      }
+    ],
+    "emerging_leaders": [
+      {
+        "symbol": "MEESHO",
+        "name": "Meesho Ltd.",
+        "sector": "Consumer Services",
+        "score": 100,
+        "confidence": 55,
+        "risk": 100,
+        "why": "Mid-cap (outside Nifty 50), up 12.87% in the past month, top quartile of the universe.",
+        "cmp": 238.22,
+        "entry": 238.22,
+        "target": 240.19,
+        "upside_pct": 0.83,
+        "signal": "Emerging",
+        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=MEESHO",
+        "stats": {
+          "ret_1m_pct": 12.87,
+          "ret_3m_pct": 22.72,
+          "dist_from_52w_high_pct": -0.82,
+          "volatility_ann_pct": 55.91
+        }
+      },
+      {
+        "symbol": "VBL",
+        "name": "Varun Beverages Ltd.",
+        "sector": "Fast Moving Consumer Goods",
+        "score": 97,
+        "confidence": 55,
+        "risk": 53,
+        "why": "Mid-cap (outside Nifty 50), up 8.28% in the past month, top quartile of the universe.",
+        "cmp": 439.3,
+        "entry": 439.3,
+        "target": 543.45,
+        "upside_pct": 23.71,
+        "signal": "Emerging",
+        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=VBL",
+        "stats": {
+          "ret_1m_pct": 8.28,
+          "ret_3m_pct": -8.01,
+          "dist_from_52w_high_pct": -19.16,
+          "volatility_ann_pct": 29.55
+        }
+      },
+      {
+        "symbol": "MANKIND",
+        "name": "Mankind Pharma Ltd.",
+        "sector": "Healthcare",
+        "score": 95,
+        "confidence": 55,
+        "risk": 34,
+        "why": "Mid-cap (outside Nifty 50), up 8.27% in the past month, top quartile of the universe.",
+        "cmp": 2500.0,
+        "entry": 2500.0,
+        "target": 2617.9,
+        "upside_pct": 4.72,
+        "signal": "Emerging",
+        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=MANKIND",
+        "stats": {
+          "ret_1m_pct": 8.27,
+          "ret_3m_pct": -0.99,
+          "dist_from_52w_high_pct": -4.5,
+          "volatility_ann_pct": 26.42
+        }
+      },
+      {
+        "symbol": "BLUESTARCO",
+        "name": "Blue Star Ltd.",
+        "sector": "Consumer Durables",
+        "score": 92,
+        "confidence": 55,
+        "risk": 58,
+        "why": "Mid-cap (outside Nifty 50), up 7.57% in the past month, top quartile of the universe.",
+        "cmp": 1571.5,
+        "entry": 1571.5,
+        "target": 2006.86,
+        "upside_pct": 27.7,
+        "signal": "Emerging",
+        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=BLUESTARCO",
+        "stats": {
+          "ret_1m_pct": 7.57,
+          "ret_3m_pct": -4.98,
+          "dist_from_52w_high_pct": -21.69,
+          "volatility_ann_pct": 32.39
+        }
+      },
+      {
+        "symbol": "BHEL",
+        "name": "Bharat Heavy Electricals Ltd.",
+        "sector": "Capital Goods",
+        "score": 89,
+        "confidence": 55,
+        "risk": 76,
+        "why": "Mid-cap (outside Nifty 50), up 7.07% in the past month, top quartile of the universe.",
+        "cmp": 452.0,
+        "entry": 452.0,
+        "target": 452.0,
+        "upside_pct": 0.0,
+        "signal": "Emerging",
+        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=BHEL",
+        "stats": {
+          "ret_1m_pct": 7.07,
+          "ret_3m_pct": 14.73,
+          "dist_from_52w_high_pct": 0.0,
+          "volatility_ann_pct": 36.66
+        }
+      },
+      {
+        "symbol": "ICICIGI",
+        "name": "ICICI Lombard General Insurance Company Ltd.",
+        "sector": "Financial Services",
         "score": 87,
         "confidence": 55,
-        "risk": 45,
-        "why": "Mid-cap (outside Nifty 50), up 3.58% in the past month, top quartile of the universe.",
-        "cmp": 1721.8,
-        "entry": 1721.8,
-        "target": 1739.2,
-        "upside_pct": 1.01,
+        "risk": 21,
+        "why": "Mid-cap (outside Nifty 50), up 7.02% in the past month, top quartile of the universe.",
+        "cmp": 1598.3,
+        "entry": 1598.3,
+        "target": 2035.17,
+        "upside_pct": 27.33,
         "signal": "Emerging",
-        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=LGEINDIA",
+        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=ICICIGI",
         "stats": {
-          "ret_1m_pct": 3.58,
-          "ret_3m_pct": 9.51,
-          "dist_from_52w_high_pct": -1.0,
-          "volatility_ann_pct": 28.09
+          "ret_1m_pct": 7.02,
+          "ret_3m_pct": -10.94,
+          "dist_from_52w_high_pct": -21.47,
+          "volatility_ann_pct": 25.67
         }
       },
       {
@@ -562,105 +499,105 @@
         "sector": "Fast Moving Consumer Goods",
         "score": 84,
         "confidence": 55,
-        "risk": 50,
-        "why": "Mid-cap (outside Nifty 50), up 3.57% in the past month, top quartile of the universe.",
-        "cmp": 355.15,
-        "entry": 355.15,
+        "risk": 45,
+        "why": "Mid-cap (outside Nifty 50), up 6.14% in the past month, top quartile of the universe.",
+        "cmp": 363.0,
+        "entry": 363.0,
         "target": 601.52,
-        "upside_pct": 69.37,
+        "upside_pct": 65.71,
         "signal": "Emerging",
         "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=PATANJALI",
         "stats": {
-          "ret_1m_pct": 3.57,
-          "ret_3m_pct": -13.76,
-          "dist_from_52w_high_pct": -40.96,
-          "volatility_ann_pct": 28.55
+          "ret_1m_pct": 6.14,
+          "ret_3m_pct": -11.7,
+          "dist_from_52w_high_pct": -39.65,
+          "volatility_ann_pct": 28.48
         }
       },
       {
-        "symbol": "ICICIAMC",
-        "name": "ICICI Prudential Asset Management Company Ltd.",
-        "sector": "Financial Services",
+        "symbol": "PAGEIND",
+        "name": "Page Industries Ltd.",
+        "sector": "Textiles",
         "score": 82,
         "confidence": 55,
-        "risk": 63,
-        "why": "Mid-cap (outside Nifty 50), up 3.5% in the past month, top quartile of the universe.",
-        "cmp": 3084.4,
-        "entry": 3084.4,
-        "target": 3524.81,
-        "upside_pct": 14.28,
+        "risk": 11,
+        "why": "Mid-cap (outside Nifty 50), up 5.72% in the past month, top quartile of the universe.",
+        "cmp": 37970.0,
+        "entry": 37970.0,
+        "target": 43370.55,
+        "upside_pct": 14.22,
         "signal": "Emerging",
-        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=ICICIAMC",
+        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=PAGEIND",
         "stats": {
-          "ret_1m_pct": 3.5,
-          "ret_3m_pct": -3.67,
-          "dist_from_52w_high_pct": -12.49,
-          "volatility_ann_pct": 32.72
+          "ret_1m_pct": 5.72,
+          "ret_3m_pct": -3.09,
+          "dist_from_52w_high_pct": -12.45,
+          "volatility_ann_pct": 23.96
         }
       },
       {
-        "symbol": "LENSKART",
-        "name": "Lenskart Solutions Ltd.",
-        "sector": "Consumer Services",
+        "symbol": "LAURUSLABS",
+        "name": "Laurus Labs Ltd.",
+        "sector": "Healthcare",
         "score": 79,
         "confidence": 55,
-        "risk": 74,
-        "why": "Mid-cap (outside Nifty 50), up 2.78% in the past month, top quartile of the universe.",
-        "cmp": 691.15,
-        "entry": 691.15,
-        "target": 707.2,
-        "upside_pct": 2.32,
+        "risk": 47,
+        "why": "Mid-cap (outside Nifty 50), up 5.3% in the past month, top quartile of the universe.",
+        "cmp": 2050.0,
+        "entry": 2050.0,
+        "target": 2050.0,
+        "upside_pct": 0.0,
         "signal": "Emerging",
-        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=LENSKART",
+        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=LAURUSLABS",
         "stats": {
-          "ret_1m_pct": 2.78,
-          "ret_3m_pct": 29.04,
-          "dist_from_52w_high_pct": -2.27,
-          "volatility_ann_pct": 35.04
+          "ret_1m_pct": 5.3,
+          "ret_3m_pct": 33.31,
+          "dist_from_52w_high_pct": 0.0,
+          "volatility_ann_pct": 28.49
         }
       },
       {
-        "symbol": "ICICIGI",
-        "name": "ICICI Lombard General Insurance Company Ltd.",
-        "sector": "Financial Services",
+        "symbol": "LGEINDIA",
+        "name": "LG Electronics India Ltd.",
+        "sector": "Consumer Durables",
         "score": 76,
         "confidence": 55,
-        "risk": 24,
-        "why": "Mid-cap (outside Nifty 50), up 2.71% in the past month, top quartile of the universe.",
-        "cmp": 1563.0,
-        "entry": 1563.0,
-        "target": 2035.17,
-        "upside_pct": 30.21,
+        "risk": 42,
+        "why": "Mid-cap (outside Nifty 50), up 5.17% in the past month, top quartile of the universe.",
+        "cmp": 1758.6,
+        "entry": 1758.6,
+        "target": 1770.9,
+        "upside_pct": 0.7,
         "signal": "Emerging",
-        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=ICICIGI",
+        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=LGEINDIA",
         "stats": {
-          "ret_1m_pct": 2.71,
-          "ret_3m_pct": -12.89,
-          "dist_from_52w_high_pct": -23.2,
-          "volatility_ann_pct": 25.62
+          "ret_1m_pct": 5.17,
+          "ret_3m_pct": 12.39,
+          "dist_from_52w_high_pct": -0.69,
+          "volatility_ann_pct": 28.08
         }
       }
     ],
     "undervalued_quality": [
       {
-        "symbol": "ICICIGI",
-        "name": "ICICI Lombard General Insurance Company Ltd.",
-        "sector": "Financial Services",
+        "symbol": "INDUSTOWER",
+        "name": "Indus Towers Ltd.",
+        "sector": "Telecommunication",
         "score": 100,
         "confidence": 50,
         "risk": 100,
-        "why": "P/E of 32.4 (below the shortlist median) with ROE of 14.6%.",
-        "cmp": 1563.0,
-        "entry": 1563.0,
-        "target": 2035.17,
-        "upside_pct": 30.21,
+        "why": "P/E of 14.3 (below the shortlist median) with ROE of 18.9%.",
+        "cmp": 389.1,
+        "entry": 389.1,
+        "target": 460.42,
+        "upside_pct": 18.33,
         "signal": "Value",
-        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=ICICIGI",
+        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=INDUSTOWER",
         "stats": {
-          "ret_1m_pct": 2.71,
-          "ret_3m_pct": -12.89,
-          "dist_from_52w_high_pct": -23.2,
-          "volatility_ann_pct": 25.62
+          "ret_1m_pct": 4.3,
+          "ret_3m_pct": -0.59,
+          "dist_from_52w_high_pct": -15.49,
+          "volatility_ann_pct": 26.04
         }
       }
     ],
@@ -671,19 +608,19 @@
         "sector": "Capital Goods",
         "score": 100,
         "confidence": 50,
-        "risk": 57,
+        "risk": 52,
         "why": "Latest quarterly earnings growth of 406.7%.",
-        "cmp": 3804.0,
-        "entry": 3804.0,
+        "cmp": 3854.0,
+        "entry": 3854.0,
         "target": 4114.0,
-        "upside_pct": 8.15,
+        "upside_pct": 6.75,
         "signal": "Earnings",
         "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=SIEMENS",
         "stats": {
-          "ret_1m_pct": -5.61,
-          "ret_3m_pct": 9.38,
-          "dist_from_52w_high_pct": -7.54,
-          "volatility_ann_pct": 30.34
+          "ret_1m_pct": -2.46,
+          "ret_3m_pct": 10.77,
+          "dist_from_52w_high_pct": -6.32,
+          "volatility_ann_pct": 30.5
         }
       },
       {
@@ -692,19 +629,19 @@
         "sector": "Consumer Services",
         "score": 96,
         "confidence": 50,
-        "risk": 79,
+        "risk": 67,
         "why": "Latest quarterly earnings growth of 269.2%.",
-        "cmp": 691.15,
-        "entry": 691.15,
+        "cmp": 684.85,
+        "entry": 684.85,
         "target": 707.2,
-        "upside_pct": 2.32,
+        "upside_pct": 3.26,
         "signal": "Earnings",
         "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=LENSKART",
         "stats": {
-          "ret_1m_pct": 2.78,
-          "ret_3m_pct": 29.04,
-          "dist_from_52w_high_pct": -2.27,
-          "volatility_ann_pct": 35.04
+          "ret_1m_pct": -1.57,
+          "ret_3m_pct": 25.97,
+          "dist_from_52w_high_pct": -3.16,
+          "volatility_ann_pct": 34.84
         }
       },
       {
@@ -713,19 +650,19 @@
         "sector": "Consumer Services",
         "score": 93,
         "confidence": 50,
-        "risk": 68,
+        "risk": 56,
         "why": "Latest quarterly earnings growth of 268.0%.",
-        "cmp": 313.9,
-        "entry": 313.9,
+        "cmp": 329.0,
+        "entry": 329.0,
         "target": 354.35,
-        "upside_pct": 12.89,
+        "upside_pct": 7.71,
         "signal": "Earnings",
         "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=ETERNAL",
         "stats": {
-          "ret_1m_pct": -3.36,
-          "ret_3m_pct": 8.47,
-          "dist_from_52w_high_pct": -11.42,
-          "volatility_ann_pct": 33.13
+          "ret_1m_pct": 2.3,
+          "ret_3m_pct": 13.59,
+          "dist_from_52w_high_pct": -7.15,
+          "volatility_ann_pct": 33.1
         }
       },
       {
@@ -734,145 +671,145 @@
         "sector": "Healthcare",
         "score": 89,
         "confidence": 50,
-        "risk": 43,
+        "risk": 41,
         "why": "Latest quarterly earnings growth of 125.5%.",
-        "cmp": 1984.0,
-        "entry": 1984.0,
-        "target": 2034.0,
-        "upside_pct": 2.52,
+        "cmp": 2050.0,
+        "entry": 2050.0,
+        "target": 2050.0,
+        "upside_pct": 0.0,
         "signal": "Earnings",
         "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=LAURUSLABS",
         "stats": {
-          "ret_1m_pct": 6.18,
-          "ret_3m_pct": 34.29,
-          "dist_from_52w_high_pct": -2.46,
-          "volatility_ann_pct": 28.35
+          "ret_1m_pct": 5.3,
+          "ret_3m_pct": 33.31,
+          "dist_from_52w_high_pct": 0.0,
+          "volatility_ann_pct": 28.49
         }
       },
       {
         "symbol": "MCX",
         "name": "Multi Commodity Exchange of India Ltd.",
         "sector": "Financial Services",
-        "score": 86,
+        "score": 85,
         "confidence": 50,
-        "risk": 82,
+        "risk": 74,
         "why": "Latest quarterly earnings growth of 103.5%.",
-        "cmp": 3204.0,
-        "entry": 3204.0,
+        "cmp": 3310.0,
+        "entry": 3310.0,
         "target": 3433.29,
-        "upside_pct": 7.16,
+        "upside_pct": 3.72,
         "signal": "Earnings",
         "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=MCX",
         "stats": {
-          "ret_1m_pct": 1.07,
-          "ret_3m_pct": 21.51,
-          "dist_from_52w_high_pct": -6.68,
-          "volatility_ann_pct": 38.28
+          "ret_1m_pct": -0.96,
+          "ret_3m_pct": 19.76,
+          "dist_from_52w_high_pct": -3.59,
+          "volatility_ann_pct": 38.32
         }
       },
       {
         "symbol": "MOTHERSON",
         "name": "Samvardhana Motherson International Ltd.",
         "sector": "Automobile and Auto Components",
-        "score": 82,
+        "score": 81,
         "confidence": 50,
-        "risk": 71,
+        "risk": 63,
         "why": "Latest quarterly earnings growth of 101.6%.",
-        "cmp": 157.03,
-        "entry": 157.03,
+        "cmp": 160.0,
+        "entry": 160.0,
         "target": 170.68,
-        "upside_pct": 8.69,
+        "upside_pct": 6.68,
         "signal": "Earnings",
         "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=MOTHERSON",
         "stats": {
-          "ret_1m_pct": -3.07,
-          "ret_3m_pct": 9.72,
-          "dist_from_52w_high_pct": -8.0,
-          "volatility_ann_pct": 34.06
+          "ret_1m_pct": -2.35,
+          "ret_3m_pct": 11.93,
+          "dist_from_52w_high_pct": -6.26,
+          "volatility_ann_pct": 33.98
+        }
+      },
+      {
+        "symbol": "SOLARINDS",
+        "name": "Solar Industries India Ltd.",
+        "sector": "Chemicals",
+        "score": 78,
+        "confidence": 50,
+        "risk": 70,
+        "why": "Latest quarterly earnings growth of 92.7%.",
+        "cmp": 20071.0,
+        "entry": 20071.0,
+        "target": 22455.0,
+        "upside_pct": 11.88,
+        "signal": "Earnings",
+        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=SOLARINDS",
+        "stats": {
+          "ret_1m_pct": -8.56,
+          "ret_3m_pct": 15.55,
+          "dist_from_52w_high_pct": -10.62,
+          "volatility_ann_pct": 36.03
         }
       },
       {
         "symbol": "PATANJALI",
         "name": "Patanjali Foods Ltd.",
         "sector": "Fast Moving Consumer Goods",
-        "score": 79,
+        "score": 74,
         "confidence": 50,
-        "risk": 46,
+        "risk": 37,
         "why": "Latest quarterly earnings growth of 86.1%.",
-        "cmp": 355.15,
-        "entry": 355.15,
+        "cmp": 363.0,
+        "entry": 363.0,
         "target": 601.52,
-        "upside_pct": 69.37,
+        "upside_pct": 65.71,
         "signal": "Earnings",
         "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=PATANJALI",
         "stats": {
-          "ret_1m_pct": 3.57,
-          "ret_3m_pct": -13.76,
-          "dist_from_52w_high_pct": -40.96,
-          "volatility_ann_pct": 28.55
+          "ret_1m_pct": 6.14,
+          "ret_3m_pct": -11.7,
+          "dist_from_52w_high_pct": -39.65,
+          "volatility_ann_pct": 28.48
         }
       },
       {
         "symbol": "PAYTM",
         "name": "One 97 Communications Ltd.",
         "sector": "Financial Services",
-        "score": 75,
+        "score": 70,
         "confidence": 50,
-        "risk": 93,
+        "risk": 85,
         "why": "Latest quarterly earnings growth of 79.6%.",
-        "cmp": 1656.0,
-        "entry": 1656.0,
+        "cmp": 1694.0,
+        "entry": 1694.0,
         "target": 1849.9,
-        "upside_pct": 11.71,
+        "upside_pct": 9.2,
         "signal": "Earnings",
         "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=PAYTM",
         "stats": {
-          "ret_1m_pct": 1.16,
-          "ret_3m_pct": 32.91,
-          "dist_from_52w_high_pct": -10.48,
-          "volatility_ann_pct": 39.53
+          "ret_1m_pct": 1.44,
+          "ret_3m_pct": 26.25,
+          "dist_from_52w_high_pct": -8.43,
+          "volatility_ann_pct": 39.13
         }
       },
       {
         "symbol": "APARINDS",
         "name": "Apar Industries Ltd.",
         "sector": "Capital Goods",
-        "score": 71,
+        "score": 67,
         "confidence": 50,
-        "risk": 96,
+        "risk": 93,
         "why": "Latest quarterly earnings growth of 77.8%.",
-        "cmp": 17648.0,
-        "entry": 17648.0,
+        "cmp": 18016.0,
+        "entry": 18016.0,
         "target": 18945.0,
-        "upside_pct": 7.35,
+        "upside_pct": 5.16,
         "signal": "Earnings",
         "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=APARINDS",
         "stats": {
-          "ret_1m_pct": 0.03,
-          "ret_3m_pct": 25.12,
-          "dist_from_52w_high_pct": -6.85,
-          "volatility_ann_pct": 46.59
-        }
-      },
-      {
-        "symbol": "ENRIN",
-        "name": "Siemens Energy India Ltd.",
-        "sector": "Capital Goods",
-        "score": 68,
-        "confidence": 50,
-        "risk": 89,
-        "why": "Latest quarterly earnings growth of 67.8%.",
-        "cmp": 3334.0,
-        "entry": 3334.0,
-        "target": 3872.1,
-        "upside_pct": 16.14,
-        "signal": "Earnings",
-        "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=ENRIN",
-        "stats": {
-          "ret_1m_pct": 5.67,
-          "ret_3m_pct": -1.04,
-          "dist_from_52w_high_pct": -13.9,
-          "volatility_ann_pct": 39.02
+          "ret_1m_pct": 2.52,
+          "ret_3m_pct": 28.6,
+          "dist_from_52w_high_pct": -4.9,
+          "volatility_ann_pct": 46.46
         }
       }
     ]
@@ -884,89 +821,94 @@
       "sector": "Healthcare",
       "score": 100,
       "confidence": 70,
-      "risk": 16,
-      "why": "Up 37.15% over 3 months, trading above both its 50-day and 200-day averages.",
-      "cmp": 9249.0,
-      "entry": 9249.0,
+      "risk": 13,
+      "why": "Up 40.28% over 3 months, trading above both its 50-day and 200-day averages.",
+      "cmp": 9550.0,
+      "entry": 9550.0,
       "target": 9624.0,
-      "upside_pct": 4.05,
+      "upside_pct": 0.77,
       "signal": "Momentum",
       "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=DIVISLAB",
       "stats": {
-        "ret_1m_pct": -0.01,
-        "ret_3m_pct": 37.15,
-        "dist_from_52w_high_pct": -3.9,
-        "volatility_ann_pct": 23.86
+        "ret_1m_pct": -0.26,
+        "ret_3m_pct": 40.28,
+        "dist_from_52w_high_pct": -0.77,
+        "volatility_ann_pct": 24.05
       },
       "category": "momentum_leaders",
       "matched_categories": [
         {
           "category": "momentum_leaders",
-          "why": "Up 37.15% over 3 months, trading above both its 50-day and 200-day averages."
+          "why": "Up 40.28% over 3 months, trading above both its 50-day and 200-day averages."
         }
       ],
       "bear_case": [
+        "Trading at or within 1% of its 52-week high -- limited room before a fresh high, more room to fall back if sentiment turns.",
         "Matched only one rule -- a single-signal pick is weaker evidence than a stock confirmed by multiple angles."
       ]
     },
     {
-      "symbol": "KALYANKJIL",
-      "name": "Kalyan Jewellers India Ltd.",
-      "sector": "Consumer Durables",
+      "symbol": "MEESHO",
+      "name": "Meesho Ltd.",
+      "sector": "Consumer Services",
       "score": 100,
       "confidence": 55,
       "risk": 100,
-      "why": "Up 60.42% from its 6-month low, still 16.38% below its 52-week high.",
-      "cmp": 528.5,
-      "entry": 528.5,
-      "target": 632.02,
-      "upside_pct": 19.59,
-      "signal": "Turnaround",
-      "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=KALYANKJIL",
+      "why": "Mid-cap (outside Nifty 50), up 12.87% in the past month, top quartile of the universe.",
+      "cmp": 238.22,
+      "entry": 238.22,
+      "target": 240.19,
+      "upside_pct": 0.83,
+      "signal": "Emerging",
+      "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=MEESHO",
       "stats": {
-        "ret_1m_pct": -9.34,
-        "ret_3m_pct": 49.59,
-        "dist_from_52w_high_pct": -16.38,
-        "volatility_ann_pct": 47.23
+        "ret_1m_pct": 12.87,
+        "ret_3m_pct": 22.72,
+        "dist_from_52w_high_pct": -0.82,
+        "volatility_ann_pct": 55.91
+      },
+      "category": "emerging_leaders",
+      "matched_categories": [
+        {
+          "category": "momentum_leaders",
+          "why": "Up 22.72% over 3 months, trading above both its 50-day and 200-day averages."
+        },
+        {
+          "category": "emerging_leaders",
+          "why": "Mid-cap (outside Nifty 50), up 12.87% in the past month, top quartile of the universe."
+        }
+      ],
+      "bear_case": [
+        "Trading at or within 1% of its 52-week high -- limited room before a fresh high, more room to fall back if sentiment turns.",
+        "Annualised volatility of 55.91% is high -- expect larger swings in both directions, not just up.",
+        "Lower-confidence category (technical pattern only, or thin fundamentals data) -- worth independent verification."
+      ]
+    },
+    {
+      "symbol": "OFSS",
+      "name": "Oracle Financial Services Software Ltd.",
+      "sector": "Information Technology",
+      "score": 100,
+      "confidence": 55,
+      "risk": 29,
+      "why": "Up 50.5% from its 6-month low, still 16.41% below its 52-week high.",
+      "cmp": 10482.0,
+      "entry": 10482.0,
+      "target": 12540.0,
+      "upside_pct": 19.63,
+      "signal": "Turnaround",
+      "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=OFSS",
+      "stats": {
+        "ret_1m_pct": -11.02,
+        "ret_3m_pct": -10.03,
+        "dist_from_52w_high_pct": -16.41,
+        "volatility_ann_pct": 32.57
       },
       "category": "turnaround_stories",
       "matched_categories": [
         {
           "category": "turnaround_stories",
-          "why": "Up 60.42% from its 6-month low, still 16.38% below its 52-week high."
-        }
-      ],
-      "bear_case": [
-        "Annualised volatility of 47.23% is high -- expect larger swings in both directions, not just up.",
-        "Lower-confidence category (technical pattern only, or thin fundamentals data) -- worth independent verification.",
-        "Matched only one rule -- a single-signal pick is weaker evidence than a stock confirmed by multiple angles."
-      ]
-    },
-    {
-      "symbol": "MANKIND",
-      "name": "Mankind Pharma Ltd.",
-      "sector": "Healthcare",
-      "score": 100,
-      "confidence": 55,
-      "risk": 37,
-      "why": "Mid-cap (outside Nifty 50), up 7.02% in the past month, top quartile of the universe.",
-      "cmp": 2535.0,
-      "entry": 2535.0,
-      "target": 2617.9,
-      "upside_pct": 3.27,
-      "signal": "Emerging",
-      "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=MANKIND",
-      "stats": {
-        "ret_1m_pct": 7.02,
-        "ret_3m_pct": 0.3,
-        "dist_from_52w_high_pct": -3.17,
-        "volatility_ann_pct": 26.42
-      },
-      "category": "emerging_leaders",
-      "matched_categories": [
-        {
-          "category": "emerging_leaders",
-          "why": "Mid-cap (outside Nifty 50), up 7.02% in the past month, top quartile of the universe."
+          "why": "Up 50.5% from its 6-month low, still 16.41% below its 52-week high."
         }
       ],
       "bear_case": [
@@ -975,38 +917,35 @@
       ]
     },
     {
-      "symbol": "ICICIGI",
-      "name": "ICICI Lombard General Insurance Company Ltd.",
-      "sector": "Financial Services",
+      "symbol": "INDUSTOWER",
+      "name": "Indus Towers Ltd.",
+      "sector": "Telecommunication",
       "score": 100,
       "confidence": 50,
       "risk": 100,
-      "why": "P/E of 32.4 (below the shortlist median) with ROE of 14.6%.",
-      "cmp": 1563.0,
-      "entry": 1563.0,
-      "target": 2035.17,
-      "upside_pct": 30.21,
+      "why": "P/E of 14.3 (below the shortlist median) with ROE of 18.9%.",
+      "cmp": 389.1,
+      "entry": 389.1,
+      "target": 460.42,
+      "upside_pct": 18.33,
       "signal": "Value",
-      "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=ICICIGI",
+      "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=INDUSTOWER",
       "stats": {
-        "ret_1m_pct": 2.71,
-        "ret_3m_pct": -12.89,
-        "dist_from_52w_high_pct": -23.2,
-        "volatility_ann_pct": 25.62
+        "ret_1m_pct": 4.3,
+        "ret_3m_pct": -0.59,
+        "dist_from_52w_high_pct": -15.49,
+        "volatility_ann_pct": 26.04
       },
       "category": "undervalued_quality",
       "matched_categories": [
         {
-          "category": "emerging_leaders",
-          "why": "Mid-cap (outside Nifty 50), up 2.71% in the past month, top quartile of the universe."
-        },
-        {
           "category": "undervalued_quality",
-          "why": "P/E of 32.4 (below the shortlist median) with ROE of 14.6%."
+          "why": "P/E of 14.3 (below the shortlist median) with ROE of 18.9%."
         }
       ],
       "bear_case": [
-        "Lower-confidence category (technical pattern only, or thin fundamentals data) -- worth independent verification."
+        "Lower-confidence category (technical pattern only, or thin fundamentals data) -- worth independent verification.",
+        "Matched only one rule -- a single-signal pick is weaker evidence than a stock confirmed by multiple angles."
       ]
     },
     {
@@ -1015,19 +954,19 @@
       "sector": "Capital Goods",
       "score": 100,
       "confidence": 50,
-      "risk": 57,
+      "risk": 52,
       "why": "Latest quarterly earnings growth of 406.7%.",
-      "cmp": 3804.0,
-      "entry": 3804.0,
+      "cmp": 3854.0,
+      "entry": 3854.0,
       "target": 4114.0,
-      "upside_pct": 8.15,
+      "upside_pct": 6.75,
       "signal": "Earnings",
       "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=SIEMENS",
       "stats": {
-        "ret_1m_pct": -5.61,
-        "ret_3m_pct": 9.38,
-        "dist_from_52w_high_pct": -7.54,
-        "volatility_ann_pct": 30.34
+        "ret_1m_pct": -2.46,
+        "ret_3m_pct": 10.77,
+        "dist_from_52w_high_pct": -6.32,
+        "volatility_ann_pct": 30.5
       },
       "category": "earnings_winners",
       "matched_categories": [
@@ -1046,30 +985,30 @@
       "name": "Laurus Labs Ltd.",
       "sector": "Healthcare",
       "score": 97,
-      "confidence": 55,
-      "risk": 47,
-      "why": "Mid-cap (outside Nifty 50), up 6.18% in the past month, top quartile of the universe.",
-      "cmp": 1984.0,
-      "entry": 1984.0,
-      "target": 2034.0,
-      "upside_pct": 2.52,
-      "signal": "Emerging",
+      "confidence": 70,
+      "risk": 37,
+      "why": "Up 33.31% over 3 months, trading above both its 50-day and 200-day averages.",
+      "cmp": 2050.0,
+      "entry": 2050.0,
+      "target": 2050.0,
+      "upside_pct": 0.0,
+      "signal": "Momentum",
       "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=LAURUSLABS",
       "stats": {
-        "ret_1m_pct": 6.18,
-        "ret_3m_pct": 34.29,
-        "dist_from_52w_high_pct": -2.46,
-        "volatility_ann_pct": 28.35
+        "ret_1m_pct": 5.3,
+        "ret_3m_pct": 33.31,
+        "dist_from_52w_high_pct": 0.0,
+        "volatility_ann_pct": 28.49
       },
-      "category": "emerging_leaders",
+      "category": "momentum_leaders",
       "matched_categories": [
         {
           "category": "momentum_leaders",
-          "why": "Up 34.29% over 3 months, trading above both its 50-day and 200-day averages."
+          "why": "Up 33.31% over 3 months, trading above both its 50-day and 200-day averages."
         },
         {
           "category": "emerging_leaders",
-          "why": "Mid-cap (outside Nifty 50), up 6.18% in the past month, top quartile of the universe."
+          "why": "Mid-cap (outside Nifty 50), up 5.3% in the past month, top quartile of the universe."
         },
         {
           "category": "earnings_winners",
@@ -1077,7 +1016,39 @@
         }
       ],
       "bear_case": [
-        "Lower-confidence category (technical pattern only, or thin fundamentals data) -- worth independent verification."
+        "Trading at or within 1% of its 52-week high -- limited room before a fresh high, more room to fall back if sentiment turns."
+      ]
+    },
+    {
+      "symbol": "VBL",
+      "name": "Varun Beverages Ltd.",
+      "sector": "Fast Moving Consumer Goods",
+      "score": 97,
+      "confidence": 55,
+      "risk": 53,
+      "why": "Mid-cap (outside Nifty 50), up 8.28% in the past month, top quartile of the universe.",
+      "cmp": 439.3,
+      "entry": 439.3,
+      "target": 543.45,
+      "upside_pct": 23.71,
+      "signal": "Emerging",
+      "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=VBL",
+      "stats": {
+        "ret_1m_pct": 8.28,
+        "ret_3m_pct": -8.01,
+        "dist_from_52w_high_pct": -19.16,
+        "volatility_ann_pct": 29.55
+      },
+      "category": "emerging_leaders",
+      "matched_categories": [
+        {
+          "category": "emerging_leaders",
+          "why": "Mid-cap (outside Nifty 50), up 8.28% in the past month, top quartile of the universe."
+        }
+      ],
+      "bear_case": [
+        "Lower-confidence category (technical pattern only, or thin fundamentals data) -- worth independent verification.",
+        "Matched only one rule -- a single-signal pick is weaker evidence than a stock confirmed by multiple angles."
       ]
     },
     {
@@ -1086,29 +1057,25 @@
       "sector": "Consumer Services",
       "score": 96,
       "confidence": 50,
-      "risk": 79,
+      "risk": 67,
       "why": "Latest quarterly earnings growth of 269.2%.",
-      "cmp": 691.15,
-      "entry": 691.15,
+      "cmp": 684.85,
+      "entry": 684.85,
       "target": 707.2,
-      "upside_pct": 2.32,
+      "upside_pct": 3.26,
       "signal": "Earnings",
       "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=LENSKART",
       "stats": {
-        "ret_1m_pct": 2.78,
-        "ret_3m_pct": 29.04,
-        "dist_from_52w_high_pct": -2.27,
-        "volatility_ann_pct": 35.04
+        "ret_1m_pct": -1.57,
+        "ret_3m_pct": 25.97,
+        "dist_from_52w_high_pct": -3.16,
+        "volatility_ann_pct": 34.84
       },
       "category": "earnings_winners",
       "matched_categories": [
         {
           "category": "momentum_leaders",
-          "why": "Up 29.04% over 3 months, trading above both its 50-day and 200-day averages."
-        },
-        {
-          "category": "emerging_leaders",
-          "why": "Mid-cap (outside Nifty 50), up 2.78% in the past month, top quartile of the universe."
+          "why": "Up 25.97% over 3 months, trading above both its 50-day and 200-day averages."
         },
         {
           "category": "earnings_winners",
@@ -1120,152 +1087,144 @@
       ]
     },
     {
-      "symbol": "ENRIN",
-      "name": "Siemens Energy India Ltd.",
-      "sector": "Capital Goods",
+      "symbol": "MANKIND",
+      "name": "Mankind Pharma Ltd.",
+      "sector": "Healthcare",
       "score": 95,
       "confidence": 55,
-      "risk": 82,
-      "why": "Mid-cap (outside Nifty 50), up 5.67% in the past month, top quartile of the universe.",
-      "cmp": 3334.0,
-      "entry": 3334.0,
-      "target": 3872.1,
-      "upside_pct": 16.14,
+      "risk": 34,
+      "why": "Mid-cap (outside Nifty 50), up 8.27% in the past month, top quartile of the universe.",
+      "cmp": 2500.0,
+      "entry": 2500.0,
+      "target": 2617.9,
+      "upside_pct": 4.72,
       "signal": "Emerging",
-      "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=ENRIN",
+      "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=MANKIND",
       "stats": {
-        "ret_1m_pct": 5.67,
-        "ret_3m_pct": -1.04,
-        "dist_from_52w_high_pct": -13.9,
-        "volatility_ann_pct": 39.02
+        "ret_1m_pct": 8.27,
+        "ret_3m_pct": -0.99,
+        "dist_from_52w_high_pct": -4.5,
+        "volatility_ann_pct": 26.42
       },
       "category": "emerging_leaders",
       "matched_categories": [
         {
           "category": "emerging_leaders",
-          "why": "Mid-cap (outside Nifty 50), up 5.67% in the past month, top quartile of the universe."
+          "why": "Mid-cap (outside Nifty 50), up 8.27% in the past month, top quartile of the universe."
+        }
+      ],
+      "bear_case": [
+        "Lower-confidence category (technical pattern only, or thin fundamentals data) -- worth independent verification.",
+        "Matched only one rule -- a single-signal pick is weaker evidence than a stock confirmed by multiple angles."
+      ]
+    },
+    {
+      "symbol": "APARINDS",
+      "name": "Apar Industries Ltd.",
+      "sector": "Capital Goods",
+      "score": 93,
+      "confidence": 70,
+      "risk": 90,
+      "why": "Up 28.6% over 3 months, trading above both its 50-day and 200-day averages.",
+      "cmp": 18016.0,
+      "entry": 18016.0,
+      "target": 18945.0,
+      "upside_pct": 5.16,
+      "signal": "Momentum",
+      "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=APARINDS",
+      "stats": {
+        "ret_1m_pct": 2.52,
+        "ret_3m_pct": 28.6,
+        "dist_from_52w_high_pct": -4.9,
+        "volatility_ann_pct": 46.46
+      },
+      "category": "momentum_leaders",
+      "matched_categories": [
+        {
+          "category": "momentum_leaders",
+          "why": "Up 28.6% over 3 months, trading above both its 50-day and 200-day averages."
         },
         {
           "category": "earnings_winners",
-          "why": "Latest quarterly earnings growth of 67.8%."
+          "why": "Latest quarterly earnings growth of 77.8%."
         }
       ],
       "bear_case": [
-        "Lower-confidence category (technical pattern only, or thin fundamentals data) -- worth independent verification."
-      ]
-    },
-    {
-      "symbol": "ETERNAL",
-      "name": "Eternal Ltd.",
-      "sector": "Consumer Services",
-      "score": 93,
-      "confidence": 50,
-      "risk": 68,
-      "why": "Latest quarterly earnings growth of 268.0%.",
-      "cmp": 313.9,
-      "entry": 313.9,
-      "target": 354.35,
-      "upside_pct": 12.89,
-      "signal": "Earnings",
-      "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=ETERNAL",
-      "stats": {
-        "ret_1m_pct": -3.36,
-        "ret_3m_pct": 8.47,
-        "dist_from_52w_high_pct": -11.42,
-        "volatility_ann_pct": 33.13
-      },
-      "category": "earnings_winners",
-      "matched_categories": [
-        {
-          "category": "earnings_winners",
-          "why": "Latest quarterly earnings growth of 268.0%."
-        }
-      ],
-      "bear_case": [
-        "Lower-confidence category (technical pattern only, or thin fundamentals data) -- worth independent verification.",
-        "Matched only one rule -- a single-signal pick is weaker evidence than a stock confirmed by multiple angles."
-      ]
-    },
-    {
-      "symbol": "VBL",
-      "name": "Varun Beverages Ltd.",
-      "sector": "Fast Moving Consumer Goods",
-      "score": 92,
-      "confidence": 55,
-      "risk": 53,
-      "why": "Mid-cap (outside Nifty 50), up 4.46% in the past month, top quartile of the universe.",
-      "cmp": 425.3,
-      "entry": 425.3,
-      "target": 543.45,
-      "upside_pct": 27.78,
-      "signal": "Emerging",
-      "news_link": "https://www.nseindia.com/get-quotes/equity?symbol=VBL",
-      "stats": {
-        "ret_1m_pct": 4.46,
-        "ret_3m_pct": -12.08,
-        "dist_from_52w_high_pct": -21.74,
-        "volatility_ann_pct": 29.5
-      },
-      "category": "emerging_leaders",
-      "matched_categories": [
-        {
-          "category": "emerging_leaders",
-          "why": "Mid-cap (outside Nifty 50), up 4.46% in the past month, top quartile of the universe."
-        }
-      ],
-      "bear_case": [
-        "Lower-confidence category (technical pattern only, or thin fundamentals data) -- worth independent verification.",
-        "Matched only one rule -- a single-signal pick is weaker evidence than a stock confirmed by multiple angles."
+        "Annualised volatility of 46.46% is high -- expect larger swings in both directions, not just up."
       ]
     }
   ],
   "performance": {
     "yesterday": [
       {
-        "symbol": "DIVISLAB",
-        "name": "Divi's Laboratories Ltd.",
-        "sector": "Healthcare",
-        "picked_on": "2026-10-01",
-        "entry": 9249.0,
-        "target": 9624.0,
-        "current_price": 9249.0,
-        "pl_pct": 0.0,
+        "symbol": "ETERNAL",
+        "name": "Eternal Ltd.",
+        "sector": "Consumer Services",
+        "picked_on": "2026-10-02",
+        "entry": 313.9,
+        "target": 354.35,
+        "current_price": 329.0,
+        "pl_pct": 4.81,
         "status": "Tracking",
-        "category": "momentum_leaders"
+        "category": "earnings_winners"
       },
       {
         "symbol": "KALYANKJIL",
         "name": "Kalyan Jewellers India Ltd.",
         "sector": "Consumer Durables",
-        "picked_on": "2026-10-01",
+        "picked_on": "2026-10-02",
         "entry": 528.5,
         "target": 632.02,
-        "current_price": 528.5,
-        "pl_pct": 0.0,
+        "current_price": 548.15,
+        "pl_pct": 3.72,
         "status": "Tracking",
         "category": "turnaround_stories"
       },
       {
-        "symbol": "MANKIND",
-        "name": "Mankind Pharma Ltd.",
+        "symbol": "LAURUSLABS",
+        "name": "Laurus Labs Ltd.",
         "sector": "Healthcare",
-        "picked_on": "2026-10-01",
-        "entry": 2535.0,
-        "target": 2617.9,
-        "current_price": 2535.0,
-        "pl_pct": 0.0,
+        "picked_on": "2026-10-02",
+        "entry": 1984.0,
+        "target": 2034.0,
+        "current_price": 2050.0,
+        "pl_pct": 3.33,
+        "status": "Target Hit",
+        "category": "emerging_leaders"
+      },
+      {
+        "symbol": "VBL",
+        "name": "Varun Beverages Ltd.",
+        "sector": "Fast Moving Consumer Goods",
+        "picked_on": "2026-10-02",
+        "entry": 425.3,
+        "target": 543.45,
+        "current_price": 439.3,
+        "pl_pct": 3.29,
         "status": "Tracking",
         "category": "emerging_leaders"
+      },
+      {
+        "symbol": "DIVISLAB",
+        "name": "Divi's Laboratories Ltd.",
+        "sector": "Healthcare",
+        "picked_on": "2026-10-02",
+        "entry": 9249.0,
+        "target": 9624.0,
+        "current_price": 9550.0,
+        "pl_pct": 3.25,
+        "status": "Tracking",
+        "category": "momentum_leaders"
       },
       {
         "symbol": "ICICIGI",
         "name": "ICICI Lombard General Insurance Company Ltd.",
         "sector": "Financial Services",
-        "picked_on": "2026-10-01",
+        "picked_on": "2026-10-02",
         "entry": 1563.0,
         "target": 2035.17,
-        "current_price": 1563.0,
-        "pl_pct": 0.0,
+        "current_price": 1598.3,
+        "pl_pct": 2.26,
         "status": "Tracking",
         "category": "undervalued_quality"
       },
@@ -1273,35 +1232,11 @@
         "symbol": "SIEMENS",
         "name": "Siemens Ltd.",
         "sector": "Capital Goods",
-        "picked_on": "2026-10-01",
+        "picked_on": "2026-10-02",
         "entry": 3804.0,
         "target": 4114.0,
-        "current_price": 3804.0,
-        "pl_pct": 0.0,
-        "status": "Tracking",
-        "category": "earnings_winners"
-      },
-      {
-        "symbol": "LAURUSLABS",
-        "name": "Laurus Labs Ltd.",
-        "sector": "Healthcare",
-        "picked_on": "2026-10-01",
-        "entry": 1984.0,
-        "target": 2034.0,
-        "current_price": 1984.0,
-        "pl_pct": 0.0,
-        "status": "Tracking",
-        "category": "emerging_leaders"
-      },
-      {
-        "symbol": "LENSKART",
-        "name": "Lenskart Solutions Ltd.",
-        "sector": "Consumer Services",
-        "picked_on": "2026-10-01",
-        "entry": 691.15,
-        "target": 707.2,
-        "current_price": 691.15,
-        "pl_pct": 0.0,
+        "current_price": 3854.0,
+        "pl_pct": 1.31,
         "status": "Tracking",
         "category": "earnings_winners"
       },
@@ -1309,231 +1244,145 @@
         "symbol": "ENRIN",
         "name": "Siemens Energy India Ltd.",
         "sector": "Capital Goods",
-        "picked_on": "2026-10-01",
+        "picked_on": "2026-10-02",
         "entry": 3334.0,
         "target": 3872.1,
-        "current_price": 3334.0,
-        "pl_pct": 0.0,
-        "status": "Tracking",
+        "current_price": 3307.5,
+        "pl_pct": -0.79,
+        "status": "Below Entry",
         "category": "emerging_leaders"
       },
       {
-        "symbol": "ETERNAL",
-        "name": "Eternal Ltd.",
+        "symbol": "LENSKART",
+        "name": "Lenskart Solutions Ltd.",
         "sector": "Consumer Services",
-        "picked_on": "2026-10-01",
-        "entry": 313.9,
-        "target": 354.35,
-        "current_price": 313.9,
-        "pl_pct": 0.0,
-        "status": "Tracking",
+        "picked_on": "2026-10-02",
+        "entry": 691.15,
+        "target": 707.2,
+        "current_price": 684.85,
+        "pl_pct": -0.91,
+        "status": "Below Entry",
         "category": "earnings_winners"
       },
       {
-        "symbol": "VBL",
-        "name": "Varun Beverages Ltd.",
-        "sector": "Fast Moving Consumer Goods",
-        "picked_on": "2026-10-01",
-        "entry": 425.3,
-        "target": 543.45,
-        "current_price": 425.3,
-        "pl_pct": 0.0,
-        "status": "Tracking",
+        "symbol": "MANKIND",
+        "name": "Mankind Pharma Ltd.",
+        "sector": "Healthcare",
+        "picked_on": "2026-10-02",
+        "entry": 2535.0,
+        "target": 2617.9,
+        "current_price": 2500.0,
+        "pl_pct": -1.38,
+        "status": "Below Entry",
         "category": "emerging_leaders"
       }
     ],
     "7_day": [
       {
-        "symbol": "LENSKART",
-        "name": "Lenskart Solutions Ltd.",
-        "sector": "Consumer Services",
-        "picked_on": "2026-09-25",
-        "entry": 680.25,
-        "target": 707.2,
-        "current_price": 691.15,
-        "pl_pct": 1.6,
-        "status": "Tracking",
-        "category": "earnings_winners"
-      },
-      {
-        "symbol": "ADANIENSOL",
-        "name": "Adani Energy Solutions Ltd.",
-        "sector": "Power",
-        "picked_on": "2026-09-25",
-        "entry": 1338.5,
-        "target": 1741.6,
-        "current_price": 1326.4,
-        "pl_pct": -0.9,
-        "status": "Below Entry",
-        "category": "turnaround_stories"
-      },
-      {
-        "symbol": "PAYTM",
-        "name": "One 97 Communications Ltd.",
-        "sector": "Financial Services",
-        "picked_on": "2026-09-25",
-        "entry": 1674.0,
-        "target": 1849.9,
-        "current_price": 1656.0,
-        "pl_pct": -1.08,
-        "status": "Below Entry",
-        "category": "momentum_leaders"
-      },
-      {
-        "symbol": "LAURUSLABS",
-        "name": "Laurus Labs Ltd.",
-        "sector": "Healthcare",
-        "picked_on": "2026-09-25",
-        "entry": 2007.0,
-        "target": 2034.0,
-        "current_price": 1984.0,
-        "pl_pct": -1.15,
-        "status": "Below Entry",
-        "category": "momentum_leaders"
-      },
-      {
-        "symbol": "HCLTECH",
-        "name": "HCL Technologies Ltd.",
+        "symbol": "PERSISTENT",
+        "name": "Persistent Systems Ltd.",
         "sector": "Information Technology",
-        "picked_on": "2026-09-25",
-        "entry": 1258.0,
-        "target": 1679.96,
-        "current_price": 1243.1,
-        "pl_pct": -1.18,
-        "status": "Below Entry",
+        "picked_on": "2026-09-29",
+        "entry": 5162.0,
+        "target": 6517.4,
+        "current_price": 5521.0,
+        "pl_pct": 6.95,
+        "status": "Tracking",
         "category": "undervalued_quality"
       },
       {
-        "symbol": "ADANIGREEN",
-        "name": "Adani Green Energy Ltd.",
-        "sector": "Power",
-        "picked_on": "2026-09-25",
-        "entry": 1296.6,
-        "target": 1604.5,
-        "current_price": 1276.1,
-        "pl_pct": -1.58,
-        "status": "Below Entry",
+        "symbol": "LODHA",
+        "name": "Lodha Developers Ltd.",
+        "sector": "Realty",
+        "picked_on": "2026-09-29",
+        "entry": 1106.6,
+        "target": 1311.74,
+        "current_price": 1135.6,
+        "pl_pct": 2.62,
+        "status": "Tracking",
         "category": "turnaround_stories"
+      },
+      {
+        "symbol": "LENSKART",
+        "name": "Lenskart Solutions Ltd.",
+        "sector": "Consumer Services",
+        "picked_on": "2026-09-29",
+        "entry": 674.6,
+        "target": 707.2,
+        "current_price": 684.85,
+        "pl_pct": 1.52,
+        "status": "Tracking",
+        "category": "earnings_winners"
       },
       {
         "symbol": "DIVISLAB",
         "name": "Divi's Laboratories Ltd.",
         "sector": "Healthcare",
-        "picked_on": "2026-09-25",
-        "entry": 9619.5,
+        "picked_on": "2026-09-29",
+        "entry": 9431.0,
         "target": 9624.0,
-        "current_price": 9249.0,
-        "pl_pct": -3.85,
-        "status": "Below Entry",
+        "current_price": 9550.0,
+        "pl_pct": 1.26,
+        "status": "Tracking",
+        "category": "momentum_leaders"
+      },
+      {
+        "symbol": "PAYTM",
+        "name": "One 97 Communications Ltd.",
+        "sector": "Financial Services",
+        "picked_on": "2026-09-29",
+        "entry": 1683.0,
+        "target": 1849.9,
+        "current_price": 1694.0,
+        "pl_pct": 0.65,
+        "status": "Tracking",
         "category": "momentum_leaders"
       },
       {
         "symbol": "ETERNAL",
         "name": "Eternal Ltd.",
         "sector": "Consumer Services",
-        "picked_on": "2026-09-25",
-        "entry": 335.0,
+        "picked_on": "2026-09-29",
+        "entry": 327.85,
         "target": 354.35,
-        "current_price": 313.9,
-        "pl_pct": -6.3,
-        "status": "Below Entry",
+        "current_price": 329.0,
+        "pl_pct": 0.35,
+        "status": "Tracking",
         "category": "earnings_winners"
       },
       {
-        "symbol": "LICHSGFIN",
-        "name": "LIC Housing Finance Ltd.",
-        "sector": "Financial Services",
-        "picked_on": "2026-09-25",
-        "entry": 566.0,
-        "target": 581.77,
-        "current_price": 509.0,
-        "pl_pct": -10.07,
+        "symbol": "MANKIND",
+        "name": "Mankind Pharma Ltd.",
+        "sector": "Healthcare",
+        "picked_on": "2026-09-29",
+        "entry": 2545.0,
+        "target": 2617.9,
+        "current_price": 2500.0,
+        "pl_pct": -1.77,
         "status": "Below Entry",
-        "category": "breakout_candidates"
+        "category": "emerging_leaders"
       },
       {
         "symbol": "PATANJALI",
         "name": "Patanjali Foods Ltd.",
         "sector": "Fast Moving Consumer Goods",
-        "picked_on": "2026-09-25",
-        "entry": 403.95,
+        "picked_on": "2026-09-29",
+        "entry": 371.4,
         "target": 601.52,
-        "current_price": 355.15,
-        "pl_pct": -12.08,
-        "status": "Below Entry",
-        "category": "emerging_leaders"
-      }
-    ],
-    "30_day": [
-      {
-        "symbol": "LENSKART",
-        "name": "Lenskart Solutions Ltd.",
-        "sector": "Consumer Services",
-        "picked_on": "2026-09-02",
-        "entry": 668.9,
-        "target": 668.9,
-        "current_price": 691.15,
-        "pl_pct": 3.33,
-        "status": "Target Hit",
-        "category": "breakout_candidates"
-      },
-      {
-        "symbol": "PAYTM",
-        "name": "One 97 Communications Ltd.",
-        "sector": "Financial Services",
-        "picked_on": "2026-09-02",
-        "entry": 1619.0,
-        "target": 1718.0,
-        "current_price": 1656.0,
-        "pl_pct": 2.29,
-        "status": "Tracking",
-        "category": "momentum_leaders"
-      },
-      {
-        "symbol": "DIVISLAB",
-        "name": "Divi's Laboratories Ltd.",
-        "sector": "Healthcare",
-        "picked_on": "2026-09-02",
-        "entry": 9220.0,
-        "target": 9467.0,
-        "current_price": 9249.0,
-        "pl_pct": 0.31,
-        "status": "Tracking",
-        "category": "momentum_leaders"
-      },
-      {
-        "symbol": "ADANIGREEN",
-        "name": "Adani Green Energy Ltd.",
-        "sector": "Power",
-        "picked_on": "2026-09-02",
-        "entry": 1296.0,
-        "target": 1604.5,
-        "current_price": 1276.1,
-        "pl_pct": -1.54,
-        "status": "Below Entry",
-        "category": "turnaround_stories"
-      },
-      {
-        "symbol": "MCX",
-        "name": "Multi Commodity Exchange of India Ltd.",
-        "sector": "Financial Services",
-        "picked_on": "2026-09-02",
-        "entry": 3286.0,
-        "target": 3433.29,
-        "current_price": 3204.0,
-        "pl_pct": -2.5,
+        "current_price": 363.0,
+        "pl_pct": -2.26,
         "status": "Below Entry",
         "category": "emerging_leaders"
       },
       {
-        "symbol": "MOTILALOFS",
-        "name": "Motilal Oswal Financial Services Ltd.",
+        "symbol": "ICICIAMC",
+        "name": "ICICI Prudential Asset Management Company Ltd.",
         "sector": "Financial Services",
-        "picked_on": "2026-09-02",
-        "entry": 1017.6,
-        "target": 1082.56,
-        "current_price": 989.9,
-        "pl_pct": -2.72,
+        "picked_on": "2026-09-29",
+        "entry": 3233.0,
+        "target": 3524.81,
+        "current_price": 3071.5,
+        "pl_pct": -5.0,
         "status": "Below Entry",
         "category": "emerging_leaders"
       },
@@ -1541,23 +1390,109 @@
         "symbol": "GLENMARK",
         "name": "Glenmark Pharmaceuticals Ltd.",
         "sector": "Healthcare",
-        "picked_on": "2026-09-02",
-        "entry": 2460.0,
+        "picked_on": "2026-09-29",
+        "entry": 2441.5,
         "target": 2512.5,
-        "current_price": 2331.0,
-        "pl_pct": -5.24,
+        "current_price": 2311.0,
+        "pl_pct": -5.35,
         "status": "Below Entry",
         "category": "earnings_winners"
+      }
+    ],
+    "30_day": [
+      {
+        "symbol": "PAYTM",
+        "name": "One 97 Communications Ltd.",
+        "sector": "Financial Services",
+        "picked_on": "2026-09-04",
+        "entry": 1659.5,
+        "target": 1718.0,
+        "current_price": 1694.0,
+        "pl_pct": 2.08,
+        "status": "Tracking",
+        "category": "momentum_leaders"
+      },
+      {
+        "symbol": "MCX",
+        "name": "Multi Commodity Exchange of India Ltd.",
+        "sector": "Financial Services",
+        "picked_on": "2026-09-04",
+        "entry": 3275.4,
+        "target": 3433.29,
+        "current_price": 3310.0,
+        "pl_pct": 1.06,
+        "status": "Tracking",
+        "category": "emerging_leaders"
+      },
+      {
+        "symbol": "ADANIGREEN",
+        "name": "Adani Green Energy Ltd.",
+        "sector": "Power",
+        "picked_on": "2026-09-04",
+        "entry": 1301.3,
+        "target": 1604.5,
+        "current_price": 1313.0,
+        "pl_pct": 0.9,
+        "status": "Tracking",
+        "category": "turnaround_stories"
+      },
+      {
+        "symbol": "LENSKART",
+        "name": "Lenskart Solutions Ltd.",
+        "sector": "Consumer Services",
+        "picked_on": "2026-09-04",
+        "entry": 684.9,
+        "target": 684.9,
+        "current_price": 684.85,
+        "pl_pct": -0.01,
+        "status": "Below Entry",
+        "category": "breakout_candidates"
+      },
+      {
+        "symbol": "ADANIENSOL",
+        "name": "Adani Energy Solutions Ltd.",
+        "sector": "Power",
+        "picked_on": "2026-09-04",
+        "entry": 1409.6,
+        "target": 1741.6,
+        "current_price": 1350.1,
+        "pl_pct": -4.22,
+        "status": "Below Entry",
+        "category": "turnaround_stories"
+      },
+      {
+        "symbol": "GLENMARK",
+        "name": "Glenmark Pharmaceuticals Ltd.",
+        "sector": "Healthcare",
+        "picked_on": "2026-09-04",
+        "entry": 2437.2,
+        "target": 2512.5,
+        "current_price": 2311.0,
+        "pl_pct": -5.18,
+        "status": "Below Entry",
+        "category": "earnings_winners"
+      },
+      {
+        "symbol": "COFORGE",
+        "name": "Coforge Ltd.",
+        "sector": "Information Technology",
+        "picked_on": "2026-09-04",
+        "entry": 1972.8,
+        "target": 2014.6,
+        "current_price": 1849.7,
+        "pl_pct": -6.24,
+        "status": "Below Entry",
+        "category": "momentum_leaders"
       },
       {
         "symbol": "LODHA",
         "name": "Lodha Developers Ltd.",
         "sector": "Realty",
-        "picked_on": "2026-09-02",
-        "entry": 1208.3,
+        "picked_on": "2026-09-04",
+        "entry": 1222.0,
         "target": 1311.74,
-        "current_price": 1105.6,
-        "pl_pct": -8.5,
+        "current_price": 1135.6,
+        "pl_pct": -7.07,
         "status": "Below Entry",
         "category": "momentum_leaders"
       },
@@ -1565,25 +1500,25 @@
         "symbol": "KALYANKJIL",
         "name": "Kalyan Jewellers India Ltd.",
         "sector": "Consumer Durables",
-        "picked_on": "2026-09-02",
-        "entry": 590.0,
+        "picked_on": "2026-09-04",
+        "entry": 598.8,
         "target": 634.6,
-        "current_price": 528.5,
-        "pl_pct": -10.42,
+        "current_price": 548.15,
+        "pl_pct": -8.46,
         "status": "Below Entry",
         "category": "momentum_leaders"
       },
       {
-        "symbol": "DIXON",
-        "name": "Dixon Technologies (India) Ltd.",
-        "sector": "Consumer Durables",
-        "picked_on": "2026-09-02",
-        "entry": 14590.0,
-        "target": 18331.0,
-        "current_price": 12700.0,
-        "pl_pct": -12.95,
+        "symbol": "OFSS",
+        "name": "Oracle Financial Services Software Ltd.",
+        "sector": "Information Technology",
+        "picked_on": "2026-09-04",
+        "entry": 12058.0,
+        "target": 12540.0,
+        "current_price": 10482.0,
+        "pl_pct": -13.07,
         "status": "Below Entry",
-        "category": "turnaround_stories"
+        "category": "undervalued_quality"
       }
     ]
   }
