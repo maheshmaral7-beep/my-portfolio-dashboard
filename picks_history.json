@@ -3228,5 +3228,90 @@
         "category": "momentum_leaders"
       }
     ]
+  },
+  {
+    "date": "2026-10-07",
+    "picks": [
+      {
+        "symbol": "DIVISLAB",
+        "name": "Divi's Laboratories Ltd.",
+        "sector": "Healthcare",
+        "entry": 9588.0,
+        "target": 9624.0,
+        "category": "momentum_leaders"
+      },
+      {
+        "symbol": "OFSS",
+        "name": "Oracle Financial Services Software Ltd.",
+        "sector": "Information Technology",
+        "entry": 10576.0,
+        "target": 12540.0,
+        "category": "turnaround_stories"
+      },
+      {
+        "symbol": "MANKIND",
+        "name": "Mankind Pharma Ltd.",
+        "sector": "Healthcare",
+        "entry": 2500.0,
+        "target": 2617.9,
+        "category": "emerging_leaders"
+      },
+      {
+        "symbol": "INDUSTOWER",
+        "name": "Indus Towers Ltd.",
+        "sector": "Telecommunication",
+        "entry": 385.05,
+        "target": 460.42,
+        "category": "undervalued_quality"
+      },
+      {
+        "symbol": "SIEMENS",
+        "name": "Siemens Ltd.",
+        "sector": "Capital Goods",
+        "entry": 3793.0,
+        "target": 4114.0,
+        "category": "earnings_winners"
+      },
+      {
+        "symbol": "MEESHO",
+        "name": "Meesho Ltd.",
+        "sector": "Consumer Services",
+        "entry": 236.52,
+        "target": 240.19,
+        "category": "emerging_leaders"
+      },
+      {
+        "symbol": "LAURUSLABS",
+        "name": "Laurus Labs Ltd.",
+        "sector": "Healthcare",
+        "entry": 2052.8,
+        "target": 2052.8,
+        "category": "momentum_leaders"
+      },
+      {
+        "symbol": "LENSKART",
+        "name": "Lenskart Solutions Ltd.",
+        "sector": "Consumer Services",
+        "entry": 681.3,
+        "target": 707.2,
+        "category": "earnings_winners"
+      },
+      {
+        "symbol": "VBL",
+        "name": "Varun Beverages Ltd.",
+        "sector": "Fast Moving Consumer Goods",
+        "entry": 440.75,
+        "target": 543.45,
+        "category": "emerging_leaders"
+      },
+      {
+        "symbol": "APARINDS",
+        "name": "Apar Industries Ltd.",
+        "sector": "Capital Goods",
+        "entry": 18160.0,
+        "target": 18945.0,
+        "category": "momentum_leaders"
+      }
+    ]
   }
 ]
