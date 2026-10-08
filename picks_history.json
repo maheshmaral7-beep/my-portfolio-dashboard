@@ -3313,5 +3313,90 @@
         "category": "momentum_leaders"
       }
     ]
+  },
+  {
+    "date": "2026-10-08",
+    "picks": [
+      {
+        "symbol": "APARINDS",
+        "name": "Apar Industries Ltd.",
+        "sector": "Capital Goods",
+        "entry": 17816.0,
+        "target": 18945.0,
+        "category": "momentum_leaders"
+      },
+      {
+        "symbol": "LENSKART",
+        "name": "Lenskart Solutions Ltd.",
+        "sector": "Consumer Services",
+        "entry": 653.95,
+        "target": 707.2,
+        "category": "earnings_winners"
+      },
+      {
+        "symbol": "OFSS",
+        "name": "Oracle Financial Services Software Ltd.",
+        "sector": "Information Technology",
+        "entry": 10400.0,
+        "target": 12540.0,
+        "category": "turnaround_stories"
+      },
+      {
+        "symbol": "ICICIGI",
+        "name": "ICICI Lombard General Insurance Company Ltd.",
+        "sector": "Financial Services",
+        "entry": 1624.0,
+        "target": 2035.17,
+        "category": "emerging_leaders"
+      },
+      {
+        "symbol": "INDUSTOWER",
+        "name": "Indus Towers Ltd.",
+        "sector": "Telecommunication",
+        "entry": 373.0,
+        "target": 460.42,
+        "category": "undervalued_quality"
+      },
+      {
+        "symbol": "MEESHO",
+        "name": "Meesho Ltd.",
+        "sector": "Consumer Services",
+        "entry": 232.19,
+        "target": 240.19,
+        "category": "emerging_leaders"
+      },
+      {
+        "symbol": "ETERNAL",
+        "name": "Eternal Ltd.",
+        "sector": "Consumer Services",
+        "entry": 319.05,
+        "target": 354.35,
+        "category": "earnings_winners"
+      },
+      {
+        "symbol": "MANKIND",
+        "name": "Mankind Pharma Ltd.",
+        "sector": "Healthcare",
+        "entry": 2380.0,
+        "target": 2617.9,
+        "category": "emerging_leaders"
+      },
+      {
+        "symbol": "DIVISLAB",
+        "name": "Divi's Laboratories Ltd.",
+        "sector": "Healthcare",
+        "entry": 9361.0,
+        "target": 9624.0,
+        "category": "momentum_leaders"
+      },
+      {
+        "symbol": "PNB",
+        "name": "Punjab National Bank",
+        "sector": "Financial Services",
+        "entry": 115.29,
+        "target": 128.62,
+        "category": "earnings_winners"
+      }
+    ]
   }
 ]
