@@ -3398,5 +3398,90 @@
         "category": "earnings_winners"
       }
     ]
+  },
+  {
+    "date": "2026-10-09",
+    "picks": [
+      {
+        "symbol": "DIVISLAB",
+        "name": "Divi's Laboratories Ltd.",
+        "sector": "Healthcare",
+        "entry": 9340.0,
+        "target": 9624.0,
+        "category": "momentum_leaders"
+      },
+      {
+        "symbol": "LENSKART",
+        "name": "Lenskart Solutions Ltd.",
+        "sector": "Consumer Services",
+        "entry": 677.65,
+        "target": 707.2,
+        "category": "earnings_winners"
+      },
+      {
+        "symbol": "OFSS",
+        "name": "Oracle Financial Services Software Ltd.",
+        "sector": "Information Technology",
+        "entry": 10510.0,
+        "target": 12540.0,
+        "category": "turnaround_stories"
+      },
+      {
+        "symbol": "ICICIGI",
+        "name": "ICICI Lombard General Insurance Company Ltd.",
+        "sector": "Financial Services",
+        "entry": 1690.2,
+        "target": 2035.17,
+        "category": "emerging_leaders"
+      },
+      {
+        "symbol": "PNB",
+        "name": "Punjab National Bank",
+        "sector": "Financial Services",
+        "entry": 116.98,
+        "target": 128.62,
+        "category": "undervalued_quality"
+      },
+      {
+        "symbol": "VBL",
+        "name": "Varun Beverages Ltd.",
+        "sector": "Fast Moving Consumer Goods",
+        "entry": 441.0,
+        "target": 543.45,
+        "category": "emerging_leaders"
+      },
+      {
+        "symbol": "LAURUSLABS",
+        "name": "Laurus Labs Ltd.",
+        "sector": "Healthcare",
+        "entry": 2036.6,
+        "target": 2052.8,
+        "category": "momentum_leaders"
+      },
+      {
+        "symbol": "ETERNAL",
+        "name": "Eternal Ltd.",
+        "sector": "Consumer Services",
+        "entry": 323.45,
+        "target": 354.35,
+        "category": "earnings_winners"
+      },
+      {
+        "symbol": "BLUESTARCO",
+        "name": "Blue Star Ltd.",
+        "sector": "Consumer Durables",
+        "entry": 1574.0,
+        "target": 2006.86,
+        "category": "emerging_leaders"
+      },
+      {
+        "symbol": "MEESHO",
+        "name": "Meesho Ltd.",
+        "sector": "Consumer Services",
+        "entry": 232.74,
+        "target": 240.19,
+        "category": "emerging_leaders"
+      }
+    ]
   }
 ]
