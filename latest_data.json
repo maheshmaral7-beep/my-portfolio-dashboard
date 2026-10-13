@@ -1,94 +1,73 @@
 {
-  "fetched_at": "2026-10-13T03:41:39.593998+00:00",
+  "fetched_at": "2026-10-13T11:07:24.570447+00:00",
   "market_prices": {
     "Nifty 50": {
-      "price": 22363.35,
-      "as_of": "2026-10-12 15:29:00+05:30"
+      "price": 22721.95,
+      "as_of": "2026-10-13 15:29:00+05:30"
     },
     "Sensex": {
-      "price": 71924.68,
-      "as_of": "2026-10-12 15:29:00+05:30"
+      "price": 73033.78,
+      "as_of": "2026-10-13 15:29:00+05:30"
     },
     "Bank Nifty": {
-      "price": 54918.0,
-      "as_of": "2026-10-12 15:29:00+05:30"
+      "price": 55481.05,
+      "as_of": "2026-10-13 15:29:00+05:30"
     }
   },
   "news": {
     "Economic Times": [
       {
-        "title": "Vaibhav Vyapaar IPO opens for subscription today: Check price band and other key details",
-        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/vaibhav-vyapaar-ipo-opens-for-subscription-today-check-price-band-and-other-key-details/articleshow/134906851.cms",
-        "published": "Tue, 13 Oct 2026 08:54:10 +0530"
+        "title": "Bitcoin trades near $83,000 as macro headwinds and US political uncertainty weigh on sentiment",
+        "link": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/bitcoin-trades-near-83000-as-macro-headwinds-and-us-political-uncertainty-weigh-on-sentiment/articleshow/134915379.cms",
+        "published": "Tue, 13 Oct 2026 16:09:35 +0530"
       },
       {
-        "title": "UPL among 3 stocks that closed above VWAP on October 12",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/upl-among-3-stocks-that-closed-above-vwap-on-october-12/slideshow/134906828.cms",
-        "published": "Tue, 13 Oct 2026 08:48:01 +0530"
+        "title": "Global Market: Eurozone bond yields fall as tech stock selloff boosts safe-haven demand",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-eurozone-bond-yields-fall-as-tech-stock-selloff-boosts-safe-haven-demand/articleshow/134915060.cms",
+        "published": "Tue, 13 Oct 2026 15:58:40 +0530"
       },
       {
-        "title": "Vedanta dividend alert! Last day to buy shares of Anil Agarwal-led company for Rs 5/share dividend",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/vedanta-dividend-alert-last-day-to-buy-shares-of-anil-agarwal-led-company-for-rs-5/share-dividend/articleshow/134906450.cms",
-        "published": "Tue, 13 Oct 2026 08:21:04 +0530"
+        "title": "Rupee outpaces Asian peers on fresh FX curbs, RBI intervention",
+        "link": "https://economictimes.indiatimes.com/markets/forex/rupee-outpaces-asian-peers-on-fresh-fx-curbs-rbi-intervention/articleshow/134915016.cms",
+        "published": "Tue, 13 Oct 2026 15:56:18 +0530"
       },
       {
-        "title": "TCS dividend alert! Last day to buy IT major's shares for Rs 12 dividend",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/tcs-dividend-alert-last-day-to-buy-it-majors-shares-for-rs-12-dividend/articleshow/134906371.cms",
-        "published": "Tue, 13 Oct 2026 08:10:41 +0530"
+        "title": "A falling stock is not always cheap: Kotak explains the role of earnings and valuations",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/a-falling-stock-is-not-always-cheap-kotak-explains-the-role-of-earnings-and-valuations/articleshow/134913919.cms",
+        "published": "Tue, 13 Oct 2026 15:10:55 +0530"
       },
       {
-        "title": "HD Fire Protect IPO opens today; GMP signals 30% listing gains, key details inside",
-        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/hd-fire-protect-ipo-opens-today-gmp-signals-30-listing-gains-key-details-inside/articleshow/134906126.cms",
-        "published": "Tue, 13 Oct 2026 07:51:23 +0530"
+        "title": "FM Sitharaman's LTCG tax remarks lift Sensex by 1,100 points. Can markets hope for a review?",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/fm-sitharamans-ltcg-tax-remarks-lift-sensex-by-900-points-can-markets-read-hope-of-review/articleshow/134913862.cms",
+        "published": "Tue, 13 Oct 2026 15:06:52 +0530"
       }
     ],
-    "Moneycontrol": [
-      {
-        "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
-        "link": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
-        "published": "Tue, 23 Apr 2024 15:46:31 +0530"
-      },
-      {
-        "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
-        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
-        "published": "Tue, 23 Apr 2024 14:51:26 +0530"
-      },
-      {
-        "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
-        "link": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
-        "published": "Tue, 23 Apr 2024 12:23:21 +0530"
-      },
-      {
-        "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
-        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
-        "published": "Tue, 23 Apr 2024 09:45:50 +0530"
-      }
-    ],
+    "Moneycontrol": [],
     "Livemint": [
       {
-        "title": "US Dollar holds near 18-month high amid rising geopolitical risks | What does it mean for Sensex, Nifty 50?",
-        "link": "https://www.livemint.com/market/stock-market-news/us-dollar-holds-near-18-month-high-amid-rising-geopolitical-risks-what-does-it-mean-for-sensex-nifty-50-11791856937969.html",
-        "published": "Tue, 13 Oct 2026 08:09:46 +0530"
+        "title": "Hong Kong stock market: Hang Seng index recovers from intraday losses, extends gains for 3rd day - what gave it a boost?",
+        "link": "https://www.livemint.com/market/stock-market-news/hong-kong-stock-market-hang-seng-index-recovers-from-intraday-losses-extends-gains-for-3rd-day-what-gave-it-a-boost-11791884222516.html",
+        "published": "Tue, 13 Oct 2026 16:12:53 +0530"
       },
       {
-        "title": "Four stocks that saw a sharp rise in DII holding in September quarter",
-        "link": "https://www.livemint.com/market/stock-market-news/four-stocks-that-saw-a-sharp-rise-in-dii-holding-in-september-quarter-11791821897304.html",
-        "published": "Tue, 13 Oct 2026 08:00:19 +0530"
+        "title": "Park Medi World shares: Hospital stock dips 15% in a month \u2014 Will the stock rebound? Experts show road map to investors",
+        "link": "https://www.livemint.com/market/stock-market-news/park-medi-world-shares-hospital-stock-dips-15-in-a-month-will-the-stock-rebound-experts-show-road-map-to-investors-11791884861855.html",
+        "published": "Tue, 13 Oct 2026 15:47:21 +0530"
       },
       {
-        "title": "Top stocks to watch today: Hero Motors, HCL Tech, Power Grid, IHCL shares in focus on Tuesday, 13 Oct | Full list",
-        "link": "https://www.livemint.com/market/stock-market-news/top-stocks-to-watch-today-hero-motors-hcl-tech-power-grid-ihcl-shares-in-focus-on-tuesday-13-oct-full-list-11791854343284.html",
-        "published": "Tue, 13 Oct 2026 07:24:03 +0530"
+        "title": "Up 137% in 1 year, ace investor Sunil Singhania raises stake in this specialty chemicals stock - Should you buy too?",
+        "link": "https://www.livemint.com/market/stock-market-news/up-137-in-1-year-ace-investor-sunil-singhania-raises-stake-in-specialty-chemicals-stock-aether-should-you-buy-too-11791875897233.html",
+        "published": "Tue, 13 Oct 2026 15:30:31 +0530"
       },
       {
-        "title": "Dollar holds near 18-month high as geopolitical risks rise",
-        "link": "https://www.livemint.com/market/dollar-holds-near-18-month-high-as-geopolitical-risks-rise-11791855761313.html",
-        "published": "Tue, 13 Oct 2026 07:12:40 +0530"
+        "title": "Swaraj Engines share price in focus after strong Q2 results; Centrum Broking sees 24% upside \u2014 What's next for the stock",
+        "link": "https://www.livemint.com/market/stock-market-news/swaraj-engines-share-price-in-focus-after-strong-q2-results-centrum-broking-sees-24-upside-whats-next-for-the-stock-11791880800959.html",
+        "published": "Tue, 13 Oct 2026 15:08:05 +0530"
       },
       {
-        "title": "Asian stocks dive as focus on earnings, geopolitics",
-        "link": "https://www.livemint.com/market/asian-stocks-dive-as-focus-on-earnings-geopolitics-11791855579674.html",
-        "published": "Tue, 13 Oct 2026 07:09:39 +0530"
+        "title": "Moneyview share price: Newly listed stock gives 83% returns in 13 days | Should you hold for more gains or book profits?",
+        "link": "https://www.livemint.com/market/stock-market-news/moneyview-share-price-newly-listed-stock-gives-83-returns-in-13-days-should-you-hold-for-more-gains-or-book-profits-11791881534101.html",
+        "published": "Tue, 13 Oct 2026 14:56:33 +0530"
       }
     ]
   },
