@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-15T19:54:24.688036+00:00",
+  "fetched_at": "2026-10-15T22:48:25.916871+00:00",
   "market_prices": {
     "Nifty 50": {
       "price": 22997.35,
@@ -17,6 +17,16 @@
   "news": {
     "Economic Times": [
       {
+        "title": "US stocks: Dow, S&amp;P 500 end higher as traders shift from AI to healthcare",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-sp-500-ends-higher-as-traders-shift-from-ai-to-healthcare/articleshow/134976395.cms",
+        "published": "Fri, 16 Oct 2026 01:40:37 +0530"
+      },
+      {
+        "title": "AI stock selloff eases as investors buy on dips amid falling bond yields",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/ai-stock-selloff-eases-as-investors-buy-on-dips-amid-falling-bond-yields/articleshow/134976163.cms",
+        "published": "Fri, 16 Oct 2026 01:29:42 +0530"
+      },
+      {
         "title": "US stocks: Nasdaq reports network disruption, US equities data feeds impacted",
         "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-nasdaq-reports-network-disruption-us-equities-data-feeds-impacted/articleshow/134973019.cms",
         "published": "Thu, 15 Oct 2026 22:49:32 +0530"
@@ -30,16 +40,6 @@
         "title": "Sebi writes to IRDAI to include investors' insurance policy details in consolidated account statement",
         "link": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-writes-to-irdai-to-include-investors-insurance-policy-details-in-consolidated-account-statement/articleshow/134972194.cms",
         "published": "Thu, 15 Oct 2026 22:21:47 +0530"
-      },
-      {
-        "title": "IIFL Finance Q2 profit nearly doubles to Rs 805 crore; AUM rises 38%",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/earnings/iifl-finance-q2-profit-nearly-doubles-to-rs-805-crore-aum-rises-38/articleshow/134972001.cms",
-        "published": "Thu, 15 Oct 2026 22:06:48 +0530"
-      },
-      {
-        "title": "L&amp;T Finance Q2 net profit rises 33% to Rs 975 crore",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/earnings/lt-finance-q2-net-profit-rises-33-to-rs-975-crore/articleshow/134971866.cms",
-        "published": "Thu, 15 Oct 2026 21:53:23 +0530"
       }
     ],
     "Moneycontrol": [
@@ -66,6 +66,21 @@
     ],
     "Livemint": [
       {
+        "title": "Gold Rallies With Treasuries as AI Selloff Boosts Haven Assets",
+        "link": "https://www.livemint.com/market/gold-rallies-with-treasuries-as-ai-selloff-boosts-haven-assets-11792099256123.html",
+        "published": "Fri, 16 Oct 2026 02:50:55 +0530"
+      },
+      {
+        "title": "Dollar Wraps Its Worst Day in Over a Month on AI Risk Concerns",
+        "link": "https://www.livemint.com/market/dollar-wraps-its-worst-day-in-over-a-month-on-ai-risk-concerns-11792096933892.html",
+        "published": "Fri, 16 Oct 2026 02:12:13 +0530"
+      },
+      {
+        "title": "Global stocks flat as AI and rate fears hit tech",
+        "link": "https://www.livemint.com/market/global-stocks-flat-as-ai-and-rate-fears-hit-tech-11792094723624.html",
+        "published": "Fri, 16 Oct 2026 01:35:23 +0530"
+      },
+      {
         "title": "Brent steady as US weighs easing sanctions on global shadow fleet",
         "link": "https://www.livemint.com/market/brent-steady-as-us-weighs-easing-sanctions-on-global-shadow-fleet-11792091117388.html",
         "published": "Fri, 16 Oct 2026 00:35:17 +0530"
@@ -74,21 +89,6 @@
         "title": "Indian mutual funds stop bulk subscriptions to gold ETFs ahead of festive season",
         "link": "https://www.livemint.com/market/indian-mutual-funds-stop-bulk-subscriptions-to-gold-etfs-ahead-of-festive-season-11792090568726.html",
         "published": "Fri, 16 Oct 2026 00:26:08 +0530"
-      },
-      {
-        "title": "Stock split record date: Last day to buy today to qualify; This stock has surged 5,123% in three years - Do you own it?",
-        "link": "https://www.livemint.com/market/stock-market-news/stock-split-record-date-last-day-to-buy-today-to-qualify-this-stock-has-surged-5-123-in-three-years-do-you-own-it-11792081531830.html",
-        "published": "Fri, 16 Oct 2026 00:12:10 +0530"
-      },
-      {
-        "title": "Wipro returns over  \u20b917,000 crore to shareholders through buyback, dividend, 2.6 times its H1 profit",
-        "link": "https://www.livemint.com/market/stock-market-news/wipro-returns-over-rs-17-000-crore-to-shareholders-through-buyback-dividend-2-6-times-its-h1-profit-11792084542028.html",
-        "published": "Fri, 16 Oct 2026 00:06:43 +0530"
-      },
-      {
-        "title": "Sebi reintroduces VWAP for derivatives expiry after CAS turns markets volatile",
-        "link": "https://www.livemint.com/market/sebi-reintroduces-vwap-for-derivatives-expiry-after-cas-turns-markets-volatile-11792079015676.html",
-        "published": "Thu, 15 Oct 2026 22:15:20 +0530"
       }
     ]
   },
