@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-20T20:19:03.198906+00:00",
+  "fetched_at": "2026-10-20T23:13:46.259538+00:00",
   "market_prices": {
     "Nifty 50": {
       "price": 22888.95,
@@ -17,6 +17,16 @@
   "news": {
     "Economic Times": [
       {
+        "title": "US stocks today: US stocks end higher as healthcare stocks lift Dow, tech a breather",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-us-stocks-end-higher-as-healthcare-stocks-lift-dow-tech-a-breather/articleshow/135076667.cms",
+        "published": "Wed, 21 Oct 2026 01:54:39 +0530"
+      },
+      {
+        "title": "SpaceX Q3 revenue soars 161% YoY on AI business growth, beating estimates",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/spacex-q3-revenue-soars-161-yoy-on-ai-business-growth-beating-estimates/articleshow/135076651.cms",
+        "published": "Wed, 21 Oct 2026 01:50:41 +0530"
+      },
+      {
         "title": "Copper stays range bound as US tariff uncertainty, oil inflation risks weigh",
         "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/copper-stays-range-bound-as-us-tariff-uncertainty-oil-inflation-risks-weigh/articleshow/135074839.cms",
         "published": "Tue, 20 Oct 2026 23:24:33 +0530"
@@ -30,16 +40,6 @@
         "title": "Aerospace and military contractors raise 2026 profit forecasts",
         "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/aerospace-and-military-contractors-raise-2026-profit-forecasts/articleshow/135072414.cms",
         "published": "Tue, 20 Oct 2026 20:39:22 +0530"
-      },
-      {
-        "title": "Fed sneezes, but emerging markets aren't catching a cold yet: McGeever",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/fed-sneezes-but-emerging-markets-arent-catching-a-cold-yet-mcgeever/articleshow/135071362.cms",
-        "published": "Tue, 20 Oct 2026 19:17:37 +0530"
-      },
-      {
-        "title": "US stocks today: US stocks gain as healthcare stocks hit record high, oil prices fall",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-us-stocks-open-lower-as-ai-stocks-decline-oil-prices-rise/articleshow/135071224.cms",
-        "published": "Tue, 20 Oct 2026 19:09:30 +0530"
       }
     ],
     "Moneycontrol": [
@@ -66,6 +66,16 @@
     ],
     "Livemint": [
       {
+        "title": "Oil Steadies as Traders Weigh Conflicting Signals on Iran Talks",
+        "link": "https://www.livemint.com/market/oil-steadies-as-traders-weigh-conflicting-signals-on-iran-talks-11792537101821.html",
+        "published": "Wed, 21 Oct 2026 04:28:21 +0530"
+      },
+      {
+        "title": "AI Stocks Rally After Super Micro Preliminary Sales Bring Relief",
+        "link": "https://www.livemint.com/market/ai-stocks-rally-after-super-micro-preliminary-sales-bring-relief-11792535998995.html",
+        "published": "Wed, 21 Oct 2026 04:09:58 +0530"
+      },
+      {
         "title": "Dollar dips as traders weigh Iran, AI risks",
         "link": "https://www.livemint.com/market/dollar-dips-as-traders-weigh-iran-ai-risks-11792522097761.html",
         "published": "Wed, 21 Oct 2026 00:18:17 +0530"
@@ -79,16 +89,6 @@
         "title": "Dividend, stock split, buyback: Last chance to buy today - VRL Logistics, JSW Dulux, Angel One shares",
         "link": "https://www.livemint.com/market/stock-market-news/dividend-stock-split-buyback-last-chance-to-buy-today-vrl-logistics-jsw-dulux-angel-one-shares-11792511128048.html",
         "published": "Tue, 20 Oct 2026 23:55:50 +0530"
-      },
-      {
-        "title": "Braze stock surges over 50% after Salesforce announces $5.66 billion acquisition",
-        "link": "https://www.livemint.com/market/stock-market-news/braze-stock-surges-over-50-after-salesforce-announces-5-66-billion-acquisition-11792516251172.html",
-        "published": "Tue, 20 Oct 2026 22:51:01 +0530"
-      },
-      {
-        "title": "Wall Street rebounds from lows as upbeat earnings, falling oil prices lift sentiment; Micron, Intel up 2%",
-        "link": "https://www.livemint.com/market/stock-market-news/wall-street-rebounds-from-lows-as-upbeat-earnings-falling-oil-prices-lift-sentiment-micron-intel-up-2-11792507459852.html",
-        "published": "Tue, 20 Oct 2026 20:51:19 +0530"
       }
     ]
   },
