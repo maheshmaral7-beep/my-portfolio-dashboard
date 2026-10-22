@@ -1,90 +1,5 @@
 [
   {
-    "date": "2026-08-25",
-    "picks": [
-      {
-        "symbol": "KALYANKJIL",
-        "name": "Kalyan Jewellers India Ltd.",
-        "sector": "Consumer Durables",
-        "entry": 612.6,
-        "target": 634.6,
-        "category": "momentum_leaders"
-      },
-      {
-        "symbol": "PAYTM",
-        "name": "One 97 Communications Ltd.",
-        "sector": "Financial Services",
-        "entry": 1718.0,
-        "target": 1718.0,
-        "category": "breakout_candidates"
-      },
-      {
-        "symbol": "ADANIGREEN",
-        "name": "Adani Green Energy Ltd.",
-        "sector": "Power",
-        "entry": 1330.0,
-        "target": 1604.5,
-        "category": "turnaround_stories"
-      },
-      {
-        "symbol": "SHRIRAMFIN",
-        "name": "Shriram Finance Ltd.",
-        "sector": "Financial Services",
-        "entry": 1138.5,
-        "target": 1141.0,
-        "category": "undervalued_quality"
-      },
-      {
-        "symbol": "LENSKART",
-        "name": "Lenskart Solutions Ltd.",
-        "sector": "Consumer Services",
-        "entry": 655.95,
-        "target": 661.4,
-        "category": "earnings_winners"
-      },
-      {
-        "symbol": "LODHA",
-        "name": "Lodha Developers Ltd.",
-        "sector": "Realty",
-        "entry": 1281.1,
-        "target": 1311.74,
-        "category": "momentum_leaders"
-      },
-      {
-        "symbol": "MCX",
-        "name": "Multi Commodity Exchange of India Ltd.",
-        "sector": "Financial Services",
-        "entry": 3280.0,
-        "target": 3441.7,
-        "category": "emerging_leaders"
-      },
-      {
-        "symbol": "BOSCHLTD",
-        "name": "Bosch Ltd.",
-        "sector": "Automobile and Auto Components",
-        "entry": 48680.0,
-        "target": 48750.0,
-        "category": "momentum_leaders"
-      },
-      {
-        "symbol": "ETERNAL",
-        "name": "Eternal Ltd.",
-        "sector": "Consumer Services",
-        "entry": 331.0,
-        "target": 354.35,
-        "category": "earnings_winners"
-      },
-      {
-        "symbol": "LAURUSLABS",
-        "name": "Laurus Labs Ltd.",
-        "sector": "Healthcare",
-        "entry": 1866.2,
-        "target": 1866.2,
-        "category": "momentum_leaders"
-      }
-    ]
-  },
-  {
     "date": "2026-08-26",
     "picks": [
       {
@@ -3481,6 +3396,91 @@
         "entry": 2012.5,
         "target": 2069.2,
         "category": "momentum_leaders"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-22",
+    "picks": [
+      {
+        "symbol": "COFORGE",
+        "name": "Coforge Ltd.",
+        "sector": "Information Technology",
+        "entry": 1908.8,
+        "target": 2014.6,
+        "category": "momentum_leaders"
+      },
+      {
+        "symbol": "INDHOTEL",
+        "name": "Indian Hotels Co. Ltd.",
+        "sector": "Consumer Services",
+        "entry": 782.3,
+        "target": 782.3,
+        "category": "breakout_candidates"
+      },
+      {
+        "symbol": "KALYANKJIL",
+        "name": "Kalyan Jewellers India Ltd.",
+        "sector": "Consumer Durables",
+        "entry": 530.4,
+        "target": 632.02,
+        "category": "turnaround_stories"
+      },
+      {
+        "symbol": "WIPRO",
+        "name": "Wipro Ltd.",
+        "sector": "Information Technology",
+        "entry": 190.41,
+        "target": 262.81,
+        "category": "emerging_leaders"
+      },
+      {
+        "symbol": "INFY",
+        "name": "Infosys Ltd.",
+        "sector": "Information Technology",
+        "entry": 1153.35,
+        "target": 1654.01,
+        "category": "undervalued_quality"
+      },
+      {
+        "symbol": "LENSKART",
+        "name": "Lenskart Solutions Ltd.",
+        "sector": "Consumer Services",
+        "entry": 634.25,
+        "target": 707.2,
+        "category": "earnings_winners"
+      },
+      {
+        "symbol": "MPHASIS",
+        "name": "MphasiS Ltd.",
+        "sector": "Information Technology",
+        "entry": 2499.5,
+        "target": 2876.48,
+        "category": "emerging_leaders"
+      },
+      {
+        "symbol": "LAURUSLABS",
+        "name": "Laurus Labs Ltd.",
+        "sector": "Healthcare",
+        "entry": 2002.5,
+        "target": 2069.2,
+        "category": "earnings_winners"
+      },
+      {
+        "symbol": "ICICIGI",
+        "name": "ICICI Lombard General Insurance Company Ltd.",
+        "sector": "Financial Services",
+        "entry": 1633.0,
+        "target": 2035.17,
+        "category": "emerging_leaders"
+      },
+      {
+        "symbol": "PERSISTENT",
+        "name": "Persistent Systems Ltd.",
+        "sector": "Information Technology",
+        "entry": 5740.5,
+        "target": 6517.4,
+        "category": "emerging_leaders"
       }
     ]
   }
