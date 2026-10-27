@@ -1,90 +1,5 @@
 [
   {
-    "date": "2026-08-28",
-    "picks": [
-      {
-        "symbol": "KALYANKJIL",
-        "name": "Kalyan Jewellers India Ltd.",
-        "sector": "Consumer Durables",
-        "entry": 629.3,
-        "target": 634.6,
-        "category": "momentum_leaders"
-      },
-      {
-        "symbol": "PAYTM",
-        "name": "One 97 Communications Ltd.",
-        "sector": "Financial Services",
-        "entry": 1679.0,
-        "target": 1718.0,
-        "category": "emerging_leaders"
-      },
-      {
-        "symbol": "LGEINDIA",
-        "name": "LG Electronics India Ltd.",
-        "sector": "Consumer Durables",
-        "entry": 1700.4,
-        "target": 1729.7,
-        "category": "breakout_candidates"
-      },
-      {
-        "symbol": "ADANIGREEN",
-        "name": "Adani Green Energy Ltd.",
-        "sector": "Power",
-        "entry": 1328.5,
-        "target": 1604.5,
-        "category": "turnaround_stories"
-      },
-      {
-        "symbol": "GLENMARK",
-        "name": "Glenmark Pharmaceuticals Ltd.",
-        "sector": "Healthcare",
-        "entry": 2460.0,
-        "target": 2460.0,
-        "category": "earnings_winners"
-      },
-      {
-        "symbol": "LAURUSLABS",
-        "name": "Laurus Labs Ltd.",
-        "sector": "Healthcare",
-        "entry": 1929.4,
-        "target": 1929.4,
-        "category": "momentum_leaders"
-      },
-      {
-        "symbol": "MOTILALOFS",
-        "name": "Motilal Oswal Financial Services Ltd.",
-        "sector": "Financial Services",
-        "entry": 1038.1,
-        "target": 1082.56,
-        "category": "emerging_leaders"
-      },
-      {
-        "symbol": "LENSKART",
-        "name": "Lenskart Solutions Ltd.",
-        "sector": "Consumer Services",
-        "entry": 640.6,
-        "target": 661.4,
-        "category": "earnings_winners"
-      },
-      {
-        "symbol": "DIVISLAB",
-        "name": "Divi's Laboratories Ltd.",
-        "sector": "Healthcare",
-        "entry": 9060.0,
-        "target": 9060.0,
-        "category": "momentum_leaders"
-      },
-      {
-        "symbol": "MCX",
-        "name": "Multi Commodity Exchange of India Ltd.",
-        "sector": "Financial Services",
-        "entry": 3265.0,
-        "target": 3433.29,
-        "category": "emerging_leaders"
-      }
-    ]
-  },
-  {
     "date": "2026-08-31",
     "picks": [
       {
@@ -3481,6 +3396,91 @@
         "entry": 3111.8,
         "target": 3433.29,
         "category": "earnings_winners"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-27",
+    "picks": [
+      {
+        "symbol": "DIVISLAB",
+        "name": "Divi's Laboratories Ltd.",
+        "sector": "Healthcare",
+        "entry": 9505.5,
+        "target": 9624.0,
+        "category": "momentum_leaders"
+      },
+      {
+        "symbol": "INDHOTEL",
+        "name": "Indian Hotels Co. Ltd.",
+        "sector": "Consumer Services",
+        "entry": 812.85,
+        "target": 812.85,
+        "category": "breakout_candidates"
+      },
+      {
+        "symbol": "KALYANKJIL",
+        "name": "Kalyan Jewellers India Ltd.",
+        "sector": "Consumer Durables",
+        "entry": 500.0,
+        "target": 632.02,
+        "category": "turnaround_stories"
+      },
+      {
+        "symbol": "MPHASIS",
+        "name": "MphasiS Ltd.",
+        "sector": "Information Technology",
+        "entry": 2618.4,
+        "target": 2876.48,
+        "category": "emerging_leaders"
+      },
+      {
+        "symbol": "INDUSTOWER",
+        "name": "Indus Towers Ltd.",
+        "sector": "Telecommunication",
+        "entry": 385.3,
+        "target": 460.42,
+        "category": "undervalued_quality"
+      },
+      {
+        "symbol": "PAYTM",
+        "name": "One 97 Communications Ltd.",
+        "sector": "Financial Services",
+        "entry": 1601.6,
+        "target": 1849.9,
+        "category": "earnings_winners"
+      },
+      {
+        "symbol": "WIPRO",
+        "name": "Wipro Ltd.",
+        "sector": "Information Technology",
+        "entry": 187.0,
+        "target": 262.81,
+        "category": "emerging_leaders"
+      },
+      {
+        "symbol": "MEESHO",
+        "name": "Meesho Ltd.",
+        "sector": "Consumer Services",
+        "entry": 223.58,
+        "target": 240.67,
+        "category": "momentum_leaders"
+      },
+      {
+        "symbol": "LENSKART",
+        "name": "Lenskart Solutions Ltd.",
+        "sector": "Consumer Services",
+        "entry": 669.2,
+        "target": 707.2,
+        "category": "earnings_winners"
+      },
+      {
+        "symbol": "COFORGE",
+        "name": "Coforge Ltd.",
+        "sector": "Information Technology",
+        "entry": 1997.0,
+        "target": 2014.6,
+        "category": "emerging_leaders"
       }
     ]
   }
