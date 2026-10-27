@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-27T20:37:47.219265+00:00",
+  "fetched_at": "2026-10-27T23:59:28.444379+00:00",
   "market_prices": {
     "Nifty 50": {
       "price": 22749.75,
@@ -16,6 +16,11 @@
   },
   "news": {
     "Economic Times": [
+      {
+        "title": "US stocks today: US stocks end higher as AI rally lifts Nasdaq ahead of Fed decision",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-us-stocks-end-higher-as-ai-rally-lifts-nasdaq-ahead-of-fed-decision/articleshow/135245403.cms",
+        "published": "Wed, 28 Oct 2026 01:46:54 +0530"
+      },
       {
         "title": "NYSE bets on all-or-nothing options as event driven trading gains traction",
         "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/nyse-bets-on-binary-options-as-event-driven-trading-gains-traction/articleshow/135244896.cms",
@@ -35,11 +40,6 @@
         "title": "GM to transfer stock listing to Nasdaq",
         "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/gm-to-transfer-stock-listing-to-nasdaq/articleshow/135241585.cms",
         "published": "Tue, 27 Oct 2026 22:44:44 +0530"
-      },
-      {
-        "title": "Trading starts on LME's first contract from Shanghai exchange collaboration",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/trading-starts-on-lmes-first-contract-from-shanghai-exchange-collaboration/articleshow/135241517.cms",
-        "published": "Tue, 27 Oct 2026 22:40:33 +0530"
       }
     ],
     "Moneycontrol": [
@@ -66,6 +66,16 @@
     ],
     "Livemint": [
       {
+        "title": "Arctos Sees Rise of Private Equity Zombies as Firm Count Peaks",
+        "link": "https://www.livemint.com/market/arctos-sees-rise-of-private-equity-zombies-as-firm-count-peaks-11793138960978.html",
+        "published": "Wed, 28 Oct 2026 03:39:20 +0530"
+      },
+      {
+        "title": "Bullish Treasury Bets Face Reversal Risk From Hawkish Fed",
+        "link": "https://www.livemint.com/market/bullish-treasury-bets-face-reversal-risk-from-hawkish-fed-11793135729375.html",
+        "published": "Wed, 28 Oct 2026 02:45:28 +0530"
+      },
+      {
         "title": "Novogratz Says Credit Market Is Reaching \u2018Peak Nervousness\u2019",
         "link": "https://www.livemint.com/market/novogratz-says-credit-market-is-reaching-peak-nervousness-11793132883749.html",
         "published": "Wed, 28 Oct 2026 01:58:03 +0530"
@@ -79,16 +89,6 @@
         "title": "Wall Street rises on revived AI momentum as earnings season picks up",
         "link": "https://www.livemint.com/market/wall-street-rises-on-revived-ai-momentum-as-earnings-season-picks-up-11793126566676.html",
         "published": "Wed, 28 Oct 2026 00:12:46 +0530"
-      },
-      {
-        "title": "United Breweries Q2 results: Profit jumps 190%, revenue rises 24% as premium beer volumes surge; Kingfisher sales up 44%",
-        "link": "https://www.livemint.com/market/stock-market-news/united-breweries-q2-results-profit-jumps-190-revenue-rises-24-as-premium-beer-volumes-surge-kingfisher-sales-up-44-11793120558435.html",
-        "published": "Tue, 27 Oct 2026 22:47:59 +0530"
-      },
-      {
-        "title": "OneSource Specialty Pharma shares jump 14% after Q2 results; recover 50% from recent lows",
-        "link": "https://www.livemint.com/market/stock-market-news/onesource-specialty-pharma-shares-jump-14-after-q2-results-recover-50-from-recent-lows-11793115107385.html",
-        "published": "Tue, 27 Oct 2026 21:22:02 +0530"
       }
     ]
   },
