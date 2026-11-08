@@ -1,17 +1,17 @@
 {
-  "fetched_at": "2026-11-08T14:58:47.928090+00:00",
+  "fetched_at": "2026-11-08T19:26:10.365623+00:00",
   "market_prices": {
     "Nifty 50": {
-      "price": 24986.4,
-      "as_of": "2026-11-08 15:30:00+05:30"
+      "price": 25030.35,
+      "as_of": "2026-11-06 15:29:00+05:30"
     },
     "Sensex": {
-      "price": 80999.4,
-      "as_of": "2026-11-08 15:30:00+05:30"
+      "price": 81028.02,
+      "as_of": "2026-11-06 15:29:00+05:30"
     },
     "Bank Nifty": {
-      "price": 58850.65,
-      "as_of": "2026-11-08 15:30:00+05:30"
+      "price": 59086.0,
+      "as_of": "2026-11-06 15:29:00+05:30"
     }
   },
   "news": {
@@ -42,8 +42,39 @@
         "published": "Sun, 08 Nov 2026 10:55:03 +0530"
       }
     ],
-    "Moneycontrol": [],
+    "Moneycontrol": [
+      {
+        "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+        "link": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
+        "published": "Tue, 23 Apr 2024 15:46:31 +0530"
+      },
+      {
+        "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
+        "published": "Tue, 23 Apr 2024 14:51:26 +0530"
+      },
+      {
+        "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
+        "link": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
+        "published": "Tue, 23 Apr 2024 12:23:21 +0530"
+      },
+      {
+        "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
+        "published": "Tue, 23 Apr 2024 09:45:50 +0530"
+      }
+    ],
     "Livemint": [
+      {
+        "title": "Dividend alert: MRF, Cochin Shipyard, Talbros and others may reward shareholders this week - Check key dates, returns",
+        "link": "https://www.livemint.com/market/stock-market-news/dividend-alert-mrf-cochin-shipyard-talbros-and-others-may-reward-shareholders-this-week-check-key-dates-returns-11794138915123.html",
+        "published": "Sun, 08 Nov 2026 22:00:50 +0530"
+      },
+      {
+        "title": "Bosch bonus issue, stock split: 1 share to become 20 after 38% rally in one year! Check ratio, record date, returns",
+        "link": "https://www.livemint.com/market/stock-market-news/bosch-bonus-issue-stock-split-1-share-to-become-20-after-38-rally-in-one-year-check-ratio-record-date-returns-11794135227568.html",
+        "published": "Sun, 08 Nov 2026 21:01:08 +0530"
+      },
       {
         "title": "Diwali Stock Picks 2026: Tata Steel, BEL, HDFC Bank - 25 brokerages reveal 187 shares to buy in Samvat 2083 | Full List",
         "link": "https://www.livemint.com/market/stock-market-news/diwali-stock-picks-2026-tata-steel-bel-hdfc-bank-25-brokerages-reveal-187-shares-to-buy-in-samvat-2083-full-list-11794134434530.html",
@@ -58,16 +89,6 @@
         "title": "A rare red Diwali: Sensex ends Muhurat trading lower for only the eighth time in 30 years",
         "link": "https://www.livemint.com/market/stock-market-news/sensex-nifty-muhurat-trading-samvat-2083-diwali-market-11794137925445.html",
         "published": "Sun, 08 Nov 2026 18:06:23 +0530"
-      },
-      {
-        "title": "Global AI sell-off turns into India's gain as FPIs pump  \u20b946,000 crore in 5 sessions; will the buying spree sustain?",
-        "link": "https://www.livemint.com/market/stock-market-news/global-ai-sell-off-turns-into-indias-gain-as-fpis-pump-rs-46-000-crore-in-5-sessions-will-the-buying-spree-sustain-11794135940793.html",
-        "published": "Sun, 08 Nov 2026 17:01:31 +0530"
-      },
-      {
-        "title": "Why did RR Kabel share rally 8% during Muhurat Trading despite weak market sentiment \u2014 what triggered the surge?",
-        "link": "https://www.livemint.com/market/stock-market-news/why-did-rr-kabel-share-rally-8-during-muhurat-trading-despite-weak-market-sentiment-what-triggered-the-surge-11794133913486.html",
-        "published": "Sun, 08 Nov 2026 16:19:39 +0530"
       }
     ]
   },
