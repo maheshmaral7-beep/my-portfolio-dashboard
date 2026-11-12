@@ -1,73 +1,94 @@
 {
-  "fetched_at": "2026-11-12T07:12:07.137711+00:00",
+  "fetched_at": "2026-11-12T15:58:20.657486+00:00",
   "market_prices": {
     "Nifty 50": {
-      "price": 25219.4,
-      "as_of": "2026-11-12 12:42:00+05:30"
+      "price": 25299.35,
+      "as_of": "2026-11-12 15:29:00+05:30"
     },
     "Sensex": {
-      "price": 81796.8,
-      "as_of": "2026-11-12 12:27:00+05:30"
+      "price": 81911.01,
+      "as_of": "2026-11-12 15:29:00+05:30"
     },
     "Bank Nifty": {
-      "price": 61165.65,
-      "as_of": "2026-11-12 12:42:00+05:30"
+      "price": 61518.5,
+      "as_of": "2026-11-12 15:29:00+05:30"
     }
   },
   "news": {
     "Economic Times": [
       {
-        "title": "Mahindra &amp; Mahindra among 5 stocks showing White Marubozu Pattern",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/mahindra-amp-mahindra-among-5-stocks-showing-white-marubozu-pattern/slideshow/135758580.cms",
-        "published": "Thu, 12 Nov 2026 11:59:25 +0530"
+        "title": "US stocks: S&amp;P 500, Nasdaq fall as Nvidia CEO exit rattles AI stocks",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-us-market-opens-lower-after-nvidia-ceo-steps-down/articleshow/135773944.cms",
+        "published": "Thu, 12 Nov 2026 20:30:31 +0530"
       },
       {
-        "title": "Indian bonds drift as US debt rout saps oil relief before CPI",
-        "link": "https://economictimes.indiatimes.com/markets/bonds/indian-bonds-drift-as-us-debt-rout-saps-oil-relief-before-cpi/articleshow/135758028.cms",
-        "published": "Thu, 12 Nov 2026 11:46:58 +0530"
+        "title": "Nebius beats quarterly revenue estimates on strong AI demand",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/nebius-beats-quarterly-revenue-estimates-on-strong-ai-demand/articleshow/135771184.cms",
+        "published": "Thu, 12 Nov 2026 18:47:09 +0530"
       },
       {
-        "title": "FIIs are back! Jefferies lists 11 stocks that can be the biggest beneficiaries",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/fiis-are-back-jefferies-lists-11-stocks-that-can-be-the-biggest-beneficiaries/slideshow/135758277.cms",
-        "published": "Thu, 12 Nov 2026 11:24:56 +0530"
+        "title": "Nasdaq, S&amp;P 500 futures fall as Nvidia turbulence unsettles AI stocks",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/nasdaq-sp-500-futures-fall-as-nvidia-turbulence-unsettles-ai-stocks/articleshow/135771074.cms",
+        "published": "Thu, 12 Nov 2026 18:44:54 +0530"
       },
       {
-        "title": "From SpaceX to Anthropic, markets have a new playbook for mega-share debuts",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/from-spacex-to-anthropic-markets-have-a-new-playbook-for-mega-share-debuts/articleshow/135756798.cms",
-        "published": "Thu, 12 Nov 2026 11:05:33 +0530"
+        "title": "Clean Max Enviro Energy pledges Rs 50,000 crore investment in Andhra Pradesh",
+        "link": "https://economictimes.indiatimes.com/markets/companies/clean-max-enviro-energy-pledges-rs-50000-crore-investment-in-andhra-pradesh/articleshow/135771043.cms",
+        "published": "Thu, 12 Nov 2026 18:41:57 +0530"
       },
       {
-        "title": "Vishal Mega Mart among 5 stocks showing RSI trending up",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/vishal-mega-mart-among-5-stocks-showing-rsi-trending-up/slideshow/135755604.cms",
-        "published": "Thu, 12 Nov 2026 10:06:34 +0530"
+        "title": "Nasdaq, S&amp;P 500 edge lower as Nvidia turbulence rattles AI stocks: Stock Market Live Updates",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-nvidia-intel-micron-ai-stocks-marvell-coreweave-ai-chip-stocks-treasury-yield-news-12th-november-2026/liveblog/135771380.cms",
+        "published": "Thu, 12 Nov 2026 18:40:17 +0530"
       }
     ],
-    "Moneycontrol": [],
+    "Moneycontrol": [
+      {
+        "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+        "link": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
+        "published": "Tue, 23 Apr 2024 15:46:31 +0530"
+      },
+      {
+        "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
+        "published": "Tue, 23 Apr 2024 14:51:26 +0530"
+      },
+      {
+        "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
+        "link": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
+        "published": "Tue, 23 Apr 2024 12:23:21 +0530"
+      },
+      {
+        "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
+        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
+        "published": "Tue, 23 Apr 2024 09:45:50 +0530"
+      }
+    ],
     "Livemint": [
       {
-        "title": "Stocks to buy: Minda Corporation, RK Forgings, ASK Automotive - MNCL picks 8 auto ancillary stocks with up to 63% upside",
-        "link": "https://www.livemint.com/market/stock-market-news/stocks-to-buy-minda-corporation-rk-forgings-ask-automotive-mncl-picks-8-auto-ancillary-stocks-with-up-to-63-upside-11794465564136.html",
-        "published": "Thu, 12 Nov 2026 12:32:43 +0530"
+        "title": "Anthropic IPO: Who is Krishna Rao? Meet the CFO whose $1.30 stock options could unlock a  \u20b97,000 crore fortune",
+        "link": "https://www.livemint.com/market/ipo/anthropic-ipo-who-is-krishna-rao-meet-the-cfo-whose-1-30-stock-options-could-unlock-a-rs-7-000-crore-fortune-11794497618384.html",
+        "published": "Thu, 12 Nov 2026 21:09:38 +0530"
       },
       {
-        "title": "CAMS, CDSL, Geojit Financial Services: Buy or hold? Capital market stocks rise up to 4%; do you own? Targets, stop-loss",
-        "link": "https://www.livemint.com/market/stock-market-news/cams-cdsl-geojit-financial-services-buy-or-hold-capital-market-stocks-rise-up-to-4-do-you-own-targets-stoploss-11794463581458.html",
-        "published": "Thu, 12 Nov 2026 12:20:45 +0530"
+        "title": "Meesho block deal: SVF II Meerkat to offload 1% stake at  \u20b9246 apiece; deal size  \u20b91,174 crore",
+        "link": "https://www.livemint.com/market/stock-market-news/meesho-block-deal-svf-ii-meerkat-to-offload-1-stake-at-rs-246-apiece-deal-size-rs-1-174-crore-11794493326642.html",
+        "published": "Thu, 12 Nov 2026 20:14:31 +0530"
       },
       {
-        "title": "16% up in a month! Bajaj Finance shares climb 3.4% on  \u20b911,700 crore QIP launch | Check floor price, discount, returns",
-        "link": "https://www.livemint.com/market/stock-market-news/16-up-in-a-month-bajaj-finance-shares-climb-3-4-on-11-700-crore-qip-launch-check-floor-price-discount-returns-11794460718743.html",
-        "published": "Thu, 12 Nov 2026 11:38:10 +0530"
+        "title": "Nvidia stock plunges 14% to over one-year low as Jensen Huang quits amid affair; market cap falls below $4 trillion",
+        "link": "https://www.livemint.com/market/stock-market-news/nvidia-stock-plunges-14-to-over-one-year-low-as-jensen-huang-quits-market-cap-falls-below-4-trillion-11794493911909.html",
+        "published": "Thu, 12 Nov 2026 20:09:38 +0530"
       },
       {
-        "title": "Clean Max Enviro Energy shares jump 7%; stock trades 27% above IPO price \u2014 What\u2019s driving the rally? | Check key levels",
-        "link": "https://www.livemint.com/market/stock-market-news/clean-max-enviro-energy-shares-jump-7-stock-trades-27-above-ipo-price-what-s-driving-the-rally-check-key-levels-11794461936977.html",
-        "published": "Thu, 12 Nov 2026 11:33:16 +0530"
+        "title": "\u20b9150 per share dividend: Check record date of firm behind Jockey in India - Mega payout after Q2 results 2026",
+        "link": "https://www.livemint.com/market/stock-market-news/page-industries-rs-150-dividend-firm-behind-jockey-in-india-announces-mega-payout-after-q2-results-check-record-date-11794478217436.html",
+        "published": "Thu, 12 Nov 2026 19:06:52 +0530"
       },
       {
-        "title": "Nuvama Wealth share price: Brokerage stock up over 6% today, just 5% away from peak on strong Q2 results | Check target",
-        "link": "https://www.livemint.com/market/stock-market-news/nuvama-wealth-share-price-brokerage-stock-up-over-6-today-just-5-away-from-peak-on-strong-q2-results-check-target-11794460740294.html",
-        "published": "Thu, 12 Nov 2026 11:09:21 +0530"
+        "title": "HAL shares edge lower after Q2 results despite 16% YoY profit growth; why did investors turn cautious? Decoded",
+        "link": "https://www.livemint.com/market/stock-market-news/hal-shares-edge-lower-after-q2-results-despite-16-yoy-profit-growth-why-did-investors-turn-cautious-decoded-11794486814737.html",
+        "published": "Thu, 12 Nov 2026 18:18:20 +0530"
       }
     ]
   },
