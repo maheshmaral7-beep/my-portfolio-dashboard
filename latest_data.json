@@ -1,94 +1,73 @@
 {
-  "fetched_at": "2026-11-17T03:10:50.297586+00:00",
+  "fetched_at": "2026-11-17T11:48:34.796111+00:00",
   "market_prices": {
     "Nifty 50": {
-      "price": 25291.1,
-      "as_of": "2026-11-16 15:29:00+05:30"
+      "price": 25387.4,
+      "as_of": "2026-11-17 15:29:00+05:30"
     },
     "Sensex": {
-      "price": 82104.79,
-      "as_of": "2026-11-16 15:29:00+05:30"
+      "price": 82532.19,
+      "as_of": "2026-11-17 15:29:00+05:30"
     },
     "Bank Nifty": {
-      "price": 61575.9,
-      "as_of": "2026-11-16 15:29:00+05:30"
+      "price": 62273.25,
+      "as_of": "2026-11-17 15:29:00+05:30"
     }
   },
   "news": {
     "Economic Times": [
       {
-        "title": "Berkshire lowers Bank of America, Capital One stakes, adds to Delta",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/berkshire-lowers-bank-of-america-capital-one-stakes-adds-to-delta/articleshow/135907368.cms",
-        "published": "Tue, 17 Nov 2026 07:36:13 +0530"
+        "title": "Robust inflows, pullback in shorts lift rupee to seven-month peak",
+        "link": "https://economictimes.indiatimes.com/markets/forex/forex-news/robust-inflows-pullback-in-shorts-lift-rupee-to-seven-month-peak/articleshow/135921416.cms",
+        "published": "Tue, 17 Nov 2026 16:13:17 +0530"
       },
       {
-        "title": "US dollar hits 19-month peak on Fed hike bets; Aussie dips",
-        "link": "https://economictimes.indiatimes.com/markets/forex/forex-news/us-dollar-hits-19-month-peak-on-fed-hike-bets-aussie-dips/articleshow/135907267.cms",
-        "published": "Tue, 17 Nov 2026 07:22:42 +0530"
+        "title": "Millions launches US stocks, ETFs investment facility for Indian investors",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/millions-launches-us-stocks-etfs-investment-facility-for-indian-investors/articleshow/135920698.cms",
+        "published": "Tue, 17 Nov 2026 15:44:05 +0530"
       },
       {
-        "title": "Oil slips on supply surplus outlook despite Gulf tensions",
-        "link": "https://economictimes.indiatimes.com/markets/commodities/news/oil-slips-on-supply-surplus-outlook-despite-gulf-tensions/articleshow/135907255.cms",
-        "published": "Tue, 17 Nov 2026 07:21:03 +0530"
+        "title": "Sebi may limit leveraged stock bets to curb volatility: Report",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-may-limit-leveraged-stock-bets-to-curb-volatility-report/articleshow/135920460.cms",
+        "published": "Tue, 17 Nov 2026 15:37:02 +0530"
       },
       {
-        "title": "Gold hovers near over one-year low as firm dollar, Fed-hike bets weigh",
-        "link": "https://economictimes.indiatimes.com/markets/commodities/news/gold-hovers-near-over-one-year-low-as-firm-dollar-fed-hike-bets-weigh/articleshow/135907217.cms",
-        "published": "Tue, 17 Nov 2026 07:19:25 +0530"
+        "title": "FIIs, MFs raise stakes in 5 largecap stocks for two straight quarters; shares rally up to 80%",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/fiis-mfs-raise-stakes-in-5-largecap-stocks-for-two-straight-quarters-shares-rally-up-to-80/slideshow/135915639.cms",
+        "published": "Tue, 17 Nov 2026 12:54:18 +0530"
       },
       {
-        "title": "Sensex Today | Nifty 50 | Stock Market Live Updates: GIFT Nifty signals a muted start; Asian shares trade lower",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-adani-enterprises-bse-share-price-17-november-2026/liveblog/135907345.cms",
-        "published": "Tue, 17 Nov 2026 07:19:19 +0530"
+        "title": "South Korean shares close at over 9-month low on Nvidia caution",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/south-korean-shares-close-at-over-9-month-low-on-nvidia-caution/articleshow/135914599.cms",
+        "published": "Tue, 17 Nov 2026 12:26:18 +0530"
       }
     ],
-    "Moneycontrol": [
-      {
-        "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
-        "link": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
-        "published": "Tue, 23 Apr 2024 15:46:31 +0530"
-      },
-      {
-        "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
-        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
-        "published": "Tue, 23 Apr 2024 14:51:26 +0530"
-      },
-      {
-        "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
-        "link": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
-        "published": "Tue, 23 Apr 2024 12:23:21 +0530"
-      },
-      {
-        "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
-        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
-        "published": "Tue, 23 Apr 2024 09:45:50 +0530"
-      }
-    ],
+    "Moneycontrol": [],
     "Livemint": [
       {
-        "title": "Gold prices near 1-year low, silver slides as dollar hits 19-month high: Should you buy before wedding season or wait?",
-        "link": "https://www.livemint.com/market/stock-market-news/gold-prices-near-1-year-low-silver-slides-as-dollar-hits-19-month-high-should-you-buy-before-wedding-season-or-wait-11794882191547.html",
-        "published": "Tue, 17 Nov 2026 08:38:20 +0530"
+        "title": "\u20b982 to  \u20b9253: Multibagger stock turns  \u20b91.31 lakh of share allottees into  \u20b94.05 lakh in 40 months; do you own?",
+        "link": "https://www.livemint.com/market/stock-market-news/rs-82-to-rs-253-multibagger-stock-turns-rs-1-31-lakh-of-share-allottees-into-rs-4-05-lakh-in-40-months-do-you-own-11794913872967.html",
+        "published": "Tue, 17 Nov 2026 17:09:30 +0530"
       },
       {
-        "title": "Dollar Erases Liberation Day Loss as \u2018Sell America\u2019 Fear Fades",
-        "link": "https://www.livemint.com/market/dollar-erases-liberation-day-loss-as-sell-america-fear-fades-11794882621677.html",
-        "published": "Tue, 17 Nov 2026 08:00:21 +0530"
+        "title": "Making a comeback! Down 60% in 1 year, strong rally seen ahead for renewable energy stock Inox Wind; 42% upside likely",
+        "link": "https://www.livemint.com/market/stock-market-news/making-a-comeback-down-60-in-1-year-strong-rally-seen-ahead-for-renewable-energy-stock-inox-wind-42-upside-likely-11794910421216.html",
+        "published": "Tue, 17 Nov 2026 16:59:53 +0530"
       },
       {
-        "title": "Top stocks to watch today: Senco Gold, Adani Enterprises, BSE, Cipla shares in focus on Tuesday, 17 November | Full list",
-        "link": "https://www.livemint.com/market/stock-market-news/top-stocks-to-watch-today-senco-gold-adani-enterprises-bse-cipla-shares-in-focus-on-tuesday-17-november-full-list-11794879685406.html",
-        "published": "Tue, 17 Nov 2026 07:43:03 +0530"
+        "title": "Anthropic IPO windfall: From Sequoia to Amazon, who wins big as Claude maker eyes $1.33 trillion valuation",
+        "link": "https://www.livemint.com/market/ipo/anthropic-ipo-windfall-from-sequoia-to-amazon-who-wins-big-as-claude-maker-eyes-1-33-trillion-valuation-11794910889109.html",
+        "published": "Tue, 17 Nov 2026 16:52:05 +0530"
       },
       {
-        "title": "Stock market outlook today,17 Nov:Sensex, Nifty prediction-DJIA, S&amp;P, NASDAQ, GIFT Nifty, Kospi, Nikkei, Taiwan cues",
-        "link": "https://www.livemint.com/market/stock-market-news/stock-market-outlook-today-17-nov-sensex-nifty-prediction-djia-s-p-nasdaq-gift-nifty-kospi-nikkei-taiwan-cue-11794875550779.html",
-        "published": "Tue, 17 Nov 2026 06:40:38 +0530"
+        "title": "FMCG stocks recover from six-month correction; Anand Rathi picks 4 stocks for up to 57% growth opportunity. Time to buy?",
+        "link": "https://www.livemint.com/market/stock-market-news/fmcg-stocks-recover-from-six-month-correction-anand-rathi-picks-4-stocks-for-up-to-57-growth-opportunity-time-to-buy-11794912749464.html",
+        "published": "Tue, 17 Nov 2026 16:49:47 +0530"
       },
       {
-        "title": "Stock recommendations for 17 November from MarketSmith India",
-        "link": "https://www.livemint.com/market/stock-market-news/stock-recommendations-for-17-november-from-marketsmith-india-11794834560676.html",
-        "published": "Tue, 17 Nov 2026 06:00:41 +0530"
+        "title": "TCS vs Infosys: Better IT stock to buy amid anti-AI trade buzz | Experts' views, target price, stop-loss, rationale",
+        "link": "https://www.livemint.com/market/stock-market-news/tcs-vs-infosys-better-it-stock-to-buy-amid-anti-ai-trade-buzz-experts-views-target-price-stop-loss-rationale-11794910515731.html",
+        "published": "Tue, 17 Nov 2026 16:27:49 +0530"
       }
     ]
   },
