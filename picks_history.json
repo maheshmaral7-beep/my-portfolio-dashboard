@@ -1,90 +1,5 @@
 [
   {
-    "date": "2026-09-22",
-    "picks": [
-      {
-        "symbol": "PAYTM",
-        "name": "One 97 Communications Ltd.",
-        "sector": "Financial Services",
-        "entry": 1814.4,
-        "target": 1849.9,
-        "category": "momentum_leaders"
-      },
-      {
-        "symbol": "LICHSGFIN",
-        "name": "LIC Housing Finance Ltd.",
-        "sector": "Financial Services",
-        "entry": 565.0,
-        "target": 581.77,
-        "category": "breakout_candidates"
-      },
-      {
-        "symbol": "ADANIGREEN",
-        "name": "Adani Green Energy Ltd.",
-        "sector": "Power",
-        "entry": 1304.0,
-        "target": 1604.5,
-        "category": "turnaround_stories"
-      },
-      {
-        "symbol": "PATANJALI",
-        "name": "Patanjali Foods Ltd.",
-        "sector": "Fast Moving Consumer Goods",
-        "entry": 404.0,
-        "target": 601.52,
-        "category": "emerging_leaders"
-      },
-      {
-        "symbol": "GLENMARK",
-        "name": "Glenmark Pharmaceuticals Ltd.",
-        "sector": "Healthcare",
-        "entry": 2461.4,
-        "target": 2512.5,
-        "category": "earnings_winners"
-      },
-      {
-        "symbol": "DIVISLAB",
-        "name": "Divi's Laboratories Ltd.",
-        "sector": "Healthcare",
-        "entry": 9352.0,
-        "target": 9575.0,
-        "category": "momentum_leaders"
-      },
-      {
-        "symbol": "LENSKART",
-        "name": "Lenskart Solutions Ltd.",
-        "sector": "Consumer Services",
-        "entry": 691.45,
-        "target": 707.2,
-        "category": "earnings_winners"
-      },
-      {
-        "symbol": "LAURUSLABS",
-        "name": "Laurus Labs Ltd.",
-        "sector": "Healthcare",
-        "entry": 2006.5,
-        "target": 2017.5,
-        "category": "momentum_leaders"
-      },
-      {
-        "symbol": "ADANIENSOL",
-        "name": "Adani Energy Solutions Ltd.",
-        "sector": "Power",
-        "entry": 1381.7,
-        "target": 1741.6,
-        "category": "turnaround_stories"
-      },
-      {
-        "symbol": "ETERNAL",
-        "name": "Eternal Ltd.",
-        "sector": "Consumer Services",
-        "entry": 342.0,
-        "target": 354.35,
-        "category": "earnings_winners"
-      }
-    ]
-  },
-  {
     "date": "2026-09-23",
     "picks": [
       {
@@ -3480,6 +3395,91 @@
         "sector": "Healthcare",
         "entry": 2338.0,
         "target": 2454.0,
+        "category": "momentum_leaders"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-19",
+    "picks": [
+      {
+        "symbol": "MEESHO",
+        "name": "Meesho Ltd.",
+        "sector": "Consumer Services",
+        "entry": 253.55,
+        "target": 257.07,
+        "category": "momentum_leaders"
+      },
+      {
+        "symbol": "PNB",
+        "name": "Punjab National Bank",
+        "sector": "Financial Services",
+        "entry": 149.57,
+        "target": 150.0,
+        "category": "emerging_leaders"
+      },
+      {
+        "symbol": "PAYTM",
+        "name": "One 97 Communications Ltd.",
+        "sector": "Financial Services",
+        "entry": 1890.0,
+        "target": 1939.9,
+        "category": "earnings_winners"
+      },
+      {
+        "symbol": "INDHOTEL",
+        "name": "Indian Hotels Co. Ltd.",
+        "sector": "Consumer Services",
+        "entry": 875.05,
+        "target": 901.55,
+        "category": "breakout_candidates"
+      },
+      {
+        "symbol": "HCLTECH",
+        "name": "HCL Technologies Ltd.",
+        "sector": "Information Technology",
+        "entry": 1344.7,
+        "target": 1665.13,
+        "category": "turnaround_stories"
+      },
+      {
+        "symbol": "MOTILALOFS",
+        "name": "Motilal Oswal Financial Services Ltd.",
+        "sector": "Financial Services",
+        "entry": 1228.95,
+        "target": 1240.25,
+        "category": "momentum_leaders"
+      },
+      {
+        "symbol": "DIVISLAB",
+        "name": "Divi's Laboratories Ltd.",
+        "sector": "Healthcare",
+        "entry": 11049.0,
+        "target": 11565.5,
+        "category": "momentum_leaders"
+      },
+      {
+        "symbol": "CHOLAFIN",
+        "name": "Cholamandalam Investment and Finance Company Ltd.",
+        "sector": "Financial Services",
+        "entry": 1875.0,
+        "target": 1940.0,
+        "category": "emerging_leaders"
+      },
+      {
+        "symbol": "LAURUSLABS",
+        "name": "Laurus Labs Ltd.",
+        "sector": "Healthcare",
+        "entry": 2322.5,
+        "target": 2454.0,
+        "category": "momentum_leaders"
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "name": "Kotak Mahindra Bank Ltd.",
+        "sector": "Financial Services",
+        "entry": 494.85,
+        "target": 497.25,
         "category": "momentum_leaders"
       }
     ]
