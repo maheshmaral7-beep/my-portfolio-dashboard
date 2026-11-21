@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-21T09:40:04.252017+00:00",
+  "fetched_at": "2026-11-21T16:57:02.756665+00:00",
   "market_prices": {
     "Nifty 50": {
       "price": 25800.6,
@@ -16,6 +16,11 @@
   },
   "news": {
     "Economic Times": [
+      {
+        "title": "Nifty eyes 26,200 as rally strengthens; 6 sectors signal outperformance",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/nifty-eyes-26200-as-rally-strengthens-6-sectors-signal-outperformance/articleshow/136050218.cms",
+        "published": "Sat, 21 Nov 2026 15:09:05 +0530"
+      },
       {
         "title": "Stocks to buy: HSBC lists 19 Indian stocks that saw FY27 earnings upgrades, check target prices",
         "link": "https://economictimes.indiatimes.com/markets/stocks/news/stocks-to-buy-hsbc-lists-19-indian-stocks-that-saw-fy27-earnings-upgrades-check-target-prices/slideshow/136048231.cms",
@@ -35,60 +40,34 @@
         "title": "Market winners: Max Healthcare, Deepak Fertilisers among 10 stocks that surged up to 14% in last week",
         "link": "https://economictimes.indiatimes.com/markets/stocks/news/market-winners-max-healthcare-deepak-fertilisers-among-10-stocks-that-surged-up-to-14-in-last-week/slideshow/136046616.cms",
         "published": "Sat, 21 Nov 2026 11:21:22 +0530"
-      },
-      {
-        "title": "US Treasury yields drop for day and week; AI trade concern spurs safe-haven bid",
-        "link": "https://economictimes.indiatimes.com/markets/bonds/us-treasury-yields-drop-for-day-and-week-ai-trade-concern-spurs-safe-haven-bid/articleshow/136045682.cms",
-        "published": "Sat, 21 Nov 2026 10:53:49 +0530"
       }
     ],
-    "Moneycontrol": [
-      {
-        "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
-        "link": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
-        "published": "Tue, 23 Apr 2024 15:46:31 +0530"
-      },
-      {
-        "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
-        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
-        "published": "Tue, 23 Apr 2024 14:51:26 +0530"
-      },
-      {
-        "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
-        "link": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
-        "published": "Tue, 23 Apr 2024 12:23:21 +0530"
-      },
-      {
-        "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
-        "link": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
-        "published": "Tue, 23 Apr 2024 09:45:50 +0530"
-      }
-    ],
+    "Moneycontrol": [],
     "Livemint": [
       {
-        "title": "Patanjali Foods dividend 2026 announcement news: Board to consider 2nd interim dividend on Nov 26 - Check history, yield",
-        "link": "https://www.livemint.com/market/stock-market-news/patanjali-foods-dividend-2026-announcement-news-board-to-consider-2nd-interim-dividend-on-nov-26-check-history-yield-11795248708675.html",
-        "published": "Sat, 21 Nov 2026 14:31:26 +0530"
+        "title": "Dividend jackpot in chemicals: Indo Borax, GOCL and Bayer CropScience offer yields of up to 10% | Check details",
+        "link": "https://www.livemint.com/market/stock-market-news/dividend-jackpot-in-chemicals-indo-borax-gocl-and-bayer-cropscience-offer-yields-of-up-to-10-check-details-11795277367660.html",
+        "published": "Sat, 21 Nov 2026 21:43:09 +0530"
       },
       {
-        "title": "GREED &amp; fear Report: Jefferies Chris Wood hikes India exposure for 2nd time in 3 weeks, cuts Taiwan| New Allocations",
-        "link": "https://www.livemint.com/market/stock-market-news/greed-fear-report-jefferies-chris-wood-hikes-india-exposure-for-2nd-time-in-3-weeks-cuts-taiwan-new-allocations-11795235087351.html",
-        "published": "Sat, 21 Nov 2026 13:39:08 +0530"
+        "title": "Max Healthcare, Fortis, Apollo, Aster: Hospital stocks steal show on D-Street with up to 14% rally - Buy now or wait?",
+        "link": "https://www.livemint.com/market/stock-market-news/max-healthcare-fortis-apollo-aster-hospital-stocks-steal-show-on-d-street-with-up-to-14-rally-buy-now-or-wait-11795262811423.html",
+        "published": "Sat, 21 Nov 2026 20:26:47 +0530"
       },
       {
-        "title": "Upcoming dividend, split, rights issue record dates next week, Nov 23-27: Pashupati Cotspin, Zee Ent, Varvee, and more",
-        "link": "https://www.livemint.com/market/stock-market-news/upcoming-dividend-split-rights-issue-record-dates-next-week-nov-23-27-pashupati-cotspin-zee-ent-varvee-and-more-11795245232145.html",
-        "published": "Sat, 21 Nov 2026 13:10:34 +0530"
+        "title": "Bitcoin price crash: \u200bFalls to lowest level in two years - What\u2019s behind plunge of world\u2019s largest cryptocurrency",
+        "link": "https://www.livemint.com/market/cryptocurrency/bitcoin-price-crash-falls-to-lowest-level-in-two-years-what-s-behind-plunge-of-world-s-largest-cryptocurrency-11795267687216.html",
+        "published": "Sat, 21 Nov 2026 20:16:56 +0530"
       },
       {
-        "title": "Gold vs silver price crash compared: White metal loses 65%, gold sheds 37% from record highs| Wealth wiped, returns",
-        "link": "https://www.livemint.com/market/stock-market-news/gold-vs-silver-price-crash-compared-white-metal-loses-65-gold-sheds-37-from-record-highs-wealth-wiped-returns-11795241673262.html",
-        "published": "Sat, 21 Nov 2026 12:35:52 +0530"
+        "title": "Stock split reset: SanDisk stock crashes 87.5% overnight? Here's what investors need to know about its 8-for-1 split",
+        "link": "https://www.livemint.com/market/stock-market-news/stock-split-reset-sandisk-stock-crashes-87-5-overnight-heres-what-investors-need-to-know-about-its-8-for-1-split-11795267376660.html",
+        "published": "Sat, 21 Nov 2026 18:57:12 +0530"
       },
       {
-        "title": "Nvidia vs Anthropic shares: AI chip stock tanks 14% while Claude-maker falls 8.5% - See who wins in earnings, valuation?",
-        "link": "https://www.livemint.com/market/stock-market-news/nvidia-vs-anthropic-shares-ai-chip-stock-tanks-14-while-claude-maker-falls-8-5-see-who-wins-in-earnings-valuation-11795238170165.html",
-        "published": "Sat, 21 Nov 2026 11:41:37 +0530"
+        "title": "PSU vs Private banks: Who is powering Nifty Bank's record-high rally after 5% surge? SBI, HDFC, AU, Canara target price",
+        "link": "https://www.livemint.com/market/stock-market-news/psu-vs-private-banks-who-is-powering-nifty-banks-record-high-rally-after-5-surge-sbi-hdfc-au-canara-target-price-11795255387777.html",
+        "published": "Sat, 21 Nov 2026 17:00:51 +0530"
       }
     ]
   },
