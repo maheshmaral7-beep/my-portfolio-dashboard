@@ -1,90 +1,5 @@
 [
   {
-    "date": "2026-09-30",
-    "picks": [
-      {
-        "symbol": "PAYTM",
-        "name": "One 97 Communications Ltd.",
-        "sector": "Financial Services",
-        "entry": 1678.0,
-        "target": 1849.9,
-        "category": "momentum_leaders"
-      },
-      {
-        "symbol": "LENSKART",
-        "name": "Lenskart Solutions Ltd.",
-        "sector": "Consumer Services",
-        "entry": 685.05,
-        "target": 707.2,
-        "category": "earnings_winners"
-      },
-      {
-        "symbol": "MEESHO",
-        "name": "Meesho Ltd.",
-        "sector": "Consumer Services",
-        "entry": 227.75,
-        "target": 240.19,
-        "category": "emerging_leaders"
-      },
-      {
-        "symbol": "OFSS",
-        "name": "Oracle Financial Services Software Ltd.",
-        "sector": "Information Technology",
-        "entry": 10630.0,
-        "target": 12540.0,
-        "category": "turnaround_stories"
-      },
-      {
-        "symbol": "HCLTECH",
-        "name": "HCL Technologies Ltd.",
-        "sector": "Information Technology",
-        "entry": 1230.0,
-        "target": 1679.96,
-        "category": "undervalued_quality"
-      },
-      {
-        "symbol": "LAURUSLABS",
-        "name": "Laurus Labs Ltd.",
-        "sector": "Healthcare",
-        "entry": 1980.0,
-        "target": 2034.0,
-        "category": "emerging_leaders"
-      },
-      {
-        "symbol": "ETERNAL",
-        "name": "Eternal Ltd.",
-        "sector": "Consumer Services",
-        "entry": 320.0,
-        "target": 354.35,
-        "category": "earnings_winners"
-      },
-      {
-        "symbol": "DIVISLAB",
-        "name": "Divi's Laboratories Ltd.",
-        "sector": "Healthcare",
-        "entry": 9291.5,
-        "target": 9624.0,
-        "category": "momentum_leaders"
-      },
-      {
-        "symbol": "ICICIAMC",
-        "name": "ICICI Prudential Asset Management Company Ltd.",
-        "sector": "Financial Services",
-        "entry": 3136.7,
-        "target": 3524.81,
-        "category": "emerging_leaders"
-      },
-      {
-        "symbol": "IDEA",
-        "name": "Vodafone Idea Ltd.",
-        "sector": "Telecommunication",
-        "entry": 12.95,
-        "target": 15.6,
-        "category": "turnaround_stories"
-      }
-    ]
-  },
-  {
     "date": "2026-10-01",
     "picks": [
       {
@@ -3481,6 +3396,91 @@
         "entry": 903.85,
         "target": 912.0,
         "category": "momentum_leaders"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-27",
+    "picks": [
+      {
+        "symbol": "LAURUSLABS",
+        "name": "Laurus Labs Ltd.",
+        "sector": "Healthcare",
+        "entry": 2505.0,
+        "target": 2505.0,
+        "category": "momentum_leaders"
+      },
+      {
+        "symbol": "PNB",
+        "name": "Punjab National Bank",
+        "sector": "Financial Services",
+        "entry": 147.5,
+        "target": 155.33,
+        "category": "undervalued_quality"
+      },
+      {
+        "symbol": "MARICO",
+        "name": "Marico Ltd.",
+        "sector": "Fast Moving Consumer Goods",
+        "entry": 939.1,
+        "target": 939.1,
+        "category": "breakout_candidates"
+      },
+      {
+        "symbol": "TCS",
+        "name": "Tata Consultancy Services Ltd.",
+        "sector": "Information Technology",
+        "entry": 2640.3,
+        "target": 3187.34,
+        "category": "turnaround_stories"
+      },
+      {
+        "symbol": "PRESTIGE",
+        "name": "Prestige Estates Projects Ltd.",
+        "sector": "Realty",
+        "entry": 1832.1,
+        "target": 1832.1,
+        "category": "emerging_leaders"
+      },
+      {
+        "symbol": "IDFCFIRSTB",
+        "name": "IDFC First Bank Ltd.",
+        "sector": "Financial Services",
+        "entry": 86.71,
+        "target": 87.9,
+        "category": "earnings_winners"
+      },
+      {
+        "symbol": "DIVISLAB",
+        "name": "Divi's Laboratories Ltd.",
+        "sector": "Healthcare",
+        "entry": 11631.0,
+        "target": 11716.5,
+        "category": "momentum_leaders"
+      },
+      {
+        "symbol": "VOLTAS",
+        "name": "Voltas Ltd.",
+        "sector": "Consumer Durables",
+        "entry": 1215.5,
+        "target": 1556.41,
+        "category": "emerging_leaders"
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "name": "Kotak Mahindra Bank Ltd.",
+        "sector": "Financial Services",
+        "entry": 509.95,
+        "target": 515.8,
+        "category": "momentum_leaders"
+      },
+      {
+        "symbol": "MOTILALOFS",
+        "name": "Motilal Oswal Financial Services Ltd.",
+        "sector": "Financial Services",
+        "entry": 1215.25,
+        "target": 1240.25,
+        "category": "earnings_winners"
       }
     ]
   }
